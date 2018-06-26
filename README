@@ -65,8 +65,13 @@ fonts
   
   New fonts.
     
-    12x12: New variable-width 12x12 font used for most text.
-    12x12-ascii: Reduced-width ASCII font used for mecha names in menus.
+    12x12: New variable-width 12x12 font used for menu text.
+    12x12-ascii: New variable-width 12x12 font used for mission text.
+      The original game uses an odd optimization where the full font is
+      unloaded during mission cutscenes to save memory. In its place, a special
+      font containing only the characters needed for that cutscene is loaded.
+      Thus, this ASCII font is automatically injected into every cutscene's
+      font to allow English characters to be used everywhere.
   
 images
   
