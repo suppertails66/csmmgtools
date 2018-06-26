@@ -70,8 +70,8 @@ fonts
   
 images
   
-  Contains images used for translation. "bak" subfolder contains original,
-  unmodified images. See index.txt for some notes.
+  Contains images used for translation.
+  See index.txt for some notes.
   
   Subfolders:
     cabinarchive/163/multi: Title screen.
