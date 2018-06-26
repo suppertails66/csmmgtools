@@ -1,0 +1,97 @@
+Generally, the extracted images use 3 subchunks of an OPB -- an NCGR, an NCLR, and an NCER, in that order. Some images use an NSCR instead of an NCER, which isn't supported yet. The numbers below indicate which chunks the images are taken from (following the standard order above unless otherwise noted).
+
+Stuff marked with * requires translation.
+
+adv                      0-1-2
+                         4-5-6 (NSCR)
+Album                 *  0-1-2
+ca.binarchive         *  subfolder 162 = title screen NANR and NCER
+                         subfolder 163 = title screen NCGR and NCLR
+Common                   0-1-2
+GalouyeBottega        *  0-1-2
+                      *  4 (BM)
+Hakubutukan              0-1-2
+                      *  4-5-6 (NSCR)
+ItemExp                  0 (BM)
+                      *  1 (BM)
+KoubouStart           *  0-1-2
+Load                  *  0-1-2
+                      *  4-5-6
+MariGearShop             0-1-2
+MissionSelect_A       *  0-1-2
+                         6 (NSCR, no separate NCGR -- 4 and 5 are NCLR)
+                         ! Requires RLE8 compression!
+MissionSelect_B          ----- (all are BM; doesn't need work anyways)
+MissionSelect_U       *  0-1-2
+                      *  4-5-678 (NSCR)
+                         ! Requires RLE8 compression!
+NameInput             *  0-1-2
+                      *  4-5-6
+NetworkCenter         *  0-1-2
+                      *  4-5-6
+NetworkStart          *  0-1-2
+PartsStart            *  0-1-2
+RoboExp                  0 (BM)
+                         1 (BM)
+SelectMario           *  0-1-2
+                      *  4-5-6 (NSCR)
+SelectParts           *  0-1-2
+                         4-5-6 (NSCR)
+Settei                *  0-1-2
+StaffRoll                0-1-2 (NSCR)
+                         3-4-5
+Telop                    0-1-2
+Title                 *  0-1-2
+                         4-5-6
+                        - these are unused graphics for an older version of the
+                          title screen that used a standard selection menu
+                          instead of having touch controls
+Tuduki                *  0-1-2
+                      *  4-5-6
+                      
+decor/mission1205/*.NCGR contains battle interface graphics
+  Character2.NCGR -- mission win/loss text
+    - goes with Cell2.NCER
+  txt00.NCGR -- pause menu text
+    - goes with Cell4.NCER
+
+todo: KARs, ca.binarchive 
+
+kars:
+  kadv: bg, face
+  kcom: personimage, roboimage
+  kscene: ms_ss, ShopStartTop, StaffScene, StaffText
+  
+  
+                   
+The kar subdirectory contains the extracted kar images. It has the following
+structure:
+  kar/kar         Raw files from KAR.
+  kar/kardecmp    KAR images decompressed from RLE8. Note that not all KARs use
+                  compression.
+  karimg          KAR images converted to editable format. Only stuff that
+                  requires editing is present.
+
+The kar files that require editing are:
+  kcom/bg.kar               (RLE8)
+                            Background graphics for cutscenes.
+                            The following require translation:
+                            79 -- Heavy Workshop intro pic
+                            80 -- Wheel Workshop intro pic
+                            81 -- Tree Workshop intro pic
+                            104 -- Marionation Gear Association info text
+                            127 -- Error message if card is removed while
+                                   the game is running?
+                                   
+                            These don't need translation, but...
+                            72 -- the Sandlot logo
+                            73 -- the Nintendo logo
+                            70 is a test image ("tesuto"). 71 is the same thing
+                            without the text. Is it even used?
+  kcom/roboimage.kar        (RLE8)
+                            Mecha preview renders for robo select screen.
+  kScene/ShopStartTop.kar   (uncompressed)
+                            Shop intro pictures (contain name of shop).
+  kScene/StaffText.kar      (RLE8)
+                            Credits text.
+

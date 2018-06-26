@@ -1,0 +1,3940 @@
+"File","Offset","Pointers","Japanese","English","width","height","lineheight","English","English","English"
+"opb/PartsDesc.opb","0x159c","0x0","真鍮装甲","Brass Armor",102,14,14,"Brass Armor","Brass Armor","&Brass Armor"
+"opb/PartsDesc.opb","0x15a5","0x1 0x640","耐久力＋２０","Stamina +20",240,64,16,"Stamina +20","Stamina +20","Stamina +20"
+"opb/PartsDesc.opb","0x15b2","0x1 0x644","　人形の骨格を補強する部品。骨格を金
+属で包み、強度を高める。","　人形の骨格を補強する部品。骨格を金
+属で包み、強度を高める。",240,64,16,"　人形の骨格を補強する部品。骨格を金
+属で包み、強度を高める。","　人形の骨格を補強する部品。骨格を金
+属で包み、強度を高める。","　人形の骨格を補強する部品。骨格を金
+属で包み、強度を高める。"
+"opb/PartsDesc.opb","0x15f1","0x1 0x650","青銅装甲","Bronze Armor",102,14,14,"Bronze Armor","Bronze Armor","&Bronze Armor"
+"opb/PartsDesc.opb","0x15fa","0x1 0x654","耐久力＋4０","Stamina +40",240,64,16,"Stamina +40","Stamina +40","Stamina +40"
+"opb/PartsDesc.opb","0x1607","0x1 0x658","　人形の骨格を補強する部品。骨格を金
+属で包み、強度を高める。","　人形の骨格を補強する部品。骨格を金
+属で包み、強度を高める。",240,64,16,"　人形の骨格を補強する部品。骨格を金
+属で包み、強度を高める。","　人形の骨格を補強する部品。骨格を金
+属で包み、強度を高める。","　人形の骨格を補強する部品。骨格を金
+属で包み、強度を高める。"
+"opb/PartsDesc.opb","0x1646","0x1 0x664","鋼鉄装甲","Steel Armor",102,14,14,"Steel Armor","Steel Armor","&Steel Armor"
+"opb/PartsDesc.opb","0x164f","0x1 0x668","耐久力＋８０","Stamina +80",240,64,16,"Stamina +80","Satmina +80","Stamina +80"
+"opb/PartsDesc.opb","0x165c","0x1 0x66c","　人形の骨格を補強する部品。骨格を金
+属で包み、強度を高める。","　人形の骨格を補強する部品。骨格を金
+属で包み、強度を高める。",240,64,16,"　人形の骨格を補強する部品。骨格を金
+属で包み、強度を高める。","　人形の骨格を補強する部品。骨格を金
+属で包み、強度を高める。","　人形の骨格を補強する部品。骨格を金
+属で包み、強度を高める。"
+"opb/PartsDesc.opb","0x169b","0x1 0x678","白銀装甲","Silver Armor",102,14,14,"Silver Armor","White Silver Armor","&Silver Armor"
+"opb/PartsDesc.opb","0x16a4","0x1 0x67c","耐久力＋１5０","Stamina +150",240,64,16,"Stamina +150","Stamina +150","Stamina +150"
+"opb/PartsDesc.opb","0x16b3","0x1 0x680","　人形の骨格を補強する部品。骨格を金
+属で包み、強度を高める。","　人形の骨格を補強する部品。骨格を金
+属で包み、強度を高める。",240,64,16,"　人形の骨格を補強する部品。骨格を金
+属で包み、強度を高める。","　人形の骨格を補強する部品。骨格を金
+属で包み、強度を高める。","　人形の骨格を補強する部品。骨格を金
+属で包み、強度を高める。"
+"opb/PartsDesc.opb","0x16f2","0x1 0x68c","金剛装甲","Diamond Armor",102,14,14,"Diamond Armor","Diamond Armor","&Diamond Armor"
+"opb/PartsDesc.opb","0x16fb","0x1 0x690","耐久力＋３００","Stamina +300",240,64,16,"Stamina +300","Stamina +300","Stamina +300"
+"opb/PartsDesc.opb","0x170a","0x1 0x694","　人形の骨格を補強する部品。骨格を金
+属で包み、強度を高める。","　人形の骨格を補強する部品。骨格を金
+属で包み、強度を高める。",240,64,16,"　人形の骨格を補強する部品。骨格を金
+属で包み、強度を高める。","　人形の骨格を補強する部品。骨格を金
+属で包み、強度を高める。","　人形の骨格を補強する部品。骨格を金
+属で包み、強度を高める。"
+"opb/PartsDesc.opb","0x1749","0x1 0x6a0","真鍮防弾鎧","Brass Gunplate",102,14,14,"Brass Gunplate","Brass Bulletproofing","&Brass Gunplate"
+"opb/PartsDesc.opb","0x1754","0x1 0x6a4","射撃武器のダメージを１０％軽減","Shooting damage reduced 10%",240,64,16,"Shooting damage reduced 10%","Shooting damage reduced by 10%","Shooting damage reduced 10%"
+"opb/PartsDesc.opb","0x1773","0x1 0x6a8","　人形の外殻を補強する装甲板。防弾性
+に優れ、弾丸や光学兵器を遮断する。","　人形の外殻を補強する装甲板。防弾性
+に優れ、弾丸や光学兵器を遮断する。",240,64,16,"　人形の外殻を補強する装甲板。防弾性
+に優れ、弾丸や光学兵器を遮断する。","　人形の外殻を補強する装甲板。防弾性
+に優れ、弾丸や光学兵器を遮断する。","　人形の外殻を補強する装甲板。防弾性
+に優れ、弾丸や光学兵器を遮断する。"
+"opb/PartsDesc.opb","0x17bc","0x1 0x6b4","青銅防弾鎧","Bronze Gunplate",102,14,14,"Bronze Gunplate","Bronze Bulletproofing","&Bronze Gunplate"
+"opb/PartsDesc.opb","0x17c7","0x1 0x6b8","射撃武器のダメージを１5％軽減","Shooting damage reduced 15%",240,64,16,"Shooting damage reduced 15%","Shooting damage reduced by 15%","Shooting damage reduced 15%"
+"opb/PartsDesc.opb","0x17e6","0x1 0x6bc","　人形の外殻を補強する装甲板。防弾性
+に優れ、弾丸や光学兵器を遮断する。","　人形の外殻を補強する装甲板。防弾性
+に優れ、弾丸や光学兵器を遮断する。",240,64,16,"　人形の外殻を補強する装甲板。防弾性
+に優れ、弾丸や光学兵器を遮断する。","　人形の外殻を補強する装甲板。防弾性
+に優れ、弾丸や光学兵器を遮断する。","　人形の外殻を補強する装甲板。防弾性
+に優れ、弾丸や光学兵器を遮断する。"
+"opb/PartsDesc.opb","0x182f","0x1 0x6c8","鋼鉄防弾鎧","Steel Gunplate",102,14,14,"Steel Gunplate","Steel Bulletproofing","&Steel Gunplate"
+"opb/PartsDesc.opb","0x183a","0x1 0x6cc","射撃武器のダメージを２０％軽減","Shooting damage reduced 20%",240,64,16,"Shooting damage reduced 20%","Shooting damage reduced by 20%","Shooting damage reduced 20%"
+"opb/PartsDesc.opb","0x1859","0x1 0x6d0","　人形の外殻を補強する装甲板。防弾性
+に優れ、弾丸や光学兵器を遮断する。","　人形の外殻を補強する装甲板。防弾性
+に優れ、弾丸や光学兵器を遮断する。",240,64,16,"　人形の外殻を補強する装甲板。防弾性
+に優れ、弾丸や光学兵器を遮断する。","　人形の外殻を補強する装甲板。防弾性
+に優れ、弾丸や光学兵器を遮断する。","　人形の外殻を補強する装甲板。防弾性
+に優れ、弾丸や光学兵器を遮断する。"
+"opb/PartsDesc.opb","0x18a2","0x1 0x6dc","白銀防弾鎧","Silver Gunplate",102,14,14,"Silver Gunplate","White Silver Bulletproofing","&Silver Gunplate"
+"opb/PartsDesc.opb","0x18ad","0x1 0x6e0","射撃武器のダメージを２5％軽減","Shooting damage reduced 25%",240,64,16,"Shooting damage reduced 25%","Shooting damage reduced by 25%","Shooting damage reduced 25%"
+"opb/PartsDesc.opb","0x18cc","0x1 0x6e4","　人形の外殻を補強する装甲板。防弾性
+に優れ、弾丸や光学兵器を遮断する。","　人形の外殻を補強する装甲板。防弾性
+に優れ、弾丸や光学兵器を遮断する。",240,64,16,"　人形の外殻を補強する装甲板。防弾性
+に優れ、弾丸や光学兵器を遮断する。","　人形の外殻を補強する装甲板。防弾性
+に優れ、弾丸や光学兵器を遮断する。","　人形の外殻を補強する装甲板。防弾性
+に優れ、弾丸や光学兵器を遮断する。"
+"opb/PartsDesc.opb","0x1915","0x1 0x6f0","金剛防弾鎧","Diamond Gunplate",102,14,14,"Diamond Gunplate","Diamond Bulletproofing","&Diamond Gunplate"
+"opb/PartsDesc.opb","0x1920","0x1 0x6f4","射撃武器のダメージを３０％軽減","Shooting damage reduced 30%",240,64,16,"Shooting damage reduced 30%","Shooting damage reduced by 30%","Shooting damage reduced 30%"
+"opb/PartsDesc.opb","0x193f","0x1 0x6f8","　人形の外殻を補強する装甲板。防弾性
+に優れ、弾丸や光学兵器を遮断する。","　人形の外殻を補強する装甲板。防弾性
+に優れ、弾丸や光学兵器を遮断する。",240,64,16,"　人形の外殻を補強する装甲板。防弾性
+に優れ、弾丸や光学兵器を遮断する。","　人形の外殻を補強する装甲板。防弾性
+に優れ、弾丸や光学兵器を遮断する。","　人形の外殻を補強する装甲板。防弾性
+に優れ、弾丸や光学兵器を遮断する。"
+"opb/PartsDesc.opb","0x1988","0x1 0x704","冷却器","Radiator",102,14,14,"Radiator","Radiator","&Radiator"
+"opb/PartsDesc.opb","0x198f","0x1 0x708","オーバーヒート後の冷却時間を少し短縮","Slightly shortens cooling time after overheating",240,64,16,"Slightly shortens cooling time after overheating","Slightly shortens cooling time after overheating","Slightly shortens cooling time after overheating"
+"opb/PartsDesc.opb","0x19b4","0x1 0x70c","　人形の身体を冷却するための装置。","　人形の身体を冷却するための装置。",240,64,16,"　人形の身体を冷却するための装置。","　人形の身体を冷却するための装置。","　人形の身体を冷却するための装置。"
+"opb/PartsDesc.opb","0x19d7","0x1 0x718","大型冷却器","Jumbo Radiator",102,14,14,"Jumbo Radiator","Jumbo Radiator","&Jumbo Radiator"
+"opb/PartsDesc.opb","0x19e2","0x1 0x71c","オーバーヒート後の冷却時間を短縮","Shortens cooling time after overheating",240,64,16,"Shortens cooling time after overheating","Shortens cooling time after overheating","Shortens cooling time after overheating"
+"opb/PartsDesc.opb","0x1a03","0x1 0x720","　人形の身体を冷却するための装置。","　人形の身体を冷却するための装置。",240,64,16,"　人形の身体を冷却するための装置。","　人形の身体を冷却するための装置。","　人形の身体を冷却するための装置。"
+"opb/PartsDesc.opb","0x1a26","0x1 0x72c","冷凍装置","Freezer",102,14,14,"Freezer","Freezer","&Freezer"
+"opb/PartsDesc.opb","0x1a2f","0x1 0x730","オーバーヒート後の冷却時間を
+大きく短縮","Greatly shortens cooling time after overheating",240,64,16,"Greatly shortens cooling time after overheating","Greatly shortens cooling time after overheating","Greatly shortens cooling time after overheating"
+"opb/PartsDesc.opb","0x1a58","0x1 0x734","　人形の身体を冷却するための装置。","　人形の身体を冷却するための装置。",240,64,16,"　人形の身体を冷却するための装置。","　人形の身体を冷却するための装置。","　人形の身体を冷却するための装置。"
+"opb/PartsDesc.opb","0x1a7b","0x1 0x740","予備弾薬","Spare Ammo",102,14,14,"Spare Ammo","Spare Ammo","&Spare Ammo"
+"opb/PartsDesc.opb","0x1a84","0x1 0x744","弾薬の搭載数＋１
+/c5※残弾に限りのある武器のみ。
+　超兵器は含まない。/c3","Ammunition quantity +1
+/c5* Only applies to weapons with limited ammunition. Does not include Super Weapons./c3",240,64,16,"Ammunition quantity +1
+/c5* Only applies to weapons with limited ammunition. Does not include Super Weapons./c3","Ammunition quantity +1
+/c5* Only applies to weapons with limited
+ammunition. Does not include Super Weapons./c3","Ammunition quantity +1
+/c5* Only applies to weapons with limited ammunition. Does not include Super Weapons./c3"
+"opb/PartsDesc.opb","0x1acf","0x1 0x748","　弾薬庫を拡張するための部品。","　弾薬庫を拡張するための部品。",240,64,16,"　弾薬庫を拡張するための部品。","　弾薬庫を拡張するための部品。","　弾薬庫を拡張するための部品。"
+"opb/PartsDesc.opb","0x1aee","0x1 0x754","新型予備弾薬","Spare Ammo mk II",102,14,14,"Spare Ammo mk II","New Model Spare Ammo","&Spare Ammo mk II"
+"opb/PartsDesc.opb","0x1afb","0x1 0x758","弾薬の搭載数＋２
+/c5※残弾に限りのある武器のみ。
+　超兵器は含まない。/c3","Ammunition quantity +2
+/c5* Only applies to weapons with limited ammunition. Does not include Super Weapons./c3",240,64,16,"Ammunition quantity +2
+/c5* Only applies to weapons with limited ammunition. Does not include Super Weapons./c3","Ammunition quantity +2
+/c5* Only applies to weapons with limited
+ammunition. Does not include Super Weapons./c3","Ammunition quantity +2
+/c5* Only applies to weapons with limited ammunition. Does not include Super Weapons./c3"
+"opb/PartsDesc.opb","0x1b46","0x1 0x75c","　弾薬庫を拡張するための部品。","　弾薬庫を拡張するための部品。",240,64,16,"　弾薬庫を拡張するための部品。","　弾薬庫を拡張するための部品。","　弾薬庫を拡張するための部品。"
+"opb/PartsDesc.opb","0x1b65","0x1 0x768","クロム鋼線Ｖ１","Chrome Wire V1",102,14,14,"Chrome Wire V1","Chrome-Steel Wire V1","&Chrome Wire V1"
+"opb/PartsDesc.opb","0x1b74","0x1 0x76c","投げつけダメージ＋１０％","Throwing damage +10%",240,64,16,"Throwing damage +10%","Throwing damage +10%","Throwing damage +10%"
+"opb/PartsDesc.opb","0x1b8d","0x1 0x770","　人形の手足を動かすための金属線。強
+度の高いものを使用することで、重量の
+あるものを持ち上げた時の安定度が増す。","　人形の手足を動かすための金属線。強
+度の高いものを使用することで、重量の
+あるものを持ち上げた時の安定度が増す。",240,64,16,"　人形の手足を動かすための金属線。強
+度の高いものを使用することで、重量の
+あるものを持ち上げた時の安定度が増す。","　人形の手足を動かすための金属線。強
+度の高いものを使用することで、重量の
+あるものを持ち上げた時の安定度が増す。","　人形の手足を動かすための金属線。強
+度の高いものを使用することで、重量の
+あるものを持ち上げた時の安定度が増す。"
+"opb/PartsDesc.opb","0x1c00","0x1 0x77c","クロム鋼線Ｖ２","Chrome Wire V2",102,14,14,"Chrome Wire V2","Chrome-Steel Wire V2","&Chrome Wire V2"
+"opb/PartsDesc.opb","0x1c0f","0x1 0x780","投げつけダメージ＋１5％","Throwing damage +15%",240,64,16,"Throwing damage +15%","Throwing damage +15%","Throwing damage +15%"
+"opb/PartsDesc.opb","0x1c28","0x1 0x784","　人形の手足を動かすための金属線。強
+度の高いものを使用することで、重量の
+あるものを持ち上げた時の安定度が増す。","　人形の手足を動かすための金属線。強
+度の高いものを使用することで、重量の
+あるものを持ち上げた時の安定度が増す。",240,64,16,"　人形の手足を動かすための金属線。強
+度の高いものを使用することで、重量の
+あるものを持ち上げた時の安定度が増す。","　人形の手足を動かすための金属線。強
+度の高いものを使用することで、重量の
+あるものを持ち上げた時の安定度が増す。","　人形の手足を動かすための金属線。強
+度の高いものを使用することで、重量の
+あるものを持ち上げた時の安定度が増す。"
+"opb/PartsDesc.opb","0x1c9b","0x1 0x790","クロム鋼線Ｖ３","Chrome Wire V3",102,14,14,"Chrome Wire V3","Chrome-Steel Wire V3","&Chrome Wire V3"
+"opb/PartsDesc.opb","0x1caa","0x1 0x794","投げつけダメージ＋２5％","Throwing damage +25%",240,64,16,"Throwing damage +25%","Throwing damage +25%","Throwing damage +25%"
+"opb/PartsDesc.opb","0x1cc3","0x1 0x798","　人形の手足を動かすための金属線。強
+度の高いものを使用することで、重量の
+あるものを持ち上げた時の安定度が増す。","　人形の手足を動かすための金属線。強
+度の高いものを使用することで、重量の
+あるものを持ち上げた時の安定度が増す。",240,64,16,"　人形の手足を動かすための金属線。強
+度の高いものを使用することで、重量の
+あるものを持ち上げた時の安定度が増す。","　人形の手足を動かすための金属線。強
+度の高いものを使用することで、重量の
+あるものを持ち上げた時の安定度が増す。","　人形の手足を動かすための金属線。強
+度の高いものを使用することで、重量の
+あるものを持ち上げた時の安定度が増す。"
+"opb/PartsDesc.opb","0x1d36","0x1 0x7a4","クロム鋼線Ｖ4","Chrome Wire V4",102,14,14,"Chrome Wire V4","Chrome-Steel Wire V4","&Chrome Wire V4"
+"opb/PartsDesc.opb","0x1d45","0x1 0x7a8","投げつけダメージ＋4０％","Throwing damage +40%",240,64,16,"Throwing damage +40%","Throwing damage +40%","Throwing damage +40%"
+"opb/PartsDesc.opb","0x1d5e","0x1 0x7ac","　人形の手足を動かすための金属線。強
+度の高いものを使用することで、重量の
+あるものを持ち上げた時の安定度が増す。","　人形の手足を動かすための金属線。強
+度の高いものを使用することで、重量の
+あるものを持ち上げた時の安定度が増す。",240,64,16,"　人形の手足を動かすための金属線。強
+度の高いものを使用することで、重量の
+あるものを持ち上げた時の安定度が増す。","　人形の手足を動かすための金属線。強
+度の高いものを使用することで、重量の
+あるものを持ち上げた時の安定度が増す。","　人形の手足を動かすための金属線。強
+度の高いものを使用することで、重量の
+あるものを持ち上げた時の安定度が増す。"
+"opb/PartsDesc.opb","0x1dd1","0x1 0x7b8","クロム鋼線Ｖ5","Chrome Wire V5",102,14,14,"Chrome Wire V5","Chrome-Steel Wire V5","&Chrome Wire V5"
+"opb/PartsDesc.opb","0x1de0","0x1 0x7bc","投げつけダメージ＋5０％","Throwing damage +50%",240,64,16,"Throwing damage +50%","Throwing damage +50%","Throwing damage +50%"
+"opb/PartsDesc.opb","0x1df9","0x1 0x7c0","　人形の手足を動かすための金属線。強
+度の高いものを使用することで、重量の
+あるものを持ち上げた時の安定度が増す。","　人形の手足を動かすための金属線。強
+度の高いものを使用することで、重量の
+あるものを持ち上げた時の安定度が増す。",240,64,16,"　人形の手足を動かすための金属線。強
+度の高いものを使用することで、重量の
+あるものを持ち上げた時の安定度が増す。","　人形の手足を動かすための金属線。強
+度の高いものを使用することで、重量の
+あるものを持ち上げた時の安定度が増す。","　人形の手足を動かすための金属線。強
+度の高いものを使用することで、重量の
+あるものを持ち上げた時の安定度が増す。"
+"opb/PartsDesc.opb","0x1e6c","0x1 0x7cc","神鉄歯車Ｖ１","Godiron Gear V1",102,14,14,"Godiron Gear V1","Divine Iron Gear V1","&Godiron Gear V1"
+"opb/PartsDesc.opb","0x1e79","0x1 0x7d0","斬撃、打撃ダメージ＋１０％","Slashing, striking damage +10%",240,64,16,"Slashing, striking damage +10%","Slashing, striking damage +10%","Slashing, striking damage +10%"
+"opb/PartsDesc.opb","0x1e94","0x1 0x7d4","　希少金属“神鉄（しんてつ）”で作ら
+れた歯車。人形の力を増大させる。","　希少金属“神鉄（しんてつ）”で作ら
+れた歯車。人形の力を増大させる。",240,64,16,"　希少金属“神鉄（しんてつ）”で作ら
+れた歯車。人形の力を増大させる。","　希少金属“神鉄（しんてつ）”で作ら
+れた歯車。人形の力を増大させる。","　希少金属“神鉄（しんてつ）”で作ら
+れた歯車。人形の力を増大させる。"
+"opb/PartsDesc.opb","0x1edb","0x1 0x7e0","神鉄歯車Ｖ２","Godiron Gear V2",102,14,14,"Godiron Gear V2","Divine Iron Gear V2","&Godiron Gear V2"
+"opb/PartsDesc.opb","0x1ee8","0x1 0x7e4","斬撃、打撃ダメージ＋１5％","Slashing, striking damage +15%",240,64,16,"Slashing, striking damage +15%","Slashing, striking damage +15%","Slashing, striking damage +15%"
+"opb/PartsDesc.opb","0x1f03","0x1 0x7e8","　希少金属“神鉄（しんてつ）”で作ら
+れた歯車。人形の力を増大させる。","　希少金属“神鉄（しんてつ）”で作ら
+れた歯車。人形の力を増大させる。",240,64,16,"　希少金属“神鉄（しんてつ）”で作ら
+れた歯車。人形の力を増大させる。","　希少金属“神鉄（しんてつ）”で作ら
+れた歯車。人形の力を増大させる。","　希少金属“神鉄（しんてつ）”で作ら
+れた歯車。人形の力を増大させる。"
+"opb/PartsDesc.opb","0x1f4a","0x1 0x7f4","神鉄歯車Ｖ３","Godiron Gear V3",102,14,14,"Godiron Gear V3","Divine Iron Gear V3","&Godiron Gear V3"
+"opb/PartsDesc.opb","0x1f57","0x1 0x7f8","斬撃、打撃ダメージ＋２０％","Slashing, striking damage +20%",240,64,16,"Slashing, striking damage +20%","Slashing, striking damage +20%","Slashing, striking damage +20%"
+"opb/PartsDesc.opb","0x1f72","0x1 0x7fc","　希少金属“神鉄（しんてつ）”で作ら
+れた歯車。人形の力を増大させる。","　希少金属“神鉄（しんてつ）”で作ら
+れた歯車。人形の力を増大させる。",240,64,16,"　希少金属“神鉄（しんてつ）”で作ら
+れた歯車。人形の力を増大させる。","　希少金属“神鉄（しんてつ）”で作ら
+れた歯車。人形の力を増大させる。","　希少金属“神鉄（しんてつ）”で作ら
+れた歯車。人形の力を増大させる。"
+"opb/PartsDesc.opb","0x1fb9","0x1 0x808","神鉄歯車Ｖ4","Godiron Gear V4",102,14,14,"Godiron Gear V4","Divine Iron Gear V4","&Godiron Gear V4"
+"opb/PartsDesc.opb","0x1fc6","0x1 0x80c","斬撃、打撃ダメージ＋３０％","Slashing, striking damage +30%",240,64,16,"Slashing, striking damage +30%","Slashing, striking damage +30%","Slashing, striking damage +30%"
+"opb/PartsDesc.opb","0x1fe1","0x1 0x810","　希少金属“神鉄（しんてつ）”で作ら
+れた歯車。人形の力を増大させる。","　希少金属“神鉄（しんてつ）”で作ら
+れた歯車。人形の力を増大させる。",240,64,16,"　希少金属“神鉄（しんてつ）”で作ら
+れた歯車。人形の力を増大させる。","　希少金属“神鉄（しんてつ）”で作ら
+れた歯車。人形の力を増大させる。","　希少金属“神鉄（しんてつ）”で作ら
+れた歯車。人形の力を増大させる。"
+"opb/PartsDesc.opb","0x2028","0x1 0x81c","神鉄歯車Ｖ5","Godiron Gear V5",102,14,14,"Godiron Gear V5","Divine Iron Gear V5","&Godiron Gear V5"
+"opb/PartsDesc.opb","0x2035","0x1 0x820","斬撃、打撃ダメージ＋4０％","Slashing, striking damage +40%",240,64,16,"Slashing, striking damage +40%","Slashing, striking damage +40%","Slashing, striking damage +40%"
+"opb/PartsDesc.opb","0x2050","0x1 0x824","　希少金属“神鉄（しんてつ）”で作ら
+れた歯車。人形の力を増大させる。","　希少金属“神鉄（しんてつ）”で作ら
+れた歯車。人形の力を増大させる。",240,64,16,"　希少金属“神鉄（しんてつ）”で作ら
+れた歯車。人形の力を増大させる。","　希少金属“神鉄（しんてつ）”で作ら
+れた歯車。人形の力を増大させる。","　希少金属“神鉄（しんてつ）”で作ら
+れた歯車。人形の力を増大させる。"
+"opb/PartsDesc.opb","0x2097","0x1 0x830","白銀鋼弾Ｖ１","Silver Bullet V1",102,14,14,"Silver Bullet V1","White Silver Steel Bullet V1","&Silver Bullet V1"
+"opb/PartsDesc.opb","0x20a4","0x1 0x834","射撃ダメージ＋5％","Shooting damage +5%",240,64,16,"Shooting damage +5%","Shooting damage +5%","Shooting damage +5%"
+"opb/PartsDesc.opb","0x20b7","0x1 0x838","　銀色に輝くレアメタル“白銀鋼”で弾
+丸を包み、貫通力を増大させる。","　銀色に輝くレアメタル“白銀鋼”で弾
+丸を包み、貫通力を増大させる。",240,64,16,"　銀色に輝くレアメタル“白銀鋼”で弾
+丸を包み、貫通力を増大させる。","　銀色に輝くレアメタル“白銀鋼”で弾
+丸を包み、貫通力を増大させる。","　銀色に輝くレアメタル“白銀鋼”で弾
+丸を包み、貫通力を増大させる。"
+"opb/PartsDesc.opb","0x20fc","0x1 0x844","白銀鋼弾Ｖ２","Silver Bullet V2",102,14,14,"Silver Bullet V2","White Silver Steel Bullet V2","&Silver Bullet V2"
+"opb/PartsDesc.opb","0x2109","0x1 0x848","射撃ダメージ＋１０％","Shooting damage +10%",240,64,16,"Shooting damage +10%","Shooting damage +10%","Shooting damage +10%"
+"opb/PartsDesc.opb","0x211e","0x1 0x84c","　銀色に輝くレアメタル“白銀鋼”で弾
+丸を包み、貫通力を増大させる。","　銀色に輝くレアメタル“白銀鋼”で弾
+丸を包み、貫通力を増大させる。",240,64,16,"　銀色に輝くレアメタル“白銀鋼”で弾
+丸を包み、貫通力を増大させる。","　銀色に輝くレアメタル“白銀鋼”で弾
+丸を包み、貫通力を増大させる。","　銀色に輝くレアメタル“白銀鋼”で弾
+丸を包み、貫通力を増大させる。"
+"opb/PartsDesc.opb","0x2163","0x1 0x858","白銀鋼弾Ｖ３","Silver Bullet V3",102,14,14,"Silver Bullet V3","White Silver Steel Bullet V3","&Silver Bullet V3"
+"opb/PartsDesc.opb","0x2170","0x1 0x85c","射撃ダメージ＋１5％","Shooting damage +15%",240,64,16,"Shooting damage +15%","Shooting damage +15%","Shooting damage +15%"
+"opb/PartsDesc.opb","0x2185","0x1 0x860","　銀色に輝くレアメタル“白銀鋼”で弾
+丸を包み、貫通力を増大させる。","　銀色に輝くレアメタル“白銀鋼”で弾
+丸を包み、貫通力を増大させる。",240,64,16,"　銀色に輝くレアメタル“白銀鋼”で弾
+丸を包み、貫通力を増大させる。","　銀色に輝くレアメタル“白銀鋼”で弾
+丸を包み、貫通力を増大させる。","　銀色に輝くレアメタル“白銀鋼”で弾
+丸を包み、貫通力を増大させる。"
+"opb/PartsDesc.opb","0x21ca","0x1 0x86c","白銀鋼弾Ｖ4","Silver Bullet V4",102,14,14,"Silver Bullet V4","White Silver Steel Bullet V4","&Silver Bullet V4"
+"opb/PartsDesc.opb","0x21d7","0x1 0x870","射撃ダメージ＋２5％","Shooting damage +25%",240,64,16,"Shooting damage +25%","Shooting damage +25%","Shooting damage +25%"
+"opb/PartsDesc.opb","0x21ec","0x1 0x874","　銀色に輝くレアメタル“白銀鋼”で弾
+丸を包み、貫通力を増大させる。","　銀色に輝くレアメタル“白銀鋼”で弾
+丸を包み、貫通力を増大させる。",240,64,16,"　銀色に輝くレアメタル“白銀鋼”で弾
+丸を包み、貫通力を増大させる。","　銀色に輝くレアメタル“白銀鋼”で弾
+丸を包み、貫通力を増大させる。","　銀色に輝くレアメタル“白銀鋼”で弾
+丸を包み、貫通力を増大させる。"
+"opb/PartsDesc.opb","0x2231","0x1 0x880","白銀鋼弾Ｖ5","Silver Bullet V5",102,14,14,"Silver Bullet V5","White Silver Steel Bullet V5","&Silver Bullet V5"
+"opb/PartsDesc.opb","0x223e","0x1 0x884","射撃ダメージ＋３０％","Shooting damage +30%",240,64,16,"Shooting damage +30%","Shooting damage +30%","Shooting damage +30%"
+"opb/PartsDesc.opb","0x2253","0x1 0x888","　銀色に輝くレアメタル“白銀鋼”で弾
+丸を包み、貫通力を増大させる。","　銀色に輝くレアメタル“白銀鋼”で弾
+丸を包み、貫通力を増大させる。",240,64,16,"　銀色に輝くレアメタル“白銀鋼”で弾
+丸を包み、貫通力を増大させる。","　銀色に輝くレアメタル“白銀鋼”で弾
+丸を包み、貫通力を増大させる。","　銀色に輝くレアメタル“白銀鋼”で弾
+丸を包み、貫通力を増大させる。"
+"opb/PartsDesc.opb","0x2298","0x1 0x894","水晶振動機Ｖ１","Quartz Crystal V1",102,14,14,"Quartz Crystal V1","Quartz Crystal V1","&Quartz Crystal V1"
+"opb/PartsDesc.opb","0x22a7","0x1 0x898","超兵器ダメージ＋１０％","Super Weapon damage +10%",240,64,16,"Super Weapon damage +10%","Super Weapon damage +10%","Super Weapon damage +10%"
+"opb/PartsDesc.opb","0x22be","0x1 0x89c","　超兵器のパワーを増幅する装置。
+
+/c5※超兵器として扱われる武器は、人形の
+　説明文に記載/c3","A device that amplifies the power of Super Weapons. /c5* The weapons that qualify as Super Weapons are listed in each Puppet's instructions./c3",240,64,16,"A device that amplifies the power of Super Weapons. /c5* The weapons that qualify as Super Weapons are listed in each Puppet's instructions./c3","A device that amplifies the power of Super Weapons.
+
+/c5* Weapons considered Super Weapons are
+listed in the Puppet's description./c3","A device that amplifies the power of Super Weapons. /c5* The weapons that qualify as Super Weapons are listed in each Puppet's instructions./c3"
+"opb/PartsDesc.opb","0x231d","0x1 0x8a8","水晶振動機Ｖ２","Quartz Crystal V2",102,14,14,"Quartz Crystal V2","Quartz Crystal V2","&Quartz Crystal V2"
+"opb/PartsDesc.opb","0x232c","0x1 0x8ac","超兵器ダメージ＋１5％","Super Weapon damage +15%",240,64,16,"Super Weapon damage +15%","Super Weapon damage +15%","Super Weapon damage +15%"
+"opb/PartsDesc.opb","0x2343","0x1 0x8b0","　超兵器のパワーを増幅する装置。
+
+/c5※超兵器として扱われる武器は、人形の
+　説明文に記載/c3","A device that amplifies the power of Super Weapons. /c5* The weapons that qualify as Super Weapons are listed in each Puppet's instructions./c3",240,64,16,"A device that amplifies the power of Super Weapons. /c5* The weapons that qualify as Super Weapons are listed in each Puppet's instructions./c3","A device that amplifies the power of Super Weapons.
+
+/c5* Weapons considered Super Weapons are
+listed in the Puppet's description./c3","A device that amplifies the power of Super Weapons. /c5* The weapons that qualify as Super Weapons are listed in each Puppet's instructions./c3"
+"opb/PartsDesc.opb","0x23a2","0x1 0x8bc","水晶振動機Ｖ３","Quartz Crystal V3",102,14,14,"Quartz Crystal V3","Quartz Crystal V3","&Quartz Crystal V3"
+"opb/PartsDesc.opb","0x23b1","0x1 0x8c0","超兵器ダメージ＋２5％","Super Weapon damage +25%",240,64,16,"Super Weapon damage +25%","Super Weapon damage +25%","Super Weapon damage +25%"
+"opb/PartsDesc.opb","0x23c8","0x1 0x8c4","　超兵器のパワーを増幅する装置。
+
+/c5※超兵器として扱われる武器は、人形の
+　説明文に記載/c3","A device that amplifies the power of Super Weapons. /c5* The weapons that qualify as Super Weapons are listed in each Puppet's instructions./c3",240,64,16,"A device that amplifies the power of Super Weapons. /c5* The weapons that qualify as Super Weapons are listed in each Puppet's instructions./c3","A device that amplifies the power of Super Weapons.
+
+/c5* Weapons considered Super Weapons are
+listed in the Puppet's description./c3","A device that amplifies the power of Super Weapons. /c5* The weapons that qualify as Super Weapons are listed in each Puppet's instructions./c3"
+"opb/PartsDesc.opb","0x2427","0x1 0x8d0","水晶振動機Ｖ4","Quartz Crystal V4",102,14,14,"Quartz Crystal V4","Quartz Crystal V4","&Quartz Crystal V4"
+"opb/PartsDesc.opb","0x2436","0x1 0x8d4","超兵器ダメージ＋３5％","Super Weapon damage +35%",240,64,16,"Super Weapon damage +35%","Super Weapon damage +35%","Super Weapon damage +35%"
+"opb/PartsDesc.opb","0x244d","0x1 0x8d8","　超兵器のパワーを増幅する装置。
+
+/c5※超兵器として扱われる武器は、人形の
+　説明文に記載/c3","A device that amplifies the power of Super Weapons. /c5* The weapons that qualify as Super Weapons are listed in each Puppet's instructions./c3",240,64,16,"A device that amplifies the power of Super Weapons. /c5* The weapons that qualify as Super Weapons are listed in each Puppet's instructions./c3","A device that amplifies the power of Super Weapons.
+
+/c5* Weapons considered Super Weapons are
+listed in the Puppet's description./c3","A device that amplifies the power of Super Weapons. /c5* The weapons that qualify as Super Weapons are listed in each Puppet's instructions./c3"
+"opb/PartsDesc.opb","0x24ac","0x1 0x8e4","水晶振動機Ｖ5","Quartz Crystal V5",102,14,14,"Quartz Crystal V5","Quartz Crystal V5","&Quartz Crystal V5"
+"opb/PartsDesc.opb","0x24bb","0x1 0x8e8","超兵器ダメージ＋5０％","Super Weapon damage +50%",240,64,16,"Super Weapon damage +50%","Super Weapon damage +50%","Super Weapon damage +50%"
+"opb/PartsDesc.opb","0x24d2","0x1 0x8ec","　超兵器のパワーを増幅する装置。
+
+/c5※超兵器として扱われる武器は、人形の
+　説明文に記載/c3","A device that amplifies the power of Super Weapons. /c5* The weapons that qualify as Super Weapons are listed in each Puppet's instructions./c3",240,64,16,"A device that amplifies the power of Super Weapons. /c5* The weapons that qualify as Super Weapons are listed in each Puppet's instructions./c3","A device that amplifies the power of Super Weapons.
+
+/c5* Weapons considered Super Weapons are
+listed in the Puppet's description./c3","A device that amplifies the power of Super Weapons. /c5* The weapons that qualify as Super Weapons are listed in each Puppet's instructions./c3"
+"opb/PartsDesc.opb","0x2531","0x1 0x8f8","真鍮弦","Brass Bowstring",102,14,14,"Brass Bowstring","Brass Bowstring","&Brass Bowstring"
+"opb/PartsDesc.opb","0x2538","0x1 0x8fc","耐久力＋１5
+弓のダメージが5％上昇
+/c5※弓工房の人形のみ装備可能/c3","Stamina +15
+Bow damage increased 5%
+/c5* Equippable only by Bow Workshop Puppets./c3",240,64,16,"Stamina +15
+Bow damage increased 5%
+/c5* Equippable only by Bow Workshop Puppets./c3","Stamina +15
+Bow damage increased by 5%
+/c5* Equippable only by Bow Workshop Puppets./c3","Stamina +15
+Bow damage increased 5%
+/c5* Equippable only by Bow Workshop Puppets./c3"
+"opb/PartsDesc.opb","0x257f","0x1 0x900","　弓工房でのみ使われる特殊ワイヤー。
+強度が高く、弓の破壊力を向上させる。","　弓工房でのみ使われる特殊ワイヤー。
+強度が高く、弓の破壊力を向上させる。",240,64,16,"　弓工房でのみ使われる特殊ワイヤー。
+強度が高く、弓の破壊力を向上させる。","　弓工房でのみ使われる特殊ワイヤー。
+強度が高く、弓の破壊力を向上させる。","　弓工房でのみ使われる特殊ワイヤー。
+強度が高く、弓の破壊力を向上させる。"
+"opb/PartsDesc.opb","0x25ca","0x1 0x90c","青銅弦","Bronze Bowstring",102,14,14,"Bronze Bowstring","Bronze Bowstring","&Bronze Bowstring"
+"opb/PartsDesc.opb","0x25d1","0x1 0x910","耐久力＋３０
+弓のダメージが１０％上昇
+/c5※弓工房の人形のみ装備可能/c3","Stamina +30
+Bow damage increased 10%
+/c5* Equippable only by Bow Workshop Puppets./c3",240,64,16,"Stamina +30
+Bow damage increased 10%
+/c5* Equippable only by Bow Workshop Puppets./c3","Stamina +30
+Bow damage increased by 10%
+/c5* Equippable only by Bow Workshop Puppets./c3","Stamina +30
+Bow damage increased 10%
+/c5* Equippable only by Bow Workshop Puppets./c3"
+"opb/PartsDesc.opb","0x261a","0x1 0x914","　弓工房でのみ使われる特殊ワイヤー。
+強度が高く、弓の破壊力を向上させる。","　弓工房でのみ使われる特殊ワイヤー。
+強度が高く、弓の破壊力を向上させる。",240,64,16,"　弓工房でのみ使われる特殊ワイヤー。
+強度が高く、弓の破壊力を向上させる。","　弓工房でのみ使われる特殊ワイヤー。
+強度が高く、弓の破壊力を向上させる。","　弓工房でのみ使われる特殊ワイヤー。
+強度が高く、弓の破壊力を向上させる。"
+"opb/PartsDesc.opb","0x2665","0x1 0x920","鋼鉄弦","Steel Bowstring",102,14,14,"Steel Bowstring","Steel Bowstring","&Steel Bowstring"
+"opb/PartsDesc.opb","0x266c","0x1 0x924","耐久力＋６０
+弓のダメージが１5％上昇
+/c5※弓工房の人形のみ装備可能/c3","Stamina +60
+Bow damage increased 15%
+/c5* Equippable only by Bow Workshop Puppets./c3",240,64,16,"Stamina +60
+Bow damage increased 15%
+/c5* Equippable only by Bow Workshop Puppets./c3","Stamina +60
+Bow damage increased by 15%
+/c5* Equippable only by Bow Workshop Puppets./c3","Stamina +60
+Bow damage increased 15%
+/c5* Equippable only by Bow Workshop Puppets./c3"
+"opb/PartsDesc.opb","0x26b5","0x1 0x928","　弓工房でのみ使われる特殊ワイヤー。
+強度が高く、弓の破壊力を向上させる。","　弓工房でのみ使われる特殊ワイヤー。
+強度が高く、弓の破壊力を向上させる。",240,64,16,"　弓工房でのみ使われる特殊ワイヤー。
+強度が高く、弓の破壊力を向上させる。","　弓工房でのみ使われる特殊ワイヤー。
+強度が高く、弓の破壊力を向上させる。","　弓工房でのみ使われる特殊ワイヤー。
+強度が高く、弓の破壊力を向上させる。"
+"opb/PartsDesc.opb","0x2700","0x1 0x934","白銀弦","Silver Bowstring",102,14,14,"Silver Bowstring","White Silver Bowstring","&Silver Bowstring"
+"opb/PartsDesc.opb","0x2707","0x1 0x938","耐久力＋１００
+弓のダメージが２０％上昇
+/c5※弓工房の人形のみ装備可能/c3","Stamina +100
+Bow damage increased 20%
+/c5* Equippable only by Bow Workshop Puppets./c3",240,64,16,"Stamina +100
+Bow damage increased 20%
+/c5* Equippable only by Bow Workshop Puppets./c3","Stamina +100
+Bow damage increased by 20%
+/c5* Equippable only by Bow Workshop Puppets./c3","Stamina +100
+Bow damage increased 20%
+/c5* Equippable only by Bow Workshop Puppets./c3"
+"opb/PartsDesc.opb","0x2752","0x1 0x93c","　弓工房でのみ使われる特殊ワイヤー。
+強度が高く、弓の破壊力を向上させる。","　弓工房でのみ使われる特殊ワイヤー。
+強度が高く、弓の破壊力を向上させる。",240,64,16,"　弓工房でのみ使われる特殊ワイヤー。
+強度が高く、弓の破壊力を向上させる。","　弓工房でのみ使われる特殊ワイヤー。
+強度が高く、弓の破壊力を向上させる。","　弓工房でのみ使われる特殊ワイヤー。
+強度が高く、弓の破壊力を向上させる。"
+"opb/PartsDesc.opb","0x279d","0x1 0x948","金剛弦","Diamond Bowstring",102,14,14,"Diamond Bowstring","Diamond Bowstring","&Diamond Bowstring"
+"opb/PartsDesc.opb","0x27a4","0x1 0x94c","耐久力＋２００
+弓のダメージが２5％上昇
+/c5※弓工房の人形のみ装備可能/c3","Stamina +200
+Bow damage increased 25%
+/c5* Equippable only by Bow Workshop Puppets./c3",240,64,16,"Stamina +200
+Bow damage increased 25%
+/c5* Equippable only by Bow Workshop Puppets./c3","Stamina +200
+Bow damage increased by 25%
+/c5* Equippable only by Bow Workshop Puppets./c3","Stamina +200
+Bow damage increased 25%
+/c5* Equippable only by Bow Workshop Puppets./c3"
+"opb/PartsDesc.opb","0x27ef","0x1 0x950","　弓工房でのみ使われる特殊ワイヤー。
+強度が高く、弓の破壊力を向上させる。","　弓工房でのみ使われる特殊ワイヤー。
+強度が高く、弓の破壊力を向上させる。",240,64,16,"　弓工房でのみ使われる特殊ワイヤー。
+強度が高く、弓の破壊力を向上させる。","　弓工房でのみ使われる特殊ワイヤー。
+強度が高く、弓の破壊力を向上させる。","　弓工房でのみ使われる特殊ワイヤー。
+強度が高く、弓の破壊力を向上させる。"
+"opb/PartsDesc.opb","0x283a","0x1 0x95c","真鍮振り子","Brass Pendulum",102,14,14,"Brass Pendulum","Brass Pendulum","&Brass Pendulum"
+"opb/PartsDesc.opb","0x2845","0x1 0x960","耐久力＋２０
+打撃、斬撃ダメージが１０％上昇
+/c5※円工房の人形にのみ装備可能/c3","Stamina +20
+Striking, slashing damage increased 10%
+/c5* Equippable only by Circle Workshop Puppets./c3",240,64,16,"Stamina +20
+Striking, slashing damage increased 10%
+/c5* Equippable only by Circle Workshop Puppets./c3","Stamina +20
+Striking, slashing damage increased by 10%
+/c5* Equippable only by Circle Workshop Puppets./c3","Stamina +20
+Striking, slashing damage increased 10%
+/c5* Equippable only by Circle Workshop Puppets./c3"
+"opb/PartsDesc.opb","0x2896","0x1 0x964","　円工房でのみ使われる部品。正確なリ
+ズムで装置を動かすことができる。","　円工房でのみ使われる部品。正確なリ
+ズムで装置を動かすことができる。",240,64,16,"　円工房でのみ使われる部品。正確なリ
+ズムで装置を動かすことができる。","　円工房でのみ使われる部品。正確なリ
+ズムで装置を動かすことができる。","　円工房でのみ使われる部品。正確なリ
+ズムで装置を動かすことができる。"
+"opb/PartsDesc.opb","0x28dd","0x1 0x970","青銅振り子","Bronze Pendulum",102,14,14,"Bronze Pendulum","Bronze Pendulum","&Bronze Pendulum"
+"opb/PartsDesc.opb","0x28e8","0x1 0x974","耐久力＋4０
+打撃、斬撃ダメージが１5％上昇
+/c5※円工房の人形にのみ装備可能/c3","Stamina +40
+Striking, slashing damage increased 15%
+/c5* Equippable only by Circle Workshop Puppets./c3",240,64,16,"Stamina +40
+Striking, slashing damage increased 15%
+/c5* Equippable only by Circle Workshop Puppets./c3","Stamina +40
+Striking, slashing damage increased by 15%
+/c5* Equippable only by Circle Workshop Puppets./c3","Stamina +40
+Striking, slashing damage increased 15%
+/c5* Equippable only by Circle Workshop Puppets./c3"
+"opb/PartsDesc.opb","0x2939","0x1 0x978","　円工房でのみ使われる部品。正確なリ
+ズムで装置を動かすことができる。","　円工房でのみ使われる部品。正確なリ
+ズムで装置を動かすことができる。",240,64,16,"　円工房でのみ使われる部品。正確なリ
+ズムで装置を動かすことができる。","　円工房でのみ使われる部品。正確なリ
+ズムで装置を動かすことができる。","　円工房でのみ使われる部品。正確なリ
+ズムで装置を動かすことができる。"
+"opb/PartsDesc.opb","0x2980","0x1 0x984","鋼鉄振り子","Steel Pendulum",102,14,14,"Steel Pendulum","Steel Pendulum","&Steel Pendulum"
+"opb/PartsDesc.opb","0x298b","0x1 0x988","耐久力＋８０
+打撃、斬撃ダメージが２０％上昇
+/c5※円工房の人形にのみ装備可能/c3","Stamina +80
+Striking, slashing damage increased 20%
+/c5* Equippable only by Circle Workshop Puppets./c3",240,64,16,"Stamina +80
+Striking, slashing damage increased 20%
+/c5* Equippable only by Circle Workshop Puppets./c3","Stamina +80
+Striking, slashing damage increased by 20%
+/c5* Equippable only by Circle Workshop Puppets./c3","Stamina +80
+Striking, slashing damage increased 20%
+/c5* Equippable only by Circle Workshop Puppets./c3"
+"opb/PartsDesc.opb","0x29dc","0x1 0x98c","　円工房でのみ使われる部品。正確なリ
+ズムで装置を動かすことができる。","　円工房でのみ使われる部品。正確なリ
+ズムで装置を動かすことができる。",240,64,16,"　円工房でのみ使われる部品。正確なリ
+ズムで装置を動かすことができる。","　円工房でのみ使われる部品。正確なリ
+ズムで装置を動かすことができる。","　円工房でのみ使われる部品。正確なリ
+ズムで装置を動かすことができる。"
+"opb/PartsDesc.opb","0x2a23","0x1 0x998","白銀振り子","Silver Pendulum",102,14,14,"Silver Pendulum","White Silver Pendulum","&Silver Pendulum"
+"opb/PartsDesc.opb","0x2a2e","0x1 0x99c","耐久力＋１5０
+打撃、斬撃ダメージが３０％上昇
+/c5※円工房の人形にのみ装備可能/c3","Stamina +150
+Striking, slashing damage increased 30%
+/c5* Equippable only by Circle Workshop Puppets./c3",240,64,16,"Stamina +150
+Striking, slashing damage increased 30%
+/c5* Equippable only by Circle Workshop Puppets./c3","Stamina +150
+Striking, slashing damage increased by 30%
+/c5* Equippable only by Circle Workshop Puppets./c3","Stamina +150
+Striking, slashing damage increased 30%
+/c5* Equippable only by Circle Workshop Puppets./c3"
+"opb/PartsDesc.opb","0x2a81","0x1 0x9a0","　円工房でのみ使われる部品。正確なリ
+ズムで装置を動かすことができる。","　円工房でのみ使われる部品。正確なリ
+ズムで装置を動かすことができる。",240,64,16,"　円工房でのみ使われる部品。正確なリ
+ズムで装置を動かすことができる。","　円工房でのみ使われる部品。正確なリ
+ズムで装置を動かすことができる。","　円工房でのみ使われる部品。正確なリ
+ズムで装置を動かすことができる。"
+"opb/PartsDesc.opb","0x2ac8","0x1 0x9ac","金剛振り子","Diamond Pendulum",102,14,14,"Diamond Pendulum","Diamond Pendulum","&Diamond Pendulum"
+"opb/PartsDesc.opb","0x2ad3","0x1 0x9b0","耐久力＋３００
+打撃、斬撃ダメージが4０％上昇
+/c5※円工房の人形にのみ装備可能/c3","Stamina +300
+Striking, slashing damage increased 40%
+/c5* Equippable only by Circle Workshop Puppets./c3",240,64,16,"Stamina +300
+Striking, slashing damage increased 40%
+/c5* Equippable only by Circle Workshop Puppets./c3","Stamina +300
+Striking, slashing damage increased by 40%
+/c5* Equippable only by Circle Workshop Puppets./c3","Stamina +300
+Striking, slashing damage increased 40%
+/c5* Equippable only by Circle Workshop Puppets./c3"
+"opb/PartsDesc.opb","0x2b26","0x1 0x9b4","　円工房でのみ使われる部品。正確なリ
+ズムで装置を動かすことができる。","　円工房でのみ使われる部品。正確なリ
+ズムで装置を動かすことができる。",240,64,16,"　円工房でのみ使われる部品。正確なリ
+ズムで装置を動かすことができる。","　円工房でのみ使われる部品。正確なリ
+ズムで装置を動かすことができる。","　円工房でのみ使われる部品。正確なリ
+ズムで装置を動かすことができる。"
+"opb/PartsDesc.opb","0x2b6d","0x1 0x9c0","真鍮独楽","Brass Spintop",102,14,14,"Brass Spintop","Brass Spintop","&Brass Spintop"
+"opb/PartsDesc.opb","0x2b76","0x1 0x9c4","耐久力＋１5
+手裏剣、剣の斬撃ダメージが１０％上昇
+/c5※忍工房の人形のみ装備可能/c3","Stamina +15
+Shuriken, sword damage increased 10%
+/c5* Equippable only by Shinobi Workshop Puppets./c3",240,64,16,"Stamina +15
+Shuriken, sword damage increased 10%
+/c5* Equippable only by Ninja Workshop Puppets./c3","Stamina +15
+Shuriken, sword slash damage increased by 10%
+/c5* Equippable only by Shinobi Workshop Puppets./c3","Stamina +15
+Shuriken, sword damage increased 10%
+/c5* Equippable only by Ninja Workshop Puppets./c3"
+"opb/PartsDesc.opb","0x2bcb","0x1 0x9c8","　忍工房でのみ使われる独楽型の歯車。
+普通の歯車より厚みがあり、強度も高い。","　忍工房でのみ使われる独楽型の歯車。
+普通の歯車より厚みがあり、強度も高い。",240,64,16,"　忍工房でのみ使われる独楽型の歯車。
+普通の歯車より厚みがあり、強度も高い。","　忍工房でのみ使われる独楽型の歯車。
+普通の歯車より厚みがあり、強度も高い。","　忍工房でのみ使われる独楽型の歯車。
+普通の歯車より厚みがあり、強度も高い。"
+"opb/PartsDesc.opb","0x2c18","0x1 0x9d4","青銅独楽","Bronze Spintop",102,14,14,"Bronze Spintop","Bronze Spintop","&Bronze Spintop"
+"opb/PartsDesc.opb","0x2c21","0x1 0x9d8","耐久力＋３０
+手裏剣、剣の斬撃ダメージが１5％上昇
+/c5※忍工房の人形のみ装備可能/c3","Stamina +30
+Shuriken, sword damage increased 15%
+/c5* Equippable only by Shinobi Workshop Puppets./c3",240,64,16,"Stamina +30
+Shuriken, sword damage increased 15%
+/c5* Equippable only by Ninja Workshop Puppets./c3","Stamina +30
+Shuriken, sword slash damage increased by 15%
+/c5* Equippable only by Shinobi Workshop Puppets./c3","Stamina +30
+Shuriken, sword damage increased 15%
+/c5* Equippable only by Ninja Workshop Puppets./c3"
+"opb/PartsDesc.opb","0x2c76","0x1 0x9dc","　忍工房でのみ使われる独楽型の歯車。
+普通の歯車より厚みがあり、強度も高い。","　忍工房でのみ使われる独楽型の歯車。
+普通の歯車より厚みがあり、強度も高い。",240,64,16,"　忍工房でのみ使われる独楽型の歯車。
+普通の歯車より厚みがあり、強度も高い。","　忍工房でのみ使われる独楽型の歯車。
+普通の歯車より厚みがあり、強度も高い。","　忍工房でのみ使われる独楽型の歯車。
+普通の歯車より厚みがあり、強度も高い。"
+"opb/PartsDesc.opb","0x2cc3","0x1 0x9e8","鋼鉄独楽","Steel Spintop",102,14,14,"Steel Spintop","Steel Spintop","&Steel Spintop"
+"opb/PartsDesc.opb","0x2ccc","0x1 0x9ec","耐久力＋６０
+手裏剣、剣の斬撃ダメージが２０％上昇
+/c5※忍工房の人形のみ装備可能/c3","Stamina +60
+Shuriken, sword damage increased 20%
+/c5* Equippable only by Shinobi Workshop Puppets./c3",240,64,16,"Stamina +60
+Shuriken, sword damage increased 20%
+/c5* Equippable only by Ninja Workshop Puppets./c3","Stamina +60
+Shuriken, sword slash damage increased by 20%
+/c5* Equippable only by Shinobi Workshop Puppets./c3","Stamina +60
+Shuriken, sword damage increased 20%
+/c5* Equippable only by Ninja Workshop Puppets./c3"
+"opb/PartsDesc.opb","0x2d21","0x1 0x9f0","　忍工房でのみ使われる独楽型の歯車。
+普通の歯車より厚みがあり、強度も高い。","　忍工房でのみ使われる独楽型の歯車。
+普通の歯車より厚みがあり、強度も高い。",240,64,16,"　忍工房でのみ使われる独楽型の歯車。
+普通の歯車より厚みがあり、強度も高い。","　忍工房でのみ使われる独楽型の歯車。
+普通の歯車より厚みがあり、強度も高い。","　忍工房でのみ使われる独楽型の歯車。
+普通の歯車より厚みがあり、強度も高い。"
+"opb/PartsDesc.opb","0x2d6e","0x1 0x9fc","白銀独楽","Silver Spintop",102,14,14,"Silver Spintop","White Silver Spintop","&Silver Spintop"
+"opb/PartsDesc.opb","0x2d77","0x1 0xa00","耐久力＋１００
+手裏剣、剣の斬撃ダメージが２5％上昇
+/c5※忍工房の人形のみ装備可能/c3","Stamina +100
+Shuriken, sword damage increased 25%
+/c5* Equippable only by Shinobi Workshop Puppets./c3",240,64,16,"Stamina +100
+Shuriken, sword damage increased 25%
+/c5* Equippable only by Ninja Workshop Puppets./c3","Stamina +100
+Shuriken, sword slash damage increased by 25%
+/c5* Equippable only by Shinobi Workshop Puppets./c3","Stamina +100
+Shuriken, sword damage increased 25%
+/c5* Equippable only by Ninja Workshop Puppets./c3"
+"opb/PartsDesc.opb","0x2dce","0x1 0xa04","　忍工房でのみ使われる独楽型の歯車。
+普通の歯車より厚みがあり、強度も高い。","　忍工房でのみ使われる独楽型の歯車。
+普通の歯車より厚みがあり、強度も高い。",240,64,16,"　忍工房でのみ使われる独楽型の歯車。
+普通の歯車より厚みがあり、強度も高い。","　忍工房でのみ使われる独楽型の歯車。
+普通の歯車より厚みがあり、強度も高い。","　忍工房でのみ使われる独楽型の歯車。
+普通の歯車より厚みがあり、強度も高い。"
+"opb/PartsDesc.opb","0x2e1b","0x1 0xa10","金剛独楽","Diamond Spintop",102,14,14,"Diamond Spintop","Diamond Spintop","&Diamond Spintop"
+"opb/PartsDesc.opb","0x2e24","0x1 0xa14","耐久力＋２００
+手裏剣、剣の斬撃ダメージが３０％上昇
+/c5※忍工房の人形のみ装備可能/c3","Stamina +200
+Shuriken, sword damage increased 30%
+/c5* Equippable only by Shinobi Workshop Puppets./c3",240,64,16,"Stamina +200
+Shuriken, sword damage increased 30%
+/c5* Equippable only by Ninja Workshop Puppets./c3","Stamina +200
+Shuriken, sword slash damage increased by 30%
+/c5* Equippable only by Shinobi Workshop Puppets./c3","Stamina +200
+Shuriken, sword damage increased 30%
+/c5* Equippable only by Ninja Workshop Puppets./c3"
+"opb/PartsDesc.opb","0x2e7b","0x1 0xa18","　忍工房でのみ使われる独楽型の歯車。
+普通の歯車より厚みがあり、強度も高い。","　忍工房でのみ使われる独楽型の歯車。
+普通の歯車より厚みがあり、強度も高い。",240,64,16,"　忍工房でのみ使われる独楽型の歯車。
+普通の歯車より厚みがあり、強度も高い。","　忍工房でのみ使われる独楽型の歯車。
+普通の歯車より厚みがあり、強度も高い。","　忍工房でのみ使われる独楽型の歯車。
+普通の歯車より厚みがあり、強度も高い。"
+"opb/PartsDesc.opb","0x2ec8","0x1 0xa24","真鍮チップ","Brass Chip",102,14,14,"Brass Chip","Brass Chip","&Brass Chip"
+"opb/PartsDesc.opb","0x2ed3","0x1 0xa28","耐久力＋１5
+打撃、斬撃ダメージが１０％上昇
+/c5※特工房の人形のみ装備可能/c3","Stamina +15
+Striking, slashing damage increased 10%
+/c5* Equippable only by Special Workshop Puppets./c3",240,64,16,"Stamina +15
+Striking, slashing damage increased 10%
+/c5* Equippable only by Special Workshop Puppets./c3","Stamina +15
+Striking, slashing damage increased by 10%
+/c5* Equippable only by Special Workshop Puppets./c3","Stamina +15
+Striking, slashing damage increased 10%
+/c5* Equippable only by Special Workshop Puppets./c3"
+"opb/PartsDesc.opb","0x2f22","0x1 0xa2c","　特工房でのみ使われる特殊な電子部品。
+人形の性能を飛躍的に向上させる。","　特工房でのみ使われる特殊な電子部品。
+人形の性能を飛躍的に向上させる。",240,64,16,"　特工房でのみ使われる特殊な電子部品。
+人形の性能を飛躍的に向上させる。","　特工房でのみ使われる特殊な電子部品。
+人形の性能を飛躍的に向上させる。","　特工房でのみ使われる特殊な電子部品。
+人形の性能を飛躍的に向上させる。"
+"opb/PartsDesc.opb","0x2f6b","0x1 0xa38","青銅チップ","Bronze Chip",102,14,14,"Bronze Chip","Bronze Chip","&Bronze Chip"
+"opb/PartsDesc.opb","0x2f76","0x1 0xa3c","耐久力＋３０
+打撃、斬撃ダメージが１5％上昇
+/c5※特工房の人形のみ装備可能/c3","Stamina +30
+Striking, slashing damage increased 15%
+/c5* Equippable only by Special Workshop Puppets./c3",240,64,16,"Stamina +30
+Striking, slashing damage increased 15%
+/c5* Equippable only by Special Workshop Puppets./c3","Stamina +30
+Striking, slashing damage increased by 15%
+/c5* Equippable only by Special Workshop Puppets./c3","Stamina +30
+Striking, slashing damage increased 15%
+/c5* Equippable only by Special Workshop Puppets./c3"
+"opb/PartsDesc.opb","0x2fc5","0x1 0xa40","　特工房でのみ使われる特殊な電子部品。
+人形の性能を飛躍的に向上させる。","　特工房でのみ使われる特殊な電子部品。
+人形の性能を飛躍的に向上させる。",240,64,16,"　特工房でのみ使われる特殊な電子部品。
+人形の性能を飛躍的に向上させる。","　特工房でのみ使われる特殊な電子部品。
+人形の性能を飛躍的に向上させる。","　特工房でのみ使われる特殊な電子部品。
+人形の性能を飛躍的に向上させる。"
+"opb/PartsDesc.opb","0x300e","0x1 0xa4c","鋼鉄チップ","Steel Chip",102,14,14,"Steel Chip","Steel Chip","&Steel Chip"
+"opb/PartsDesc.opb","0x3019","0x1 0xa50","耐久力＋６０
+打撃、斬撃ダメージが２０％上昇
+/c5※特工房の人形のみ装備可能/c3","Stamina +60
+Striking, slashing damage increased 20%
+/c5* Equippable only by Special Workshop Puppets./c3",240,64,16,"Stamina +60
+Striking, slashing damage increased 20%
+/c5* Equippable only by Special Workshop Puppets./c3","Stamina +60
+Striking, slashing damage increased by 20%
+/c5* Equippable only by Special Workshop Puppets./c3","Stamina +60
+Striking, slashing damage increased 20%
+/c5* Equippable only by Special Workshop Puppets./c3"
+"opb/PartsDesc.opb","0x3068","0x1 0xa54","　特工房でのみ使われる特殊な電子部品。
+人形の性能を飛躍的に向上させる。","　特工房でのみ使われる特殊な電子部品。
+人形の性能を飛躍的に向上させる。",240,64,16,"　特工房でのみ使われる特殊な電子部品。
+人形の性能を飛躍的に向上させる。","　特工房でのみ使われる特殊な電子部品。
+人形の性能を飛躍的に向上させる。","　特工房でのみ使われる特殊な電子部品。
+人形の性能を飛躍的に向上させる。"
+"opb/PartsDesc.opb","0x30b1","0x1 0xa60","白銀チップ","Silver Chip",102,14,14,"Silver Chip","White Silver Chip","&Silver Chip"
+"opb/PartsDesc.opb","0x30bc","0x1 0xa64","耐久力＋１００
+打撃、斬撃ダメージが２5％上昇
+/c5※特工房の人形のみ装備可能/c3","Stamina +100
+Striking, slashing damage increased 25%
+/c5* Equippable only by Special Workshop Puppets./c3",240,64,16,"Stamina +100
+Striking, slashing damage increased 25%
+/c5* Equippable only by Special Workshop Puppets./c3","Stamina +100
+Striking, slashing damage increased by 25%
+/c5* Equippable only by Special Workshop Puppets./c3","Stamina +100
+Striking, slashing damage increased 25%
+/c5* Equippable only by Special Workshop Puppets./c3"
+"opb/PartsDesc.opb","0x310d","0x1 0xa68","　特工房でのみ使われる特殊な電子部品。
+人形の性能を飛躍的に向上させる。","　特工房でのみ使われる特殊な電子部品。
+人形の性能を飛躍的に向上させる。",240,64,16,"　特工房でのみ使われる特殊な電子部品。
+人形の性能を飛躍的に向上させる。","　特工房でのみ使われる特殊な電子部品。
+人形の性能を飛躍的に向上させる。","　特工房でのみ使われる特殊な電子部品。
+人形の性能を飛躍的に向上させる。"
+"opb/PartsDesc.opb","0x3156","0x1 0xa74","金剛チップ","Diamond Chip",102,14,14,"Diamond Chip","Diamond Chip","&Diamond Chip"
+"opb/PartsDesc.opb","0x3161","0x1 0xa78","耐久力＋２００
+打撃、斬撃ダメージが３０％上昇
+/c5※特工房の人形のみ装備可能/c3","Stamina +200
+Striking, slashing damage increased 30%
+/c5* Equippable only by Special Workshop Puppets./c3",240,64,16,"Stamina +200
+Striking, slashing damage increased 30%
+/c5* Equippable only by Special Workshop Puppets./c3","Stamina +200
+Striking, slashing damage increased by 30%
+/c5* Equippable only by Special Workshop Puppets./c3","Stamina +200
+Striking, slashing damage increased 30%
+/c5* Equippable only by Special Workshop Puppets./c3"
+"opb/PartsDesc.opb","0x31b2","0x1 0xa7c","　特工房でのみ使われる特殊な電子部品。
+人形の性能を飛躍的に向上させる。","　特工房でのみ使われる特殊な電子部品。
+人形の性能を飛躍的に向上させる。",240,64,16,"　特工房でのみ使われる特殊な電子部品。
+人形の性能を飛躍的に向上させる。","　特工房でのみ使われる特殊な電子部品。
+人形の性能を飛躍的に向上させる。","　特工房でのみ使われる特殊な電子部品。
+人形の性能を飛躍的に向上させる。"
+"opb/PartsDesc.opb","0x31fb","0x1 0xa88","木製滑車","Wooden Pulley",102,14,14,"Wooden Pulley","Wooden Pulley","&Wooden Pulley"
+"opb/PartsDesc.opb","0x3204","0x1 0xa8c","耐久力＋１０
+打撃、斬撃ダメージが5％上昇
+/c5※木工房の人形のみ装備可能/c3","Stamina +10
+Striking, slashing damage increased 5%
+/c5* Equippable only by Tree Workshop Puppets./c3",240,64,16,"Stamina +10
+Striking, slashing damage increased 5%
+/c5* Equippable only by Tree Workshop Puppets./c3","Stamina +10
+Striking, slashing damage increased by 5%
+/c5* Equippable only by Tree Workshop Puppets./c3","Stamina +10
+Striking, slashing damage increased 5%
+/c5* Equippable only by Tree Workshop Puppets./c3"
+"opb/PartsDesc.opb","0x3251","0x1 0xa90","　木工房でのみ使われる特殊な部品。樹
+齢千年の神木から作られる。","　木工房でのみ使われる特殊な部品。樹
+齢千年の神木から作られる。",240,64,16,"　木工房でのみ使われる特殊な部品。樹
+齢千年の神木から作られる。","　木工房でのみ使われる特殊な部品。樹
+齢千年の神木から作られる。","　木工房でのみ使われる特殊な部品。樹
+齢千年の神木から作られる。"
+"opb/PartsDesc.opb","0x3292","0x1 0xa9c","古木滑車","Old Tree Pulley",102,14,14,"Old Tree Pulley","Old Tree Pulley","&Old Tree Pulley"
+"opb/PartsDesc.opb","0x329b","0x1 0xaa0","耐久力＋２０
+打撃、斬撃ダメージが１０％上昇
+/c5※木工房の人形のみ装備可能/c3","Stamina +20
+Striking, slashing damage increased 10%
+/c5* Equippable only by Tree Workshop Puppets./c3",240,64,16,"Stamina +20
+Striking, slashing damage increased 10%
+/c5* Equippable only by Tree Workshop Puppets./c3","Stamina +20
+Striking, slashing damage increased by 10%
+/c5* Equippable only by Tree Workshop Puppets./c3","Stamina +20
+Striking, slashing damage increased 10%
+/c5* Equippable only by Tree Workshop Puppets./c3"
+"opb/PartsDesc.opb","0x32ea","0x1 0xaa4","　木工房でのみ使われる特殊な部品。樹
+齢千年の神木から作られる。","　木工房でのみ使われる特殊な部品。樹
+齢千年の神木から作られる。",240,64,16,"　木工房でのみ使われる特殊な部品。樹
+齢千年の神木から作られる。","　木工房でのみ使われる特殊な部品。樹
+齢千年の神木から作られる。","　木工房でのみ使われる特殊な部品。樹
+齢千年の神木から作られる。"
+"opb/PartsDesc.opb","0x332b","0x1 0xab0","強化滑車","Reinforcing Pulley",102,14,14,"Reinforcing Pulley","Reinforcing Pulley","&Reinforcing Pulley"
+"opb/PartsDesc.opb","0x3334","0x1 0xab4","耐久力＋4０
+打撃、斬撃ダメージが１5％上昇
+/c5※木工房の人形のみ装備可能/c3","Stamina +40
+Striking, slashing damage increased 15%
+/c5* Equippable only by Tree Workshop Puppets./c3",240,64,16,"Stamina +40
+Striking, slashing damage increased 15%
+/c5* Equippable only by Tree Workshop Puppets./c3","Stamina +40
+Striking, slashing damage increased by 15%
+/c5* Equippable only by Tree Workshop Puppets./c3","Stamina +40
+Striking, slashing damage increased 15%
+/c5* Equippable only by Tree Workshop Puppets./c3"
+"opb/PartsDesc.opb","0x3383","0x1 0xab8","　木工房でのみ使われる特殊な部品。樹
+齢千年の神木から作られる。","　木工房でのみ使われる特殊な部品。樹
+齢千年の神木から作られる。",240,64,16,"　木工房でのみ使われる特殊な部品。樹
+齢千年の神木から作られる。","　木工房でのみ使われる特殊な部品。樹
+齢千年の神木から作られる。","　木工房でのみ使われる特殊な部品。樹
+齢千年の神木から作られる。"
+"opb/PartsDesc.opb","0x33c4","0x1 0xac4","神木滑車","Sacred Tree Pulley",102,14,14,"Sacred Tree Pulley","Sacred Tree Pulley","&Sacred Tree Pulley"
+"opb/PartsDesc.opb","0x33cd","0x1 0xac8","耐久力＋７5
+打撃、斬撃ダメージが２０％上昇
+/c5※木工房の人形のみ装備可能/c3","Stamina +75
+Striking, slashing damage increased 20%
+/c5* Equippable only by Tree Workshop Puppets./c3",240,64,16,"Stamina +75
+Striking, slashing damage increased 20%
+/c5* Equippable only by Tree Workshop Puppets./c3","Stamina +75
+Striking, slashing damage increased by 20%
+/c5* Equippable only by Tree Workshop Puppets./c3","Stamina +75
+Striking, slashing damage increased 20%
+/c5* Equippable only by Tree Workshop Puppets./c3"
+"opb/PartsDesc.opb","0x341c","0x1 0xacc","　木工房でのみ使われる特殊な部品。樹
+齢千年の神木から作られる。","　木工房でのみ使われる特殊な部品。樹
+齢千年の神木から作られる。",240,64,16,"　木工房でのみ使われる特殊な部品。樹
+齢千年の神木から作られる。","　木工房でのみ使われる特殊な部品。樹
+齢千年の神木から作られる。","　木工房でのみ使われる特殊な部品。樹
+齢千年の神木から作られる。"
+"opb/PartsDesc.opb","0x345d","0x1 0xad8","千年滑車","Millenium Pulley",102,14,14,"Millenium Pulley","Millenium Pulley","&Millenium Pulley"
+"opb/PartsDesc.opb","0x3466","0x1 0xadc","耐久力＋１5０
+打撃、斬撃ダメージが２5％上昇
+/c5※木工房の人形のみ装備可能/c3","Stamina +150
+Striking, slashing damage increased 25%
+/c5* Equippable only by Tree Workshop Puppets./c3",240,64,16,"Stamina +150
+Striking, slashing damage increased 25%
+/c5* Equippable only by Tree Workshop Puppets./c3","Stamina +150
+Striking, slashing damage increased by 25%
+/c5* Equippable only by Tree Workshop Puppets./c3","Stamina +150
+Striking, slashing damage increased 25%
+/c5* Equippable only by Tree Workshop Puppets./c3"
+"opb/PartsDesc.opb","0x34b7","0x1 0xae0","　木工房でのみ使われる特殊な部品。樹
+齢千年の神木から作られる。","　木工房でのみ使われる特殊な部品。樹
+齢千年の神木から作られる。",240,64,16,"　木工房でのみ使われる特殊な部品。樹
+齢千年の神木から作られる。","　木工房でのみ使われる特殊な部品。樹
+齢千年の神木から作られる。","　木工房でのみ使われる特殊な部品。樹
+齢千年の神木から作られる。"
+"opb/PartsDesc.opb","0x34f8","0x1 0xaec","Ｖ１センサー","V1 Sensor",102,14,14,"V1 Sensor","V1 Sensor","&V1 Sensor"
+"opb/PartsDesc.opb","0x3505","0x1 0xaf0","獲得資金＋5％","Acquired funds +5%",240,64,16,"Acquired funds +5%","Acquired funds +5%","Acquired funds +5%"
+"opb/PartsDesc.opb","0x3514","0x1 0xaf4","　金属探知機の一種。リサイクル可能な
+部品などを探すのに役立つ。","　金属探知機の一種。リサイクル可能な
+部品などを探すのに役立つ。",240,64,16,"　金属探知機の一種。リサイクル可能な
+部品などを探すのに役立つ。","　金属探知機の一種。リサイクル可能な
+部品などを探すのに役立つ。","　金属探知機の一種。リサイクル可能な
+部品などを探すのに役立つ。"
+"opb/PartsDesc.opb","0x3555","0x1 0xb00","Ｖ２センサー","V2 Sensor",102,14,14,"V2 Sensor","V2 Sensor","&V2 Sensor"
+"opb/PartsDesc.opb","0x3562","0x1 0xb04","獲得資金＋１０％","Acquired funds +10%",240,64,16,"Acquired funds +10%","Acquired funds +10%","Acquired funds +10%"
+"opb/PartsDesc.opb","0x3573","0x1 0xb08","　金属探知機の一種。リサイクル可能な
+部品などを探すのに役立つ。","　金属探知機の一種。リサイクル可能な
+部品などを探すのに役立つ。",240,64,16,"　金属探知機の一種。リサイクル可能な
+部品などを探すのに役立つ。","　金属探知機の一種。リサイクル可能な
+部品などを探すのに役立つ。","　金属探知機の一種。リサイクル可能な
+部品などを探すのに役立つ。"
+"opb/PartsDesc.opb","0x35b4","0x1 0xb14","Ｖ３センサー","V3 Sensor",102,14,14,"V3 Sensor","V3 Sensor","&V3 Sensor"
+"opb/PartsDesc.opb","0x35c1","0x1 0xb18","獲得資金＋１5％","Acquired funds +15%",240,64,16,"Acquired funds +15%","Acquired funds +15%","Acquired funds +15%"
+"opb/PartsDesc.opb","0x35d2","0x1 0xb1c","　金属探知機の一種。リサイクル可能な
+部品などを探すのに役立つ。","　金属探知機の一種。リサイクル可能な
+部品などを探すのに役立つ。",240,64,16,"　金属探知機の一種。リサイクル可能な
+部品などを探すのに役立つ。","　金属探知機の一種。リサイクル可能な
+部品などを探すのに役立つ。","　金属探知機の一種。リサイクル可能な
+部品などを探すのに役立つ。"
+"opb/PartsDesc.opb","0x3613","0x1 0xb28","Ｖ4センサー","V4 Sensor",102,14,14,"V4 Sensor","V4 Sensor","&V4 Sensor"
+"opb/PartsDesc.opb","0x3620","0x1 0xb2c","獲得資金＋２０％","Acquired funds +20%",240,64,16,"Acquired funds +20%","Acquired funds +20%","Acquired funds +20%"
+"opb/PartsDesc.opb","0x3631","0x1 0xb30","　金属探知機の一種。リサイクル可能な
+部品などを探すのに役立つ。","　金属探知機の一種。リサイクル可能な
+部品などを探すのに役立つ。",240,64,16,"　金属探知機の一種。リサイクル可能な
+部品などを探すのに役立つ。","　金属探知機の一種。リサイクル可能な
+部品などを探すのに役立つ。","　金属探知機の一種。リサイクル可能な
+部品などを探すのに役立つ。"
+"opb/PartsDesc.opb","0x3672","0x1 0xb3c","Ｖ5センサー","V5 Sensor",102,14,14,"V5 Sensor","V5 Sensor","&V5 Sensor"
+"opb/PartsDesc.opb","0x367f","0x1 0xb40","獲得資金＋２5％","Acquired funds +25%",240,64,16,"Acquired funds +25%","Acquired funds +25%","Acquired funds +25%"
+"opb/PartsDesc.opb","0x3690","0x1 0xb44","　金属探知機の一種。リサイクル可能な
+部品などを探すのに役立つ。","　金属探知機の一種。リサイクル可能な
+部品などを探すのに役立つ。",240,64,16,"　金属探知機の一種。リサイクル可能な
+部品などを探すのに役立つ。","　金属探知機の一種。リサイクル可能な
+部品などを探すのに役立つ。","　金属探知機の一種。リサイクル可能な
+部品などを探すのに役立つ。"
+"opb/PartsDesc.opb","0x36d1","0x1 0xb50","ダブルシールド","Double Shield",102,14,14,"Double Shield","Double Shield","&Double Shield"
+"opb/PartsDesc.opb","0x36e0","0x1 0xb54","ダメージを２回だけ無効にする
+/c5※複数装備すると効果が複数回発揮/c3","Nullifies damage up to two times.
+/c5* Equipping multiple units increases the number of uses./c3",240,64,16,"Nullifies damage up to two times.
+/c5* Equipping multiple devices increases the number of uses./c3","Nullifies damage up to two times
+/c5* Equipping multiple devices increases the
+number of uses./c3","Nullifies damage up to two times.
+/c5* Equipping multiple devices increases the number of uses./c3"
+"opb/PartsDesc.opb","0x3725","0x1 0xb58","　ショック吸収装置。製造には希少素材
+を多数必要とするため、あまり作られる
+ことのない装置である。","　ショック吸収装置。製造には希少素材
+を多数必要とするため、あまり作られる
+ことのない装置である。",240,64,16,"　ショック吸収装置。製造には希少素材
+を多数必要とするため、あまり作られる
+ことのない装置である。","　ショック吸収装置。製造には希少素材
+を多数必要とするため、あまり作られる
+ことのない装置である。","　ショック吸収装置。製造には希少素材
+を多数必要とするため、あまり作られる
+ことのない装置である。"
+"opb/PartsDesc.opb","0x3788","0x1 0xb64","フロストギア","Frost Gear",102,14,14,"Frost Gear","Frost Gear","&Frost Gear"
+"opb/PartsDesc.opb","0x3795","0x1 0xb68","オーバーヒート時、一度だけ瞬間回復
+/c5※複数装備すると効果が複数回発揮/c3","Upon overheating, recovers instantly one time only.
+/c5* Equipping multiple units increases the number of uses./c3",240,64,16,"Upon overheating, recovers instantly one time only.
+/c5* Equipping multiple devices increases the number of uses./c3","Upon overheating, recovers instantly one time only
+/c5* Equipping multiple devices increases the
+number of uses./c3","Upon overheating, recovers instantly one time only.
+/c5* Equipping multiple devices increases the number of uses./c3"
+"opb/PartsDesc.opb","0x37e0","0x1 0xb6c","　強力な冷気を噴射して人形全体を瞬間
+冷却する装置。製造には高い技術が必要
+とされ、市場にはほとんど流通しない。","　強力な冷気を噴射して人形全体を瞬間
+冷却する装置。製造には高い技術が必要
+とされ、市場にはほとんど流通しない。",240,64,16,"　強力な冷気を噴射して人形全体を瞬間
+冷却する装置。製造には高い技術が必要
+とされ、市場にはほとんど流通しない。","　強力な冷気を噴射して人形全体を瞬間
+冷却する装置。製造には高い技術が必要
+とされ、市場にはほとんど流通しない。","　強力な冷気を噴射して人形全体を瞬間
+冷却する装置。製造には高い技術が必要
+とされ、市場にはほとんど流通しない。"
+"opb/PartsDesc.opb","0x3851","0x1 0xb78","黒車輪","Black Wheel",102,14,14,"Black Wheel","Black Wheel","&Black Wheel"
+"opb/PartsDesc.opb","0x3858","0x1 0xb7c","車型の最高速度がアップ","Raises top speed of car forms",240,64,16,"Raises top speed of car forms","Raises top speed of car forms","Raises top speed of car forms"
+"opb/PartsDesc.opb","0x386f","0x1 0xb80","　特殊な素材で作られたホイール。","　特殊な素材で作られたホイール。",240,64,16,"　特殊な素材で作られたホイール。","　特殊な素材で作られたホイール。","　特殊な素材で作られたホイール。"
+"opb/PartsDesc.opb","0x3890","0x1 0xb8c","赤車輪","Red Wheel",102,14,14,"Red Wheel","Red Wheel","&Red Wheel"
+"opb/PartsDesc.opb","0x3897","0x1 0xb90","車型の最高速度がアップ
+斬撃、打撃ダメージが１０％上昇","Raises top speed of car forms
+Increases striking, slashing damage by 10%",240,64,16,"Raises top speed of car forms
+Increases striking, slashing damage by 10%","Raises top speed of car forms
+Increases striking, slashing damage by 10%","Raises top speed of car forms
+Increases striking, slashing damage by 10%"
+"opb/PartsDesc.opb","0x38ce","0x1 0xb94","　特殊な素材で作られたホイール。","　特殊な素材で作られたホイール。",240,64,16,"　特殊な素材で作られたホイール。","　特殊な素材で作られたホイール。","　特殊な素材で作られたホイール。"
+"opb/PartsDesc.opb","0x38ef","0x1 0xba0","緑車輪","Green Wheel",102,14,14,"Green Wheel","Green Wheel","&Green Wheel"
+"opb/PartsDesc.opb","0x38f6","0x1 0xba4","車型の最高速度がアップ
+耐久力＋4０","Raises top speed of car forms
+Stamina +40",240,64,16,"Raises top speed of car forms
+Stamina +40","Raises top speed of car forms
+Stamina +40","Raises top speed of car forms
+Stamina +40"
+"opb/PartsDesc.opb","0x391b","0x1 0xba8","　特殊な素材で作られたホイール。","　特殊な素材で作られたホイール。",240,64,16,"　特殊な素材で作られたホイール。","　特殊な素材で作られたホイール。","　特殊な素材で作られたホイール。"
+"opb/PartsDesc.opb","0x393c","0x1 0xbb4","青車輪","Blue Wheel",102,14,14,"Blue Wheel","Blue Wheel","&Blue Wheel"
+"opb/PartsDesc.opb","0x3943","0x1 0xbb8","車型の最高速度がアップ
+オーバーヒート後の冷却時間を少し短縮","Raises top speed of car forms
+Slightly shortens cooling time after overheating",240,64,16,"Raises top speed of car forms
+Slightly shortens cooling time after overheating","Raises top speed of car forms
+Slightly shortens cooling time after overheating","Raises top speed of car forms
+Slightly shortens cooling time after overheating"
+"opb/PartsDesc.opb","0x3980","0x1 0xbbc","　特殊な素材で作られたホイール。","　特殊な素材で作られたホイール。",240,64,16,"　特殊な素材で作られたホイール。","　特殊な素材で作られたホイール。","　特殊な素材で作られたホイール。"
+"opb/PartsDesc.opb","0x39a1","0x1 0xbc8","銀車輪","Silver Wheel",102,14,14,"Silver Wheel","Silver Wheel","&Silver Wheel"
+"opb/PartsDesc.opb","0x39a8","0x1 0xbcc","車型の最高速度が大きくアップ","Greatly increases top speed of car forms",240,64,16,"Greatly increases top speed of car forms","Greatly increases top speed of car forms","Greatly increases top speed of car forms"
+"opb/PartsDesc.opb","0x39c5","0x1 0xbd0","　特殊な素材で作られたホイール。","　特殊な素材で作られたホイール。",240,64,16,"　特殊な素材で作られたホイール。","　特殊な素材で作られたホイール。","　特殊な素材で作られたホイール。"
+"opb/PartsDesc.opb","0x39e6","0x1 0xbdc","強化タイヤＡ","Reinforced Tire A",102,14,14,"Reinforced Tire A","Reinforced Tire A","&Reinforced Tire A"
+"opb/PartsDesc.opb","0x39f3","0x1 0xbe0","タイヤのグリップ性能を微妙にアップ
+耐久力＋３０","Very slightly increases tire grip
+Stamina +30",240,64,16,"Very slightly increases tire grip
+Stamina +30","Very slightly increases tire grip
+Stamina +30","Very slightly increases tire grip
+Stamina +30"
+"opb/PartsDesc.opb","0x3a24","0x1 0xbe4","　高いグリップ性能を持つ特殊タイヤ。","　高いグリップ性能を持つ特殊タイヤ。",240,64,16,"　高いグリップ性能を持つ特殊タイヤ。","　高いグリップ性能を持つ特殊タイヤ。","　高いグリップ性能を持つ特殊タイヤ。"
+"opb/PartsDesc.opb","0x3a49","0x1 0xbf0","強化タイヤＢ","Reinforced Tire B",102,14,14,"Reinforced Tire B","Reinforced Tire B","&Reinforced Tire B"
+"opb/PartsDesc.opb","0x3a56","0x1 0xbf4","タイヤのグリップ性能を少しアップ
+投げつけダメージ＋２０％","Slightly increases tire grip
+Throwing damage +20%",240,64,16,"Slightly increases tire grip
+Throwing damage +20%","Slightly increases tire grip
+Throwing damage +20%","Slightly increases tire grip
+Throwing damage +20%"
+"opb/PartsDesc.opb","0x3a91","0x1 0xbf8","　高いグリップ性能を持つ特殊タイヤ。","　高いグリップ性能を持つ特殊タイヤ。",240,64,16,"　高いグリップ性能を持つ特殊タイヤ。","　高いグリップ性能を持つ特殊タイヤ。","　高いグリップ性能を持つ特殊タイヤ。"
+"opb/PartsDesc.opb","0x3ab6","0x1 0xc04","強化タイヤＳ","Reinforced Tire S",102,14,14,"Reinforced Tire S","Reinforced Tire S","&Reinforced Tire S"
+"opb/PartsDesc.opb","0x3ac3","0x1 0xc08","タイヤのグリップ性能をアップ
+斬撃、打撃ダメージ＋１０％","Increases tire grip
+Increases striking, slashing damage by 10%",240,64,16,"Increases tire grip
+Increases striking, slashing damage by 10%","Increases tire grip
+Increases striking, slashing damage by 10%","Increases tire grip
+Increases striking, slashing damage by 10%"
+"opb/PartsDesc.opb","0x3afc","0x1 0xc0c","　高いグリップ性能を持つ特殊タイヤ。","　高いグリップ性能を持つ特殊タイヤ。",240,64,16,"　高いグリップ性能を持つ特殊タイヤ。","　高いグリップ性能を持つ特殊タイヤ。","　高いグリップ性能を持つ特殊タイヤ。"
+"opb/PartsDesc.opb","0x3b21","0x1 0xc18","ブルーオイル１","Blue Oil 1",102,14,14,"Blue Oil 1","Blue Oil 1","&Blue Oil 1"
+"opb/PartsDesc.opb","0x3b30","0x1 0xc1c","整備頻度＋１（故障しにくくなる）","Maintainance frequency +1 (breakdown becomes less likely)",240,64,16,"Maintainance frequency +1 (breakdown becomes less likely)","Maintainance frequency +1
+(less likely to break down)","Maintainance frequency +1 (breakdown becomes less likely)"
+"opb/PartsDesc.opb","0x3b51","0x1 0xc20","　東方の仙山にのみ咲く青い花から作ら
+れた潤滑油。人形内部の部品を衝撃や熱
+から守る。","　東方の仙山にのみ咲く青い花から作ら
+れた潤滑油。人形内部の部品を衝撃や熱
+から守る。",240,64,16,"　東方の仙山にのみ咲く青い花から作ら
+れた潤滑油。人形内部の部品を衝撃や熱
+から守る。","　東方の仙山にのみ咲く青い花から作ら
+れた潤滑油。人形内部の部品を衝撃や熱
+から守る。","　東方の仙山にのみ咲く青い花から作ら
+れた潤滑油。人形内部の部品を衝撃や熱
+から守る。"
+"opb/PartsDesc.opb","0x3ba8","0x1 0xc2c","ブルーオイル２","Blue Oil 2",102,14,14,"Blue Oil 2","Blue Oil 2","&Blue Oil 2"
+"opb/PartsDesc.opb","0x3bb7","0x1 0xc30","整備頻度＋２（故障しにくくなる）","Maintainance frequency +2 (breakdown becomes less likely)",240,64,16,"Maintainance frequency +2 (breakdown becomes less likely)","Maintainance frequency +2
+(less likely to break down)","Maintainance frequency +2 (breakdown becomes less likely)"
+"opb/PartsDesc.opb","0x3bd8","0x1 0xc34","　東方の仙山にのみ咲く青い花から作ら
+れた潤滑油。人形内部の部品を衝撃や熱
+から守る。","　東方の仙山にのみ咲く青い花から作ら
+れた潤滑油。人形内部の部品を衝撃や熱
+から守る。",240,64,16,"　東方の仙山にのみ咲く青い花から作ら
+れた潤滑油。人形内部の部品を衝撃や熱
+から守る。","　東方の仙山にのみ咲く青い花から作ら
+れた潤滑油。人形内部の部品を衝撃や熱
+から守る。","　東方の仙山にのみ咲く青い花から作ら
+れた潤滑油。人形内部の部品を衝撃や熱
+から守る。"
+"opb/PartsDesc.opb","0x3c2f","0x1 0xc40","ブルーオイル３","Blue Oil 3",102,14,14,"Blue Oil 3","Blue Oil 3","&Blue Oil 3"
+"opb/PartsDesc.opb","0x3c3e","0x1 0xc44","整備頻度＋３（故障しにくくなる）","Maintainance frequency +3 (breakdown becomes less likely)",240,64,16,"Maintainance frequency +3 (breakdown becomes less likely)","Maintainance frequency +3
+(less likely to break down)","Maintainance frequency +3 (breakdown becomes less likely)"
+"opb/PartsDesc.opb","0x3c5f","0x1 0xc48","　東方の仙山にのみ咲く青い花から作ら
+れた潤滑油。人形内部の部品を衝撃や熱
+から守る。","　東方の仙山にのみ咲く青い花から作ら
+れた潤滑油。人形内部の部品を衝撃や熱
+から守る。",240,64,16,"　東方の仙山にのみ咲く青い花から作ら
+れた潤滑油。人形内部の部品を衝撃や熱
+から守る。","　東方の仙山にのみ咲く青い花から作ら
+れた潤滑油。人形内部の部品を衝撃や熱
+から守る。","　東方の仙山にのみ咲く青い花から作ら
+れた潤滑油。人形内部の部品を衝撃や熱
+から守る。"
+"opb/PartsDesc.opb","0x3cb6","0x1 0xc54","ブルーオイル4","Blue Oil 4",102,14,14,"Blue Oil 4","Blue Oil 4","&Blue Oil 4"
+"opb/PartsDesc.opb","0x3cc5","0x1 0xc58","整備頻度＋３
+整備時間－１","Maintainance frequency +3
+Maintainance time -1",240,64,16,"Maintainance frequency +3
+Maintainance time -1","Maintainance frequency +3
+Maintainance time -1","Maintainance frequency +3
+Maintainance time -1"
+"opb/PartsDesc.opb","0x3ce0","0x1 0xc5c","　東方の仙山にのみ咲く青い花から作ら
+れた潤滑油。人形内部の部品を衝撃や熱
+から守る。","　東方の仙山にのみ咲く青い花から作ら
+れた潤滑油。人形内部の部品を衝撃や熱
+から守る。",240,64,16,"　東方の仙山にのみ咲く青い花から作ら
+れた潤滑油。人形内部の部品を衝撃や熱
+から守る。","　東方の仙山にのみ咲く青い花から作ら
+れた潤滑油。人形内部の部品を衝撃や熱
+から守る。","　東方の仙山にのみ咲く青い花から作ら
+れた潤滑油。人形内部の部品を衝撃や熱
+から守る。"
+"opb/PartsDesc.opb","0x3d37","0x1 0xc68","ブルーオイル5","Blue Oil 5",102,14,14,"Blue Oil 5","Blue Oil 5","&Blue Oil 5"
+"opb/PartsDesc.opb","0x3d46","0x1 0xc6c","整備頻度＋３
+整備時間－２","Maintainance frequency +3
+Maintainance time -2",240,64,16,"Maintainance frequency +3
+Maintainance time -2","Maintainance frequency +3
+Maintainance time -2","Maintainance frequency +3
+Maintainance time -2"
+"opb/PartsDesc.opb","0x3d61","0x1 0xc70","　東方の仙山にのみ咲く青い花から作ら
+れた潤滑油。人形内部の部品を衝撃や熱
+から守る。","　東方の仙山にのみ咲く青い花から作ら
+れた潤滑油。人形内部の部品を衝撃や熱
+から守る。",240,64,16,"　東方の仙山にのみ咲く青い花から作ら
+れた潤滑油。人形内部の部品を衝撃や熱
+から守る。","　東方の仙山にのみ咲く青い花から作ら
+れた潤滑油。人形内部の部品を衝撃や熱
+から守る。","　東方の仙山にのみ咲く青い花から作ら
+れた潤滑油。人形内部の部品を衝撃や熱
+から守る。"
+"opb/PartsDesc.opb","0x3db8","0x1 0xc7c","設計図０１＿Ａ","Blueprint 01_A",102,14,14,"Blueprint 01_A","Blueprint 01_A","Blueprint 01_A"
+"opb/PartsDesc.opb","0x3dc7","0x1 0xc80","ハットマンの設計図
+
+/c5※製作には「設計図０１＿Ｂ」と
+　３００Ｇの資金が必要/c3","Blueprints for Hatman.
+/c5* Requires {Blueprint 01_B} and 300 G of funds to produce./c3",240,64,16,"Blueprints for Hatman.
+/c5* Requires {Blueprint 01_B} and 300 G of funds to produce./c3","Blueprints for Hatman.
+
+/c5* Requires “Blueprint 01_B”
+and 300 G of funds to produce./c3","Blueprints for Hatman.
+/c5* Requires {Blueprint 01_B} and 300 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x3e1a","0x1 0xc84","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x3eaf","0x1 0xc90","設計図０２＿Ａ","Blueprint 02_A",102,14,14,"Blueprint 02_A","Blueprint 02_A","Blueprint 02_A"
+"opb/PartsDesc.opb","0x3ebe","0x1 0xc94","アクトゥールの設計図
+
+/c5※製作には「設計図０２＿Ｂ」と
+　5００Ｇの資金が必要/c3","Blueprints for Actour.
+/c5* Requires {Blueprint 02_B} and 500 G of funds to produce./c3",240,64,16,"Blueprints for Actour.
+/c5* Requires {Blueprint 02_B} and 500 G of funds to produce./c3","アクトゥールのBlueprint
+
+/c5※製作には「Blueprint 02_B」と
+　500Ｇの資金が必要/c3","Blueprints for Actour.
+/c5* Requires {Blueprint 02_B} and 500 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x3f13","0x1 0xc98","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x3fa8","0x1 0xca4","設計図０３＿Ａ","Blueprint 03_A",102,14,14,"Blueprint 03_A","Blueprint 03_A","Blueprint 03_A"
+"opb/PartsDesc.opb","0x3fb7","0x1 0xca8","人形風車リルゼットの設計図
+
+/c5※製作には「設計図０３＿Ｂ」と
+　６００Ｇの資金が必要/c3","Blueprints for Puppet Windmill Lilzet.
+/c5* Requires {Blueprint 03_B} and 600 G of funds to produce./c3",240,64,16,"Blueprints for Puppet Windmill Lilzet.
+/c5* Requires {Blueprint 03_B} and 600 G of funds to produce./c3","人形風車リルゼットのBlueprint
+
+/c5※製作には「Blueprint 03_B」と
+　600Ｇの資金が必要/c3","Blueprints for Puppet Windmill Lilzet.
+/c5* Requires {Blueprint 03_B} and 600 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x4012","0x1 0xcac","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x40a7","0x1 0xcb8","設計図０4＿Ａ","Blueprint 04_A",102,14,14,"Blueprint 04_A","Blueprint 04_A","Blueprint 04_A"
+"opb/PartsDesc.opb","0x40b6","0x1 0xcbc","マイマイ人形マノンの設計図
+
+/c5※製作には「設計図０4＿Ｂ」と
+　８００Ｇの資金が必要/c3","Blueprints for Snail Puppet Manon.
+/c5* Requires {Blueprint 04_B} and 800 G of funds to produce./c3",240,64,16,"Blueprints for Snail Puppet Manon.
+/c5* Requires {Blueprint 04_B} and 800 G of funds to produce./c3","マイマイ人形マノンのBlueprint
+
+/c5※製作には「Blueprint 04_B」と
+　800Ｇの資金が必要/c3","Blueprints for Snail Puppet Manon.
+/c5* Requires {Blueprint 04_B} and 800 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x4111","0x1 0xcc0","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x41a6","0x1 0xccc","設計図０5＿Ａ","Blueprint 05_A",102,14,14,"Blueprint 05_A","Blueprint 05_A","Blueprint 05_A"
+"opb/PartsDesc.opb","0x41b5","0x1 0xcd0","人形船タイタス号の設計図
+
+/c5※製作には「設計図０5＿Ｂ」と
+　１０００Ｇの資金が必要/c3","Blueprints for Puppet Ship S.S. Titus.
+/c5* Requires {Blueprint 05_B} and 1000 G of funds to produce./c3",240,64,16,"Blueprints for Puppet Ship S.S. Titus.
+/c5* Requires {Blueprint 05_B} and 1000 G of funds to produce./c3","人形船タイタス号のBlueprint
+
+/c5※製作には「Blueprint 05_B」と
+　1000Ｇの資金が必要/c3","Blueprints for Puppet Ship S.S. Titus.
+/c5* Requires {Blueprint 05_B} and 1000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x4210","0x1 0xcd4","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x42a5","0x1 0xce0","設計図０６＿Ａ","Blueprint 06_A",102,14,14,"Blueprint 06_A","Blueprint 06_A","Blueprint 06_A"
+"opb/PartsDesc.opb","0x42b4","0x1 0xce4","大砲人形パットンの設計図
+
+/c5※製作には「設計図０６＿Ｂ」と
+　１８００Ｇの資金が必要/c3","Blueprints for Artillery Puppet Patton.
+/c5* Requires {Blueprint 06_B} and 1800 G of funds to produce./c3",240,64,16,"Blueprints for Artillery Puppet Patton.
+/c5* Requires {Blueprint 06_B} and 1800 G of funds to produce./c3","大砲人形パットンのBlueprint
+
+/c5※製作には「Blueprint 06_B」と
+　1800Ｇの資金が必要/c3","Blueprints for Artillery Puppet Patton.
+/c5* Requires {Blueprint 06_B} and 1800 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x430f","0x1 0xce8","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x43a4","0x1 0xcf4","設計図０７＿Ａ","Blueprint 07_A",102,14,14,"Blueprint 07_A","Blueprint 07_A","Blueprint 07_A"
+"opb/PartsDesc.opb","0x43b3","0x1 0xcf8","核撃人形アトロスの設計図
+
+/c5※製作には「設計図０７＿Ｂ」と
+　１００００Ｇの資金が必要/c3","Blueprints for Nuclear Puppet Atlos.
+/c5* Requires {Blueprint 07_B} and 10000 G of funds to produce./c3",240,64,16,"Blueprints for Atomic Puppet Atlos.
+/c5* Requires {Blueprint 07_B} and 10000 G of funds to produce./c3","核撃人形アトロスのBlueprint
+
+/c5※製作には「Blueprint 07_B」と
+　10000Ｇの資金が必要/c3","Blueprints for Atomic Puppet Atlos.
+/c5* Requires {Blueprint 07_B} and 10000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x4410","0x1 0xcfc","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x44a5","0x1 0xd08","設計図０８＿Ａ","Blueprint 08_A",102,14,14,"Blueprint 08_A","Blueprint 08_A","Blueprint 08_A"
+"opb/PartsDesc.opb","0x44b4","0x1 0xd0c","人形風車リルガノの設計図
+
+/c5※製作には「設計図０８＿Ｂ」と
+　１７０００Ｇの資金が必要/c3","Blueprints for Puppet Windmill Lilgano.
+/c5* Requires {Blueprint 08_B} and 17000 G of funds to produce./c3",240,64,16,"Blueprints for Puppet Windmill Lilgano.
+/c5* Requires {Blueprint 08_B} and 17000 G of funds to produce./c3","人形風車リルガノのBlueprint
+
+/c5※製作には「Blueprint 08_B」と
+　17000Ｇの資金が必要/c3","Blueprints for Puppet Windmill Lilgano.
+/c5* Requires {Blueprint 08_B} and 17000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x4511","0x1 0xd10","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x45a6","0x1 0xd1c","設計図０９＿Ａ","Blueprint 09_A",102,14,14,"Blueprint 09_A","Blueprint 09_A","Blueprint 09_A"
+"opb/PartsDesc.opb","0x45b5","0x1 0xd20","人形騎士ジェイオンの設計図
+
+/c5※製作には「設計図０９＿Ｂ」と
+　１２０００Ｇの資金が必要/c3","Blueprints for Puppet Knight Jeion.
+/c5* Requires {Blueprint 09_B} and 12000 G of funds to produce./c3",240,64,16,"Blueprints for Puppet Knight Jeion.
+/c5* Requires {Blueprint 09_B} and 12000 G of funds to produce./c3","人形騎士ジェイオンのBlueprint
+
+/c5※製作には「Blueprint 09_B」と
+　12000Ｇの資金が必要/c3","Blueprints for Puppet Knight Jeion.
+/c5* Requires {Blueprint 09_B} and 12000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x4614","0x1 0xd24","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x46a9","0x1 0xd30","設計図１０＿Ａ","Blueprint 10_A",102,14,14,"Blueprint 10_A","Blueprint 10_A","Blueprint 10_A"
+"opb/PartsDesc.opb","0x46b8","0x1 0xd34","魔槍人形ハーデンの設計図
+
+/c5※製作には「設計図１０＿Ｂ」と
+　１９０００Ｇの資金が必要/c3","Blueprints for Demonspear Puppet Halden.
+/c5* Requires {Blueprint 10_B} and 19000 G of funds to produce./c3",240,64,16,"Blueprints for Demonspear Puppet Halden.
+/c5* Requires {Blueprint 10_B} and 19000 G of funds to produce./c3","魔槍人形ハーデンのBlueprint
+
+/c5※製作には「Blueprint 10_B」と
+　19000Ｇの資金が必要/c3","Blueprints for Demonspear Puppet Halden.
+/c5* Requires {Blueprint 10_B} and 19000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x4715","0x1 0xd38","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x47aa","0x1 0xd44","設計図１１＿Ａ","Blueprint 11_A",102,14,14,"Blueprint 11_A","Blueprint 11_A","Blueprint 11_A"
+"opb/PartsDesc.opb","0x47b9","0x1 0xd48","人形重機ダンヴァー２の設計図
+
+/c5※製作には「設計図１１＿Ｂ」と
+　１００００Ｇの資金が必要/c3","Blueprints for Industrial Puppet Dumver-2.
+/c5* Requires {Blueprint 11_B} and 10000 G of funds to produce./c3",240,64,16,"Blueprints for Industrial Puppet Dumver-2.
+/c5* Requires {Blueprint 11_B} and 10000 G of funds to produce./c3","人形重機ダンヴァー2のBlueprint
+
+/c5※製作には「Blueprint 11_B」と
+　10000Ｇの資金が必要/c3","Blueprints for Industrial Puppet Dumver-2.
+/c5* Requires {Blueprint 11_B} and 10000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x481a","0x1 0xd4c","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x48af","0x1 0xd58","設計図１２＿Ａ","Blueprint 12_A",102,14,14,"Blueprint 12_A","Blueprint 12_A","Blueprint 12_A"
+"opb/PartsDesc.opb","0x48be","0x1 0xd5c","人形重機ローザー２の設計図
+
+/c5※製作には「設計図１２＿Ｂ」と
+　１３０００Ｇの資金が必要/c3","Blueprints for Industrial Puppet Rozer-2.
+/c5* Requires {Blueprint 12_B} and 13000 G of funds to produce./c3",240,64,16,"Blueprints for Industrial Puppet Rozer-2.
+/c5* Requires {Blueprint 12_B} and 13000 G of funds to produce./c3","人形重機ローザー2のBlueprint
+
+/c5※製作には「Blueprint 12_B」と
+　13000Ｇの資金が必要/c3","Blueprints for Industrial Puppet Rozer-2.
+/c5* Requires {Blueprint 12_B} and 13000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x491d","0x1 0xd60","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x49b2","0x1 0xd6c","設計図１３＿Ａ","Blueprint 13_A",102,14,14,"Blueprint 13_A","Blueprint 13_A","Blueprint 13_A"
+"opb/PartsDesc.opb","0x49c1","0x1 0xd70","人形重機ルクサー改の設計図
+
+/c5※製作には「設計図１３＿Ｂ」と
+　１６０００Ｇの資金が必要/c3","Blueprints for Industrial Puppet Nu-Luxer.
+/c5* Requires {Blueprint 13_B} and 16000 G of funds to produce./c3",240,64,16,"Blueprints for Industrial Puppet Nu-Luxer.
+/c5* Requires {Blueprint 13_B} and 16000 G of funds to produce./c3","人形重機ルクサー改のBlueprint
+
+/c5※製作には「Blueprint 13_B」と
+　16000Ｇの資金が必要/c3","Blueprints for Industrial Puppet Nu-Luxer.
+/c5* Requires {Blueprint 13_B} and 16000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x4a20","0x1 0xd74","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x4ab5","0x1 0xd80","設計図１4＿Ａ","Blueprint 14_A",102,14,14,"Blueprint 14_A","Blueprint 14_A","Blueprint 14_A"
+"opb/PartsDesc.opb","0x4ac4","0x1 0xd84","ショベル人形ザンベルの設計図
+
+/c5※製作には「設計図１4＿Ｂ」と
+　１９０００Ｇの資金が必要/c3","Blueprints for Shovel Puppet Zamvel.
+/c5* Requires {Blueprint 14_B} and 19000 G of funds to produce./c3",240,64,16,"Blueprints for Shovel Puppet Zamvel.
+/c5* Requires {Blueprint 14_B} and 19000 G of funds to produce./c3","ショベル人形ザンベルのBlueprint
+
+/c5※製作には「Blueprint 14_B」と
+　19000Ｇの資金が必要/c3","Blueprints for Shovel Puppet Zamvel.
+/c5* Requires {Blueprint 14_B} and 19000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x4b25","0x1 0xd88","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x4bba","0x1 0xd94","設計図１5＿Ａ","Blueprint 15_A",102,14,14,"Blueprint 15_A","Blueprint 15_A","Blueprint 15_A"
+"opb/PartsDesc.opb","0x4bc9","0x1 0xd98","重砲人形ガレーン改の設計図
+
+/c5※製作には「設計図１5＿Ｂ」と
+　２２０００Ｇの資金が必要/c3","Blueprints for Ordnance Puppet Nu-Galane.
+/c5* Requires {Blueprint 15_B} and 22000 G of funds to produce./c3",240,64,16,"Blueprints for Ordnance Puppet Nu-Galein.
+/c5* Requires {Blueprint 15_B} and 22000 G of funds to produce./c3","重砲人形ガレーン改のBlueprint
+
+/c5※製作には「Blueprint 15_B」と
+　22000Ｇの資金が必要/c3","Blueprints for Ordnance Puppet Nu-Galein.
+/c5* Requires {Blueprint 15_B} and 22000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x4c28","0x1 0xd9c","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x4cbd","0x1 0xda8","設計図１６＿Ａ","Blueprint 16_A",102,14,14,"Blueprint 16_A","Blueprint 16_A","Blueprint 16_A"
+"opb/PartsDesc.opb","0x4ccc","0x1 0xdac","人形甲虫フェンシル２の設計図
+
+/c5※製作には「設計図１６＿Ｂ」と
+　１６０００Ｇの資金が必要/c3","Blueprints for Puppet Beetle Fainsil-2.
+/c5* Requires {Blueprint 16_B} and 16000 G of funds to produce./c3",240,64,16,"Blueprints for Puppet Beetle Fainsil-2.
+/c5* Requires {Blueprint 16_B} and 16000 G of funds to produce./c3","人形甲虫フェンシル2のBlueprint
+
+/c5※製作には「Blueprint 16_B」と
+　16000Ｇの資金が必要/c3","Blueprints for Puppet Beetle Fainsil-2.
+/c5* Requires {Blueprint 16_B} and 16000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x4d2d","0x1 0xdb0","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x4dc2","0x1 0xdbc","設計図１７＿Ａ","Blueprint 17_A",102,14,14,"Blueprint 17_A","Blueprint 17_A","Blueprint 17_A"
+"opb/PartsDesc.opb","0x4dd1","0x1 0xdc0","裂空剣豪シンライの設計図
+
+/c5※製作には「設計図１７＿Ｂ」と
+　１８０００Ｇの資金が必要/c3","Blueprints for Skycut Swordmaster Shinrai.
+/c5* Requires {Blueprint 17_B} and 18000 G of funds to produce./c3",240,64,16,"Blueprints for Skycut Swordmaster Shinrai.
+/c5* Requires {Blueprint 17_B} and 18000 G of funds to produce./c3","裂空剣豪シンライのBlueprint
+
+/c5※製作には「Blueprint 17_B」と
+　18000Ｇの資金が必要/c3","Blueprints for Skycut Swordmaster Shinrai.
+/c5* Requires {Blueprint 17_B} and 18000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x4e2e","0x1 0xdc4","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x4ec3","0x1 0xdd0","設計図１８＿Ａ","Blueprint 18_A",102,14,14,"Blueprint 18_A","Blueprint 18_A","Blueprint 18_A"
+"opb/PartsDesc.opb","0x4ed2","0x1 0xdd4","弩弓人形ヒュオンの設計図
+
+/c5※製作には「設計図１８＿Ｂ」と
+　１７5００Ｇの資金が必要/c3","Blueprints for Crossbow Puppet Hyuon.
+/c5* Requires {Blueprint 18_B} and 17500 G of funds to produce./c3",240,64,16,"Blueprints for Crossbow Puppet Hyuon.
+/c5* Requires {Blueprint 18_B} and 17500 G of funds to produce./c3","弩弓人形ヒュオンのBlueprint
+
+/c5※製作には「Blueprint 18_B」と
+　17500Ｇの資金が必要/c3","Blueprints for Crossbow Puppet Hyuon.
+/c5* Requires {Blueprint 18_B} and 17500 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x4f2f","0x1 0xdd8","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x4fc4","0x1 0xde4","設計図１９＿Ａ","Blueprint 19_A",102,14,14,"Blueprint 19_A","Blueprint 19_A","Blueprint 19_A"
+"opb/PartsDesc.opb","0x4fd3","0x1 0xde8","投刃人形エルメランの設計図
+
+/c5※製作には「設計図１９＿Ｂ」と
+　１45００Ｇの資金が必要/c3","Blueprints for Edgehurl Puppet Elmerang.
+/c5* Requires {Blueprint 19_B} and 14500 G of funds to produce./c3",240,64,16,"Blueprints for Edgehurl Puppet Elmerang.
+/c5* Requires {Blueprint 19_B} and 14500 G of funds to produce./c3","投刃人形エルメランのBlueprint
+
+/c5※製作には「Blueprint 19_B」と
+　14500Ｇの資金が必要/c3","Blueprints for Edgehurl Puppet Elmerang.
+/c5* Requires {Blueprint 19_B} and 14500 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x5032","0x1 0xdec","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x50c7","0x1 0xdf8","設計図２０＿Ａ","Blueprint 20_A",102,14,14,"Blueprint 20_A","Blueprint 20_A","Blueprint 20_A"
+"opb/PartsDesc.opb","0x50d6","0x1 0xdfc","長銃人形ランボルト改の設計図
+
+/c5※製作には「設計図２０＿Ｂ」と
+　１３０００Ｇの資金が必要/c3","Blueprints for Rifle Puppet Nu-Lambolt.
+/c5* Requires {Blueprint 20_B} and 13000 G of funds to produce./c3",240,64,16,"Blueprints for Rifle Puppet Nu-Lambolt.
+/c5* Requires {Blueprint 20_B} and 13000 G of funds to produce./c3","長銃人形ランボルト改のBlueprint
+
+/c5※製作には「Blueprint 20_B」と
+　13000Ｇの資金が必要/c3","Blueprints for Rifle Puppet Nu-Lambolt.
+/c5* Requires {Blueprint 20_B} and 13000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x5137","0x1 0xe00","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x51cc","0x1 0xe0c","設計図２１＿Ａ","Blueprint 21_A",102,14,14,"Blueprint 21_A","Blueprint 21_A","Blueprint 21_A"
+"opb/PartsDesc.opb","0x51db","0x1 0xe10","剣銃士ダルタニア改の設計図
+
+/c5※製作には「設計図２１＿Ｂ」と
+　１２０００Ｇの資金が必要/c3","Blueprints for Sword-Gunner Nu-Daltania.
+/c5* Requires {Blueprint 21_B} and 12000 G of funds to produce./c3",240,64,16,"Blueprints for Sword-Gunner Nu-Daltania.
+/c5* Requires {Blueprint 21_B} and 12000 G of funds to produce./c3","剣銃士ダルタニア改のBlueprint
+
+/c5※製作には「Blueprint 21_B」と
+　12000Ｇの資金が必要/c3","Blueprints for Sword-Gunner Nu-Daltania.
+/c5* Requires {Blueprint 21_B} and 12000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x523a","0x1 0xe14","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x52cf","0x1 0xe20","設計図２２＿Ａ","Blueprint 22_A",102,14,14,"Blueprint 22_A","Blueprint 22_A","Blueprint 22_A"
+"opb/PartsDesc.opb","0x52de","0x1 0xe24","蒸気人形ドーヴァーＢの設計図
+
+/c5※製作には「設計図２２＿Ｂ」と
+　１６０００Ｇの資金が必要/c3","Blueprints for Steam Puppet Dover-B.
+/c5* Requires {Blueprint 22_B} and 16000 G of funds to produce./c3",240,64,16,"Blueprints for Steam Puppet Dover-B.
+/c5* Requires {Blueprint 22_B} and 16000 G of funds to produce./c3","蒸気人形ドーヴァーＢのBlueprint
+
+/c5※製作には「Blueprint 22_B」と
+　16000Ｇの資金が必要/c3","Blueprints for Steam Puppet Dover-B.
+/c5* Requires {Blueprint 22_B} and 16000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x533f","0x1 0xe28","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x53d4","0x1 0xe34","設計図２３＿Ａ","Blueprint 23_A",102,14,14,"Blueprint 23_A","Blueprint 23_A","Blueprint 23_A"
+"opb/PartsDesc.opb","0x53e3","0x1 0xe38","ブラック・ゼスターの設計図
+
+/c5※製作には「設計図２３＿Ｂ」と
+　１７5００Ｇの資金が必要/c3","Blueprints for Black Zester.
+/c5* Requires {Blueprint 23_B} and 17500 G of funds to produce./c3",240,64,16,"Blueprints for Black Zester.
+/c5* Requires {Blueprint 23_B} and 17500 G of funds to produce./c3","ブラック・ゼスターのBlueprint
+
+/c5※製作には「Blueprint 23_B」と
+　17500Ｇの資金が必要/c3","Blueprints for Black Zester.
+/c5* Requires {Blueprint 23_B} and 17500 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x5442","0x1 0xe3c","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x54d7","0x1 0xe48","設計図２4＿Ａ","Blueprint 24_A",102,14,14,"Blueprint 24_A","Blueprint 24_A","Blueprint 24_A"
+"opb/PartsDesc.opb","0x54e6","0x1 0xe4c","ミサイル火炎人形ウルの設計図
+
+/c5※製作には「設計図２4＿Ｂ」と
+　１２０００Ｇの資金が必要/c3","Blueprints for Flame Missile Puppet Ul.
+/c5* Requires {Blueprint 24_B} and 12000 G of funds to produce./c3",240,64,16,"Blueprints for Flame Missile Puppet Ul.
+/c5* Requires {Blueprint 24_B} and 12000 G of funds to produce./c3","ミサイル火炎人形ウルのBlueprint
+
+/c5※製作には「Blueprint 24_B」と
+　12000Ｇの資金が必要/c3","Blueprints for Flame Missile Puppet Ul.
+/c5* Requires {Blueprint 24_B} and 12000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x5547","0x1 0xe50","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x55dc","0x1 0xe5c","設計図２5＿Ａ","Blueprint 25_A",102,14,14,"Blueprint 25_A","Blueprint 25_A","Blueprint 25_A"
+"opb/PartsDesc.opb","0x55eb","0x1 0xe60","魔弓将軍ジンファの設計図
+
+/c5※製作には「設計図２5＿Ｂ」と
+　２００００Ｇの資金が必要/c3","Blueprints for Demonbow General Jinfa.
+/c5* Requires {Blueprint 25_B} and 20000 G of funds to produce./c3",240,64,16,"Blueprints for Demonbow General Jinfa.
+/c5* Requires {Blueprint 25_B} and 20000 G of funds to produce./c3","魔弓将軍ジンファのBlueprint
+
+/c5※製作には「Blueprint 25_B」と
+　20000Ｇの資金が必要/c3","Blueprints for Demonbow General Jinfa.
+/c5* Requires {Blueprint 25_B} and 20000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x5648","0x1 0xe64","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x56dd","0x1 0xe70","設計図２６＿Ａ","Blueprint 26_A",102,14,14,"Blueprint 26_A","Blueprint 26_A","Blueprint 26_A"
+"opb/PartsDesc.opb","0x56ec","0x1 0xe74","ガンマン人形ボルザーの設計図
+
+/c5※製作には「設計図２６＿Ｂ」と
+　２３5００Ｇの資金が必要/c3","Blueprints for Gunman Puppet Bolzer.
+/c5* Requires {Blueprint 26_B} and 23500 G of funds to produce./c3",240,64,16,"Blueprints for Gunman Puppet Bolzer.
+/c5* Requires {Blueprint 26_B} and 23500 G of funds to produce./c3","ガンマン人形ボルザーのBlueprint
+
+/c5※製作には「Blueprint 26_B」と
+　23500Ｇの資金が必要/c3","Blueprints for Gunman Puppet Bolzer.
+/c5* Requires {Blueprint 26_B} and 23500 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x574d","0x1 0xe78","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x57e2","0x1 0xe84","設計図２７＿Ａ","Blueprint 27_A",102,14,14,"Blueprint 27_A","Blueprint 27_A","Blueprint 27_A"
+"opb/PartsDesc.opb","0x57f1","0x1 0xe88","爆砕人形ガルネイドの設計図
+
+/c5※製作には「設計図２７＿Ｂ」と
+　２００００Ｇの資金が必要/c3","Blueprints for Blast Puppet Galnado.
+/c5* Requires {Blueprint 27_B} and 20000 G of funds to produce./c3",240,64,16,"Blueprints for Blast Puppet Galnado.
+/c5* Requires {Blueprint 27_B} and 20000 G of funds to produce./c3","爆砕人形ガルネイドのBlueprint
+
+/c5※製作には「Blueprint 27_B」と
+　20000Ｇの資金が必要/c3","Blueprints for Blast Puppet Galnado.
+/c5* Requires {Blueprint 27_B} and 20000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x5850","0x1 0xe8c","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x58e5","0x1 0xe98","設計図２８＿Ａ","Blueprint 28_A",102,14,14,"Blueprint 28_A","Blueprint 28_A","Blueprint 28_A"
+"opb/PartsDesc.opb","0x58f4","0x1 0xe9c","神槍人形ハダンの設計図
+
+/c5※製作には「設計図２８＿Ｂ」と
+　３5０００Ｇの資金が必要/c3","Blueprints for Godspear Puppet Hadan.
+/c5* Requires {Blueprint 28_B} and 35000 G of funds to produce./c3",240,64,16,"Blueprints for Godspear Puppet Hadan.
+/c5* Requires {Blueprint 28_B} and 35000 G of funds to produce./c3","神槍人形ハダンのBlueprint
+
+/c5※製作には「Blueprint 28_B」と
+　35000Ｇの資金が必要/c3","Blueprints for Godspear Puppet Hadan.
+/c5* Requires {Blueprint 28_B} and 35000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x594f","0x1 0xea0","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x59e4","0x1 0xeac","設計図２９＿Ａ","Blueprint 29_A",102,14,14,"Blueprint 29_A","Blueprint 29_A","Blueprint 29_A"
+"opb/PartsDesc.opb","0x59f3","0x1 0xeb0","ショベル人形ダルベルの設計図
+
+/c5※製作には「設計図２９＿Ｂ」と
+　２5０００Ｇの資金が必要/c3","Blueprints for Shovel Puppet Dalvel.
+/c5* Requires {Blueprint 29_B} and 25000 G of funds to produce./c3",240,64,16,"Blueprints for Shovel Puppet Dalvel.
+/c5* Requires {Blueprint 29_B} and 25000 G of funds to produce./c3","ショベル人形ダルベルのBlueprint
+
+/c5※製作には「Blueprint 29_B」と
+　25000Ｇの資金が必要/c3","Blueprints for Shovel Puppet Dalvel.
+/c5* Requires {Blueprint 29_B} and 25000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x5a54","0x1 0xeb4","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x5ae9","0x1 0xec0","設計図３０＿Ａ","Blueprint 30_A",102,14,14,"Blueprint 30_A","Blueprint 30_A","Blueprint 30_A"
+"opb/PartsDesc.opb","0x5af8","0x1 0xec4","重砲人形ガレオンの設計図
+
+/c5※製作には「設計図３０＿Ｂ」と
+　３６5００Ｇの資金が必要/c3","Blueprints for Ordnance Puppet Galeon.
+/c5* Requires {Blueprint 30_B} and 36500 G of funds to produce./c3",240,64,16,"Blueprints for Ordnance Puppet Galeon.
+/c5* Requires {Blueprint 30_B} and 36500 G of funds to produce./c3","重砲人形ガレオンのBlueprint
+
+/c5※製作には「Blueprint 30_B」と
+　36500Ｇの資金が必要/c3","Blueprints for Ordnance Puppet Galeon.
+/c5* Requires {Blueprint 30_B} and 36500 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x5b55","0x1 0xec8","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x5bea","0x1 0xed4","設計図３１＿Ａ","Blueprint 31_A",102,14,14,"Blueprint 31_A","Blueprint 31_A","Blueprint 31_A"
+"opb/PartsDesc.opb","0x5bf9","0x1 0xed8","人形船ダイダル号の設計図
+
+/c5※製作には「設計図３１＿Ｂ」と
+　３００００Ｇの資金が必要/c3","Blueprints for Puppet Ship S.S. Daedus.
+/c5* Requires {Blueprint 31_B} and 30000 G of funds to produce./c3",240,64,16,"Blueprints for Puppet Ship S.S. Daedus.
+/c5* Requires {Blueprint 31_B} and 30000 G of funds to produce./c3","人形船ダイダル号のBlueprint
+
+/c5※製作には「Blueprint 31_B」と
+　30000Ｇの資金が必要/c3","Blueprints for Puppet Ship S.S. Daedus.
+/c5* Requires {Blueprint 31_B} and 30000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x5c56","0x1 0xedc","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x5ceb","0x1 0xee8","設計図３２＿Ａ","Blueprint 32_A",102,14,14,"Blueprint 32_A","Blueprint 32_A","Blueprint 32_A"
+"opb/PartsDesc.opb","0x5cfa","0x1 0xeec","甲殻人形グラスターの設計図
+
+/c5※製作には「設計図３２＿Ｂ」と
+　4００００Ｇの資金が必要/c3","Blueprints for Shell Puppet Graster.
+/c5* Requires {Blueprint 32_B} and 40000 G of funds to produce./c3",240,64,16,"Blueprints for Shell Puppet Graster.
+/c5* Requires {Blueprint 32_B} and 40000 G of funds to produce./c3","甲殻人形グラスターのBlueprint
+
+/c5※製作には「Blueprint 32_B」と
+　40000Ｇの資金が必要/c3","Blueprints for Shell Puppet Graster.
+/c5* Requires {Blueprint 32_B} and 40000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x5d59","0x1 0xef0","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x5dee","0x1 0xefc","設計図３３＿Ａ","Blueprint 33_A",102,14,14,"Blueprint 33_A","Blueprint 33_A","Blueprint 33_A"
+"opb/PartsDesc.opb","0x5dfd","0x1 0xf00","人形甲虫フェンシル３の設計図
+
+/c5※製作には「設計図３３＿Ｂ」と
+　３5０００Ｇの資金が必要/c3","Blueprints for Puppet Beetle Fainsil-3.
+/c5* Requires {Blueprint 33_B} and 35000 G of funds to produce./c3",240,64,16,"Blueprints for Puppet Beetle Fainsil-3.
+/c5* Requires {Blueprint 33_B} and 35000 G of funds to produce./c3","人形甲虫フェンシル3のBlueprint
+
+/c5※製作には「Blueprint 33_B」と
+　35000Ｇの資金が必要/c3","Blueprints for Puppet Beetle Fainsil-3.
+/c5* Requires {Blueprint 33_B} and 35000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x5e5e","0x1 0xf04","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x5ef3","0x1 0xf10","設計図３4＿Ａ","Blueprint 34_A",102,14,14,"Blueprint 34_A","Blueprint 34_A","Blueprint 34_A"
+"opb/PartsDesc.opb","0x5f02","0x1 0xf14","忍傀儡ランガの設計図
+
+/c5※製作には「設計図３4＿Ｂ」と
+　３８０００Ｇの資金が必要/c3","Blueprints for Shinobi Kugutsu Ranga.
+/c5* Requires {Blueprint 34_B} and 38000 G of funds to produce./c3",240,64,16,"Blueprints for Shinobi Kugutsu Ranga.
+/c5* Requires {Blueprint 34_B} and 38000 G of funds to produce./c3","忍傀儡ランガのBlueprint
+
+/c5※製作には「Blueprint 34_B」と
+　38000Ｇの資金が必要/c3","Blueprints for Shinobi Kugutsu Ranga.
+/c5* Requires {Blueprint 34_B} and 38000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x5f5b","0x1 0xf18","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x5ff0","0x1 0xf24","設計図３5＿Ａ","Blueprint 35_A",102,14,14,"Blueprint 35_A","Blueprint 35_A","Blueprint 35_A"
+"opb/PartsDesc.opb","0x5fff","0x1 0xf28","弩弓人形ヘリオンの設計図
+
+/c5※製作には「設計図３5＿Ｂ」と
+　4１5００Ｇの資金が必要/c3","Blueprints for Crossbow Puppet Hellion.
+/c5* Requires {Blueprint 35_B} and 41500 G of funds to produce./c3",240,64,16,"Blueprints for Crossbow Puppet Hellion.
+/c5* Requires {Blueprint 35_B} and 41500 G of funds to produce./c3","弩弓人形ヘリオンのBlueprint
+
+/c5※製作には「Blueprint 35_B」と
+　41500Ｇの資金が必要/c3","Blueprints for Crossbow Puppet Hellion.
+/c5* Requires {Blueprint 35_B} and 41500 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x605c","0x1 0xf2c","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x60f1","0x1 0xf38","設計図３６＿Ａ","Blueprint 36_A",102,14,14,"Blueprint 36_A","Blueprint 36_A","Blueprint 36_A"
+"opb/PartsDesc.opb","0x6100","0x1 0xf3c","投刃人形ギルメランの設計図
+
+/c5※製作には「設計図３６＿Ｂ」と
+　4００００Ｇの資金が必要/c3","Blueprints for Edgehurl Puppet Gilmerang.
+/c5* Requires {Blueprint 36_B} and 40000 G of funds to produce./c3",240,64,16,"Blueprints for Edgehurl Puppet Gilmerang.
+/c5* Requires {Blueprint 36_B} and 40000 G of funds to produce./c3","投刃人形ギルメランのBlueprint
+
+/c5※製作には「Blueprint 36_B」と
+　40000Ｇの資金が必要/c3","Blueprints for Edgehurl Puppet Gilmerang.
+/c5* Requires {Blueprint 36_B} and 40000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x615f","0x1 0xf40","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x61f4","0x1 0xf4c","設計図３７＿Ａ","Blueprint 37_A",102,14,14,"Blueprint 37_A","Blueprint 37_A","Blueprint 37_A"
+"opb/PartsDesc.opb","0x6203","0x1 0xf50","爆銃人形グレインＳの設計図
+
+/c5※製作には「設計図３７＿Ｂ」と
+　4６5００Ｇの資金が必要/c3","Blueprints for Bombgun Puppet Grain-S.
+/c5* Requires {Blueprint 37_B} and 46500 G of funds to produce./c3",240,64,16,"Blueprints for Bombgun Puppet Grain-S.
+/c5* Requires {Blueprint 37_B} and 46500 G of funds to produce./c3","爆銃人形グレインＳのBlueprint
+
+/c5※製作には「Blueprint 37_B」と
+　46500Ｇの資金が必要/c3","Blueprints for Bombgun Puppet Grain-S.
+/c5* Requires {Blueprint 37_B} and 46500 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x6262","0x1 0xf54","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x62f7","0x1 0xf60","設計図３８＿Ａ","Blueprint 38_A",102,14,14,"Blueprint 38_A","Blueprint 38_A","Blueprint 38_A"
+"opb/PartsDesc.opb","0x6306","0x1 0xf64","長銃人形サーボルトの設計図
+
+/c5※製作には「設計図３８＿Ｂ」と
+　4００００Ｇの資金が必要/c3","Blueprints for Rifle Puppet Sarbolt.
+/c5* Requires {Blueprint 38_B} and 40000 G of funds to produce./c3",240,64,16,"Blueprints for Rifle Puppet Sarbolt.
+/c5* Requires {Blueprint 38_B} and 40000 G of funds to produce./c3","長銃人形サーボルトのBlueprint
+
+/c5※製作には「Blueprint 38_B」と
+　40000Ｇの資金が必要/c3","Blueprints for Rifle Puppet Sarbolt.
+/c5* Requires {Blueprint 38_B} and 40000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x6365","0x1 0xf68","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x63fa","0x1 0xf74","設計図３９＿Ａ","Blueprint 39_A",102,14,14,"Blueprint 39_A","Blueprint 39_A","Blueprint 39_A"
+"opb/PartsDesc.opb","0x6409","0x1 0xf78","アサルト人形ガルフＸの設計図
+
+/c5※製作には「設計図３９＿Ｂ」と
+　4６5００Ｇの資金が必要/c3","Blueprints for Assault Puppet Gulf-X.
+/c5* Requires {Blueprint 39_B} and 46500 G of funds to produce./c3",240,64,16,"Blueprints for Assault Puppet Gulf-X.
+/c5* Requires {Blueprint 39_B} and 46500 G of funds to produce./c3","アサルト人形ガルフＸのBlueprint
+
+/c5※製作には「Blueprint 39_B」と
+　46500Ｇの資金が必要/c3","Blueprints for Assault Puppet Gulf-X.
+/c5* Requires {Blueprint 39_B} and 46500 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x646a","0x1 0xf7c","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x64ff","0x1 0xf88","設計図4０＿Ａ","Blueprint 40_A",102,14,14,"Blueprint 40_A","Blueprint 40_A","Blueprint 40_A"
+"opb/PartsDesc.opb","0x650e","0x1 0xf8c","複合銃士サイエル改の設計図
+
+/c5※製作には「設計図4０＿Ｂ」と
+　３８０００Ｇの資金が必要/c3","Blueprints for Complex Musketeer Saiel.
+/c5* Requires {Blueprint 40_B} and 38000 G of funds to produce./c3",240,64,16,"Blueprints for Complex Musketeer Saiel.
+/c5* Requires {Blueprint 40_B} and 38000 G of funds to produce./c3","複合銃士サイエル改のBlueprint
+
+/c5※製作には「Blueprint 40_B」と
+　38000Ｇの資金が必要/c3","Blueprints for Complex Musketeer Saiel.
+/c5* Requires {Blueprint 40_B} and 38000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x656d","0x1 0xf90","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x6602","0x1 0xf9c","設計図4１＿Ａ","Blueprint 41_A",102,14,14,"Blueprint 41_A","Blueprint 41_A","Blueprint 41_A"
+"opb/PartsDesc.opb","0x6611","0x1 0xfa0","剣銃士ダルタニアＳの設計図
+
+/c5※製作には「設計図4１＿Ｂ」と
+　4１5００Ｇの資金が必要/c3","Blueprints for Sword-Gunner Daltania-S.
+/c5* Requires {Blueprint 41_B} and 41500 G of funds to produce./c3",240,64,16,"Blueprints for Sword-Gunner Daltania-S.
+/c5* Requires {Blueprint 41_B} and 41500 G of funds to produce./c3","剣銃士ダルタニアＳのBlueprint
+
+/c5※製作には「Blueprint 41_B」と
+　41500Ｇの資金が必要/c3","Blueprints for Sword-Gunner Daltania-S.
+/c5* Requires {Blueprint 41_B} and 41500 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x6670","0x1 0xfa4","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x6705","0x1 0xfb0","設計図4２＿Ａ","Blueprint 42_A",102,14,14,"Blueprint 42_A","Blueprint 42_A","Blueprint 42_A"
+"opb/PartsDesc.opb","0x6714","0x1 0xfb4","蒸気人形ドーヴァーＦの設計図
+
+/c5※製作には「設計図4２＿Ｂ」と
+　45０００Ｇの資金が必要/c3","Blueprints for Steam Puppet Dover-F.
+/c5* Requires {Blueprint 42_B} and 45000 G of funds to produce./c3",240,64,16,"Blueprints for Steam Puppet Dover-F.
+/c5* Requires {Blueprint 42_B} and 45000 G of funds to produce./c3","蒸気人形ドーヴァーＦのBlueprint
+
+/c5※製作には「Blueprint 42_B」と
+　45000Ｇの資金が必要/c3","Blueprints for Steam Puppet Dover-F.
+/c5* Requires {Blueprint 42_B} and 45000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x6775","0x1 0xfb8","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x680a","0x1 0xfc4","設計図4３＿Ａ","Blueprint 43_A",102,14,14,"Blueprint 43_A","Blueprint 43_A","Blueprint 43_A"
+"opb/PartsDesc.opb","0x6819","0x1 0xfc8","ゼンマイ人形　金星号の設計図
+
+/c5※製作には「設計図4３＿Ｂ」と
+　4３０００Ｇの資金が必要/c3","Blueprints for Wind-Up Puppet (Venus).
+/c5* Requires {Blueprint 43_B} and 43000 G of funds to produce./c3",240,64,16,"Blueprints for Wind-Up Puppet (Venus).
+/c5* Requires {Blueprint 43_B} and 43000 G of funds to produce./c3","ゼンマイ人形　金星号のBlueprint
+
+/c5※製作には「Blueprint 43_B」と
+　43000Ｇの資金が必要/c3","Blueprints for Wind-Up Puppet (Venus).
+/c5* Requires {Blueprint 43_B} and 43000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x687a","0x1 0xfcc","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x690f","0x1 0xfd8","設計図44＿Ａ","Blueprint 44_A",102,14,14,"Blueprint 44_A","Blueprint 44_A","Blueprint 44_A"
+"opb/PartsDesc.opb","0x691e","0x1 0xfdc","電光人形スペクトラＸの設計図
+
+/c5※製作には「設計図44＿Ｂ」と
+　３８０００Ｇの資金が必要/c3","Blueprints for Thunder Puppet Spectra-X.
+/c5* Requires {Blueprint 44_B} and 38000 G of funds to produce./c3",240,64,16,"Blueprints for Thunder Puppet Spectra-X.
+/c5* Requires {Blueprint 44_B} and 38000 G of funds to produce./c3","電光人形スペクトラＸのBlueprint
+
+/c5※製作には「Blueprint 44_B」と
+　38000Ｇの資金が必要/c3","Blueprints for Thunder Puppet Spectra-X.
+/c5* Requires {Blueprint 44_B} and 38000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x697f","0x1 0xfe0","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x6a14","0x1 0xfec","設計図45＿Ａ","Blueprint 45_A",102,14,14,"Blueprint 45_A","Blueprint 45_A","Blueprint 45_A"
+"opb/PartsDesc.opb","0x6a23","0x1 0xff0","超人形ダイゼスターの設計図
+
+/c5※製作には「設計図45＿Ｂ」と
+　4６5００Ｇの資金が必要/c3","Blueprints for Super-Puppet Daizester.
+/c5* Requires {Blueprint 45_B} and 46500 G of funds to produce./c3",240,64,16,"Blueprints for Super-Puppet Daizester.
+/c5* Requires {Blueprint 45_B} and 46500 G of funds to produce./c3","超人形ダイゼスターのBlueprint
+
+/c5※製作には「Blueprint 45_B」と
+　46500Ｇの資金が必要/c3","Blueprints for Super-Puppet Daizester.
+/c5* Requires {Blueprint 45_B} and 46500 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x6a82","0x1 0xff4","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x6b17","0x1 0x1000","設計図4６＿Ａ","Blueprint 46_A",102,14,14,"Blueprint 46_A","Blueprint 46_A","Blueprint 46_A"
+"opb/PartsDesc.opb","0x6b26","0x1 0x1004","人形甲虫アヴェルスの設計図
+
+/c5※製作には「設計図4６＿Ｂ」と
+　45０００Ｇの資金が必要/c3","Blueprints for Puppet Beetle Avuels.
+/c5* Requires {Blueprint 46_B} and 45000 G of funds to produce./c3",240,64,16,"Blueprints for Puppet Beetle Avuels.
+/c5* Requires {Blueprint 46_B} and 45000 G of funds to produce./c3","人形甲虫アヴェルスのBlueprint
+
+/c5※製作には「Blueprint 46_B」と
+　45000Ｇの資金が必要/c3","Blueprints for Puppet Beetle Avuels.
+/c5* Requires {Blueprint 46_B} and 45000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x6b85","0x1 0x1008","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x6c1a","0x1 0x1014","設計図4７＿Ａ","Blueprint 47_A",102,14,14,"Blueprint 47_A","Blueprint 47_A","Blueprint 47_A"
+"opb/PartsDesc.opb","0x6c29","0x1 0x1018","裂空剣豪ゴウライの設計図
+
+/c5※製作には「設計図4７＿Ｂ」と
+　4６5００Ｇの資金が必要/c3","Blueprints for Skycut Swordmaster Gourai.
+/c5* Requires {Blueprint 47_B} and 46500 G of funds to produce./c3",240,64,16,"Blueprints for Skycut Swordmaster Gourai.
+/c5* Requires {Blueprint 47_B} and 46500 G of funds to produce./c3","裂空剣豪ゴウライのBlueprint
+
+/c5※製作には「Blueprint 47_B」と
+　46500Ｇの資金が必要/c3","Blueprints for Skycut Swordmaster Gourai.
+/c5* Requires {Blueprint 47_B} and 46500 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x6c86","0x1 0x101c","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x6d1b","0x1 0x1028","設計図4８＿Ａ","Blueprint 48_A",102,14,14,"Blueprint 48_A","Blueprint 48_A","Blueprint 48_A"
+"opb/PartsDesc.opb","0x6d2a","0x1 0x102c","回転銃士ボルガノンの設計図
+
+/c5※製作には「設計図4８＿Ｂ」と
+　45０００Ｇの資金が必要/c3","Blueprints for Whirl Musketeer Bolganon.
+/c5* Requires {Blueprint 48_B} and 45000 G of funds to produce./c3",240,64,16,"Blueprints for Whirl Musketeer Bolganon.
+/c5* Requires {Blueprint 48_B} and 45000 G of funds to produce./c3","回転銃士ボルガノンのBlueprint
+
+/c5※製作には「Blueprint 48_B」と
+　45000Ｇの資金が必要/c3","Blueprints for Whirl Musketeer Bolganon.
+/c5* Requires {Blueprint 48_B} and 45000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x6d89","0x1 0x1030","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x6e1e","0x1 0x103c","設計図4９＿Ａ","Blueprint 49_A",102,14,14,"Blueprint 49_A","Blueprint 49_A","Blueprint 49_A"
+"opb/PartsDesc.opb","0x6e2d","0x1 0x1040","核撃人形アトロスαの設計図
+
+/c5※製作には「設計図4９＿Ｂ」と
+　６００００Ｇの資金が必要/c3","Blueprints for Nuclear Puppet Atlos-α.
+/c5* Requires {Blueprint 49_B} and 60000 G of funds to produce./c3",240,64,16,"Blueprints for Atomic Puppet Atlos-α.
+/c5* Requires {Blueprint 49_B} and 60000 G of funds to produce./c3","核撃人形アトロスαのBlueprint
+
+/c5※製作には「Blueprint 49_B」と
+　60000Ｇの資金が必要/c3","Blueprints for Atomic Puppet Atlos-α.
+/c5* Requires {Blueprint 49_B} and 60000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x6e8c","0x1 0x1044","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x6f21","0x1 0x1050","設計図5０＿Ａ","Blueprint 50_A",102,14,14,"Blueprint 50_A","Blueprint 50_A","Blueprint 50_A"
+"opb/PartsDesc.opb","0x6f30","0x1 0x1054","人形獣帝ライスターの設計図
+
+/c5※製作には「設計図5０＿Ｂ」と
+　７００００Ｇの資金が必要/c3","Blueprints for Emperor Beast Listar.
+/c5* Requires {Blueprint 50_B} and 70000 G of funds to produce./c3",240,64,16,"Blueprints for Emperor Beast Listar.
+/c5* Requires {Blueprint 50_B} and 70000 G of funds to produce./c3","人形獣帝ライスターのBlueprint
+
+/c5※製作には「Blueprint 50_B」と
+　70000Ｇの資金が必要/c3","Blueprints for Emperor Beast Listar.
+/c5* Requires {Blueprint 50_B} and 70000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x6f8f","0x1 0x1058","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x7024","0x1 0x1064","設計図０１＿Ｂ","Blueprint 01_B",102,14,14,"Blueprint 01_B","Blueprint 01_B","Blueprint 01_B"
+"opb/PartsDesc.opb","0x7033","0x1 0x1068","ハットマンの設計図
+
+/c5※製作には「設計図０１＿Ａ」と
+　３００Ｇの資金が必要/c3","Blueprints for Hatman.
+/c5* Requires {Blueprint 01_A} and 300 G of funds to produce./c3",240,64,16,"Blueprints for Hatman.
+/c5* Requires {Blueprint 01_A} and 300 G of funds to produce./c3","ハットマンのBlueprint
+
+/c5※製作には「Blueprint 01_A」と
+　300Ｇの資金が必要/c3","Blueprints for Hatman.
+/c5* Requires {Blueprint 01_A} and 300 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x7086","0x1 0x106c","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x711b","0x1 0x1078","設計図０２＿Ｂ","Blueprint 02_B",102,14,14,"Blueprint 02_B","Blueprint 02_B","Blueprint 02_B"
+"opb/PartsDesc.opb","0x712a","0x1 0x107c","アクトゥールの設計図
+
+/c5※製作には「設計図０２＿Ａ」と
+　5００Ｇの資金が必要/c3","Blueprints for Actour.
+/c5* Requires {Blueprint 02_A} and 500 G of funds to produce./c3",240,64,16,"Blueprints for Actour.
+/c5* Requires {Blueprint 02_A} and 500 G of funds to produce./c3","アクトゥールのBlueprint
+
+/c5※製作には「Blueprint 02_A」と
+　500Ｇの資金が必要/c3","Blueprints for Actour.
+/c5* Requires {Blueprint 02_A} and 500 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x717f","0x1 0x1080","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x7214","0x1 0x108c","設計図０３＿Ｂ","Blueprint 03_B",102,14,14,"Blueprint 03_B","Blueprint 03_B","Blueprint 03_B"
+"opb/PartsDesc.opb","0x7223","0x1 0x1090","人形風車リルゼットの設計図
+
+/c5※製作には「設計図０３＿Ａ」と
+　６００Ｇの資金が必要/c3","Blueprints for Puppet Windmill Lilzet.
+/c5* Requires {Blueprint 03_A} and 600 G of funds to produce./c3",240,64,16,"Blueprints for Puppet Windmill Lilzet.
+/c5* Requires {Blueprint 03_A} and 600 G of funds to produce./c3","人形風車リルゼットのBlueprint
+
+/c5※製作には「Blueprint 03_A」と
+　600Ｇの資金が必要/c3","Blueprints for Puppet Windmill Lilzet.
+/c5* Requires {Blueprint 03_A} and 600 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x727e","0x1 0x1094","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x7313","0x1 0x10a0","設計図０4＿Ｂ","Blueprint 04_B",102,14,14,"Blueprint 04_B","Blueprint 04_B","Blueprint 04_B"
+"opb/PartsDesc.opb","0x7322","0x1 0x10a4","マイマイ人形マノンの設計図
+
+/c5※製作には「設計図０4＿Ａ」と
+　８００Ｇの資金が必要/c3","Blueprints for Snail Puppet Manon.
+/c5* Requires {Blueprint 04_A} and 800 G of funds to produce./c3",240,64,16,"Blueprints for Snail Puppet Manon.
+/c5* Requires {Blueprint 04_A} and 800 G of funds to produce./c3","マイマイ人形マノンのBlueprint
+
+/c5※製作には「Blueprint 04_A」と
+　800Ｇの資金が必要/c3","Blueprints for Snail Puppet Manon.
+/c5* Requires {Blueprint 04_A} and 800 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x737d","0x1 0x10a8","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x7412","0x1 0x10b4","設計図０5＿Ｂ","Blueprint 05_B",102,14,14,"Blueprint 05_B","Blueprint 05_B","Blueprint 05_B"
+"opb/PartsDesc.opb","0x7421","0x1 0x10b8","人形船タイタス号の設計図
+
+/c5※製作には「設計図０5＿Ａ」と
+　１０００Ｇの資金が必要/c3","Blueprints for Puppet Ship S.S. Titus.
+/c5* Requires {Blueprint 05_A} and 1000 G of funds to produce./c3",240,64,16,"Blueprints for Puppet Ship S.S. Titus.
+/c5* Requires {Blueprint 05_A} and 1000 G of funds to produce./c3","人形船タイタス号のBlueprint
+
+/c5※製作には「Blueprint 05_A」と
+　1000Ｇの資金が必要/c3","Blueprints for Puppet Ship S.S. Titus.
+/c5* Requires {Blueprint 05_A} and 1000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x747c","0x1 0x10bc","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x7511","0x1 0x10c8","設計図０６＿Ｂ","Blueprint 06_B",102,14,14,"Blueprint 06_B","Blueprint 06_B","Blueprint 06_B"
+"opb/PartsDesc.opb","0x7520","0x1 0x10cc","大砲人形パットンの設計図
+
+/c5※製作には「設計図０６＿Ａ」と
+　１８００Ｇの資金が必要/c3","Blueprints for Artillery Puppet Patton.
+/c5* Requires {Blueprint 06_A} and 1800 G of funds to produce./c3",240,64,16,"Blueprints for Artillery Puppet Patton.
+/c5* Requires {Blueprint 06_A} and 1800 G of funds to produce./c3","大砲人形パットンのBlueprint
+
+/c5※製作には「Blueprint 06_A」と
+　1800Ｇの資金が必要/c3","Blueprints for Artillery Puppet Patton.
+/c5* Requires {Blueprint 06_A} and 1800 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x757b","0x1 0x10d0","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x7610","0x1 0x10dc","設計図０７＿Ｂ","Blueprint 07_B",102,14,14,"Blueprint 07_B","Blueprint 07_B","Blueprint 07_B"
+"opb/PartsDesc.opb","0x761f","0x1 0x10e0","核撃人形アトロスの設計図
+
+/c5※製作には「設計図０７＿Ａ」と
+　１００００Ｇの資金が必要/c3","Blueprints for Nuclear Puppet Atlos.
+/c5* Requires {Blueprint 07_A} and 10000 G of funds to produce./c3",240,64,16,"Blueprints for Atomic Puppet Atlos.
+/c5* Requires {Blueprint 07_A} and 10000 G of funds to produce./c3","核撃人形アトロスのBlueprint
+
+/c5※製作には「Blueprint 07_A」と
+　10000Ｇの資金が必要/c3","Blueprints for Atomic Puppet Atlos.
+/c5* Requires {Blueprint 07_A} and 10000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x767c","0x1 0x10e4","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x7711","0x1 0x10f0","設計図０８＿Ｂ","Blueprint 08_B",102,14,14,"Blueprint 08_B","Blueprint 08_B","Blueprint 08_B"
+"opb/PartsDesc.opb","0x7720","0x1 0x10f4","人形風車リルガノの設計図
+
+/c5※製作には「設計図０８＿Ａ」と
+　１７０００Ｇの資金が必要/c3","Blueprints for Puppet Windmill Lilgano.
+/c5* Requires {Blueprint 08_A} and 17000 G of funds to produce./c3",240,64,16,"Blueprints for Puppet Windmill Lilgano.
+/c5* Requires {Blueprint 08_A} and 17000 G of funds to produce./c3","人形風車リルガノのBlueprint
+
+/c5※製作には「Blueprint 08_A」と
+　17000Ｇの資金が必要/c3","Blueprints for Puppet Windmill Lilgano.
+/c5* Requires {Blueprint 08_A} and 17000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x777d","0x1 0x10f8","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x7812","0x1 0x1104","設計図０９＿Ｂ","Blueprint 09_B",102,14,14,"Blueprint 09_B","Blueprint 09_B","Blueprint 09_B"
+"opb/PartsDesc.opb","0x7821","0x1 0x1108","人形騎士ジェイオンの設計図
+
+/c5※製作には「設計図０９＿Ａ」と
+　１２０００Ｇの資金が必要/c3","Blueprints for Puppet Knight Jeion.
+/c5* Requires {Blueprint 09_A} and 12000 G of funds to produce./c3",240,64,16,"Blueprints for Puppet Knight Jeion.
+/c5* Requires {Blueprint 09_A} and 12000 G of funds to produce./c3","人形騎士ジェイオンのBlueprint
+
+/c5※製作には「Blueprint 09_A」と
+　12000Ｇの資金が必要/c3","Blueprints for Puppet Knight Jeion.
+/c5* Requires {Blueprint 09_A} and 12000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x7880","0x1 0x110c","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x7915","0x1 0x1118","設計図１０＿Ｂ","Blueprint 10_B",102,14,14,"Blueprint 10_B","Blueprint 10_B","Blueprint 10_B"
+"opb/PartsDesc.opb","0x7924","0x1 0x111c","魔槍人形ハーデンの設計図
+
+/c5※製作には「設計図１０＿Ａ」と
+　１９０００Ｇの資金が必要/c3","Blueprints for Demonspear Puppet Halden.
+/c5* Requires {Blueprint 10_A} and 19000 G of funds to produce./c3",240,64,16,"Blueprints for Demonspear Puppet Halden.
+/c5* Requires {Blueprint 10_A} and 19000 G of funds to produce./c3","魔槍人形ハーデンのBlueprint
+
+/c5※製作には「Blueprint 10_A」と
+　19000Ｇの資金が必要/c3","Blueprints for Demonspear Puppet Halden.
+/c5* Requires {Blueprint 10_A} and 19000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x7981","0x1 0x1120","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x7a16","0x1 0x112c","設計図１１＿Ｂ","Blueprint 11_B",102,14,14,"Blueprint 11_B","Blueprint 11_B","Blueprint 11_B"
+"opb/PartsDesc.opb","0x7a25","0x1 0x1130","人形重機ダンヴァー２の設計図
+
+/c5※製作には「設計図１１＿Ａ」と
+　１００００Ｇの資金が必要/c3","Blueprints for Industrial Puppet Dumver-2.
+/c5* Requires {Blueprint 11_A} and 10000 G of funds to produce./c3",240,64,16,"Blueprints for Industrial Puppet Dumver-2.
+/c5* Requires {Blueprint 11_A} and 10000 G of funds to produce./c3","人形重機ダンヴァー2のBlueprint
+
+/c5※製作には「Blueprint 11_A」と
+　10000Ｇの資金が必要/c3","Blueprints for Industrial Puppet Dumver-2.
+/c5* Requires {Blueprint 11_A} and 10000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x7a86","0x1 0x1134","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x7b1b","0x1 0x1140","設計図１２＿Ｂ","Blueprint 12_B",102,14,14,"Blueprint 12_B","Blueprint 12_B","Blueprint 12_B"
+"opb/PartsDesc.opb","0x7b2a","0x1 0x1144","人形重機ローザー２の設計図
+
+/c5※製作には「設計図１２＿Ａ」と
+　１３０００Ｇの資金が必要/c3","Blueprints for Industrial Puppet Rozer-2.
+/c5* Requires {Blueprint 12_A} and 13000 G of funds to produce./c3",240,64,16,"Blueprints for Industrial Puppet Rozer-2.
+/c5* Requires {Blueprint 12_A} and 13000 G of funds to produce./c3","人形重機ローザー2のBlueprint
+
+/c5※製作には「Blueprint 12_A」と
+　13000Ｇの資金が必要/c3","Blueprints for Industrial Puppet Rozer-2.
+/c5* Requires {Blueprint 12_A} and 13000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x7b89","0x1 0x1148","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x7c1e","0x1 0x1154","設計図１３＿Ｂ","Blueprint 13_B",102,14,14,"Blueprint 13_B","Blueprint 13_B","Blueprint 13_B"
+"opb/PartsDesc.opb","0x7c2d","0x1 0x1158","人形重機ルクサー改の設計図
+
+/c5※製作には「設計図１３＿Ａ」と
+　１６０００Ｇの資金が必要/c3","Blueprints for Industrial Puppet Nu-Luxer.
+/c5* Requires {Blueprint 13_A} and 16000 G of funds to produce./c3",240,64,16,"Blueprints for Industrial Puppet Nu-Luxer.
+/c5* Requires {Blueprint 13_A} and 16000 G of funds to produce./c3","人形重機ルクサー改のBlueprint
+
+/c5※製作には「Blueprint 13_A」と
+　16000Ｇの資金が必要/c3","Blueprints for Industrial Puppet Nu-Luxer.
+/c5* Requires {Blueprint 13_A} and 16000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x7c8c","0x1 0x115c","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x7d21","0x1 0x1168","設計図１4＿Ｂ","Blueprint 14_B",102,14,14,"Blueprint 14_B","Blueprint 14_B","Blueprint 14_B"
+"opb/PartsDesc.opb","0x7d30","0x1 0x116c","ショベル人形ザンベルの設計図
+
+/c5※製作には「設計図１4＿Ａ」と
+　１９０００Ｇの資金が必要/c3","Blueprints for Shovel Puppet Zamvel.
+/c5* Requires {Blueprint 14_A} and 19000 G of funds to produce./c3",240,64,16,"Blueprints for Shovel Puppet Zamvel.
+/c5* Requires {Blueprint 14_A} and 19000 G of funds to produce./c3","ショベル人形ザンベルのBlueprint
+
+/c5※製作には「Blueprint 14_A」と
+　19000Ｇの資金が必要/c3","Blueprints for Shovel Puppet Zamvel.
+/c5* Requires {Blueprint 14_A} and 19000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x7d91","0x1 0x1170","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x7e26","0x1 0x117c","設計図１5＿Ｂ","Blueprint 15_B",102,14,14,"Blueprint 15_B","Blueprint 15_B","Blueprint 15_B"
+"opb/PartsDesc.opb","0x7e35","0x1 0x1180","重砲人形ガレーン改の設計図
+
+/c5※製作には「設計図１5＿Ａ」と
+　２２０００Ｇの資金が必要/c3","Blueprints for Ordnance Puppet Nu-Galane.
+/c5* Requires {Blueprint 15_A} and 22000 G of funds to produce./c3",240,64,16,"Blueprints for Ordnance Puppet Nu-Galein.
+/c5* Requires {Blueprint 15_A} and 22000 G of funds to produce./c3","重砲人形ガレーン改のBlueprint
+
+/c5※製作には「Blueprint 15_A」と
+　22000Ｇの資金が必要/c3","Blueprints for Ordnance Puppet Nu-Galein.
+/c5* Requires {Blueprint 15_A} and 22000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x7e94","0x1 0x1184","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x7f29","0x1 0x1190","設計図１６＿Ｂ","Blueprint 16_B",102,14,14,"Blueprint 16_B","Blueprint 16_B","Blueprint 16_B"
+"opb/PartsDesc.opb","0x7f38","0x1 0x1194","人形甲虫フェンシル２の設計図
+
+/c5※製作には「設計図１６＿Ａ」と
+　１６０００Ｇの資金が必要/c3","Blueprints for Puppet Beetle Fainsil-2.
+/c5* Requires {Blueprint 16_A} and 16000 G of funds to produce./c3",240,64,16,"Blueprints for Puppet Beetle Fainsil-2.
+/c5* Requires {Blueprint 16_A} and 16000 G of funds to produce./c3","人形甲虫フェンシル2のBlueprint
+
+/c5※製作には「Blueprint 16_A」と
+　16000Ｇの資金が必要/c3","Blueprints for Puppet Beetle Fainsil-2.
+/c5* Requires {Blueprint 16_A} and 16000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x7f99","0x1 0x1198","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x802e","0x1 0x11a4","設計図１７＿Ｂ","Blueprint 17_B",102,14,14,"Blueprint 17_B","Blueprint 17_B","Blueprint 17_B"
+"opb/PartsDesc.opb","0x803d","0x1 0x11a8","裂空剣豪シンライの設計図
+
+/c5※製作には「設計図１７＿Ａ」と
+　１８０００Ｇの資金が必要/c3","Blueprints for Skycut Swordmaster Shinrai.
+/c5* Requires {Blueprint 17_A} and 18000 G of funds to produce./c3",240,64,16,"Blueprints for Skycut Swordmaster Shinrai.
+/c5* Requires {Blueprint 17_A} and 18000 G of funds to produce./c3","裂空剣豪シンライのBlueprint
+
+/c5※製作には「Blueprint 17_A」と
+　18000Ｇの資金が必要/c3","Blueprints for Skycut Swordmaster Shinrai.
+/c5* Requires {Blueprint 17_A} and 18000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x809a","0x1 0x11ac","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x812f","0x1 0x11b8","設計図１８＿Ｂ","Blueprint 18_B",102,14,14,"Blueprint 18_B","Blueprint 18_B","Blueprint 18_B"
+"opb/PartsDesc.opb","0x813e","0x1 0x11bc","弩弓人形ヒュオンの設計図
+
+/c5※製作には「設計図１８＿Ａ」と
+　１７5００Ｇの資金が必要/c3","Blueprints for Crossbow Puppet Hyuon.
+/c5* Requires {Blueprint 18_A} and 17500 G of funds to produce./c3",240,64,16,"Blueprints for Crossbow Puppet Hyuon.
+/c5* Requires {Blueprint 18_A} and 17500 G of funds to produce./c3","弩弓人形ヒュオンのBlueprint
+
+/c5※製作には「Blueprint 18_A」と
+　17500Ｇの資金が必要/c3","Blueprints for Crossbow Puppet Hyuon.
+/c5* Requires {Blueprint 18_A} and 17500 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x819b","0x1 0x11c0","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x8230","0x1 0x11cc","設計図１９＿Ｂ","Blueprint 19_B",102,14,14,"Blueprint 19_B","Blueprint 19_B","Blueprint 19_B"
+"opb/PartsDesc.opb","0x823f","0x1 0x11d0","投刃人形エルメランの設計図
+
+/c5※製作には「設計図１９＿Ａ」と
+　１45００Ｇの資金が必要/c3","Blueprints for Edgehurl Puppet Elmerang.
+/c5* Requires {Blueprint 19_A} and 14500 G of funds to produce./c3",240,64,16,"Blueprints for Edgehurl Puppet Elmerang.
+/c5* Requires {Blueprint 19_A} and 14500 G of funds to produce./c3","投刃人形エルメランのBlueprint
+
+/c5※製作には「Blueprint 19_A」と
+　14500Ｇの資金が必要/c3","Blueprints for Edgehurl Puppet Elmerang.
+/c5* Requires {Blueprint 19_A} and 14500 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x829e","0x1 0x11d4","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x8333","0x1 0x11e0","設計図２０＿Ｂ","Blueprint 20_B",102,14,14,"Blueprint 20_B","Blueprint 20_B","Blueprint 20_B"
+"opb/PartsDesc.opb","0x8342","0x1 0x11e4","長銃人形ランボルト改の設計図
+
+/c5※製作には「設計図２０＿Ａ」と
+　１３０００Ｇの資金が必要/c3","Blueprints for Rifle Puppet Nu-Lambolt.
+/c5* Requires {Blueprint 20_A} and 13000 G of funds to produce./c3",240,64,16,"Blueprints for Rifle Puppet Nu-Lambolt.
+/c5* Requires {Blueprint 20_A} and 13000 G of funds to produce./c3","長銃人形ランボルト改のBlueprint
+
+/c5※製作には「Blueprint 20_A」と
+　13000Ｇの資金が必要/c3","Blueprints for Rifle Puppet Nu-Lambolt.
+/c5* Requires {Blueprint 20_A} and 13000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x83a3","0x1 0x11e8","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x8438","0x1 0x11f4","設計図２１＿Ｂ","Blueprint 21_B",102,14,14,"Blueprint 21_B","Blueprint 21_B","Blueprint 21_B"
+"opb/PartsDesc.opb","0x8447","0x1 0x11f8","剣銃士ダルタニア改の設計図
+
+/c5※製作には「設計図２１＿Ａ」と
+　１２０００Ｇの資金が必要/c3","Blueprints for Sword-Gunner Nu-Daltania.
+/c5* Requires {Blueprint 21_A} and 12000 G of funds to produce./c3",240,64,16,"Blueprints for Sword-Gunner Nu-Daltania.
+/c5* Requires {Blueprint 21_A} and 12000 G of funds to produce./c3","剣銃士ダルタニア改のBlueprint
+
+/c5※製作には「Blueprint 21_A」と
+　12000Ｇの資金が必要/c3","Blueprints for Sword-Gunner Nu-Daltania.
+/c5* Requires {Blueprint 21_A} and 12000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x84a6","0x1 0x11fc","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x853b","0x1 0x1208","設計図２２＿Ｂ","Blueprint 22_B",102,14,14,"Blueprint 22_B","Blueprint 22_B","Blueprint 22_B"
+"opb/PartsDesc.opb","0x854a","0x1 0x120c","蒸気人形ドーヴァーＢの設計図
+
+/c5※製作には「設計図２２＿Ａ」と
+　１６０００Ｇの資金が必要/c3","Blueprints for Steam Puppet Dover-B.
+/c5* Requires {Blueprint 22_A} and 16000 G of funds to produce./c3",240,64,16,"Blueprints for Steam Puppet Dover-B.
+/c5* Requires {Blueprint 22_A} and 16000 G of funds to produce./c3","蒸気人形ドーヴァーＢのBlueprint
+
+/c5※製作には「Blueprint 22_A」と
+　16000Ｇの資金が必要/c3","Blueprints for Steam Puppet Dover-B.
+/c5* Requires {Blueprint 22_A} and 16000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x85ab","0x1 0x1210","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x8640","0x1 0x121c","設計図２３＿Ｂ","Blueprint 23_B",102,14,14,"Blueprint 23_B","Blueprint 23_B","Blueprint 23_B"
+"opb/PartsDesc.opb","0x864f","0x1 0x1220","ブラック・ゼスターの設計図
+
+/c5※製作には「設計図２３＿Ａ」と
+　１７5００Ｇの資金が必要/c3","Blueprints for Black Zester.
+/c5* Requires {Blueprint 23_A} and 17500 G of funds to produce./c3",240,64,16,"Blueprints for Black Zester.
+/c5* Requires {Blueprint 23_A} and 17500 G of funds to produce./c3","ブラック・ゼスターのBlueprint
+
+/c5※製作には「Blueprint 23_A」と
+　17500Ｇの資金が必要/c3","Blueprints for Black Zester.
+/c5* Requires {Blueprint 23_A} and 17500 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x86ae","0x1 0x1224","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x8743","0x1 0x1230","設計図２4＿Ｂ","Blueprint 24_B",102,14,14,"Blueprint 24_B","Blueprint 24_B","Blueprint 24_B"
+"opb/PartsDesc.opb","0x8752","0x1 0x1234","ミサイル火炎人形ウルの設計図
+
+/c5※製作には「設計図２4＿Ａ」と
+　１２０００Ｇの資金が必要/c3","Blueprints for Flame Missile Puppet Ul.
+/c5* Requires {Blueprint 24_A} and 12000 G of funds to produce./c3",240,64,16,"Blueprints for Flame Missile Puppet Ul.
+/c5* Requires {Blueprint 24_A} and 12000 G of funds to produce./c3","ミサイル火炎人形ウルのBlueprint
+
+/c5※製作には「Blueprint 24_A」と
+　12000Ｇの資金が必要/c3","Blueprints for Flame Missile Puppet Ul.
+/c5* Requires {Blueprint 24_A} and 12000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x87b3","0x1 0x1238","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x8848","0x1 0x1244","設計図２5＿Ｂ","Blueprint 25_B",102,14,14,"Blueprint 25_B","Blueprint 25_B","Blueprint 25_B"
+"opb/PartsDesc.opb","0x8857","0x1 0x1248","魔弓将軍ジンファの設計図
+
+/c5※製作には「設計図２5＿Ａ」と
+　２００００Ｇの資金が必要/c3","Blueprints for Demonbow General Jinfa.
+/c5* Requires {Blueprint 25_A} and 20000 G of funds to produce./c3",240,64,16,"Blueprints for Demonbow General Jinfa.
+/c5* Requires {Blueprint 25_A} and 20000 G of funds to produce./c3","魔弓将軍ジンファのBlueprint
+
+/c5※製作には「Blueprint 25_A」と
+　20000Ｇの資金が必要/c3","Blueprints for Demonbow General Jinfa.
+/c5* Requires {Blueprint 25_A} and 20000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x88b4","0x1 0x124c","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x8949","0x1 0x1258","設計図２６＿Ｂ","Blueprint 26_B",102,14,14,"Blueprint 26_B","Blueprint 26_B","Blueprint 26_B"
+"opb/PartsDesc.opb","0x8958","0x1 0x125c","ガンマン人形ボルザーの設計図
+
+/c5※製作には「設計図２６＿Ａ」と
+　２３5００Ｇの資金が必要/c3","Blueprints for Gunman Puppet Bolzer.
+/c5* Requires {Blueprint 26_A} and 23500 G of funds to produce./c3",240,64,16,"Blueprints for Gunman Puppet Bolzer.
+/c5* Requires {Blueprint 26_A} and 23500 G of funds to produce./c3","ガンマン人形ボルザーのBlueprint
+
+/c5※製作には「Blueprint 26_A」と
+　23500Ｇの資金が必要/c3","Blueprints for Gunman Puppet Bolzer.
+/c5* Requires {Blueprint 26_A} and 23500 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x89b9","0x1 0x1260","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x8a4e","0x1 0x126c","設計図２７＿Ｂ","Blueprint 27_B",102,14,14,"Blueprint 27_B","Blueprint 27_B","Blueprint 27_B"
+"opb/PartsDesc.opb","0x8a5d","0x1 0x1270","爆砕人形ガルネイドの設計図
+
+/c5※製作には「設計図２７＿Ａ」と
+　２００００Ｇの資金が必要/c3","Blueprints for Blast Puppet Galnado.
+/c5* Requires {Blueprint 27_A} and 20000 G of funds to produce./c3",240,64,16,"Blueprints for Blast Puppet Galnado.
+/c5* Requires {Blueprint 27_A} and 20000 G of funds to produce./c3","爆砕人形ガルネイドのBlueprint
+
+/c5※製作には「Blueprint 27_A」と
+　20000Ｇの資金が必要/c3","Blueprints for Blast Puppet Galnado.
+/c5* Requires {Blueprint 27_A} and 20000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x8abc","0x1 0x1274","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x8b51","0x1 0x1280","設計図２８＿Ｂ","Blueprint 28_B",102,14,14,"Blueprint 28_B","Blueprint 28_B","Blueprint 28_B"
+"opb/PartsDesc.opb","0x8b60","0x1 0x1284","神槍人形ハダンの設計図
+
+/c5※製作には「設計図２８＿Ａ」と
+　３5０００Ｇの資金が必要/c3","Blueprints for Godspear Puppet Hadan.
+/c5* Requires {Blueprint 28_A} and 35000 G of funds to produce./c3",240,64,16,"Blueprints for Godspear Puppet Hadan.
+/c5* Requires {Blueprint 28_A} and 35000 G of funds to produce./c3","神槍人形ハダンのBlueprint
+
+/c5※製作には「Blueprint 28_A」と
+　35000Ｇの資金が必要/c3","Blueprints for Godspear Puppet Hadan.
+/c5* Requires {Blueprint 28_A} and 35000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x8bbb","0x1 0x1288","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x8c50","0x1 0x1294","設計図２９＿Ｂ","Blueprint 29_B",102,14,14,"Blueprint 29_B","Blueprint 29_B","Blueprint 29_B"
+"opb/PartsDesc.opb","0x8c5f","0x1 0x1298","ショベル人形ダルベルの設計図
+
+/c5※製作には「設計図２９＿Ａ」と
+　２5０００Ｇの資金が必要/c3","Blueprints for Shovel Puppet Dalvel.
+/c5* Requires {Blueprint 29_A} and 25000 G of funds to produce./c3",240,64,16,"Blueprints for Shovel Puppet Dalvel.
+/c5* Requires {Blueprint 29_A} and 25000 G of funds to produce./c3","ショベル人形ダルベルのBlueprint
+
+/c5※製作には「Blueprint 29_A」と
+　25000Ｇの資金が必要/c3","Blueprints for Shovel Puppet Dalvel.
+/c5* Requires {Blueprint 29_A} and 25000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x8cc0","0x1 0x129c","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x8d55","0x1 0x12a8","設計図３０＿Ｂ","Blueprint 30_B",102,14,14,"Blueprint 30_B","Blueprint 30_B","Blueprint 30_B"
+"opb/PartsDesc.opb","0x8d64","0x1 0x12ac","重砲人形ガレオンの設計図
+
+/c5※製作には「設計図３０＿Ａ」と
+　３６5００Ｇの資金が必要/c3","Blueprints for Ordnance Puppet Galeon.
+/c5* Requires {Blueprint 30_A} and 36500 G of funds to produce./c3",240,64,16,"Blueprints for Ordnance Puppet Galeon.
+/c5* Requires {Blueprint 30_A} and 36500 G of funds to produce./c3","重砲人形ガレオンのBlueprint
+
+/c5※製作には「Blueprint 30_A」と
+　36500Ｇの資金が必要/c3","Blueprints for Ordnance Puppet Galeon.
+/c5* Requires {Blueprint 30_A} and 36500 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x8dc1","0x1 0x12b0","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x8e56","0x1 0x12bc","設計図３１＿Ｂ","Blueprint 31_B",102,14,14,"Blueprint 31_B","Blueprint 31_B","Blueprint 31_B"
+"opb/PartsDesc.opb","0x8e65","0x1 0x12c0","人形船ダイダル号の設計図
+
+/c5※製作には「設計図３１＿Ａ」と
+　３００００Ｇの資金が必要/c3","Blueprints for Puppet Ship S.S. Daedus.
+/c5* Requires {Blueprint 31_A} and 30000 G of funds to produce./c3",240,64,16,"Blueprints for Puppet Ship S.S. Daedus.
+/c5* Requires {Blueprint 31_A} and 30000 G of funds to produce./c3","人形船ダイダル号のBlueprint
+
+/c5※製作には「Blueprint 31_A」と
+　30000Ｇの資金が必要/c3","Blueprints for Puppet Ship S.S. Daedus.
+/c5* Requires {Blueprint 31_A} and 30000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x8ec2","0x1 0x12c4","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x8f57","0x1 0x12d0","設計図３２＿Ｂ","Blueprint 32_B",102,14,14,"Blueprint 32_B","Blueprint 32_B","Blueprint 32_B"
+"opb/PartsDesc.opb","0x8f66","0x1 0x12d4","甲殻人形グラスターの設計図
+
+/c5※製作には「設計図３２＿Ａ」と
+　4００００Ｇの資金が必要/c3","Blueprints for Shell Puppet Graster.
+/c5* Requires {Blueprint 32_A} and 40000 G of funds to produce./c3",240,64,16,"Blueprints for Shell Puppet Graster.
+/c5* Requires {Blueprint 32_A} and 40000 G of funds to produce./c3","甲殻人形グラスターのBlueprint
+
+/c5※製作には「Blueprint 32_A」と
+　40000Ｇの資金が必要/c3","Blueprints for Shell Puppet Graster.
+/c5* Requires {Blueprint 32_A} and 40000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x8fc5","0x1 0x12d8","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x905a","0x1 0x12e4","設計図３３＿Ｂ","Blueprint 33_B",102,14,14,"Blueprint 33_B","Blueprint 33_B","Blueprint 33_B"
+"opb/PartsDesc.opb","0x9069","0x1 0x12e8","人形甲虫フェンシル３の設計図
+
+/c5※製作には「設計図３３＿Ａ」と
+　３5０００Ｇの資金が必要/c3","Blueprints for Puppet Beetle Fainsil-3.
+/c5* Requires {Blueprint 33_A} and 35000 G of funds to produce./c3",240,64,16,"Blueprints for Puppet Beetle Fainsil-3.
+/c5* Requires {Blueprint 33_A} and 35000 G of funds to produce./c3","人形甲虫フェンシル3のBlueprint
+
+/c5※製作には「Blueprint 33_A」と
+　35000Ｇの資金が必要/c3","Blueprints for Puppet Beetle Fainsil-3.
+/c5* Requires {Blueprint 33_A} and 35000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x90ca","0x1 0x12ec","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x915f","0x1 0x12f8","設計図３4＿Ｂ","Blueprint 34_B",102,14,14,"Blueprint 34_B","Blueprint 34_B","Blueprint 34_B"
+"opb/PartsDesc.opb","0x916e","0x1 0x12fc","忍傀儡ランガの設計図
+
+/c5※製作には「設計図３4＿Ａ」と
+　３８０００Ｇの資金が必要/c3","Blueprints for Shinobi Kugutsu Ranga.
+/c5* Requires {Blueprint 34_A} and 38000 G of funds to produce./c3",240,64,16,"Blueprints for Shinobi Kugutsu Ranga.
+/c5* Requires {Blueprint 34_A} and 38000 G of funds to produce./c3","忍傀儡ランガのBlueprint
+
+/c5※製作には「Blueprint 34_A」と
+　38000Ｇの資金が必要/c3","Blueprints for Shinobi Kugutsu Ranga.
+/c5* Requires {Blueprint 34_A} and 38000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x91c7","0x1 0x1300","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x925c","0x1 0x130c","設計図３5＿Ｂ","Blueprint 35_B",102,14,14,"Blueprint 35_B","Blueprint 35_B","Blueprint 35_B"
+"opb/PartsDesc.opb","0x926b","0x1 0x1310","弩弓人形ヘリオンの設計図
+
+/c5※製作には「設計図３5＿Ａ」と
+　4１5００Ｇの資金が必要/c3","Blueprints for Crossbow Puppet Hellion.
+/c5* Requires {Blueprint 35_A} and 41500 G of funds to produce./c3",240,64,16,"Blueprints for Crossbow Puppet Hellion.
+/c5* Requires {Blueprint 35_A} and 41500 G of funds to produce./c3","弩弓人形ヘリオンのBlueprint
+
+/c5※製作には「Blueprint 35_A」と
+　41500Ｇの資金が必要/c3","Blueprints for Crossbow Puppet Hellion.
+/c5* Requires {Blueprint 35_A} and 41500 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x92c8","0x1 0x1314","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x935d","0x1 0x1320","設計図３６＿Ｂ","Blueprint 36_B",102,14,14,"Blueprint 36_B","Blueprint 36_B","Blueprint 36_B"
+"opb/PartsDesc.opb","0x936c","0x1 0x1324","投刃人形ギルメランの設計図
+
+/c5※製作には「設計図３６＿Ａ」と
+　4００００Ｇの資金が必要/c3","Blueprints for Edgehurl Puppet Gilmerang.
+/c5* Requires {Blueprint 36_A} and 40000 G of funds to produce./c3",240,64,16,"Blueprints for Edgehurl Puppet Gilmerang.
+/c5* Requires {Blueprint 36_A} and 40000 G of funds to produce./c3","投刃人形ギルメランのBlueprint
+
+/c5※製作には「Blueprint 36_A」と
+　40000Ｇの資金が必要/c3","Blueprints for Edgehurl Puppet Gilmerang.
+/c5* Requires {Blueprint 36_A} and 40000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x93cb","0x1 0x1328","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x9460","0x1 0x1334","設計図３７＿Ｂ","Blueprint 37_B",102,14,14,"Blueprint 37_B","Blueprint 37_B","Blueprint 37_B"
+"opb/PartsDesc.opb","0x946f","0x1 0x1338","爆銃人形グレインＳの設計図
+
+/c5※製作には「設計図３７＿Ａ」と
+　4６5００Ｇの資金が必要/c3","Blueprints for Bombgun Puppet Grain-S.
+/c5* Requires {Blueprint 37_A} and 46500 G of funds to produce./c3",240,64,16,"Blueprints for Bombgun Puppet Grain-S.
+/c5* Requires {Blueprint 37_A} and 46500 G of funds to produce./c3","爆銃人形グレインＳのBlueprint
+
+/c5※製作には「Blueprint 37_A」と
+　46500Ｇの資金が必要/c3","Blueprints for Bombgun Puppet Grain-S.
+/c5* Requires {Blueprint 37_A} and 46500 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x94ce","0x1 0x133c","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x9563","0x1 0x1348","設計図３８＿Ｂ","Blueprint 38_B",102,14,14,"Blueprint 38_B","Blueprint 38_B","Blueprint 38_B"
+"opb/PartsDesc.opb","0x9572","0x1 0x134c","長銃人形サーボルトの設計図
+
+/c5※製作には「設計図３８＿Ａ」と
+　4００００Ｇの資金が必要/c3","Blueprints for Rifle Puppet Sarbolt.
+/c5* Requires {Blueprint 38_A} and 40000 G of funds to produce./c3",240,64,16,"Blueprints for Rifle Puppet Sarbolt.
+/c5* Requires {Blueprint 38_A} and 40000 G of funds to produce./c3","長銃人形サーボルトのBlueprint
+
+/c5※製作には「Blueprint 38_A」と
+　40000Ｇの資金が必要/c3","Blueprints for Rifle Puppet Sarbolt.
+/c5* Requires {Blueprint 38_A} and 40000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x95d1","0x1 0x1350","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x9666","0x1 0x135c","設計図３９＿Ｂ","Blueprint 39_B",102,14,14,"Blueprint 39_B","Blueprint 39_B","Blueprint 39_B"
+"opb/PartsDesc.opb","0x9675","0x1 0x1360","アサルト人形ガルフＸの設計図
+
+/c5※製作には「設計図３９＿Ａ」と
+　4６5００Ｇの資金が必要/c3","Blueprints for Assault Puppet Gulf-X.
+/c5* Requires {Blueprint 39_A} and 46500 G of funds to produce./c3",240,64,16,"Blueprints for Assault Puppet Gulf-X.
+/c5* Requires {Blueprint 39_A} and 46500 G of funds to produce./c3","アサルト人形ガルフＸのBlueprint
+
+/c5※製作には「Blueprint 39_A」と
+　46500Ｇの資金が必要/c3","Blueprints for Assault Puppet Gulf-X.
+/c5* Requires {Blueprint 39_A} and 46500 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x96d6","0x1 0x1364","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x976b","0x1 0x1370","設計図4０＿Ｂ","Blueprint 40_B",102,14,14,"Blueprint 40_B","Blueprint 40_B","Blueprint 40_B"
+"opb/PartsDesc.opb","0x977a","0x1 0x1374","複合銃士サイエル改の設計図
+
+/c5※製作には「設計図4０＿Ａ」と
+　３８０００Ｇの資金が必要/c3","Blueprints for Complex Musketeer Saiel.
+/c5* Requires {Blueprint 40_A} and 38000 G of funds to produce./c3",240,64,16,"Blueprints for Complex Musketeer Saiel.
+/c5* Requires {Blueprint 40_A} and 38000 G of funds to produce./c3","複合銃士サイエル改のBlueprint
+
+/c5※製作には「Blueprint 40_A」と
+　38000Ｇの資金が必要/c3","Blueprints for Complex Musketeer Saiel.
+/c5* Requires {Blueprint 40_A} and 38000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x97d9","0x1 0x1378","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x986e","0x1 0x1384","設計図4１＿Ｂ","Blueprint 41_B",102,14,14,"Blueprint 41_B","Blueprint 41_B","Blueprint 41_B"
+"opb/PartsDesc.opb","0x987d","0x1 0x1388","剣銃士ダルタニアＳの設計図
+
+/c5※製作には「設計図4１＿Ａ」と
+　4１5００Ｇの資金が必要/c3","Blueprints for Sword-Gunner Daltania-S.
+/c5* Requires {Blueprint 41_A} and 41500 G of funds to produce./c3",240,64,16,"Blueprints for Sword-Gunner Daltania-S.
+/c5* Requires {Blueprint 41_A} and 41500 G of funds to produce./c3","剣銃士ダルタニアＳのBlueprint
+
+/c5※製作には「Blueprint 41_A」と
+　41500Ｇの資金が必要/c3","Blueprints for Sword-Gunner Daltania-S.
+/c5* Requires {Blueprint 41_A} and 41500 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x98dc","0x1 0x138c","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x9971","0x1 0x1398","設計図4２＿Ｂ","Blueprint 42_B",102,14,14,"Blueprint 42_B","Blueprint 42_B","Blueprint 42_B"
+"opb/PartsDesc.opb","0x9980","0x1 0x139c","蒸気人形ドーヴァーＦの設計図
+
+/c5※製作には「設計図4２＿Ａ」と
+　45０００Ｇの資金が必要/c3","Blueprints for Steam Puppet Dover-F.
+/c5* Requires {Blueprint 42_A} and 45000 G of funds to produce./c3",240,64,16,"Blueprints for Steam Puppet Dover-F.
+/c5* Requires {Blueprint 42_A} and 45000 G of funds to produce./c3","蒸気人形ドーヴァーＦのBlueprint
+
+/c5※製作には「Blueprint 42_A」と
+　45000Ｇの資金が必要/c3","Blueprints for Steam Puppet Dover-F.
+/c5* Requires {Blueprint 42_A} and 45000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x99e1","0x1 0x13a0","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x9a76","0x1 0x13ac","設計図4３＿Ｂ","Blueprint 43_B",102,14,14,"Blueprint 43_B","Blueprint 43_B","Blueprint 43_B"
+"opb/PartsDesc.opb","0x9a85","0x1 0x13b0","ゼンマイ人形　金星号の設計図
+
+/c5※製作には「設計図4３＿Ａ」と
+　4３０００Ｇの資金が必要/c3","Blueprints for Wind-Up Puppet (Venus).
+/c5* Requires {Blueprint 43_A} and 43000 G of funds to produce./c3",240,64,16,"Blueprints for Wind-Up Puppet (Venus).
+/c5* Requires {Blueprint 43_A} and 43000 G of funds to produce./c3","ゼンマイ人形　金星号のBlueprint
+
+/c5※製作には「Blueprint 43_A」と
+　43000Ｇの資金が必要/c3","Blueprints for Wind-Up Puppet (Venus).
+/c5* Requires {Blueprint 43_A} and 43000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x9ae6","0x1 0x13b4","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x9b7b","0x1 0x13c0","設計図44＿Ｂ","Blueprint 44_B",102,14,14,"Blueprint 44_B","Blueprint 44_B","Blueprint 44_B"
+"opb/PartsDesc.opb","0x9b8a","0x1 0x13c4","電光人形スペクトラＸの設計図
+
+/c5※製作には「設計図44＿Ａ」と
+　３８０００Ｇの資金が必要/c3","Blueprints for Thunder Puppet Spectra-X.
+/c5* Requires {Blueprint 44_A} and 38000 G of funds to produce./c3",240,64,16,"Blueprints for Thunder Puppet Spectra-X.
+/c5* Requires {Blueprint 44_A} and 38000 G of funds to produce./c3","電光人形スペクトラＸのBlueprint
+
+/c5※製作には「Blueprint 44_A」と
+　38000Ｇの資金が必要/c3","Blueprints for Thunder Puppet Spectra-X.
+/c5* Requires {Blueprint 44_A} and 38000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x9beb","0x1 0x13c8","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x9c80","0x1 0x13d4","設計図45＿Ｂ","Blueprint 45_B",102,14,14,"Blueprint 45_B","Blueprint 45_B","Blueprint 45_B"
+"opb/PartsDesc.opb","0x9c8f","0x1 0x13d8","超人形ダイゼスターの設計図
+
+/c5※製作には「設計図45＿Ａ」と
+　4６5００Ｇの資金が必要/c3","Blueprints for Super-Puppet Daizester.
+/c5* Requires {Blueprint 45_A} and 46500 G of funds to produce./c3",240,64,16,"Blueprints for Super-Puppet Daizester.
+/c5* Requires {Blueprint 45_A} and 46500 G of funds to produce./c3","超人形ダイゼスターのBlueprint
+
+/c5※製作には「Blueprint 45_A」と
+　46500Ｇの資金が必要/c3","Blueprints for Super-Puppet Daizester.
+/c5* Requires {Blueprint 45_A} and 46500 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x9cee","0x1 0x13dc","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x9d83","0x1 0x13e8","設計図4６＿Ｂ","Blueprint 46_B",102,14,14,"Blueprint 46_B","Blueprint 46_B","Blueprint 46_B"
+"opb/PartsDesc.opb","0x9d92","0x1 0x13ec","人形甲虫アヴェルスの設計図
+
+/c5※製作には「設計図4６＿Ａ」と
+　45０００Ｇの資金が必要/c3","Blueprints for Puppet Beetle Avuels.
+/c5* Requires {Blueprint 46_A} and 45000 G of funds to produce./c3",240,64,16,"Blueprints for Puppet Beetle Avuels.
+/c5* Requires {Blueprint 46_A} and 45000 G of funds to produce./c3","人形甲虫アヴェルスのBlueprint
+
+/c5※製作には「Blueprint 46_A」と
+　45000Ｇの資金が必要/c3","Blueprints for Puppet Beetle Avuels.
+/c5* Requires {Blueprint 46_A} and 45000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x9df1","0x1 0x13f0","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x9e86","0x1 0x13fc","設計図4７＿Ｂ","Blueprint 47_B",102,14,14,"Blueprint 47_B","Blueprint 47_B","Blueprint 47_B"
+"opb/PartsDesc.opb","0x9e95","0x1 0x1400","裂空剣豪ゴウライの設計図
+
+/c5※製作には「設計図4７＿Ａ」と
+　4６5００Ｇの資金が必要/c3","Blueprints for Skycut Swordmaster Gourai.
+/c5* Requires {Blueprint 47_A} and 46500 G of funds to produce./c3",240,64,16,"Blueprints for Skycut Swordmaster Gourai.
+/c5* Requires {Blueprint 47_A} and 46500 G of funds to produce./c3","裂空剣豪ゴウライのBlueprint
+
+/c5※製作には「Blueprint 47_A」と
+　46500Ｇの資金が必要/c3","Blueprints for Skycut Swordmaster Gourai.
+/c5* Requires {Blueprint 47_A} and 46500 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x9ef2","0x1 0x1404","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0x9f87","0x1 0x1410","設計図4８＿Ｂ","Blueprint 48_B",102,14,14,"Blueprint 48_B","Blueprint 48_B","Blueprint 48_B"
+"opb/PartsDesc.opb","0x9f96","0x1 0x1414","回転銃士ボルガノンの設計図
+
+/c5※製作には「設計図4８＿Ａ」と
+　45０００Ｇの資金が必要/c3","Blueprints for Whirl Musketeer Bolganon.
+/c5* Requires {Blueprint 48_A} and 45000 G of funds to produce./c3",240,64,16,"Blueprints for Whirl Musketeer Bolganon.
+/c5* Requires {Blueprint 48_A} and 45000 G of funds to produce./c3","回転銃士ボルガノンのBlueprint
+
+/c5※製作には「Blueprint 48_A」と
+　45000Ｇの資金が必要/c3","Blueprints for Whirl Musketeer Bolganon.
+/c5* Requires {Blueprint 48_A} and 45000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0x9ff5","0x1 0x1418","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0xa08a","0x1 0x1424","設計図4９＿Ｂ","Blueprint 49_B",102,14,14,"Blueprint 49_B","Blueprint 49_B","Blueprint 49_B"
+"opb/PartsDesc.opb","0xa099","0x1 0x1428","核撃人形アトロスαの設計図
+
+/c5※製作には「設計図4９＿Ａ」と
+　６００００Ｇの資金が必要/c3","Blueprints for Nuclear Puppet Atlos-α.
+/c5* Requires {Blueprint 49_A} and 60000 G of funds to produce./c3",240,64,16,"Blueprints for Atomic Puppet Atlos-α.
+/c5* Requires {Blueprint 49_A} and 60000 G of funds to produce./c3","核撃人形アトロスαのBlueprint
+
+/c5※製作には「Blueprint 49_A」と
+　60000Ｇの資金が必要/c3","Blueprints for Atomic Puppet Atlos-α.
+/c5* Requires {Blueprint 49_A} and 60000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0xa0f8","0x1 0x142c","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0xa18d","0x1 0x1438","設計図5０＿Ｂ","Blueprint 50_B",102,14,14,"Blueprint 50_B","Blueprint 50_B","Blueprint 50_B"
+"opb/PartsDesc.opb","0xa19c","0x1 0x143c","人形獣帝ライスターの設計図
+
+/c5※製作には「設計図5０＿Ａ」と
+　７００００Ｇの資金が必要/c3","Blueprints for Emperor Beast Listar.
+/c5* Requires {Blueprint 50_A} and 70000 G of funds to produce./c3",240,64,16,"Blueprints for Emperor Beast Listar.
+/c5* Requires {Blueprint 50_A} and 70000 G of funds to produce./c3","人形獣帝ライスターのBlueprint
+
+/c5※製作には「Blueprint 50_A」と
+　70000Ｇの資金が必要/c3","Blueprints for Emperor Beast Listar.
+/c5* Requires {Blueprint 50_A} and 70000 G of funds to produce./c3"
+"opb/PartsDesc.opb","0xa1fb","0x1 0x1440","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。",240,64,16,"　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。","　人形の設計図。人形製作に必要な情報
+が全て記載されている。人形師が命より
+大切にする図面であり、製法の秘密を守
+るため上巻下巻に分けて保管される。"
+"opb/PartsDesc.opb","0xa290","0x1 0x144c","火龍水","Fire Drake Water",102,14,14,"Fire Drake Water","Fire Drake Water","Fire Drake Water"
+"opb/PartsDesc.opb","0xa297","0x1 0x1450","使用すると、すべての人形が完全に整備
+された状態となる","When used, all Puppets become fully maintained.",240,64,16,"When used, all Puppets become fully maintained.","使用すると、すべての人形が完全に整備
+された状態となる","When used, all Puppets become fully maintained."
+"opb/PartsDesc.opb","0xa2ce","0x1 0x1454","　伝説の薬草から作られたドリンク。飲
+むと力がみなぎり、不眠で働き続けるこ
+とができる。","　伝説の薬草から作られたドリンク。飲
+むと力がみなぎり、不眠で働き続けるこ
+とができる。",240,64,16,"　伝説の薬草から作られたドリンク。飲
+むと力がみなぎり、不眠で働き続けるこ
+とができる。","　伝説の薬草から作られたドリンク。飲
+むと力がみなぎり、不眠で働き続けるこ
+とができる。","　伝説の薬草から作られたドリンク。飲
+むと力がみなぎり、不眠で働き続けるこ
+とができる。"
+"opb/PartsDesc.opb","0xa327","0x1 0x1460","部品箱１","Part Box 1",102,14,14,"Part Box 1","Part Box 1","Part Box 1"
+"opb/PartsDesc.opb","0xa330","0x1 0x1464","使用するとパーツが１つ出現","Produces a Part when used.",240,64,16,"Produces a Part when used.","Produces one part when used.","Produces a Part when used."
+"opb/PartsDesc.opb","0xa34b","0x1 0x1468","　部品の入った箱。
+　中に何が入っているかは開けてみるま
+でわからない。","　部品の入った箱。
+　中に何が入っているかは開けてみるま
+でわからない。",240,64,16,"　部品の入った箱。
+　中に何が入っているかは開けてみるま
+でわからない。","　部品の入った箱。
+　中に何が入っているかは開けてみるま
+でわからない。","　部品の入った箱。
+　中に何が入っているかは開けてみるま
+でわからない。"
+"opb/PartsDesc.opb","0xa394","0x1 0x1474","部品箱２","Part Box 2",102,14,14,"Part Box 2","Part Box 2","Part Box 2"
+"opb/PartsDesc.opb","0xa39d","0x1 0x1478","使用するとパーツが１つ出現","Produces a Part when used.",240,64,16,"Produces a Part when used.","Produces one part when used.","Produces a Part when used."
+"opb/PartsDesc.opb","0xa3b8","0x1 0x147c","　部品の入った箱。
+　中に何が入っているかは開けてみるま
+でわからない。","　部品の入った箱。
+　中に何が入っているかは開けてみるま
+でわからない。",240,64,16,"　部品の入った箱。
+　中に何が入っているかは開けてみるま
+でわからない。","　部品の入った箱。
+　中に何が入っているかは開けてみるま
+でわからない。","　部品の入った箱。
+　中に何が入っているかは開けてみるま
+でわからない。"
+"opb/PartsDesc.opb","0xa401","0x1 0x1488","特殊部品箱１","Special Part Box 1",102,14,14,"Special Part Box 1","Special Part Box 1","Special Part Box 1"
+"opb/PartsDesc.opb","0xa40e","0x1 0x148c","使用するとパーツが１つ出現","Produces a Part when used.",240,64,16,"Produces a Part when used.","Produces one part when used.","Produces a Part when used."
+"opb/PartsDesc.opb","0xa429","0x1 0x1490","　貴重な部品の入った箱。
+　中に何が入っているかは開けてみるま
+でわからない。","　貴重な部品の入った箱。
+　中に何が入っているかは開けてみるま
+でわからない。",240,64,16,"　貴重な部品の入った箱。
+　中に何が入っているかは開けてみるま
+でわからない。","　貴重な部品の入った箱。
+　中に何が入っているかは開けてみるま
+でわからない。","　貴重な部品の入った箱。
+　中に何が入っているかは開けてみるま
+でわからない。"
+"opb/PartsDesc.opb","0xa478","0x1 0x149c","特殊部品箱２","Special Part Box 2",102,14,14,"Special Part Box 2","Special Part Box 2","Special Part Box 2"
+"opb/PartsDesc.opb","0xa485","0x1 0x14a0","使用するとパーツが１つ出現","Produces a Part when used.",240,64,16,"Produces a Part when used.","Produces one part when used.","Produces a Part when used."
+"opb/PartsDesc.opb","0xa4a0","0x1 0x14a4","　貴重な部品の入った箱。
+　中に何が入っているかは開けてみるま
+でわからない。","　貴重な部品の入った箱。
+　中に何が入っているかは開けてみるま
+でわからない。",240,64,16,"　貴重な部品の入った箱。
+　中に何が入っているかは開けてみるま
+でわからない。","　貴重な部品の入った箱。
+　中に何が入っているかは開けてみるま
+でわからない。","　貴重な部品の入った箱。
+　中に何が入っているかは開けてみるま
+でわからない。"
+"opb/PartsDesc.opb","0xa4ef","0x1 0x14b0","特殊部品箱３","Special Part Box 3",102,14,14,"Special Part Box 3","Special Part Box 3","Special Part Box 3"
+"opb/PartsDesc.opb","0xa4fc","0x1 0x14b4","使用するとパーツが１つ出現","Produces a Part when used.",240,64,16,"Produces a Part when used.","Produces one part when used.","Produces a Part when used."
+"opb/PartsDesc.opb","0xa517","0x1 0x14b8","　貴重な部品の入った箱。
+　中に何が入っているかは開けてみるま
+でわからない。","　貴重な部品の入った箱。
+　中に何が入っているかは開けてみるま
+でわからない。",240,64,16,"　貴重な部品の入った箱。
+　中に何が入っているかは開けてみるま
+でわからない。","　貴重な部品の入った箱。
+　中に何が入っているかは開けてみるま
+でわからない。","　貴重な部品の入った箱。
+　中に何が入っているかは開けてみるま
+でわからない。"
+"opb/PartsDesc.opb","0xa566","0x1 0x14c4","レア部品箱１","Rare Part Box 1",102,14,14,"Rare Part Box 1","Rare Part Box 1","Rare Part Box 1"
+"opb/PartsDesc.opb","0xa573","0x1 0x14c8","使用するとパーツが１つ出現","Produces a Part when used.",240,64,16,"Produces a Part when used.","Produces one part when used.","Produces a Part when used."
+"opb/PartsDesc.opb","0xa58e","0x1 0x14cc","　非常に貴重な部品の入った箱。
+　中に何が入っているかは開けてみるま
+でわからない。","　非常に貴重な部品の入った箱。
+　中に何が入っているかは開けてみるま
+でわからない。",240,64,16,"　非常に貴重な部品の入った箱。
+　中に何が入っているかは開けてみるま
+でわからない。","　非常に貴重な部品の入った箱。
+　中に何が入っているかは開けてみるま
+でわからない。","　非常に貴重な部品の入った箱。
+　中に何が入っているかは開けてみるま
+でわからない。"
+"opb/PartsDesc.opb","0xa5e3","0x1 0x14d8","レア部品箱２","Rare Part Box 2",102,14,14,"Rare Part Box 2","Rare Part Box 2","Rare Part Box 2"
+"opb/PartsDesc.opb","0xa5f0","0x1 0x14dc","使用するとパーツが１つ出現","Produces a Part when used.",240,64,16,"Produces a Part when used.","Produces one part when used.","Produces a Part when used."
+"opb/PartsDesc.opb","0xa60b","0x1 0x14e0","　非常に貴重な部品の入った箱。
+　中に何が入っているかは開けてみるま
+でわからない。","　非常に貴重な部品の入った箱。
+　中に何が入っているかは開けてみるま
+でわからない。",240,64,16,"　非常に貴重な部品の入った箱。
+　中に何が入っているかは開けてみるま
+でわからない。","　非常に貴重な部品の入った箱。
+　中に何が入っているかは開けてみるま
+でわからない。","　非常に貴重な部品の入った箱。
+　中に何が入っているかは開けてみるま
+でわからない。"
+"opb/PartsDesc.opb","0xa660","0x1 0x14ec","レア部品箱３","Rare Part Box 3",102,14,14,"Rare Part Box 3","Rare Part Box 3","Rare Part Box 3"
+"opb/PartsDesc.opb","0xa66d","0x1 0x14f0","使用するとパーツが１つ出現","Produces a Part when used.",240,64,16,"Produces a Part when used.","Produces one part when used.","Produces a Part when used."
+"opb/PartsDesc.opb","0xa688","0x1 0x14f4","　非常に貴重な部品の入った箱。
+　中に何が入っているかは開けてみるま
+でわからない。","　非常に貴重な部品の入った箱。
+　中に何が入っているかは開けてみるま
+でわからない。",240,64,16,"　非常に貴重な部品の入った箱。
+　中に何が入っているかは開けてみるま
+でわからない。","　非常に貴重な部品の入った箱。
+　中に何が入っているかは開けてみるま
+でわからない。","　非常に貴重な部品の入った箱。
+　中に何が入っているかは開けてみるま
+でわからない。"
+"opb/PartsDesc.opb","0xa6dd","0x1 0x1500","宝箱１","Treasure Chest 1",102,14,14,"Treasure Chest 1","Treasure Box 1","Treasure Chest 1"
+"opb/PartsDesc.opb","0xa6e4","0x1 0x1504","交換することで効果を発揮
+/c5※贈った者、贈られた者の双方が
+　アイテムを入手できる/c3","Used by being traded.
+/c5* Both the giver and receiver get an item./c3",240,64,16,"Used by being traded.
+/c5* Both the giver and receiver get an item./c3","Used by being traded.
+/c5* Both the giver and receiver get
+an item./c3","Used by being traded.
+/c5* Both the giver and receiver get an item./c3"
+"opb/PartsDesc.opb","0xa73b","0x1 0x1508","　封印された箱。１人では開かないが、
+２人なら開く。中には貴重な品が２つ入
+っているらしい。","　封印された箱。1人では開かないが、
+2人なら開く。中には貴重な品が2つ入
+っているらしい。",240,64,16,"　封印された箱。1人では開かないが、
+2人なら開く。中には貴重な品が2つ入
+っているらしい。","　封印された箱。1人では開かないが、
+2人なら開く。中には貴重な品が2つ入
+っているらしい。","　封印された箱。1人では開かないが、
+2人なら開く。中には貴重な品が2つ入
+っているらしい。"
+"opb/PartsDesc.opb","0xa798","0x1 0x1514","宝箱２","Treasure Chest 2",102,14,14,"Treasure Chest 2","Treasure Box 2","Treasure Chest 2"
+"opb/PartsDesc.opb","0xa79f","0x1 0x1518","交換することで効果を発揮
+/c5※贈った者、贈られた者の双方が
+　アイテムを入手できる/c3","Used by being traded.
+/c5* Both the giver and receiver get an item./c3",240,64,16,"Used by being traded.
+/c5* Both the giver and receiver get an item./c3","Used by being traded.
+/c5* Both the giver and receiver get
+an item./c3","Used by being traded.
+/c5* Both the giver and receiver get an item./c3"
+"opb/PartsDesc.opb","0xa7f6","0x1 0x151c","　封印された箱。１人では開かないが、
+２人なら開く。中には貴重な品が２つ入
+っているらしい。","　封印された箱。1人では開かないが、
+2人なら開く。中には貴重な品が2つ入
+っているらしい。",240,64,16,"　封印された箱。1人では開かないが、
+2人なら開く。中には貴重な品が2つ入
+っているらしい。","　封印された箱。1人では開かないが、
+2人なら開く。中には貴重な品が2つ入
+っているらしい。","　封印された箱。1人では開かないが、
+2人なら開く。中には貴重な品が2つ入
+っているらしい。"
+"opb/PartsDesc.opb","0xa853","0x1 0x1528","特殊宝箱１","Special Chest 1",102,14,14,"Special Chest 1","Special Treasure Box 1","Special Chest 1"
+"opb/PartsDesc.opb","0xa85e","0x1 0x152c","交換することで効果を発揮
+/c5※贈った者、贈られた者の双方が
+　アイテムを入手できる/c3","Used by being traded.
+/c5* Both the giver and receiver get an item./c3",240,64,16,"Used by being traded.
+/c5* Both the giver and receiver get an item./c3","Used by being traded.
+/c5* Both the giver and receiver get
+an item./c3","Used by being traded.
+/c5* Both the giver and receiver get an item./c3"
+"opb/PartsDesc.opb","0xa8b5","0x1 0x1530","　封印された箱。１人では開かないが、
+２人なら開く。中には貴重な品が２つ入
+っているらしい。","　封印された箱。1人では開かないが、
+2人なら開く。中には貴重な品が2つ入
+っているらしい。",240,64,16,"　封印された箱。1人では開かないが、
+2人なら開く。中には貴重な品が2つ入
+っているらしい。","　封印された箱。1人では開かないが、
+2人なら開く。中には貴重な品が2つ入
+っているらしい。","　封印された箱。1人では開かないが、
+2人なら開く。中には貴重な品が2つ入
+っているらしい。"
+"opb/PartsDesc.opb","0xa912","0x1 0x153c","特殊宝箱２","Special Chest 2",102,14,14,"Special Chest 2","Special Treasure Box 2","Special Chest 2"
+"opb/PartsDesc.opb","0xa91d","0x1 0x1540","交換することで効果を発揮
+/c5※贈った者、贈られた者の双方が
+　アイテムを入手できる/c3","Used by being traded.
+/c5* Both the giver and receiver get an item./c3",240,64,16,"Used by being traded.
+/c5* Both the giver and receiver get an item./c3","Used by being traded.
+/c5* Both the giver and receiver get
+an item./c3","Used by being traded.
+/c5* Both the giver and receiver get an item./c3"
+"opb/PartsDesc.opb","0xa974","0x1 0x1544","　封印された箱。１人では開かないが、
+２人なら開く。中には貴重な品が２つ入
+っているらしい。","　封印された箱。1人では開かないが、
+2人なら開く。中には貴重な品が2つ入
+っているらしい。",240,64,16,"　封印された箱。1人では開かないが、
+2人なら開く。中には貴重な品が2つ入
+っているらしい。","　封印された箱。1人では開かないが、
+2人なら開く。中には貴重な品が2つ入
+っているらしい。","　封印された箱。1人では開かないが、
+2人なら開く。中には貴重な品が2つ入
+っているらしい。"
+"opb/PartsDesc.opb","0xa9d1","0x1 0x1550","特殊宝箱３","Special Chest 3",102,14,14,"Special Chest 3","Special Treasure Box 3","Special Chest 3"
+"opb/PartsDesc.opb","0xa9dc","0x1 0x1554","交換することで効果を発揮
+/c5※贈った者、贈られた者の双方が
+　アイテムを入手できる/c3","Used by being traded.
+/c5* Both the giver and receiver get an item./c3",240,64,16,"Used by being traded.
+/c5* Both the giver and receiver get an item./c3","Used by being traded.
+/c5* Both the giver and receiver get
+an item./c3","Used by being traded.
+/c5* Both the giver and receiver get an item./c3"
+"opb/PartsDesc.opb","0xaa33","0x1 0x1558","　封印された箱。１人では開かないが、
+２人なら開く。中には貴重な品が２つ入
+っているらしい。","　封印された箱。1人では開かないが、
+2人なら開く。中には貴重な品が2つ入
+っているらしい。",240,64,16,"　封印された箱。1人では開かないが、
+2人なら開く。中には貴重な品が2つ入
+っているらしい。","　封印された箱。1人では開かないが、
+2人なら開く。中には貴重な品が2つ入
+っているらしい。","　封印された箱。1人では開かないが、
+2人なら開く。中には貴重な品が2つ入
+っているらしい。"
+"opb/PartsDesc.opb","0xaa90","0x1 0x1564","レア宝箱１","Rare Chest 1",102,14,14,"Rare Chest 1","Rare Treasure Box 1","Rare Chest 1"
+"opb/PartsDesc.opb","0xaa9b","0x1 0x1568","交換することで効果を発揮
+/c5※贈った者、贈られた者の双方が
+　アイテムを入手できる/c3","Used by being traded.
+/c5* Both the giver and receiver get an item./c3",240,64,16,"Used by being traded.
+/c5* Both the giver and receiver get an item./c3","Used by being traded.
+/c5* Both the giver and receiver get
+an item./c3","Used by being traded.
+/c5* Both the giver and receiver get an item./c3"
+"opb/PartsDesc.opb","0xaaf2","0x1 0x156c","　封印された箱。１人では開かないが、
+２人なら開く。中には貴重な品が２つ入
+っているらしい。","　封印された箱。1人では開かないが、
+2人なら開く。中には貴重な品が2つ入
+っているらしい。",240,64,16,"　封印された箱。1人では開かないが、
+2人なら開く。中には貴重な品が2つ入
+っているらしい。","　封印された箱。1人では開かないが、
+2人なら開く。中には貴重な品が2つ入
+っているらしい。","　封印された箱。1人では開かないが、
+2人なら開く。中には貴重な品が2つ入
+っているらしい。"
+"opb/PartsDesc.opb","0xab4f","0x1 0x1578","レア宝箱２","Rare Chest 2",102,14,14,"Rare Chest 2","Rare Treasure Box 2","Rare Chest 2"
+"opb/PartsDesc.opb","0xab5a","0x1 0x157c","交換することで効果を発揮
+/c5※贈った者、贈られた者の双方が
+　アイテムを入手できる/c3","Used by being traded.
+/c5* Both the giver and receiver get an item./c3",240,64,16,"Used by being traded.
+/c5* Both the giver and receiver get an item./c3","Used by being traded.
+/c5* Both the giver and receiver get
+an item./c3","Used by being traded.
+/c5* Both the giver and receiver get an item./c3"
+"opb/PartsDesc.opb","0xabb1","0x1 0x1580","　封印された箱。１人では開かないが、
+２人なら開く。中には貴重な品が２つ入
+っているらしい。","　封印された箱。1人では開かないが、
+2人なら開く。中には貴重な品が2つ入
+っているらしい。",240,64,16,"　封印された箱。1人では開かないが、
+2人なら開く。中には貴重な品が2つ入
+っているらしい。","　封印された箱。1人では開かないが、
+2人なら開く。中には貴重な品が2つ入
+っているらしい。","　封印された箱。1人では開かないが、
+2人なら開く。中には貴重な品が2つ入
+っているらしい。"
+"opb/PartsDesc.opb","0xac0e","0x1 0x158c","レア宝箱３","Rare Chest 3",102,14,14,"Rare Chest 3","Rare Treasure Box 3","Rare Chest 3"
+"opb/PartsDesc.opb","0xac19","0x1 0x1590","交換することで効果を発揮
+/c5※贈った者、贈られた者の双方が
+　アイテムを入手できる/c3","Used by being traded.
+/c5* Both the giver and receiver get an item./c3",240,64,16,"Used by being traded.
+/c5* Both the giver and receiver get an item./c3","Used by being traded.
+/c5* Both the giver and receiver get
+an item./c3","Used by being traded.
+/c5* Both the giver and receiver get an item./c3"
+"opb/PartsDesc.opb","0xac70","0x1 0x1594","　封印された箱。１人では開かないが、
+２人なら開く。中には貴重な品が２つ入
+っているらしい。","　封印された箱。1人では開かないが、
+2人なら開く。中には貴重な品が2つ入
+っているらしい。",240,64,16,"　封印された箱。1人では開かないが、
+2人なら開く。中には貴重な品が2つ入
+っているらしい。","　封印された箱。1人では開かないが、
+2人なら開く。中には貴重な品が2つ入
+っているらしい。","　封印された箱。1人では開かないが、
+2人なら開く。中には貴重な品が2つ入
+っているらしい。"

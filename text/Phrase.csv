@@ -1,0 +1,586 @@
+"File","Offset","Pointers","Japanese","English","width","height","lineheight",,"English","English"
+"Phrase.opb","0x6f8","0x1 0x37c","はい","Yes",210,48,16,,"Yes","&Yes"
+"Phrase.opb","0x6fd","0x1 0x380","はい","Yes",210,48,16,,"Yes","&Yes"
+"Phrase.opb","0x702","0x1 0x384","はい","Yes",210,48,16,,"Yes","&Yes"
+"Phrase.opb","0x707","0x1 0x388","はい","Yes",210,48,16,,"Yes","&Yes"
+"Phrase.opb","0x70c","0x1 0x38c","はい","Yes",210,48,16,,"Yes","&Yes"
+"Phrase.opb","0x711","0x1 0x390","はい","Yes",210,48,16,,"Yes","&Yes"
+"Phrase.opb","0x716","0x1 0x394","はい","Yes",210,48,16,,"Yes","&Yes"
+"Phrase.opb","0x71b","0x1 0x39c","いいえ","No",210,48,16,,"No","&No"
+"Phrase.opb","0x722","0x1 0x3a4","キャンセル","Cancel",210,48,16,,"Cancel","&Cancel"
+"Phrase.opb","0x72d","0x1 0x3ac","これまでの行いを
+セーブします。","Save your progress?",210,48,16,,"Save your progress?","&Save your progress?"
+"Phrase.opb","0x74e","0x1 0x3b4","はい","Yes",210,48,16,,"Yes","&Yes"
+"Phrase.opb","0x753","0x1 0x3bc","いいえ","No",210,48,16,,"No","&No"
+"Phrase.opb","0x75a","0x1 0x3c4","セーブ中です。
+電源を切らずにお待ちください。","Now saving...
+Don't turn off the power.",210,48,16,,"Now saving...
+Don't turn off the power.","&Now saving...
+Don't turn off the power."
+"Phrase.opb","0x789","0x1 0x3cc","セーブに失敗しました。
+電源を切り、ＤＳゲームカードを
+差し込み直してください。","Save failed.
+Turn off the power and re-insert the DS Game Card.",210,48,16,,"Save failed.
+Turn off the power and re-insert the DS Game Card.","&Save failed.
+Turn off the power and re-insert the DS Game Card."
+"Phrase.opb","0x7da","0x1 0x3d4","セーブ完了","Saved.",210,48,16,"Should be “Save completed.”, but for some reason that freezes the game immediately after it's displayed.","Saved.","&Saved."
+"Phrase.opb","0x7e5","0x1 0x3dc","新しいファイルを作成します。
+古いファイルを削除しますか？","This will create a new file.
+Delete the old file?",210,48,16,,"This will create a new file.
+Delete the old file?","&This will create a new file.
+Delete the old file?"
+"Phrase.opb","0x820","0x1 0x3e4","削除する","Delete",210,48,16,,"Delete","&Delete"
+"Phrase.opb","0x829","0x1 0x3ec","削除しない","Don't delete",210,48,16,,"Don't delete","&Don't delete"
+"Phrase.opb","0x834","0x1 0x3f4","ファイルを作成しています。
+電源を切らずにお待ちください。","Creating file...
+Don't turn off the power.",210,48,16,,"Creating file...
+Don't turn off the power.","&Creating file...
+Don't turn off the power."
+"Phrase.opb","0x86f","0x1 0x3fc","ファイルの作成に失敗しました。
+電源を切って、ＤＳゲームカードを
+差し込み直してください。","Failed to create the file.
+Turn the power off and re-insert the DS Game Card.",210,48,16,,"Failed to create the file.
+Turn the power off and re-insert the DS Game Card.","&Failed to create the file.
+Turn the power off and re-insert the DS Game Card."
+"Phrase.opb","0x8ca","0x1 0x404","ファイルを読み込んでいます。
+電源を切らずにお待ちください。","Loading file...
+Don't turn off the power.",210,48,16,,"Loading file...
+Don't turn off the power.","&Loading file...
+Don't turn off the power."
+"Phrase.opb","0x907","0x1 0x40c","ファイルの読み込みに
+失敗しました。
+電源を切って、ＤＳゲームカードを
+差し込み直してください。","Failed to read the file.
+Turn the power off and re-insert the DS Game Card.",210,48,16,,"Failed to read the file.
+Turn the power off and re-insert the DS Game Card.","&Failed to read the file.
+Turn the power off and re-insert the DS Game Card."
+"Phrase.opb","0x968","0x1 0x414","ファイル？が壊れています。
+ファイル？を削除しました。","   File ？ is broken.     
+   File ？ has been deleted.",210,48,16,"Ugggh, they're overwriting the question marks with the file number.
+
+Due to the ASCII conversion, we get extra space, so hopefully it's fine...","   File ？ is broken.     
+   File ？ has been deleted.","&   File ？ is broken.     
+   File ？ has been deleted."
+"Phrase.opb","0x99f","0x1 0x41c","この人形を購入します","Buy this Puppet?",210,48,16,,"Buy this Puppet?","&Buy this Puppet?"
+"Phrase.opb","0x9b4","0x1 0x424","購入","Buy",210,48,16,,"Buy","&Buy"
+"Phrase.opb","0x9b9","0x1 0x42c","中止","Cancel",210,48,16,,"Cancel","&Cancel"
+"Phrase.opb","0x9be","0x1 0x434","資金が不足しています","Insufficient funds!",210,48,16,,"Insufficient funds!","&Insufficient funds!"
+"Phrase.opb","0x9d3","0x1 0x43c","製作中","Under construction...",210,48,16,,"Under construction...","&Under construction..."
+"Phrase.opb","0x9da","0x1 0x444","このパーツを購入します","Buy this Part?",210,48,16,,"Buy this Part?","&Buy this Part?"
+"Phrase.opb","0x9f1","0x1 0x44c","購入","Buy",210,48,16,,"Buy","&Buy"
+"Phrase.opb","0x9f6","0x1 0x454","中止","Cancel",210,48,16,,"Cancel","&Cancel"
+"Phrase.opb","0x9fb","0x1 0x45c","このパーツは
+これ以上持てません","You can't hold more.",210,48,16,,"You can't hold more of this Part.","&You can't hold more of this Part."
+"Phrase.opb","0xa1c","0x1 0x464","このパーツを使用します","Use this Part?",210,48,16,,"Use this Part?","&Use this Part?"
+"Phrase.opb","0xa33","0x1 0x46c","使用","Use",210,48,16,,"Use","&Use"
+"Phrase.opb","0xa38","0x1 0x474","中止","Cancel",210,48,16,,"Cancel","&Cancel"
+"Phrase.opb","0xa3d","0x1 0x47c","古いパーツを廃棄します","Throw away the old Part?",210,48,16,,"Throw away the old Part?","&Throw away the old Part?"
+"Phrase.opb","0xa54","0x1 0x484","廃棄","Throw away",210,48,16,,"Throw away","&Throw away"
+"Phrase.opb","0xa59","0x1 0x48c","中止","Cancel",210,48,16,,"Cancel","&Cancel"
+"Phrase.opb","0xa5e","0x1 0x494","このパーツを取り付けます","Install this Part?",210,48,16,,"Install this Part?","&Install this Part?"
+"Phrase.opb","0xa77","0x1 0x49c","取り付け","Install",210,48,16,,"Install","&Install"
+"Phrase.opb","0xa80","0x1 0x4a4","中止","Cancel",210,48,16,,"Cancel","&Cancel"
+"Phrase.opb","0xa85","0x1 0x4ac","パーツがありません","You have no Parts.",210,48,16,,"You have no Parts.","&You have no Parts."
+"Phrase.opb","0xa98","0x1 0x4b4","－－－"," - - -",210,48,16,"Displayed in empty Part slots."," - - -","& - - -"
+"Phrase.opb","0xa9f","0x1 0x4bc","アイテムがありません","You have no Items.",210,48,16,,"You have no Items.","&You have no Items."
+"Phrase.opb","0xab4","0x1 0x4c4","　装備パーツ
+
+
+スロット数：","  Equipped Parts
+
+
+Slots: ",108,64,16,"Displayed on the robot selection menu.","  Equipped Parts
+
+
+Slots: ","  Equipped Parts
+
+
+Slots: "
+"Phrase.opb","0xad3","0x1 0x4cc","　スロット選択","  Select a slot.",210,48,16,,"  Select a slot.","&  Select a slot."
+"Phrase.opb","0xae2","0x1 0x4d4","/w9操り人形～マリオネット～
+
+/W64その歴史は農耕と同じほど古く、/W32
+世界各地で、/W24娯楽や芸術として
+伝えられてきた/W25","/w9操り人形～マリオネット～
+
+/W64その歴史は農耕と同じほど古く、/W32
+世界各地で、/W24娯楽や芸術として
+伝えられてきた/W25",,,,"Text for the intermission scenes.","/w9操り人形～マリオネット～
+
+/W64その歴史は農耕と同じほど古く、/W32
+世界各地で、/W24娯楽や芸術として
+伝えられてきた/W25","/w9操り人形～マリオネット～
+
+/W64その歴史は農耕と同じほど古く、/W32
+世界各地で、/W24娯楽や芸術として
+伝えられてきた/W25"
+"Phrase.opb","0xb5e","0x1 0x4dc","/w9そして近年、/W24マリオネットは
+驚くべき進化をとげた
+
+/W64人形師たちの/W20
+情熱と努力が生み出した奇跡/W25","/w9そして近年、/W24マリオネットは
+驚くべき進化をとげた
+
+/W64人形師たちの/W20
+情熱と努力が生み出した奇跡/W25",,,,,"/w9そして近年、/W24マリオネットは
+驚くべき進化をとげた
+
+/W64人形師たちの/W20
+情熱と努力が生み出した奇跡/W25","/w9そして近年、/W24マリオネットは
+驚くべき進化をとげた
+
+/W64人形師たちの/W20
+情熱と努力が生み出した奇跡/W25"
+"Phrase.opb","0xbce","0x1 0x4e4","/w9糸操りから機械式へ/W20
+/W8小型から大型へ
+
+/W64搭乗式「機械化マリオネット」
+の誕生である/W25","/w9糸操りから機械式へ/W20
+/W8小型から大型へ
+
+/W64搭乗式「機械化マリオネット」
+の誕生である/W25",,,,,"/w9糸操りから機械式へ/W20
+/W8小型から大型へ
+
+/W64搭乗式「機械化マリオネット」
+の誕生である/W25","/w9糸操りから機械式へ/W20
+/W8小型から大型へ
+
+/W64搭乗式「機械化マリオネット」
+の誕生である/W25"
+"Phrase.opb","0xc31","0x1 0x4ec","/w9機械仕掛けの巨大な操り人形
+
+/W64人はそれを/W20
+/c5マリオネーションギア/c3と呼んだ/W25","/w9機械仕掛けの巨大な操り人形
+
+/W64人はそれを/W20
+/c5マリオネーションギア/c3と呼んだ/W25",,,,,"/w9機械仕掛けの巨大な操り人形
+
+/W64人はそれを/W20
+/c5マリオネーションギア/c3と呼んだ/W25","/w9機械仕掛けの巨大な操り人形
+
+/W64人はそれを/W20
+/c5マリオネーションギア/c3と呼んだ/W25"
+"Phrase.opb","0xc8d","0x1 0x4f4","/w9ゴッドフリードは
+何十年も前に作られた
+マリオネーションギアだ/W25","/w9ゴッドフリードは
+何十年も前に作られた
+マリオネーションギアだ/W25",,,,,"/w9ゴッドフリードは
+何十年も前に作られた
+マリオネーションギアだ/W25","/w9ゴッドフリードは
+何十年も前に作られた
+マリオネーションギアだ/W25"
+"Phrase.opb","0xcd3","0x1 0x4fc","/w9現代の人形は
+ゴッドフリードとは比べ物に
+ならないほどスゴイらしい/W25","/w9現代の人形は
+ゴッドフリードとは比べ物に
+ならないほどスゴイらしい/W25",,,,,"/w9現代の人形は
+ゴッドフリードとは比べ物に
+ならないほどスゴイらしい/W25","/w9現代の人形は
+ゴッドフリードとは比べ物に
+ならないほどスゴイらしい/W25"
+"Phrase.opb","0xd1d","0x1 0x504","/w9しかも、/W32
+生産される工房によって
+性能や、/W24形までが
+全く異なるという/W25","/w9しかも、/W32
+生産される工房によって
+性能や、/W24形までが
+全く異なるという/W25",,,,,"/w9しかも、/W32
+生産される工房によって
+性能や、/W24形までが
+全く異なるという/W25","/w9しかも、/W32
+生産される工房によって
+性能や、/W24形までが
+全く異なるという/W25"
+"Phrase.opb","0xd71","0x1 0x50c","/w9想像をこえた不思議な
+マリオネーションギアの数々
+
+/W64ボクの夢は
+そのすべてを集めること/W25","/w9想像をこえた不思議な
+マリオネーションギアの数々
+
+/W64ボクの夢は
+そのすべてを集めること/W25",,,,,"/w9想像をこえた不思議な
+マリオネーションギアの数々
+
+/W64ボクの夢は
+そのすべてを集めること/W25","/w9想像をこえた不思議な
+マリオネーションギアの数々
+
+/W64ボクの夢は
+そのすべてを集めること/W25"
+"Phrase.opb","0xdd3","0x1 0x514","/w9これから
+どんなマリオネーションギアと
+出会うことになるのだろう？/W25","/w9これから
+どんなマリオネーションギアと
+出会うことになるのだろう？/W25",,,,,"/w9これから
+どんなマリオネーションギアと
+出会うことになるのだろう？/W25","/w9これから
+どんなマリオネーションギアと
+出会うことになるのだろう？/W25"
+"Phrase.opb","0xe1d","0x1 0x51c","/C/w9超操縦メカＭＧ/W40
+/C第一幕/W40
+
+/C～近代人形を求めて～/W25","/C/w9超操縦メカＭＧ/W40
+/C第一幕/W40
+
+/C～近代人形を求めて～/W25",,,,,"/C/w9超操縦メカＭＧ/W40
+/C第一幕/W40
+
+/C～近代人形を求めて～/W25","/C/w9超操縦メカＭＧ/W40
+/C第一幕/W40
+
+/C～近代人形を求めて～/W25"
+"Phrase.opb","0xe61","0x1 0x524","/w9ボクはついに
+最新式のマリオネーションギア
+を手にいれ、/W24人形使いとなった/W25","/w9ボクはついに
+最新式のマリオネーションギア
+を手にいれ、/W24人形使いとなった/W25",,,,,"/w9ボクはついに
+最新式のマリオネーションギア
+を手にいれ、/W24人形使いとなった/W25","/w9ボクはついに
+最新式のマリオネーションギア
+を手にいれ、/W24人形使いとなった/W25"
+"Phrase.opb","0xeb5","0x1 0x52c","/w9ボクの胸は、/W32
+満足感と達成感で満たされた
+
+/W64だけど……/W25","/w9ボクの胸は、/W32
+満足感と達成感で満たされた
+
+/W64だけど……/W25",,,,,"/w9ボクの胸は、/W32
+満足感と達成感で満たされた
+
+/W64だけど……/W25","/w9ボクの胸は、/W32
+満足感と達成感で満たされた
+
+/W64だけど……/W25"
+"Phrase.opb","0xefb","0x1 0x534","/w9だけど、/W24すべてはまだ
+/W40始まったばかりだった/W25","/w9だけど、/W24すべてはまだ
+/W40始まったばかりだった/W25",,,,,"/w9だけど、/W24すべてはまだ
+/W40始まったばかりだった/W25","/w9だけど、/W24すべてはまだ
+/W40始まったばかりだった/W25"
+"Phrase.opb","0xf35","0x1 0x53c","/w9この後、/W24途方もない事件が
+ボクを待っていたんだ……/W25","/w9この後、/W24途方もない事件が
+ボクを待っていたんだ……/W25",,,,,"/w9この後、/W24途方もない事件が
+ボクを待っていたんだ……/W25","/w9この後、/W24途方もない事件が
+ボクを待っていたんだ……/W25"
+"Phrase.opb","0xf73","0x1 0x544","/C/w9超操縦メカＭＧ/W40
+/C第二幕/W40
+
+/C～人形戦争～/W25","/C/w9超操縦メカＭＧ/W40
+/C第二幕/W40
+
+/C～人形戦争～/W25",,,,,"/C/w9超操縦メカＭＧ/W40
+/C第二幕/W40
+
+/C～人形戦争～/W25","/C/w9超操縦メカＭＧ/W40
+/C第二幕/W40
+
+/C～人形戦争～/W25"
+"Phrase.opb","0xfaf","0x1 0x54c","/w9こうして、/W24
+ボクたちの旅が始まった/W25","/w9こうして、/W24
+ボクたちの旅が始まった/W25",,,,,"/w9こうして、/W24
+ボクたちの旅が始まった/W25","/w9こうして、/W24
+ボクたちの旅が始まった/W25"
+"Phrase.opb","0xfdd","0x1 0x554","/w9八工房を巡る旅
+
+/W64最強のマリオネーションギアを
+求めて……/W25","/w9八工房を巡る旅
+
+/W64最強のマリオネーションギアを
+求めて……/W25",,,,,"/w9八工房を巡る旅
+
+/W64最強のマリオネーションギアを
+求めて……/W25","/w9八工房を巡る旅
+
+/W64最強のマリオネーションギアを
+求めて……/W25"
+"Phrase.opb","0x1023","0x1 0x55c","/C/w9超操縦メカＭＧ/W40
+/C第三幕/W40
+
+/C～八工房～/W25","/C/w9超操縦メカＭＧ/W40
+/C第三幕/W40
+
+/C～八工房～/W25",,,,,"/C/w9超操縦メカＭＧ/W40
+/C第三幕/W40
+
+/C～八工房～/W25","/C/w9超操縦メカＭＧ/W40
+/C第三幕/W40
+
+/C～八工房～/W25"
+"Phrase.opb","0x105d","0x1 0x564","/w9ガロイ工房に戻ったボクらは、/W24
+倒れこむように眠りについた/W25","/w9ガロイ工房に戻ったボクらは、/W24
+倒れこむように眠りについた/W25",,,,,"/w9ガロイ工房に戻ったボクらは、/W24
+倒れこむように眠りについた/W25","/w9ガロイ工房に戻ったボクらは、/W24
+倒れこむように眠りについた/W25"
+"Phrase.opb","0x10a1","0x1 0x56c","/w9ナイトシェイドは壊滅
+/W40戦いは終わった/W25","/w9ナイトシェイドは壊滅
+/W40戦いは終わった/W25",,,,,"/w9ナイトシェイドは壊滅
+/W40戦いは終わった/W25","/w9ナイトシェイドは壊滅
+/W40戦いは終わった/W25"
+"Phrase.opb","0x10d1","0x1 0x574","/w9でも、/W16この時、ボクはまだ/W32
+気づいていなかったんだ/W25","/w9でも、/W16この時、ボクはまだ/W32
+気づいていなかったんだ/W25",,,,,"/w9でも、/W16この時、ボクはまだ/W32
+気づいていなかったんだ/W25","/w9でも、/W16この時、ボクはまだ/W32
+気づいていなかったんだ/W25"
+"Phrase.opb","0x1111","0x1 0x57c","/w9人形都市が再び
+目覚めようとしていることに/W25","/w9人形都市が再び
+目覚めようとしていることに/W25",,,,,"/w9人形都市が再び
+目覚めようとしていることに/W25","/w9人形都市が再び
+目覚めようとしていることに/W25"
+"Phrase.opb","0x1143","0x1 0x584","/C/w9超操縦メカＭＧ/W40
+/C第四幕/W40
+
+/C～人形狩り～/W25","/C/w9超操縦メカＭＧ/W40
+/C第四幕/W40
+
+/C～人形狩り～/W25",,,,,"/C/w9超操縦メカＭＧ/W40
+/C第四幕/W40
+
+/C～人形狩り～/W25","/C/w9超操縦メカＭＧ/W40
+/C第四幕/W40
+
+/C～人形狩り～/W25"
+"Phrase.opb","0x117f","0x1 0x58c","/w9こうしてボクの旅は終わった/W25","/w9こうしてボクの旅は終わった/W25",,,,,"/w9こうしてボクの旅は終わった/W25","/w9こうしてボクの旅は終わった/W25"
+"Phrase.opb","0x11a1","0x1 0x594","/w9たくさんの
+マリオネーションギアと
+出会った旅/W25","/w9たくさんの
+マリオネーションギアと
+出会った旅/W25",,,,,"/w9たくさんの
+マリオネーションギアと
+出会った旅/W25","/w9たくさんの
+マリオネーションギアと
+出会った旅/W25"
+"Phrase.opb","0x11d7","0x1 0x59c","/w9だけど、/W24いつか
+ボクは再び旅に出るだろう
+
+/W64まだ見ぬ
+マリオネーションギアを探して/W25","/w9だけど、/W24いつか
+ボクは再び旅に出るだろう
+
+/W64まだ見ぬ
+マリオネーションギアを探して/W25",,,,,"/w9だけど、/W24いつか
+ボクは再び旅に出るだろう
+
+/W64まだ見ぬ
+マリオネーションギアを探して/W25","/w9だけど、/W24いつか
+ボクは再び旅に出るだろう
+
+/W64まだ見ぬ
+マリオネーションギアを探して/W25"
+"Phrase.opb","0x1239","0x1 0x5a4","/w9今もどこかで、
+新しいマリオネーションギアが
+作られているのだから/W25","/w9今もどこかで、
+新しいマリオネーションギアが
+作られているのだから/W25",,,,,"/w9今もどこかで、
+新しいマリオネーションギアが
+作られているのだから/W25","/w9今もどこかで、
+新しいマリオネーションギアが
+作られているのだから/W25"
+"Phrase.opb","0x1283","0x1 0x5ac","/C/w9超操縦メカＭＧ/W120
+
+/C終/W25","/C/w9超操縦メカＭＧ/W120
+
+/C終/W25",,,,,"/C/w9超操縦メカＭＧ/W120
+
+/C終/W25","/C/w9超操縦メカＭＧ/W120
+
+/C終/W25"
+"Phrase.opb","0x12a8","0x1 0x5b4","人形に乗っていません
+Ｙボタンを押して
+搭乗する人形を選択してください","You aren't piloting a Puppet.
+Press the Y Button to select a Puppet to pilot.",210,48,16,"Text for trying to start a mission without a robot equipped (due to having it taken away for maintenance).","You aren't piloting a Puppet.
+Press the Y Button to select a Puppet to pilot.","&You aren't piloting a Puppet.
+Press the Y Button to select a Puppet to pilot."
+"Phrase.opb","0x12ef","0x1 0x5bc","搭乗人形なし","No Puppet",210,48,16,"Displayed in place of your robot's name if you don't have one equipped.","No Puppet","No Puppet"
+"Phrase.opb","0x12fc","0x1 0x5c4","ああああああああああ
+あ
+あ
+あ
+あ
+あ","ああああああああああ
+あ
+あ
+あ
+あ
+あ",210,48,16,"Don't ask me.","ああああああああああ
+あ
+あ
+あ
+あ
+あ","ああああああああああ
+あ
+あ
+あ
+あ
+あ"
+"Phrase.opb","0x1325","0x1 0x5cc","主人公の名前を入力してください","Enter a name for the hero.",210,48,16,"If you try to hit “confirm” without entering a name.","Enter a name for the hero.","&Enter a name for the hero."
+"Phrase.opb","0x1344","0x1 0x5d4","に決定します","Is this name right?",210,48,16,"It prints your name on the line before this.","Is this name right?","&Is this name right?"
+"Phrase.opb","0x1351","0x1 0x5dc","はい","Yes",210,48,16,,"Yes","&Yes"
+"Phrase.opb","0x1356","0x1 0x5e4","いいえ","No",210,48,16,,"No","&No"
+"Phrase.opb","0x135d","0x1 0x5ec","主人公の名前を入力してください","Enter a name for the hero.",210,48,16,,"Enter a name for the hero.","&Enter a name for the hero."
+"Phrase.opb","0x137c","0x1 0x5f4","交換するアイテムがありません","You have no Items to trade.",210,48,16,,"You have no Items to trade.","&You have no Items to trade."
+"Phrase.opb","0x1399","0x1 0x5fc","交換相手を探しています。
+（Ｂボタンで中止）","Seeking a trading partner...
+(Press the B Button to cancel.)",210,48,16,,"Seeking a trading partner...
+(Press the B Button to cancel.)","&Seeking a trading partner...
+(Press the B Button to cancel.)"
+"Phrase.opb","0x13c6","0x1 0x604","切断しています。
+そのままお待ちください。","Communication interrupted.
+Please wait.",210,48,16,,"Communication interrupted.
+Please wait.","&Communication interrupted.
+Please wait."
+"Phrase.opb","0x13f1","0x1 0x60c","時間切れです。
+しばらくお待ちください。","The operation timed out.
+Please wait.",210,48,16,,"The operation timed out.
+Please wait.","&The operation timed out.
+Please wait."
+"Phrase.opb","0x141a","0x1 0x614","交換相手が見つかりませんでした。
+しばらくお待ちください。","Could not find a trading partner.
+Please wait.",210,48,16,,"Could not find a trading partner.
+Please wait.","&Could not find a trading partner.
+Please wait."
+"Phrase.opb","0x1455","0x1 0x61c","通信を終了しました。
+Ａボタンを押してください。","Communication terminated.
+Press the A Button.",210,48,16,,"Communication terminated.
+Press the A Button.","&Communication terminated.
+Press the A Button."
+"Phrase.opb","0x1486","0x1 0x624","通信エラーが発生しました。
+通信を終了します。
+しばらくお待ちください。","A communcation error occurred.
+Communication has been terminated.
+Please wait.",210,48,16,,"A communcation error occurred.
+Communication has been terminated.
+Please wait.","&A communcation error occurred.
+Communication has been terminated.
+Please wait."
+"Phrase.opb","0x14cf","0x1 0x62c","交換相手が通信を終了しました。
+通信を終了します。
+しばらくお待ちください。","Your partner ended communication.
+Communication has been terminated.
+Please wait.",210,48,16,,"Your partner ended communication.
+Communication has been terminated.
+Please wait.","&Your partner ended communication.
+Communication has been terminated.
+Please wait."
+"Phrase.opb","0x151c","0x1 0x634","待機中です。
+Ｂボタンで戻ります。","Waiting...
+Press the B Button to go back.",210,48,16,,"Waiting...
+Press the B Button to go back.","&Waiting...
+Press the B Button to go back."
+"Phrase.opb","0x153f","0x1 0x63c","交換が成立しました。
+しばらくお待ちください。","Trade completed.
+Please wait.",210,48,16,,"Trade completed.
+Please wait.","&Trade completed.
+Please wait."
+"Phrase.opb","0x156e","0x1 0x644","交渉決裂しました。
+しばらくお待ちください。","Negotiations have broken down.
+Please wait.",210,48,16,,"Negotiations have broken down.
+Please wait.","&Negotiations have broken down.
+Please wait."
+"Phrase.opb","0x159b","0x1 0x64c","通信を終了しました。
+Ａボタンを押してください。","Communication terminated.
+Press the A Button.",210,48,16,,"Communication terminated.
+Press the A Button.","&Communication terminated.
+Press the A Button."
+"Phrase.opb","0x15cc","0x1 0x654","を渡して、"," given;",210,48,16,," given;","& given;"
+"Phrase.opb","0x15d7","0x1 0x65c","を受け取りました。"," received.",210,48,16,," received.","& received."
+"Phrase.opb","0x15ea","0x1 0x664","の効果で","'s effect caused you to receive ",210,48,16,,"'s effect caused you to receive ","&'s effect caused you to receive "
+"Phrase.opb","0x15f3","0x1 0x66c","を手に入れました。","!",210,48,16,,"!","&!"
+"Phrase.opb","0x1606","0x1 0x674","ＤＳ本体が閉じられました。
+通信を終了します。","The DS unit was closed.
+Communication has been terminated.",210,48,16,,"The DS unit was closed.
+Communication has been terminated.","&The DS unit was closed.
+Communication has been terminated."
+"Phrase.opb","0x1635","0x1 0x67c","通信エラーのため
+通信を終了しました。
+Ａボタンを押してください。","Communcation has been terminated due to an error.
+Press the A Button.",210,48,16,,"Communcation has been terminated due to an error.
+Press the A Button.","&Communcation has been terminated due to an error.
+Press the A Button."
+"Phrase.opb","0x1678","0x1 0x684","アイテムを交換しています。
+電源を切らずにお待ちください。","Exchanging Items...
+Don't turn off the power.",210,48,16,,"Exchanging Items...
+Don't turn off the power.","&Exchanging Items...
+Don't turn off the power."
+"Phrase.opb","0x16b3","0x1 0x68c","通信を終了しました。
+Ａボタンを押してください。","Communication terminated.
+Press the A Button.",210,48,16,,"Communication terminated.
+Press the A Button.","&Communication terminated.
+Press the A Button."
+"Phrase.opb","0x16e4","0x1 0x694","時間切れです。
+Ａボタンを押してください。","The operation timed out.
+Press the A Button.",210,48,16,,"The operation timed out.
+Press the A Button.","&The operation timed out.
+Press the A Button."
+"Phrase.opb","0x170f","0x1 0x69c","交換相手が見つかりませんでした。
+Ａボタンを押してください。","Couldn't find a trading partner.
+Press the A Button.",210,48,16,,"Couldn't find a trading partner.
+Press the A Button.","&Couldn't find a trading partner.
+Press the A Button."
+"Phrase.opb","0x174c","0x1 0x6a4","通信エラーのため
+通信を終了しました。
+Ａボタンを押してください。","Communcation has been terminated due to an error.
+Press the A Button.",210,48,16,,"Communcation has been terminated due to an error.
+Press the A Button.","&Communcation has been terminated due to an error.
+Press the A Button."
+"Phrase.opb","0x178f","0x1 0x6ac","交渉が決裂したため
+通信を終了しました。
+Ａボタンを押してください。","Communcation has been terminated due to a breakdown in negotiations.
+Press the A Button.",210,48,16,,"Communcation has been terminated due to a breakdown in negotiations.
+Press the A Button.","&Communcation has been terminated due to a breakdown in negotiations.
+Press the A Button."
+"Phrase.opb","0x17d4","0x1 0x6b4","交渉が決裂したため
+通信を終了しました。
+Ａボタンを押してください。","Communcation has been terminated due to a breakdown in negotiations.
+Press the A Button.",210,48,16,,"Communcation has been terminated due to a breakdown in negotiations.
+Press the A Button.","&Communcation has been terminated due to a breakdown in negotiations.
+Press the A Button."
+"Phrase.opb","0x1819","0x1 0x6bc","通信エラーのため
+通信を終了しました。
+Ａボタンを押してください。","Communcation has been terminated due to an error.
+Press the A Button.",210,48,16,,"Communcation has been terminated due to an error.
+Press the A Button.","&Communcation has been terminated due to an error.
+Press the A Button."
+"Phrase.opb","0x185c","0x1 0x6c4","　　　？？？","      ???",210,48,16,,"      ???","&      ???"
+"Phrase.opb","0x1869","0x1 0x6cc","
+
+
+
+
+閲覧不可","
+
+
+
+
+Not viewable.",210,96,16,"Displayed in the museum in place of entries that aren't unlocked yet.","
+
+
+
+
+Not viewable.","
+
+
+
+
+Not viewable."
+"Phrase.opb","0x187c","0x1 0x6d4","この人形とバトルします","Battle with this Puppet?",210,48,16,,"Battle with this Puppet?","&Battle with this Puppet?"
+"Phrase.opb","0x1893","0x1 0x6dc","バトル開始","Start battle",210,48,16,,"Start battle","&Start battle"
+"Phrase.opb","0x189e","0x1 0x6e4","中止","Cancel",210,48,16,,"Cancel","&Cancel"
+"Phrase.opb","0x18a3","0x1 0x6ec","？？？","???",210,48,16,,"???","&???"
+"Phrase.opb","0x18aa","0x1 0x6f4","
+
+
+
+詳細不明","
+
+
+
+Details unknown.",210,96,16,"Displayed in the character album in place of characters who aren't unlocked yet.","
+
+
+
+Details unknown.","
+
+
+
+Details unknown."

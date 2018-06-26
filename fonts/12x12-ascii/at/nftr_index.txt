@@ -1,0 +1,14 @@
+[Properties]
+bpp=1
+defaultAdvanceWidth=11
+defaultBearingX=0
+defaultWidth=11
+encodingType=2
+errorCharIndex=0
+glyphMetricHeight=10
+glyphMetricWidth=12
+height=11
+rawHeight=11
+rawWidth=11
+rotation=0
+

@@ -1,0 +1,92 @@
+********************************************************************************
+*                    Chou Soujuu Mecha MG Translation Pack                     *
+********************************************************************************
+
+This repository contains all the resources for my partial translation patch of
+the DS game Chou Soujuu Mecha MG. It includes a complete build system that
+replaces all game text and images containing text; the only reason it's not a
+full translation is that I have no one to translate the script.
+
+********************************************************************************
+*                              Building the Game                               *
+********************************************************************************
+
+To use this, you'll need a Unix-like system with the following utilities
+installed:
+* GCC + make
+* Wine -- used to run the included ndstool binary that builds the output
+  ROM. I tried using the Unix port of ndstool, but the filesystems it generates
+  don't run on real hardware (my speculation is that it alphabetizes the file
+  name table using Unix conventions, but the DS firmware expects Windows
+  semantics).
+  This is also used for CUE's DS compression tools, purely due to laziness.
+* ImageMagick (i.e. the "convert" and "composite" tools).
+  
+First, you'll need a Chou Soujuu Mecha MG ROM (MD5 sum
+ccd7052931e3ae09cb4505d19d16c738). Extract the filesystem with ndstool or some
+other utility, and put the contents (i.e. the subfolders "ba", "decor", "etc",
+and so on) in a folder named "data". Place "data" in the "gamefiles" folder.
+
+Now run build.sh. This should output the English ROM as csmmg_en.nds.
+The build process will probably take a while due to some heavy-duty image
+image editing operations plus the time needed to compress hundreds of files.
+
+********************************************************************************
+*                                Resource List                                 *
+********************************************************************************
+
+asm
+  
+  Source code for ASM modifications. Not used in build process (hacks are pre-
+  applied). If you need to build these, you'll need GCC built with ARM support.
+
+bvm/extracted
+
+  Contains game script as SJIS-formatted CSV files.
+  
+  Due to the way the game structures its executable scripts, these contain both
+  the game text and various other strings, including character portrait
+  identifiers and debug output. _Only_ the actual game text should be edited!
+  Changing anything else will cause problems.
+
+  Text boxes must be one-to-one with the original script, i.e. you get one
+  English box per Japanese box and no more. Due to the VWF hack, space shouldn't
+  be a big issue, though.
+  
+  Also note that the original scripts were optimized to recycle strings within
+  the same script wherever possible, so e.g. a single message of "はい。" may be
+  used multiple times in different contexts; I programmed the script extractor
+  to print every instance to keep the script readable (if you want to read it
+  without the repetition, see extracted_condensed). IIRC it's possible to
+  add additional strings to circumvent this if necessary, but you'll need to
+  adjust the "References" column to reflect the changes.
+  
+fonts
+  
+  New fonts.
+    
+    12x12: New variable-width 12x12 font used for most text.
+    12x12-ascii: Reduced-width ASCII font used for mecha names in menus.
+  
+images
+  
+  Contains images used for translation. "bak" subfolder contains original,
+  unmodified images. See index.txt for some notes.
+  
+  Subfolders:
+    cabinarchive/163/multi: Title screen.
+    kar: "img" folder contains translated images, "img_orig" contains originals.
+      bg: Backgrounds shown on mission select screen.
+      roboimage: Mecha preview images shown in shops and menus.
+      ShopStartTop: Shop intro screens.
+      StaffText: Credits.
+    mission1205: 
+      Character2Cell2: Mission complete/failed messages.
+      txt00Cell4: Pause menu.
+    opb: Mostly menus.
+    workshop: Icons used to replace original kanji logos for each workshop.
+
+text
+  
+  Menu text. CSV files in same format as bvm/extracted.
+

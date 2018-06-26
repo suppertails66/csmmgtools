@@ -1,0 +1,6 @@
+File,Number,Offset,Japanese,English,Centering,References,width,height,lineheight
+bvm_decmp/main/mission_scene_test_seq.bvm,0x0,0x0,"Mission",,0x0,0x0 0x0,196,42,14
+bvm_decmp/main/mission_scene_test_seq.bvm,0x1,0x8,"A",,0x0,0x0 0x0,196,42,14
+bvm_decmp/main/mission_scene_test_seq.bvm,0x2,0xa,"B",,0x0,0x0 0x0,196,42,14
+bvm_decmp/main/mission_scene_test_seq.bvm,0x3,0xc,"mission_filename",,0x0,0x0 0x0,196,42,14
+bvm_decmp/main/mission_scene_test_seq.bvm,0x4,0x1d,"main",,0x0,0x0 0x0,196,42,14
