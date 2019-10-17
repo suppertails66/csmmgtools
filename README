@@ -10,6 +10,9 @@ Mecha MG).
                     ****************************************
                     *          Build Instructions          *
                     ****************************************
+
+Before building, make sure to check out all submodules with "git submodule init"
+and "git submodule update".
                     
 The build system is only set up for Unix-like systems, though none of the code 
 is fundamentally dependent on this and could be ported with a bit of effort. 
