@@ -207,6 +207,8 @@ then
   # Album
   ####################
   
+  mkdir -p $IMAGES_BUILD_DIR/opb
+  
   rm -r -f $IMAGES_BUILD_DIR/opb/Album
   cp -r opb/Album $IMAGES_BUILD_DIR/opb/Album
   
