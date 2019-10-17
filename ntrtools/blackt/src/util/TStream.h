@@ -13,6 +13,7 @@ class TStream {
 public:
   virtual char get() =0;
   virtual void unget() =0;
+  virtual char peek() =0;
   virtual void put(char c) =0;
   virtual void read(char* dst, int size) =0;
   virtual void write(const char* src, int size) =0;
@@ -20,6 +21,7 @@ public:
   virtual bool bad() const =0;
   virtual bool fail() const =0;
   virtual bool eof() const =0;
+  virtual void clear() =0;
   virtual int tell() =0;
   virtual void seek(int pos) =0;
   virtual int size() =0;
@@ -43,7 +45,11 @@ public:
   virtual void alignToBoundary(int byteBoundary);
   virtual void alignToReadBoundary(int byteBoundary);
   virtual void alignToWriteBoundary(int byteBoundary);
+  virtual void padToSize(int sz, char fillChar = 0xFF);
   virtual bool nextIsEof();
+  virtual void write(const std::string& str);
+  virtual void getLine(std::string& dst);
+  virtual void skipSpace();
   
   // aliases of readInt() and writeInt() for common types
   virtual int reads8le();
@@ -78,6 +84,10 @@ public:
   virtual void writeu16be(int value);
   virtual void writeu32be(int value);
   virtual void writeu64be(int value);
+  virtual int readu8();
+  virtual int reads8();
+  virtual void writeu8(int value);
+  virtual void writes8(int value);
 protected:
   TStream();
   virtual ~TStream();

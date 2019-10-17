@@ -31,6 +31,7 @@ public:
   void setColor(int index, BlackT::TColor color);
   
   bool hasColor(int index) const;
+  bool hasIndex(BlackT::TColor color) const;
   
   int numColors() const;
   

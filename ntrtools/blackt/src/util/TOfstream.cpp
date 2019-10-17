@@ -29,6 +29,10 @@ void TOfstream::unget() {
   
 }
 
+char TOfstream::peek() {
+  return 0;
+}
+
 void TOfstream::put(char c) {
   ofs.put(c);
 }
@@ -55,6 +59,10 @@ bool TOfstream::fail() const {
 
 bool TOfstream::eof() const {
   return ofs.eof();
+}
+
+void TOfstream::clear() {
+  ofs.clear();
 }
 
 int TOfstream::tell() {

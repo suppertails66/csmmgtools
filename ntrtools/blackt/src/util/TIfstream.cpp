@@ -28,6 +28,10 @@ void TIfstream::unget() {
   ifs.unget();
 }
 
+char TIfstream::peek() {
+  return ifs.peek();
+}
+
 void TIfstream::put(char c) {
   
 }
@@ -54,6 +58,10 @@ bool TIfstream::fail() const {
 
 bool TIfstream::eof() const {
   return ifs.eof();
+}
+
+void TIfstream::clear() {
+  ifs.clear();
 }
 
 int TIfstream::tell() {

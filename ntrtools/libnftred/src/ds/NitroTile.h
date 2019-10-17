@@ -18,6 +18,9 @@ public:
   
   NitroTile();
   
+  bool operator==(const NitroTile& tile) const;
+  bool operator!=(const NitroTile& tile) const;
+  
   BlackT::TByte getPixel(int x, int y) const;
   void setPixel(int x, int y, BlackT::TByte value);
   
@@ -29,12 +32,15 @@ public:
                            int xoffset = 0,
                            int yoffset = 0) const;
   
-  void fromGraphicPalettized(const BlackT::TGraphic& src,
+  bool fromGraphicPalettized(const BlackT::TGraphic& src,
                            const NitroPalette& palette,
                            int xoffset = 0,
                            int yoffset = 0);
 //  void fromGraphicPalettized(const BlackT::TGraphic& src,
 //                             const NitroPalette& palette) const;
+  
+  void flipHorizontal();
+  void flipVertical();
   
 protected:
   BlackT::TTwoDArray<BlackT::TByte> data_;

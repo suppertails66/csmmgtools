@@ -40,10 +40,10 @@ public:
   int numSections() const;
   int numKeysInSection(const std::string& section) const;
   
-  SectionKeysMap::iterator begin(const std::string& section);
-  SectionKeysMap::const_iterator cbegin(const std::string& section) const;
-  SectionKeysMap::iterator end(const std::string& section);
-  SectionKeysMap::const_iterator cend(const std::string& section) const;
+  SectionKeysMap::iterator begin();
+  SectionKeysMap::const_iterator cbegin() const;
+  SectionKeysMap::iterator end();
+  SectionKeysMap::const_iterator cend() const;
   
   KeyValueMap::iterator sectionBegin(const std::string& section);
   KeyValueMap::const_iterator sectionCbegin(const std::string& section) const;

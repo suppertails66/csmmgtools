@@ -1,5 +1,6 @@
 #include "util/TStream.h"
 #include "util/TSerialize.h"
+#include <cctype>
 
 namespace BlackT { 
 
@@ -101,11 +102,36 @@ void TStream::alignToWriteBoundary(int byteBoundary) {
   alignToBoundary(byteBoundary);
 }
 
+void TStream::padToSize(int sz, char fillChar) {
+  while (size() < sz) {
+    put(fillChar);
+  }
+}
+
 bool TStream::nextIsEof() {
   get();
   bool result = eof();
   unget();
   return result;
+}
+
+void TStream::write(const std::string& str) {
+  write(str.c_str(), str.size());
+}
+
+void TStream::getLine(std::string& dst) {
+  while (!eof() && (peek() != '\n')) {
+    char next = get();
+    if (next != '\r') {
+      dst += next;
+    }
+  }
+  
+  if (!eof()) get();
+}
+
+void TStream::skipSpace() {
+  while (!eof() && isspace(peek())) get();
 }
 
 TStream::TStream() { }
@@ -237,6 +263,22 @@ int TStream::readu32be() {
 
 int TStream::readu64be() {
   return readInt(8, EndiannessTypes::big, SignednessTypes::nosign);
+}
+
+int TStream::readu8() {
+  return readu8be();
+}
+
+int TStream::reads8() {
+  return reads8be();
+}
+
+void TStream::writeu8(int value) {
+  writeu8be(value);
+}
+
+void TStream::writes8(int value) {
+  writes8be(value);
 }
 
 

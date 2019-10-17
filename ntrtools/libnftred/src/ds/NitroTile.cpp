@@ -12,6 +12,20 @@ NitroTile::NitroTile() {
   data_.resize(width, height);
 }
 
+bool NitroTile::operator==(const NitroTile& tile) const {
+  for (int j = 0; j < height; j++) {
+    for (int i = 0; i < width; i++) {
+      if (getPixel(i, j) != tile.getPixel(i, j)) return false;
+    }
+  }
+  
+  return true;
+}
+
+bool NitroTile::operator!=(const NitroTile& tile) const {
+  return !(*this == tile);
+}
+
 BlackT::TByte NitroTile::getPixel(int x, int y) const {
   if ((x >= width) || (y >= height)) {
     throw TGenericException(T_SRCANDLINE,
@@ -117,7 +131,7 @@ void NitroTile::toGraphicPalettized(BlackT::TGraphic& dst,
   }
 }
   
-void NitroTile::fromGraphicPalettized(const BlackT::TGraphic& src,
+bool NitroTile::fromGraphicPalettized(const BlackT::TGraphic& src,
                          const NitroPalette& palette,
                          int xoffset,
                          int yoffset) {
@@ -125,7 +139,49 @@ void NitroTile::fromGraphicPalettized(const BlackT::TGraphic& src,
     for (int i = 0; i < width; i++) {
       int x = i + xoffset;
       int y = j + yoffset;
-      data_.data(i, j) = palette.indexOfColor(src.getPixel(x, y));
+      
+      TColor color = src.getPixel(x, y);
+      if (!palette.hasIndex(color)) return false;
+      
+      data_.data(i, j) = palette.indexOfColor(color);
+    }
+  }
+  
+  return true;
+}
+
+void NitroTile::flipHorizontal() {
+  for (int j = 0; j < height; j++) {
+    int start = 0;
+    int end = width - 1;
+    
+    while (start < end) {
+      BlackT::TByte first = getPixel(start, j);
+      BlackT::TByte second = getPixel(end, j);
+      
+      setPixel(start, j, second);
+      setPixel(end, j, first);
+      
+      ++start;
+      --end;
+    }
+  }
+}
+
+void NitroTile::flipVertical() {
+  for (int i = 0; i < width; i++) {
+    int start = 0;
+    int end = height - 1;
+    
+    while (start < end) {
+      BlackT::TByte first = getPixel(i, start);
+      BlackT::TByte second = getPixel(i, end);
+      
+      setPixel(i, start, second);
+      setPixel(i, end, first);
+      
+      ++start;
+      --end;
     }
   }
 }

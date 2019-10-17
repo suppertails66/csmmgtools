@@ -119,11 +119,11 @@ int FontCalc::escapeSeqSize(char code) {
   case 'C':
     return 2;
     break;
-  // wait, one-digit?
+  // set text speed
   case 'w':
     return 3;
     break;
-  // wait, two-digit?
+  // wait
   case 'W':
     return 4;
     break;
@@ -170,6 +170,16 @@ void FontCalc::preprocess(const std::string& src,
         // remap the sequence "..." to @ (which in turn is mapped by
         // the font to a precomposed ellipsis)
         appendChar(dst, 0x40);
+        
+        // addendum: rather than a whole ellipsis, @ now remaps to a period
+        // with a slightly larger advance width, so that character-by-character
+        // printing looks a bit nicer. so, we now need three @s.
+        appendChar(dst, 0x40);
+        appendChar(dst, 0x40);
+        // actually, make the last one a regular period so we get the right spacing
+        // if it's followed by a character
+//        appendChar(dst, 0x2E);
+        
         getpos += 2;
       }
       else {

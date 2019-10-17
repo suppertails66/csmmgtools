@@ -89,6 +89,13 @@ void NitroPalette::setColor(int index, BlackT::TColor color) {
 bool NitroPalette::hasColor(int index) const {
   return (indexToColor_.find(index) != indexToColor_.end());
 }
+
+bool NitroPalette::hasIndex(BlackT::TColor color) const {
+  // hack, but (probably) good enough: anything not fully opaque is index 0
+  if (color.a() != TColor::fullAlphaOpacity) return true;
+  
+  return (colorToIndex_.find(color) != colorToIndex_.end());
+}
   
 int NitroPalette::numColors() const {
   return indexToColor_.size();

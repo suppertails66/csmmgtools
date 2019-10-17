@@ -21,6 +21,7 @@ public:
   
   virtual char get();
   virtual void unget();
+  virtual char peek();
   virtual void put(char c);
   virtual void read(char* dst, int size);
   virtual void write(const char* src, int size);
@@ -28,6 +29,7 @@ public:
   virtual bool bad() const;
   virtual bool fail() const;
   virtual bool eof() const;
+  virtual void clear();
   virtual int tell();
   virtual void seek(int pos);
   virtual int size();

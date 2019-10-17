@@ -29,6 +29,11 @@ void TFileManip::readEntireFile(TArray<TByte>& dst,
   readEntireStream(dst, ifs);
 }
   
+void TFileManip::readEntireFile(TArray<TByte>& dst,
+                           const char* filename) {
+  readEntireFile(dst, std::string(filename));
+}
+  
 void TFileManip::readEntireStream(TArray<TByte>& dst,
                             std::istream& ifs) {
   int sz = getFileSize(ifs);

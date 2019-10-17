@@ -20,6 +20,9 @@ public:
   static void readEntireFile(TArray<TByte>& dst,
                              const std::string& filename);
   
+  static void readEntireFile(TArray<TByte>& dst,
+                             const char* filename);
+  
   static void readEntireStream(TArray<TByte>& dst,
                               std::istream& ifs);
 protected:

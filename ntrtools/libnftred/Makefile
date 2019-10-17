@@ -21,24 +21,6 @@ LIB := libnftred.a
 
 all: blackt $(LIB)
 
-test: all
-	$(CXX) $(SRCDIR)/test.cpp $(OBJ) -L$(BLACKTDIR) -lblackt -L. -lnftred -o $@ $(CXXFLAGS)
-
-opbextr: all
-	$(CXX) $(SRCDIR)/opbextr.cpp $(OBJ) -L$(BLACKTDIR) -lblackt -L. -lnftred -o $@ $(CXXFLAGS)
-
-opbinsr: all
-	$(CXX) $(SRCDIR)/opbinsr.cpp $(OBJ) -L$(BLACKTDIR) -lblackt -L. -lnftred -o $@ $(CXXFLAGS)
-
-opbfileextr: all
-	$(CXX) $(SRCDIR)/opbfileextr.cpp $(OBJ) -L$(BLACKTDIR) -lblackt -L. -lnftred -o $@ $(CXXFLAGS)
-
-opbfileinsr: all
-	$(CXX) $(SRCDIR)/opbfileinsr.cpp $(OBJ) -L$(BLACKTDIR) -lblackt -L. -lnftred -o $@ $(CXXFLAGS)
-
-dsimgconv: all
-	$(CXX) $(SRCDIR)/dsimgconv.cpp $(OBJ) -L$(BLACKTDIR) -lblackt -L. -lnftred -o $@ $(CXXFLAGS)
-
 -include $(DEP)
 
 $(ODIR)/%.o: $(SRCDIR)/%.cpp
@@ -56,7 +38,4 @@ blackt:
 clean:
 	rm -f $(LIB)
 	rm -rf $(ODIR)
-	rm -f test
-	rm -f opbextr
-	rm -f opbinsr
 	cd ../blackt && $(MAKE) clean && cd $(CURDIR)

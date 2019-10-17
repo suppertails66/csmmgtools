@@ -108,6 +108,36 @@ public:
       }
     }
   }
+  
+  void flipH() {
+    for (int j = 0; j < h_; j++) {
+      int start = 0;
+      int end = w_ - 1;
+      
+      while (start < end) {
+        T temp = data_[end][j];
+        data_[end][j] = data_[start][j];
+        data_[start][j] = temp;
+        ++start;
+        --end;
+      }
+    }
+  }
+  
+  void flipV() {
+    for (int i = 0; i < w_; i++) {
+      int start = 0;
+      int end = h_ - 1;
+      
+      while (start < end) {
+        T temp = data_[i][end];
+        data_[i][end] = data_[i][start];
+        data_[i][start] = temp;
+        ++start;
+        --end;
+      }
+    }
+  }
 protected:
   void cloneIntoThis(const TTwoDArray& t) {
 //    if ((w_ != t.w_) || (h_ != t.h_)) {

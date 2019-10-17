@@ -26,7 +26,7 @@ public:
   static bool canConvertPng();
   
   static bool graphicToRGBAPng(const std::string& filename,
-                               TGraphic& src);
+                               const TGraphic& src);
   
   static bool RGBAPngToGraphic(const std::string& filename,
                                TGraphic& dst);

@@ -292,24 +292,76 @@ int patchTileSet(char* prefix, char* tile, char* outfile) {
   return 0;
 }
 
-int main(int argc, char* argv[]) {
-/*  TIfstream tst(argv[1], ios_base::binary);
-  tst.seek(0x76);
-  TGraphic g(64, 64);
-  for (int j = 63; j >= 0; j--) {
-    for (int i = 0; i < 64; i++) {
-      TByte val = tst.get();
-      int value = (val << 4) | val;
-      TColor color(value, value, value, TColor::fullAlphaOpacity);
-      g.setPixel(i, j, color);
+int generateScrn(char* prefix, char* tile, char* screen, char* palette,
+                 int palettenum) {
+  if (prefix == NULL) {
+    cerr << "Error: missing input prefix" << endl;
+    return 1;
+  }
+  else if (tile == NULL) {
+    cerr << "Error: missing I/O NCGR file" << endl;
+    return 1;
+  }
+  else if (screen == NULL) {
+    cerr << "Error: missing I/O NSCR file" << endl;
+    return 1;
+  }
+
+  NcgrFile ncgr;
+  {
+    TIfstream ifs(tile, ios_base::binary);
+    ncgr.read(ifs);
+  }
+  
+  NcgrTileSet tiles;
+  tiles.fromNcgrFile(ncgr);
+  
+  NitroPalette pal = (tiles.tiles_.bpp() == 4)
+    ? grayscale16 : grayscale256;
+  if (palette != NULL) {
+    TIfstream ifs3(palette, ios_base::binary);
+    NclrFile nclr;
+    nclr.read(ifs3);
+    if (palettenum < nclr.plttBlock.palettes.size()) {
+      pal = nclr.plttBlock.palettes[palettenum];
+    }
+    else {
+      cout << "Out-of-range palette index " << palettenum
+        << " (max " << (nclr.plttBlock.palettes.size() - 1)
+        << "); defaulting to grayscale" << endl;
     }
   }
-  TPngConversion::graphicToRGBAPng("test.png", g);
-  return 0; */
 
+  NscrFile nscr;
+  {
+    TIfstream ifs(screen, ios_base::binary);
+    nscr.read(ifs);
+  }
+  
+//  nscr.patchTileSetFromEditable(prefix, tiles.tiles_);
+  nscr.generateTextBgFromEditable(prefix, tiles.tiles_, palettenum);
+  
+  tiles.toNcgrFile(ncgr);
+  {
+    TBufStream ofs(0x100000);
+    ncgr.write(ofs);
+    ofs.save(tile);
+  }
+  
+  {
+    TBufStream ofs(0x100000);
+    nscr.write(ofs);
+    ofs.save(screen);
+  }
+  
+  return 0;
+}
+
+int main(int argc, char* argv[]) {
   if (argc < 3) {
     cout << "Standard DS image format conversion tool" << endl;
-    cout << "Usage: " << argv[0] << " <command> <prefix> [arguments]" << endl;
+    cout << "Usage: " << argv[0] << " <command> <outprefix> [arguments]"
+      << endl;
     cout << endl;
     cout << "Commands: " << endl;
     cout << "  e      Extract images from NCER\n";
@@ -318,6 +370,7 @@ int main(int argc, char* argv[]) {
     cout << "  ps     Patch NCGR using an extracted screen\n";
     cout << "  et     Extract raw contents of NCGR\n";
     cout << "  pt     Patch NCGR from raw contents\n";
+    cout << "  gscrn  Generate SCRN and NCGR from extracted image\n";
     cout << endl;
     cout << "Options: " << endl;
     cout << "  -n     Specifies name of input/output file, if any\n";
@@ -399,70 +452,13 @@ int main(int argc, char* argv[]) {
   else if (strcmp(command, "pt") == 0) {
     return patchTileSet(prefix, tile, iofile);
   }
+  else if (strcmp(command, "gscrn") == 0) {
+    return generateScrn(prefix, tile, screen, palette, palettenum);
+  }
   else {
     cout << "Unknown command: " << command << endl;
-    return 0;
   }
-  
-//  TIfstream ifs(argv[1], ios_base::binary);
-//  NcgrFile ncgr;
-//  ncgr.read(ifs);
-  
-//  NcgrTileSet tiles;
-//  tiles.fromNcgrFile(ncgr);
-  
-//  cout << ncgr.hasCposBlock << endl;
-  
-  TIfstream ifs("opbout_test/0-0.bin", ios_base::binary);
-  NcgrFile ncgr;
-  ncgr.read(ifs);
-  
-//  TBufStream ofs(0x100000);
-//  ncgr.write(ofs);
-//  ofs.save("0-0-test.ncgr");
-  
-  NcgrTileSet tiles;
-  tiles.fromNcgrFile(ncgr);
-
-  TIfstream ifs2("opbout_test/0-2.bin", ios_base::binary);
-  NcerFile ncer;
-  ncer.read(ifs2);
-  
-  TGraphic test;
-  for (int i = 0; i < ncer.cebkBlock.banks.size(); i++) {
-/*    ncer.cebkBlock.banks[i].saveAsEditable((string("opbout/newtest-")
-      + TStringConversion::intToString(i)).c_str(),
-          tiles.tiles_, grayscale256, 2); */
-      
-/*    ncer.cebkBlock.banks[i].composeToGraphic(test,
-          tiles.tiles_, grayscale256, 2);
-    TPngConversion::graphicToRGBAPng("opbout/test-"
-      + TStringConversion::intToString(i)
-      + ".png", test); */
-      
-/*    for (int j = 0; j < ncer.cebkBlock.banks[i].oams.size(); j++) {
-      ncer.cebkBlock.banks[i].oams[j].composeToGraphic(test,
-        tiles.tiles_, grayscale256, 2);
-      TPngConversion::graphicToRGBAPng("opbout/test-"
-        + TStringConversion::intToString(i)
-        + "-"
-        + TStringConversion::intToString(j)
-        + ".png", test);
-    } */
-  }
-//  ncer.cebkBlock.banks[0].oams[0].composeToGraphic(test,
-//    tiles.tiles_, grayscale256, 4);
-//  TPngConversion::graphicToRGBAPng("test.png", test);
-  
-//  TBufStream ofs(0x100000);
-//  ncer.write(ofs);
-//  ofs.save("0-2-test.ncer");
-
-  CebkBankEntry::patchTileSet("opbout/newtest-0", tiles.tiles_);
-  tiles.toNcgrFile(ncgr);
-  TBufStream testout(0x100000);
-  ncgr.write(testout);
-  testout.save("ncgr-patch-test.ncgr");
   
   return 0;
-} 
+}
+

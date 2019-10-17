@@ -16,6 +16,7 @@ public:
 
   TCsv();
   
+  void readUtf8(TStream& ifs);
   void readSjis(TStream& ifs);
   
   int numCols() const;
@@ -32,6 +33,9 @@ protected:
   
   bool readCsvCellSjis(TStream& ifs, TString& dst);
   void readCsvRowSjis(TStream& ifs, CellCollection& dst);
+  
+  bool readCsvCellUtf8(TStream& ifs, TString& dst);
+  void readCsvRowUtf8(TStream& ifs, CellCollection& dst);
   
 };
 

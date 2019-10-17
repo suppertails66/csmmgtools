@@ -45,6 +45,23 @@ TGraphic& TGraphic::operator=(const TGraphic& graphic) {
   return *this;
 }
 
+bool TGraphic::operator==(const TGraphic& graphic) {
+  if (w_ != graphic.w_) return false;
+  if (h_ != graphic.h_) return false;
+  
+  for (int j = 0; j < h_; j++) {
+    for (int i = 0; i < w_; i++) {
+      if (getPixel(i, j) != graphic.getPixel(i, j)) return false;
+    }
+  }
+  
+  return true;
+}
+
+bool TGraphic::operator!=(const TGraphic& graphic) {
+  return !(*this == graphic);
+}
+
 /*TGraphic::TGraphic(const GGTile& tile,
                  const GGPalette& palette,
                  TileTransferTransOption transOption)

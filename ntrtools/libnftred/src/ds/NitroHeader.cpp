@@ -21,7 +21,8 @@ void NitroHeader::read(BlackT::TStream& ifs) {
   if (ifs.remaining() < size) {
     throw TGenericException(T_SRCANDLINE,
                             "NitroHeader::read(BlackT::TStream&)",
-                            "Not enough space in stream for header");
+                            "Source stream is not long enough to contain "
+                            "a valid Nitro header (file doesn't exist?)");
   }
 
   ifs.readRev(signature, sizeof(signature));

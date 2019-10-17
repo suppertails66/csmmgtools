@@ -117,6 +117,9 @@ public:
       if (str.size() >= 2) {
         str[1] = 'x';
       }
+      else {
+        str = "0x" + str;
+      }
     }
     
     return str;

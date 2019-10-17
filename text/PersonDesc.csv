@@ -1,5 +1,5 @@
-"File","Offset","Pointers","Japanese","English",
-"PersonDesc.opb","0x2e0","0x0","主人公","Hero",
+"File","Offset","Pointers","Japanese","English","width","height","lineheight","English","English"
+"PersonDesc.opb","0x2e0","0x0","主人公","The Hero",-1,-1,1,"Hero","The Hero"
 "PersonDesc.opb","0x2e7","0x1 0x138","　人形使い（人形
 操縦士）を目指す
 １３歳の少年。
@@ -9,7 +9,7 @@
 イ工房で見習いと
 して働く。
 　ケイとは幼馴染
-で親友。","　人形使い（人形
+で親友。","A 13-year-old boy hoping to become a Puppeteer (Puppet pilot). He goes to school in Chrono Town while also serving as an apprentice at the Galouye Workshop. Has been friends with Kay from childhood.",114,12,1,"　人形使い（人形
 操縦士）を目指す
 １３歳の少年。
 　普段はクロノタ
@@ -18,8 +18,10 @@
 イ工房で見習いと
 して働く。
 　ケイとは幼馴染
-で親友。",
-"PersonDesc.opb","0x38a","0x1 0x140","ケイ","Kay",
+で親友。","　A 13 year old boy hoping to become a Puppeteer (Mech Pilot.)
+　He goes to school in Chrono Town whilst also working as an apprentice at the Galouye Workshop.
+　He is childhood friends with Kay."
+"PersonDesc.opb","0x38a","0x1 0x140","ケイ","Kay",-1,-1,1,"Kay","Kay"
 "PersonDesc.opb","0x38f","0x1 0x144","　人形師（人形技
 師）を目指す１３
 歳の少年。
@@ -29,7 +31,8 @@
 　主人公と２人で、
 夢を掴むために、
 ガロイ工房で修行
-中。","　人形師（人形技
+中。","A 13-year-old boy hoping to become a Puppetmaker (Puppet engineer). He's close friends with the protagonist, just like a brother. The two serve as appren-
+tices at the Galouye Workshop to get one step closer to their shared dream.",114,12,1,"　人形師（人形技
 師）を目指す１３
 歳の少年。
 　主人公の親友で、
@@ -38,8 +41,10 @@
 　主人公と２人で、
 夢を掴むために、
 ガロイ工房で修行
-中。",
-"PersonDesc.opb","0x42a","0x1 0x14c","ガロイ親方","Master Galoy",
+中。","　A 13 year old boy hoping to become a Puppet Technician (Mech Engineer.)
+　He is close friends with the protagonist, just like a brother.
+　The two of them are working as apprentices at the Galouye Workshop in order to get one step closer to their shared dream."
+"PersonDesc.opb","0x42a","0x1 0x14c","ガロイ親方","Galouye",-1,-1,1,"Master Galoy","Galouye"
 "PersonDesc.opb","0x435","0x1 0x150","　ガロイ工房の主。
 人形の修理、整備
 をおこなう技師。
@@ -49,7 +54,9 @@
 ちとも親交がある。
 　１年前から弟子
 を育てるという大
-役に挑戦中。","　ガロイ工房の主。
+役に挑戦中。","Owner of the Galouye Workshop, he's a technician who re-
+pairs Puppets. Once, he travelled the world and became close with Puppet-
+makers of the Eight Workshops. Took up the task of trying to teach apprentices a year ago.",114,12,1,"　ガロイ工房の主。
 人形の修理、整備
 をおこなう技師。
 昔は、世界中を放
@@ -58,8 +65,9 @@
 ちとも親交がある。
 　１年前から弟子
 を育てるという大
-役に挑戦中。",
-"PersonDesc.opb","0x4ea","0x1 0x158","メリッサ","Melissa",
+役に挑戦中。","　The owner of the Galouye Workshop. He's a Technician who services and repairs mechs. When he was younger, it seems he used to travel the world and formed close relationships with puppeteers from the Eight Workshops.
+　It's been a year since he took up the challenge of trying to teach the next generation of puppeteers."
+"PersonDesc.opb","0x4ea","0x1 0x158","メリッサ","Melissa",-1,-1,1,"Melissa","Melissa"
 "PersonDesc.opb","0x4f3","0x1 0x15c","　ガロイの一人娘。
 幼いころから、工
 房の手伝いをして
@@ -68,7 +76,7 @@
 った。
 　特殊な大型車両
 の運転ライセンス
-を持つ。","　ガロイの一人娘。
+を持つ。","Galouye's only child. Ever since she was young, she's helped out at the workshop and so has become a bit of a tomboy. She has a license to drive a special trailer truck.",114,12,1,"　ガロイの一人娘。
 幼いころから、工
 房の手伝いをして
 育ったため、少々
@@ -76,8 +84,9 @@
 った。
 　特殊な大型車両
 の運転ライセンス
-を持つ。",
-"PersonDesc.opb","0x584","0x1 0x164","アンマリー・ダンクール","Anne-Marie Dancourt",
+を持つ。","　Galoye's only child. Ever since she was young, she's helped out at the workshop and so has become a bit of a tomboy.
+　She has a license to drive a special trailer truck,"
+"PersonDesc.opb","0x584","0x1 0x164","アンマリー・ダンクール","Anne-Marie Dancourt",-1,-1,1,"Anne-Marie Dancourt","Anne-Marie Dancourt"
 "PersonDesc.opb","0x59b","0x1 0x168","　人形使いの名門
 ダンクール家の娘。
 　幼い時から、人
@@ -86,7 +95,7 @@
 てきた。そのため、
 １３歳とは思えな
 いほど、人形の扱
-いに長けている。","　人形使いの名門
+いに長けている。","The daughter of a prestigious family of Puppeteers, the Dancourts. Underwent rigorous training to become a Puppeteer from a young age. Because of that, she's so skilled that people often don't realize she's 13 years old.",114,12,1,"　人形使いの名門
 ダンクール家の娘。
 　幼い時から、人
 形使いになるべく、
@@ -94,8 +103,9 @@
 てきた。そのため、
 １３歳とは思えな
 いほど、人形の扱
-いに長けている。",
-"PersonDesc.opb","0x642","0x1 0x170","巫女川エリー","Ellie Mikokawa",
+いに長けている。","　The daughter of a prestigious family of puppeteers, the Dancourts.
+　Underwent rigorous training to become a puppeteer from a young age. Because of that, she is so skilled at using mechs that people often don't realise she is 13 years old."
+"PersonDesc.opb","0x642","0x1 0x170","巫女川エリー","Ellie Mikokawa",-1,-1,1,"Ellie Mikokawa","Ellie Mikokawa"
 "PersonDesc.opb","0x64f","0x1 0x174","　からくり人形の
 技を伝える名家
 “巫女川家”の一
@@ -104,7 +114,7 @@
 形操りの極意を叩
 きこまれた、人形
 使いのサラブレッ
-ド。","　からくり人形の
+ド。","  The only child of the distinguished {Mikokawa Family}, which passed down the art of karakuri puppets. 13 years old. Comes from a pedigree of Puppeteers, and has had the secrets of piloting drilled into her from day one.",114,12,1,"　からくり人形の
 技を伝える名家
 “巫女川家”の一
 人娘。１３歳。
@@ -112,8 +122,9 @@
 形操りの極意を叩
 きこまれた、人形
 使いのサラブレッ
-ド。",
-"PersonDesc.opb","0x6e0","0x1 0x17c","リュー・ガウゼン","Ryuu Gauzen",
+ド。","　The only child of the distinguished {Mikokawa Family}, who passed down the art of Karakuri puppets. 13 years old.
+　She comes from a pedigree of puppeteers, and has had the secrets of piloting a mech drilled into her from the very beginning. "
+"PersonDesc.opb","0x6e0","0x1 0x17c","リュー・ガウゼン","Ryuu Gauzen",-1,-1,1,"Ryuu Gauzen","Ryuu Gauzen"
 "PersonDesc.opb","0x6f1","0x1 0x180","　自称“炎の人形
 使い”。１４歳。
 　第一回バトルト
@@ -122,7 +133,7 @@
 　山ごもりなど、
 ワイルドな特訓で
 実力をつけたらし
-い。","　自称“炎の人形
+い。","The self-proclaimed {Blazing Puppeteer}. 14 years old. Champion of the first Battle Tournament. It seems his true strength comes from cutting off contact with the outside world to partake in wild, intensive training.",114,12,1,"　自称“炎の人形
 使い”。１４歳。
 　第一回バトルト
 ーナメントの優勝
@@ -130,8 +141,10 @@
 　山ごもりなど、
 ワイルドな特訓で
 実力をつけたらし
-い。",
-"PersonDesc.opb","0x77a","0x1 0x188","アイン","Ein",
+い。","　The self-proclaimed {Blazing Puppeteer}. 14 years old.
+　The champion of the first Battle Tournament.
+　It seems his true strength comes from cutting off contact with the outside world and partaking in wild, intensive training."
+"PersonDesc.opb","0x77a","0x1 0x188","アイン","Ein",-1,-1,1,"Ein","Ein"
 "PersonDesc.opb","0x781","0x1 0x18c","　黄金都市ジャグ
 ルールに生まれた
 天才人形使い。
@@ -141,7 +154,7 @@
 ようになった。
 特に、レーサータ
 イプの人形を操る
-ことに長けている。","　黄金都市ジャグ
+ことに長けている。","A naturally gifted Puppeteer born in Jaglour, the Golden Capital. At only 12 years old, he's already become well known in Jaglour for being undefeatable. He particularly excels at using racer-type Puppets. ",114,12,1,"　黄金都市ジャグ
 ルールに生まれた
 天才人形使い。
 　若干１２歳にし
@@ -150,20 +163,22 @@
 ようになった。
 特に、レーサータ
 イプの人形を操る
-ことに長けている。",
-"PersonDesc.opb","0x832","0x1 0x194","ランバート","Lambert",
+ことに長けている。","　A naturally gifted puppeteer born in Jaglour, the Golden Capital.
+　At only 12 years old, he had already become well-known in Jaglour for being undefeatable. He particularly excels at using racer-type mechs. "
+"PersonDesc.opb","0x832","0x1 0x194","ランバート","Lambert",-1,-1,1,"Lambert","Lambert"
 "PersonDesc.opb","0x83d","0x1 0x198","　マリオネーショ
 ンギアを強化する
 ためのパーツを扱
 う店を経営。
 　腕のいいパーツ
-職人である。","　マリオネーショ
+職人である。","Manages a store that sells parts to enhance Marionation Gear. A skilled mechanic.",114,12,1,"　マリオネーショ
 ンギアを強化する
 ためのパーツを扱
 う店を経営。
 　腕のいいパーツ
-職人である。",
-"PersonDesc.opb","0x8a0","0x1 0x1a0","フィン・ディー","Finn Dee","Marionation Gear Center person"
+職人である。","　He manages a store selling parts to enhance Marionation Gear.
+　A skilled mechanic."
+"PersonDesc.opb","0x8a0","0x1 0x1a0","フィン・ディー","Finn Dee",-1,-1,1,"Finn Dee","Finn Dee"
 "PersonDesc.opb","0x8af","0x1 0x1a4","　マリオネーショ
 ンギア協会の職員。
 古今東西の情報に
@@ -173,7 +188,8 @@
 が多く、若い彼女
 ががんばらねばな
 らないらしい。メ
-リッサとは親友。","　マリオネーショ
+リッサとは親友。","An employee of the Marionation Gear Association. Has broad expert know-
+ledge, and hosts events. With many older people in the Association, it seems younger members must work extra hard. Close friends with Melissa.",114,12,1,"　マリオネーショ
 ンギア協会の職員。
 古今東西の情報に
 精通。イベントの
@@ -182,8 +198,8 @@
 が多く、若い彼女
 ががんばらねばな
 らないらしい。メ
-リッサとは親友。",
-"PersonDesc.opb","0x964","0x1 0x1ac","オーギュスト","Auguste","Wheel Workshop owner"
+リッサとは親友。","　An employee of the Marionation Gear Association. He has expert knowledge about all sorts of things, and also hosts events. There are many older people working at the Association, so it seems that the younger members have to work extra hard. Close friends with Melissa."
+"PersonDesc.opb","0x964","0x1 0x1ac","オーギュスト","Augiust",-1,-1,1,"Auguste","Augiust"
 "PersonDesc.opb","0x971","0x1 0x1b0","　輪工房の工房主。
 名家の出身。
 　人形師にしては
@@ -193,7 +209,8 @@
 で最も名を知られ
 る工房へと成長さ
 せた。いまや実業
-家としても有名。","　輪工房の工房主。
+家としても有名。","The owner of the Wheel Workshop, he hails from a well-to-
+do family. A Puppetmaker unusually gifted in business, he nurtured the Wheel Workshop into the most renowned in the world. A bit of an industry celebrity.",114,12,1,"　輪工房の工房主。
 名家の出身。
 　人形師にしては
 珍しくビジネス感
@@ -202,8 +219,9 @@
 で最も名を知られ
 る工房へと成長さ
 せた。いまや実業
-家としても有名。",
-"PersonDesc.opb","0xa22","0x1 0x1b8","ドラン","Derain","Heavy Machinery Workshop owner"
+家としても有名。","　The owner of the Wheel Workshop. He hails from a well-to-do family.
+　As a Puppet Maker unusually gifted in business, he used his abilities to nurture the Wheel Workshop into the most renowned workshop in the world. He become a bit of a celebrity in the industry."
+"PersonDesc.opb","0xa22","0x1 0x1b8","ドラン","Doran",-1,-1,1,"Derain","Doran"
 "PersonDesc.opb","0xa29","0x1 0x1bc","　重工房の工房主。
 何十年も重機型の
 人形一筋のベテラ
@@ -211,29 +229,31 @@
 職人肌の頑固親父
 だが、根は明るい。
 　ガロイとは昔か
-らの友人。","　重工房の工房主。
+らの友人。","The owner of the Heavy Machinery Workshop. An old hand at making Puppets, and focused solely on heavy-duty models for countless years. Stubborn as a mule, but always full of cheer. An old friend of Galouye's.",114,12,1,"　重工房の工房主。
 何十年も重機型の
 人形一筋のベテラ
 ン人形師である。
 職人肌の頑固親父
 だが、根は明るい。
 　ガロイとは昔か
-らの友人。",
-"PersonDesc.opb","0xab6","0x1 0x1c4","モクヨウ","Thursday","Tree Workshop owner"
+らの友人。","　The owner of the Heavy Machinery Workshop. He's an old hand at making puppets, and has been focused solely on heavy duty mechs for countless years. Stubborn as a mule, but always full of cheer.
+　An old friend of Galouye's."
+"PersonDesc.opb","0xab6","0x1 0x1c4","モクヨウ","Mokuyou",-1,-1,1,"Thursday","Thursday"
 "PersonDesc.opb","0xabf","0x1 0x1c8","　木工房の工房主。
 　変わり者だが、
 優れた腕を持つ。
 非常に高度な技術
 が必要といわれる、
 生物型人形を得意
-としている。","　木工房の工房主。
+としている。","The owner of the Tree Workshop. A bit eccentric, but with skills that put everyone else in the shade. She specializes in Puppets based on living creatures, said to require cutting-edge technology.",114,12,1,"　木工房の工房主。
 　変わり者だが、
 優れた腕を持つ。
 非常に高度な技術
 が必要といわれる、
 生物型人形を得意
-としている。",
-"PersonDesc.opb","0xb3c","0x1 0x1d0","コフー","Couffoo","Circle Workshop owner"
+としている。","　The owner of the Tree Workshop.
+　A bit eccentric, but with with skills that put everyone else in the shade. She specialises in mechs based on living creatures, which are said to require cutting-edge technology."
+"PersonDesc.opb","0xb3c","0x1 0x1d0","コフー","Kofoo",-1,-1,1,"Couffoo","Kofoo"
 "PersonDesc.opb","0xb43","0x1 0x1d4","　円工房の工房主。
 　何よりも伝統を
 重んじる頑固な職
@@ -243,7 +263,7 @@
 なほど高性能。そ
 のため、円工房の
 人形は現在でも広
-く使われている。","　円工房の工房主。
+く使われている。","The owner of the Circle Workshop. A stubborn craftsman who values tradition above all else. His Puppets may look primitive at first, but are actually surprisingly powerful. They are still widely used to this day.",114,12,1,"　円工房の工房主。
 　何よりも伝統を
 重んじる頑固な職
 人。彼が作り出す
@@ -252,22 +272,24 @@
 なほど高性能。そ
 のため、円工房の
 人形は現在でも広
-く使われている。",
-"PersonDesc.opb","0xbf8","0x1 0x1dc","フランバード","Flambard","Bomb Workshop owner"
+く使われている。","　The owner of the Circle Workshop.
+　A stubborn craftsman who values following tradition above all else. The mechs he invents may look primitive at first, but are in fact surprisingly high in power. Because of that, the Circle Workshop's mechs are still widely used to this day."
+"PersonDesc.opb","0xbf8","0x1 0x1dc","フランバード","Flambard",-1,-1,1,"Flambard","Flambard"
 "PersonDesc.opb","0xc05","0x1 0x1e0","　爆工房の工房主。
 禁断の研究を続け、
 危険な爆人形を生
 み出すことに生涯
 をかけた男。
 　ガンコで強い意
-志を持つ。","　爆工房の工房主。
+志を持つ。","The owner of the Bomb Workshop. A man who has spent a lifetime developing dangerous bomb Puppets, and still continues to pursue his forbidden research. Iron-willed and unrelenting.",114,12,1,"　爆工房の工房主。
 禁断の研究を続け、
 危険な爆人形を生
 み出すことに生涯
 をかけた男。
 　ガンコで強い意
-志を持つ。",
-"PersonDesc.opb","0xc7c","0x1 0x1e8","サイゾウ","Saizou","Shinobi Workshop owner"
+志を持つ。","　The owner of the Bomb Workshop. A man whose spent a lifetime developing dangerous Bomb Mechs, and is still continuing to pursue his forbidden research,
+　Iron-willed and unrelenting"
+"PersonDesc.opb","0xc7c","0x1 0x1e8","サイゾウ","Saizou",-1,-1,1,"Saizou","Saizou"
 "PersonDesc.opb","0xc85","0x1 0x1ec","　忍工房の工房主。
 　クグツ師を束ね
 る頭領にして、忍
@@ -275,15 +297,17 @@
 グツを操縦するこ
 ともできる。
 　覆面に隠された
-その素顔は……","　忍工房の工房主。
+その素顔は……","The owner of the Shinobi Workshop. Governing head of the Kugutsu Makers, and a master of ninja techniques. He can also pilot Kugutsu. His true face is hidden behind a mask...",114,12,1,"　忍工房の工房主。
 　クグツ師を束ね
 る頭領にして、忍
 術の達人。自らク
 グツを操縦するこ
 ともできる。
 　覆面に隠された
-その素顔は……",
-"PersonDesc.opb","0xd10","0x1 0x1f4","ネストラ","Nestra","Bullet Workshop owner"
+その素顔は……","　The owner of the Shinobi Workshop.
+　The governing head of the Kugutsu Engineers, and a master of ninja techniques. He can also pilot Kugutsu.
+　His true face is hidden behind a mask..."
+"PersonDesc.opb","0xd10","0x1 0x1f4","ネストラ","Nestra",-1,-1,1,"Nestra","Nestra"
 "PersonDesc.opb","0xd19","0x1 0x1f8","　弾工房の工房主。
 西部劇が大好きで、
 銃を持った人形を
@@ -293,7 +317,9 @@
 て、危険人物呼ば
 わりされることも
 あるが、本人は明
-るく温厚な若者。","　弾工房の工房主。
+るく温厚な若者。","The owner of the Bullet Workshop. He loves Wild West movies, and special-
+izes in Puppets with guns. Sometimes branded a trigger-
+happy hooligan for creating warlike Puppets, but is actually a gentle and bubbly young man.",114,12,1,"　弾工房の工房主。
 西部劇が大好きで、
 銃を持った人形を
 得意としている。
@@ -302,8 +328,9 @@
 て、危険人物呼ば
 わりされることも
 あるが、本人は明
-るく温厚な若者。",
-"PersonDesc.opb","0xdd0","0x1 0x200","人形師ファウスト","Faust the Puppetmaker",
+るく温厚な若者。","　The owner of the Bullet Workshop. He loves movies about the Wild West, and specialises in making mech's equipped with guns. 
+　Sometimes branded a dangerous trigger-happy hooligan for creating war-like mechs, when in truth he is a gentle and bubbly young man."
+"PersonDesc.opb","0xdd0","0x1 0x200","人形師ファウスト","Faust the Puppetmaker",-1,-1,1,"Faust the Puppetmaker","Faust the Puppet Maker"
 "PersonDesc.opb","0xde1","0x1 0x204","　心を持つ人形の
 製作にすべてをか
 けた天才人形師。
@@ -313,7 +340,8 @@
 研究につぎ込み、
 なお足りない資金
 を、様々な方法で
-かき集めた。","　心を持つ人形の
+かき集めた。","A genius who staked everything he had on making Puppets with minds of their own. Born into an incredi-
+bly wealthy noble family, he poured his inheritance into his research, and scraped together the remaining funds by various means.",114,12,1,"　心を持つ人形の
 製作にすべてをか
 けた天才人形師。
 　莫大な財を持つ
@@ -322,8 +350,9 @@
 研究につぎ込み、
 なお足りない資金
 を、様々な方法で
-かき集めた。",
-"PersonDesc.opb","0xe90","0x1 0x20c","バルフォー","Balfour","Bow Workshop owner"
+かき集めた。","　A genius who staked everything he had to making puppets with a mind of their own.
+　He was born into an incredibly wealthy noble family. He poured every asset he inherited into his research, and scraped together the remaining funds through various means."
+"PersonDesc.opb","0xe90","0x1 0x20c","バルフォー","Balfour",-1,-1,1,"Balfour","Balfour"
 "PersonDesc.opb","0xe9b","0x1 0x210","　弓工房の工房主。
 若いが、その腕は
 評論家にも高く評
@@ -333,7 +362,9 @@
 に取り入れており、
 現在は、輪工房か
 ら変形機構を学ん
-でいる。","　弓工房の工房主。
+でいる。","The owner of the Bow Workshop. Young, but with skills highly praised by critics. While holding to tradition, he also actively adopts modern technologies, and even now studies the Wheel Work-
+shop's transfor-
+mation mechanisms.",114,12,1,"　弓工房の工房主。
 若いが、その腕は
 評論家にも高く評
 価されている。伝
@@ -342,8 +373,8 @@
 に取り入れており、
 現在は、輪工房か
 ら変形機構を学ん
-でいる。",
-"PersonDesc.opb","0xf4a","0x1 0x218","ポー博士","Dr. Poe","Special Workshop owner"
+でいる。","　The owner of the Bow Workshop. Young, but with skills that come highly praised by critics. Whilst keeping in-line with tradition, he also actively adopts modern technologies, and even now, is currently studying the Wheel Workshop's mech transformation mechanism."
+"PersonDesc.opb","0xf4a","0x1 0x218","ポー博士","Dr. Poe",-1,-1,1,"Dr. Poe","Dr. Poe"
 "PersonDesc.opb","0xf53","0x1 0x21c","　特工房の工房主。
 もともとは円工房
 の弟子だったが、
@@ -353,7 +384,10 @@
 力で全く新しい人
 形作りを目指すが、
 その理想を理解す
-る者は少ない。","　特工房の工房主。
+る者は少ない。","The owner of the Special Workshop. Originally a student at the Circle Work-
+shop, he opened the Special Workshop to pursue his own dream. Aims to make novel Puppets using the power of sci-
+ence, but few under-
+stand his ideals.",114,12,1,"　特工房の工房主。
 もともとは円工房
 の弟子だったが、
 自らの理想を追求
@@ -362,8 +396,8 @@
 力で全く新しい人
 形作りを目指すが、
 その理想を理解す
-る者は少ない。",
-"PersonDesc.opb","0x1008","0x1 0x224","アンジェリカ","Angelica","Tusk Workshop owner"
+る者は少ない。","　The owner of the Special Workshop. Originally a student at the Circle Workshop, he opened the Special Workshop in order to pursue his own dream. His aim is to create mechs unlike anything ever seen before using the power of science, but there are very few people who truly understand his ideals."
+"PersonDesc.opb","0x1008","0x1 0x224","アンジェリカ","Angelica",-1,-1,1,"Angelica","Angelica"
 "PersonDesc.opb","0x1015","0x1 0x228","　牙工房の工房主。
 　ファウストに匹
 敵するとまでいわ
@@ -373,7 +407,7 @@
 ぎるせいで、才能
 をうまく活かせず
 にいる。以前は、
-木工房の弟子。","　牙工房の工房主。
+木工房の弟子。","The owner of the Fang Workshop. Her talent is said to rival Faust's, but since she's too playful about designing Puppets, she doesn't make the most of her gift. Used to be an apprentice at the Tree Workshop.",114,12,1,"　牙工房の工房主。
 　ファウストに匹
 敵するとまでいわ
 れる才能の持ち主。
@@ -382,8 +416,9 @@
 ぎるせいで、才能
 をうまく活かせず
 にいる。以前は、
-木工房の弟子。",
-"PersonDesc.opb","0x10ca","0x1 0x230","十文字禅岳","Zengaku Juumonji",
+木工房の弟子。","　The owner of the Fang Workshop.
+　Her talent is said to rival Faust's. However, because she is too carefree when it comes to building mechs, she doesn't make the most of her gift. Used to be an apprentice at the Tree Workshop."
+"PersonDesc.opb","0x10ca","0x1 0x230","十文字禅岳","Zengaku Cross",-1,-1,1,"Zengaku Juumonji","Zengaku Cross"
 "PersonDesc.opb","0x10d5","0x1 0x234","　十文字流・免許
 皆伝の腕前を持つ
 サムライにして、
@@ -393,7 +428,10 @@
 がない。輪工房と
 親交が深く、ガウ
 スの製作にも深く
-関わっている。","　十文字流・免許
+関わっている。","A Puppetmaker and samurai who perfec-
+ted the art of the cross control mech-
+anism. Without him, swordbearing Puppets wouldn't exist. Has good relations with the Wheel Workshop, and was closely involved in manu-
+facturing the Gauss.",114,12,1,"　十文字流・免許
 皆伝の腕前を持つ
 サムライにして、
 人形師。剣を持っ
@@ -402,8 +440,8 @@
 がない。輪工房と
 親交が深く、ガウ
 スの製作にも深く
-関わっている。",
-"PersonDesc.opb","0x1186","0x1 0x23c","ジャワー大佐","Colonel Jawer",
+関わっている。","　A puppet maker and samurai who perfected the art of the cross control mechanism. Without him, mechs armed with swords wouldn't exist. Has a good relationship with the Wheel Workshop, and was closely involved in manufacturing the Gauss."
+"PersonDesc.opb","0x1186","0x1 0x23c","ジャワー大佐","Colonel Jawer",-1,-1,1,"Colonel Jawer","Colonel Jawer"
 "PersonDesc.opb","0x1193","0x1 0x240","　軍のマリオネー
 ションギア乗り。
 　オートマンの襲
@@ -413,7 +451,7 @@
 沸かし器として恐
 れられており、す
 ぐカッとなって暴
-走する。","　軍のマリオネー
+走する。","A military Marionation Gear Puppeteer. Tasked with defending the city from the Automen's advances. His subordinates live in fear of his hotheadedness, which can turn on like the flip of a switch.",114,12,1,"　軍のマリオネー
 ションギア乗り。
 　オートマンの襲
 撃から街を守るの
@@ -422,8 +460,10 @@
 沸かし器として恐
 れられており、す
 ぐカッとなって暴
-走する。",
-"PersonDesc.opb","0x1236","0x1 0x248","エドゥアール館長","Director Edouard",
+走する。","　A military Marionation Gear puppeteer.
+　Tasked with defending the city from the Automen's advances.
+　His subordinates live in fear of his hotheadedness, which can be turned on in the flip of a switch."
+"PersonDesc.opb","0x1236","0x1 0x248","エドゥアール館長","Curator Edouard",-1,-1,1,"Director Edouard","Curator Edouard"
 "PersonDesc.opb","0x1247","0x1 0x24c","　博物館の館長。
 昔は人形師だった
 が、二十年も前に
@@ -433,7 +473,8 @@
 古い人形を心から
 愛し、今はそれら
 に囲まれて幸せな
-毎日を送っている。","　博物館の館長。
+毎日を送っている。","The curator of the museum. He used to be a Puppeteer, but retired 20 years ago. Previously a lecturer at a uni-
+versity. Loves old Puppets from the bottom of his heart, and is delighted to spend every day surrounded by them.",114,12,1,"　博物館の館長。
 昔は人形師だった
 が、二十年も前に
 現役を引退。大学
@@ -442,8 +483,8 @@
 古い人形を心から
 愛し、今はそれら
 に囲まれて幸せな
-毎日を送っている。",
-"PersonDesc.opb","0x12fc","0x1 0x254","ミオ","Mio",
+毎日を送っている。","　The curator of the museum. He used to be a puppeteer, but retired 20 years ago. Previously a lecturer at a university, he became the museum's director. Loves old mechs from the bottom of his heart, and is delighted to be able to spend everyday surrounded by them now."
+"PersonDesc.opb","0x12fc","0x1 0x254","ミオ","Mio",-1,-1,1,"Mio","Mio"
 "PersonDesc.opb","0x1301","0x1 0x258","　主人公とケイの
 クラスメイト。
 　両親が経営する
@@ -451,15 +492,16 @@
 アリス”を手伝っ
 ている。明るく朗
 らかで、学校でも
-人気者。","　主人公とケイの
+人気者。","A classmate of the main character and Kay. Helps her dad manage the {Cafe Alice}. Cheerful and bright, she is popular at school.",114,12,1,"　主人公とケイの
 クラスメイト。
 　両親が経営する
 喫茶店“カフェ・
 アリス”を手伝っ
 ている。明るく朗
 らかで、学校でも
-人気者。",
-"PersonDesc.opb","0x1386","0x1 0x260","アニー","Annie",
+人気者。","　A classmate of the main character and Kay.
+　Helps her dad manage the {Cafe Alice}. Cheerful and bright, she is popular at school."
+"PersonDesc.opb","0x1386","0x1 0x260","アニー","Annie",-1,-1,1,"Annie","Annie"
 "PersonDesc.opb","0x138d","0x1 0x264","　世界一の大富豪
 ハックスハウゼン
 家の一人娘。
@@ -469,7 +511,7 @@
 　金銭感覚が特殊
 で、一般庶民のそ
 れとは天と地ほど
-の差がある。","　世界一の大富豪
+の差がある。","The only daughter of the Hackhausen family, the richest in the world. She was spoiled as a child, and has now become a bit of a diva. Has an unusual perspective on money, worlds apart from that of the ordinary masses.",114,12,1,"　世界一の大富豪
 ハックスハウゼン
 家の一人娘。
 　ちやほやされて
@@ -478,8 +520,10 @@
 　金銭感覚が特殊
 で、一般庶民のそ
 れとは天と地ほど
-の差がある。",
-"PersonDesc.opb","0x143a","0x1 0x26c","アリサ","Alisa",
+の差がある。","　The only daughter of the Hackhausen Family, the richest in the world.
+　She was spoiled as a child, and has now become a bit of a diva.
+　Has an unusual perspective on money, which is a world apart from that of the ordinary masses."
+"PersonDesc.opb","0x143a","0x1 0x26c","アリサ","Alyssa",-1,-1,1,"Alisa","Alyssa"
 "PersonDesc.opb","0x1441","0x1 0x270","　８歳の少女。ナ
 イトシェイドが街
 で暴れた際に両親
@@ -489,7 +533,7 @@
 　事件のショック
 のせいで、マリオ
 ネーションギアを
-恐れるようになる。","　８歳の少女。ナ
+恐れるようになる。","An 8-year-old girl. Her parents were injured during an assault by Nightshade, and Lambert has been taking care of her since. Because of the shock of the incident, she's afraid of Marionation Gear.",114,12,1,"　８歳の少女。ナ
 イトシェイドが街
 で暴れた際に両親
 が負傷。ランバー
@@ -498,50 +542,52 @@
 　事件のショック
 のせいで、マリオ
 ネーションギアを
-恐れるようになる。",
-"PersonDesc.opb","0x14ee","0x1 0x278","ハンターＬ","Hunter L",
+恐れるようになる。","　An 8 year-old girl. Her parents were injured during an assault by Nightshade, and Lambert has been taking care of her since.
+　Because of the shock of the incident, she's afraid of Marionation Gear."
+"PersonDesc.opb","0x14ee","0x1 0x278","ハンターＬ","Hunter L",-1,-1,1,"Hunter L","Hunter L"
 "PersonDesc.opb","0x14f9","0x1 0x27c","　マリオネーショ
 ンギアを主戦力と
 する傭兵部隊ナイ
 トシェイドの副官。
-　気性の荒い女性。","　マリオネーショ
+　気性の荒い女性。","The aide-de-camp of Nightshade, a band of mercenaries who use Marionation Gear to wage war. A woman with a feisty tongue.",114,12,1,"　マリオネーショ
 ンギアを主戦力と
 する傭兵部隊ナイ
 トシェイドの副官。
-　気性の荒い女性。",
-"PersonDesc.opb","0x1556","0x1 0x284","ハンターＪ","Hunter J",
+　気性の荒い女性。","　The aide-de-camp of Nightshade, a band of mercenaries who use Marionation Gear to wage war.
+　A woman with a feisty tongue."
+"PersonDesc.opb","0x1556","0x1 0x284","ハンターＪ","Hunter J",-1,-1,1,"Hunter J","Hunter J"
 "PersonDesc.opb","0x1561","0x1 0x288","　ナイトシェイド
 の隊長。幼いころ
 から戦場を渡り歩
 いてきた百戦錬磨
 の兵士。氷のよう
 な冷酷さと残忍さ
-を持つ。","　ナイトシェイド
+を持つ。","The leader of Nightshade. A veteran solider who's been on the battlefield from a young age. A cruel man with a heart of ice.",114,12,1,"　ナイトシェイド
 の隊長。幼いころ
 から戦場を渡り歩
 いてきた百戦錬磨
 の兵士。氷のよう
 な冷酷さと残忍さ
-を持つ。",
-"PersonDesc.opb","0x15d6","0x1 0x290","ナイトシェイド兵士","Nightshade Soldier",
+を持つ。","　The leader of Nightshade. A veteran solider who has been on the battlefield from a young age. A cruel man with a heart made of ice."
+"PersonDesc.opb","0x15d6","0x1 0x290","ナイトシェイド兵士","Nightshade Soldier",-1,-1,1,"Nightshade Soldier","Nightshade Soldier"
 "PersonDesc.opb","0x15e9","0x1 0x294","　ナイトシェイド
-の兵士。","　ナイトシェイド
-の兵士。",
-"PersonDesc.opb","0x1604","0x1 0x29c","カオル","Kaoru",
+の兵士。","One of Nightshade's soldiers.",114,12,1,"　ナイトシェイド
+の兵士。","　One of Nightshade's soldiers."
+"PersonDesc.opb","0x1604","0x1 0x29c","カオル","Kaoru",-1,-1,1,"Kaoru","Kaoru"
 "PersonDesc.opb","0x160b","0x1 0x2a0","　忍びの里に住む
 少女。忍工房の職
 員で、将来はクグ
 ツ師を目指してい
 る。フクロウ忍者
 の人形を作るのが
-夢。","　忍びの里に住む
+夢。","A young girl who lives in the Shinobi Village. Works for the Shinobi Workshop, and has her sights set on becoming a Kugutsu Puppeteer. Dreams of making an Owl Ninja Puppet.",114,12,1,"　忍びの里に住む
 少女。忍工房の職
 員で、将来はクグ
 ツ師を目指してい
 る。フクロウ忍者
 の人形を作るのが
-夢。",
-"PersonDesc.opb","0x167c","0x1 0x2a8","ジャン・ジャック・ダンクール","Jean-Jacques Dancourt",
+夢。","　A young girl who lives in the Shinobi Village. Works for the Shinobi Workshop, and has her sights set on becoming a Kugutsu puppeteer. Dreams of making an Owl Ninja Mech."
+"PersonDesc.opb","0x167c","0x1 0x2a8","ジャン・ジャック・ダンクール","Jean-Jacques Dancourt",-1,-1,1,"Jean-Jacques Dancourt","Jean-Jacques Dancourt"
 "PersonDesc.opb","0x1699","0x1 0x2ac","　ダンクール家の
 長男。天才的な才
 能を持つとして、
@@ -551,7 +597,7 @@
 最強の人形使いと
 呼ぶ者もいるほど、
 その才は傑出して
-いる。","　ダンクール家の
+いる。","The eldest son of the Dancourt family. He's well known among Puppeteers as a prodigy. His talents are so outstanding that some name him the strongest Puppeteer in all of history.",114,12,1,"　ダンクール家の
 長男。天才的な才
 能を持つとして、
 人形使いの間に広
@@ -560,16 +606,16 @@
 最強の人形使いと
 呼ぶ者もいるほど、
 その才は傑出して
-いる。",
-"PersonDesc.opb","0x1744","0x1 0x2b4","ミレイ","Milay",
+いる。","　The eldest son of the Dancourt family. He is well known among puppeteers for being a prodigy. His talent's are so outstanding, that some people have named his as the strongest puppeteer in all of history."
+"PersonDesc.opb","0x1744","0x1 0x2b4","ミレイ","Milly",-1,-1,1,"Milay","Milly"
 "PersonDesc.opb","0x174b","0x1 0x2b8","　輪工房のスタッ
 フ。彼女を目当て
 にやってくる客も
-多い。","　輪工房のスタッ
+多い。","An employee of the Wheel Workshop. There are many customers who come to see her.",114,12,1,"　輪工房のスタッ
 フ。彼女を目当て
 にやってくる客も
-多い。",
-"PersonDesc.opb","0x1788","0x1 0x2c0","ファウスト","Faust",
+多い。","　An employee of the Wheel Workshop. There are many customers who come to see her."
+"PersonDesc.opb","0x1788","0x1 0x2c0","ファウスト","Faust",-1,-1,1,"Faust","Faust"
 "PersonDesc.opb","0x1793","0x1 0x2c4","　天才人形師ファ
 ウストの現在の姿。
 　収容所を脱走す
@@ -577,19 +623,20 @@
 た彼は、人形都市
 によって延命措置
 を施され、機械の
-身体となった。","　天才人形師ファ
+身体となった。","The present state of the genius Puppetmaker Faust. After he was seriously injured while escaping custody, the Puppet City went to great lengths to keep him alive, resulting in this mechanical body.",114,12,1,"　天才人形師ファ
 ウストの現在の姿。
 　収容所を脱走す
 る際に重傷を負っ
 た彼は、人形都市
 によって延命措置
 を施され、機械の
-身体となった。",
-"PersonDesc.opb","0x1822","0x1 0x2cc","市民１","Citizen 1",
+身体となった。","　The present state of the genius puppet maker, Faust.
+　After being seriously injured whilst escaping from custody, the Mech City went to great lengths to keep him alive, resulting in this mechanical body."
+"PersonDesc.opb","0x1822","0x1 0x2cc","市民１","Citizen 1",-1,-1,1,"Citizen 1","Citizen 1"
 "PersonDesc.opb","0x1829","0x1 0x2d0","　クロノタウンに
-住む市民。","　クロノタウンに
-住む市民。",
-"PersonDesc.opb","0x1846","0x1 0x2d8","市民２","Citizen 2",
+住む市民。","A local who lives in Chrono Town.",114,12,1,"　クロノタウンに
+住む市民。","　A local who lives in Chrono Town."
+"PersonDesc.opb","0x1846","0x1 0x2d8","市民２","Citizen 2",-1,-1,1,"Citizen 2","Citizen 2"
 "PersonDesc.opb","0x184d","0x1 0x2dc","　クロノタウンに
-住む市民。","　クロノタウンに
-住む市民。",
+住む市民。","A local who lives in Chrono Town.",114,12,1,"　クロノタウンに
+住む市民。","　A local who lives in Chrono Town."

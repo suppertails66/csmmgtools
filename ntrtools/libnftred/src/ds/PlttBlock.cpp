@@ -59,7 +59,37 @@ void PlttBlock::write(BlackT::TStream& ofs) const {
   ofs.writeRev(signature, sizeof(signature));
   ofs.writeu32le(size);
   
+  ofs.writeu16le((bpp == 4) ? 3 : 4);
   
+  int colorsPerPalette = (bpp == 4) ? 16 : 256;
+  
+  ofs.writeu16le(unknown1);
+  ofs.writeu32le(unknown2);
+  ofs.writeu32le(unknown3);
+  // FIXME: "memory size?"
+  ofs.writeu32le(0x100);
+  
+  for (int i = 0; i < palettes.size(); i++) {
+    for (int j = 0; j < colorsPerPalette; j++) {
+      TColor color = palettes[i].color(j);
+      
+      int r = (int)(color.r() & 0xF8) >> 3;
+      int g = (int)(color.g() & 0xF8) << 2;
+      int b = (int)(color.b() & 0xF8) << 7;
+      
+      int raw = r | g | b;
+      
+      ofs.writeu16le(raw);
+      
+/*      // doesn't play well with imported images (gimp throws away RGB
+      // components of alpha pixels)
+      int a = ((j == 0) ? TColor::fullAlphaTransparency
+        : TColor::fullAlphaOpacity);
+//      int a = TColor::fullAlphaOpacity;
+      
+      palettes[i].setColor(j, TColor(r, g, b, a)); */
+    }
+  }
   
   ofs.alignToBoundary(4);
   int endpos = ofs.tell();

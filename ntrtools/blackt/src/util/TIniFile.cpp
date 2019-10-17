@@ -78,7 +78,7 @@ void TIniFile::readFile(const std::string& filename) {
       start = end + 1;
       end = start;
       
-      if (start >= line.size()) {
+      if (start > line.size()) {
         continue;
       }
       
@@ -140,7 +140,24 @@ std::string TIniFile::valueOfKey(const std::string& section,
 //  return values_[section][key];
 
   SectionKeysMap::const_iterator findIt = values_.find(section);
+  
+  if (findIt == values_.end()) {
+    throw TGenericException(T_SRCANDLINE,
+                            "TIniFile::valueOfKey()",
+                            "Accessed non-existent section: "
+                              + section);
+  }
+  
   StringMap::const_iterator valueIt = findIt->second.find(key);
+  
+  if (valueIt == findIt->second.end()) {
+    throw TGenericException(T_SRCANDLINE,
+                            "TIniFile::valueOfKey()",
+                            "Accessed non-existent key: ('"
+                              + section + "', '"
+                              + key + "')");
+  }
+  
   return valueIt->second;
 }
 
@@ -181,23 +198,19 @@ int TIniFile::numSections() const {
   return values_.size();
 }
   
-SectionKeysMap::iterator TIniFile::begin(
-    const std::string& section) {
+SectionKeysMap::iterator TIniFile::begin() {
   return values_.begin();
 }
 
-SectionKeysMap::const_iterator TIniFile::cbegin(
-    const std::string& section) const {
+SectionKeysMap::const_iterator TIniFile::cbegin() const {
   return values_.cbegin();
 }
 
-SectionKeysMap::iterator TIniFile::end(
-    const std::string& section) {
+SectionKeysMap::iterator TIniFile::end() {
   return values_.end();
 }
 
-SectionKeysMap::const_iterator TIniFile::cend(
-    const std::string& section) const {
+SectionKeysMap::const_iterator TIniFile::cend() const {
   return values_.cend();
 }
   

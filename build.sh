@@ -3,10 +3,9 @@
 # Chou Soujuu Mecha MG translation build script
 # 
 # You must have the following utilities installed (i.e. in your PATH):
-#   - ndstool (currently uses wine + windows binary -- probably temporary)
-#   - all nftred tools
-#   - CUE's DS compression tools (wine + windows binaries due to laziness)
-#   - ImageMagick
+#   * ImageMagick (i.e. convert/mogrify)
+#   * wine (used for ndstool, because running it natively produces
+#     ROMs that don't work on real hardware)
 #
 ###############################################################################
 
@@ -14,16 +13,24 @@ OUTROM_NAME="csmmg_en.nds"
 BUILDFILES_DIR="buildfiles"
 GAMEFILES_DIR="gamefiles"
 IMAGES_DIR="images"
-GAMEFILES_BUILD_DIR=$BUILDFILES_DIR/$GAMEFILES_DIR
+GAMEFILES_BUILD_DIR=$BUILDFILES_DIR/gamefiles
 IMAGES_BUILD_DIR=$BUILDFILES_DIR/$IMAGES_DIR
 BASE_PWD=$PWD
+
+ARMIPS="./armips/build/armips"
 
 # Add ntrtools to PATH
 PATH="ntrtools/ntrtools:$PATH"
 
+###############################################################################
 # Set these to 0/1 to turn various build steps on and off for debugging
 # purposes.
+###############################################################################
+
+# disable to use old buildfiles instead of cleaning at start.
+# turn off if disabling any other options.
 DO_COPYGAMEFILES=1
+
 DO_BUILDFONTS=1
 DO_INJECTTEXTOPBS=1
 DO_INJECTGRPOPBS=1
@@ -33,12 +40,35 @@ DO_BUILDKARS=1
   DO_BUILDBIGKARS=1
 DO_INJECTKARS=1
 DO_INSERTBVMS=1
+DO_UPDATEASM=1
 DO_PACKROM=1
 
 #   cp gamefiles/arm7.bin buildfiles/gamefiles/arm7.bin
 
-stampRoboImage() {
+# composite a workshop logo onto a robo preview picture
+#
+# $1 = name of roboimage
+# $2 = name of workshop logo
+function stampRoboImage() {
   composite -geometry +2+20 -compose Copy "$IMAGES_BUILD_DIR/stamps/$2.png" "images/kar/img/roboimage/orig/$1.bin-grp.png" "images/kar/img/roboimage/$1.bin-grp.png"
+}
+
+function remapToPalette() {
+  convert ${1}-grp.png -dither None -remap ${1}-pal.png PNG32:${1}-grp.png
+}
+
+function remapToPalette_noDither() {
+  convert ${1}-grp.png -dither None -remap ${1}-pal.png PNG32:${1}-grp.png
+}
+
+function ncerConv() {
+  convert ${1}-img.png -dither None -remap ${1}-pal.png PNG32:${1}-img.png
+  dsimgconv p ${1} -n ${2} -t ${2}
+}
+
+function nscrConv() {
+  convert ${1}-grp.png -dither None -remap ${1}-pal.png PNG32:${1}-grp.png
+  dsimgconv ps ${1} -n ${2} -t ${2}
 }
 
 ###############################################################################
@@ -46,7 +76,29 @@ stampRoboImage() {
 ###############################################################################
 cd ntrtools/ntrtools
   make
-cd ../..
+cd $BASE_PWD
+
+echo "*******************************************************************************"
+echo "Building CUE's compression tools..."
+echo "*******************************************************************************"
+
+cd dscmprcue
+  make
+cd $BASE_PWD
+
+if [ ! -e $ARMIPS ]; then
+  
+  echo "********************************************************************************"
+  echo "Building armips..."
+  echo "********************************************************************************"
+  
+  cd armips
+    mkdir build && cd build
+    cmake -DCMAKE_BUILD_TYPE=Release ..
+    make
+  cd $BASE_PWD
+  
+fi
 
 ###############################################################################
 # Create directories for intermediate build files
@@ -61,7 +113,7 @@ if [ ! $DO_COPYGAMEFILES == 0 ]
 then
   echo "Copying original game files"
   rm -r -f $GAMEFILES_BUILD_DIR
-  cp -r $GAMEFILES_DIR $BUILDFILES_DIR/
+  cp -r $GAMEFILES_DIR $GAMEFILES_BUILD_DIR
 fi
 
 ###############################################################################
@@ -126,7 +178,7 @@ then
   rm -r -f $IMAGES_BUILD_DIR/opb/Album
   cp -r opb/Album $IMAGES_BUILD_DIR/opb/Album
   
-  ./ncerconv.sh images/opb/Album/012/0 $IMAGES_BUILD_DIR/opb/Album/0-0.bin
+  ncerConv images/opb/Album/012/0 $IMAGES_BUILD_DIR/opb/Album/0-0.bin
 #  convert images/opb/Album/012/0-img.png -dither None -remap images/opb/Album/012/0-pal.png PNG32:images/opb/Album/012/0-img.png
 #  dsimgconv p images/opb/Album/012/0 -n $IMAGES_BUILD_DIR/opb/Album/0-0.bin -t $IMAGES_BUILD_DIR/opb/Album/0-0.bin
   
@@ -140,7 +192,7 @@ then
   cp -r opb/GalouyeBottega $IMAGES_BUILD_DIR/opb/GalouyeBottega
   
   for i in $(seq 3 17); do
-    ./ncerconv.sh images/opb/GalouyeBottega/012/$i $IMAGES_BUILD_DIR/opb/GalouyeBottega/0-0.bin
+    ncerConv images/opb/GalouyeBottega/012/$i $IMAGES_BUILD_DIR/opb/GalouyeBottega/0-0.bin
   done
   
   convert images/opb/GalouyeBottega/4/0-4.png -dither None -remap images/opb/GalouyeBottega/4/0-4-pal.png PNG32:images/opb/GalouyeBottega/4/0-4.png
@@ -155,7 +207,7 @@ then
   rm -r -f $IMAGES_BUILD_DIR/opb/Hakubutukan
   cp -r opb/Hakubutukan $IMAGES_BUILD_DIR/opb/Hakubutukan
   
-  ./nscrconv.sh images/opb/Hakubutukan/456/nscr $IMAGES_BUILD_DIR/opb/Hakubutukan/0-4.bin
+  nscrConv images/opb/Hakubutukan/456/nscr $IMAGES_BUILD_DIR/opb/Hakubutukan/0-4.bin
   
   opbfileinsr $GAMEFILES_BUILD_DIR/data/kScene/Hakubutukan.opb $IMAGES_BUILD_DIR/opb/Hakubutukan/
   
@@ -182,7 +234,7 @@ then
   cp -r opb/KoubouStart $IMAGES_BUILD_DIR/opb/KoubouStart
   
   for i in {$(seq 3 5),$(seq 15 17)}; do
-    ./ncerconv.sh images/opb/KoubouStart/012/$i $IMAGES_BUILD_DIR/opb/KoubouStart/0-0.bin
+    ncerConv images/opb/KoubouStart/012/$i $IMAGES_BUILD_DIR/opb/KoubouStart/0-0.bin
   done
   
   opbfileinsr $GAMEFILES_BUILD_DIR/data/kScene/KoubouStart.opb $IMAGES_BUILD_DIR/opb/KoubouStart/
@@ -195,17 +247,17 @@ then
   cp -r opb/Load $IMAGES_BUILD_DIR/opb/Load
   
   for i in {$(seq 0 1),$(seq 5 21)}; do
-    ./ncerconv.sh images/opb/Load/012/$i $IMAGES_BUILD_DIR/opb/Load/0-0.bin
+    ncerConv images/opb/Load/012/$i $IMAGES_BUILD_DIR/opb/Load/0-0.bin
   done
   
   for i in {0,$(seq 13 15)}; do
-    ./ncerconv.sh images/opb/Load/456/$i $IMAGES_BUILD_DIR/opb/Load/0-4.bin
+    ncerConv images/opb/Load/456/$i $IMAGES_BUILD_DIR/opb/Load/0-4.bin
   done
   
   # Deal with layered OAMs
   for i in {$(seq 1 12),$(seq 16 23)}; do
-    ./ncerconv.sh images/opb/Load/456/multi/$i-a $IMAGES_BUILD_DIR/opb/Load/0-4.bin
-    ./ncerconv.sh images/opb/Load/456/multi/$i-b $IMAGES_BUILD_DIR/opb/Load/0-4.bin
+    ncerConv images/opb/Load/456/multi/$i-a $IMAGES_BUILD_DIR/opb/Load/0-4.bin
+    ncerConv images/opb/Load/456/multi/$i-b $IMAGES_BUILD_DIR/opb/Load/0-4.bin
   done
   
   opbfileinsr $GAMEFILES_BUILD_DIR/data/kScene/Load.opb $IMAGES_BUILD_DIR/opb/Load/
@@ -218,7 +270,7 @@ then
   cp -r opb/MissionSelect_A $IMAGES_BUILD_DIR/opb/MissionSelect_A
   
   for i in {1,$(seq 32 42)}; do
-    ./ncerconv.sh images/opb/MissionSelect_A/012/$i $IMAGES_BUILD_DIR/opb/MissionSelect_A/0-0.bin
+    ncerConv images/opb/MissionSelect_A/012/$i $IMAGES_BUILD_DIR/opb/MissionSelect_A/0-0.bin
   done
   
   opbfileinsr $GAMEFILES_BUILD_DIR/data/kScene/MissionSelect_A.opb $IMAGES_BUILD_DIR/opb/MissionSelect_A/
@@ -237,12 +289,19 @@ then
   cp -r opb/MissionSelect_U $IMAGES_BUILD_DIR/opb/MissionSelect_U
   
   for i in {$(seq 9 23),$(seq 49 50),$(seq 66 67),118,120}; do
-    ./ncerconv.sh images/opb/MissionSelect_U/012/$i $IMAGES_BUILD_DIR/opb/MissionSelect_U/0-0.bin
+    ncerConv images/opb/MissionSelect_U/012/$i $IMAGES_BUILD_DIR/opb/MissionSelect_U/0-0.bin
   done
   
-  ./nscrconv.sh images/opb/MissionSelect_U/456/nscr $IMAGES_BUILD_DIR/opb/MissionSelect_U/0-4.bin
-  ./nscrconv.sh images/opb/MissionSelect_U/457/nscr $IMAGES_BUILD_DIR/opb/MissionSelect_U/0-4.bin
-  ./nscrconv.sh images/opb/MissionSelect_U/458/nscr $IMAGES_BUILD_DIR/opb/MissionSelect_U/0-4.bin
+#   nscrConv images/opb/MissionSelect_U/456/nscr $IMAGES_BUILD_DIR/opb/MissionSelect_U/0-4.bin
+#   nscrConv images/opb/MissionSelect_U/457/nscr $IMAGES_BUILD_DIR/opb/MissionSelect_U/0-4.bin
+#   nscrConv images/opb/MissionSelect_U/458/nscr $IMAGES_BUILD_DIR/opb/MissionSelect_U/0-4.bin
+  
+#   remapToPalette images/opb/MissionSelect_U/456/nscr
+#   remapToPalette images/opb/MissionSelect_U/457/nscr
+#   remapToPalette images/opb/MissionSelect_U/458/nscr
+#   nscr_gen opb/MissionSelect_U/0-4.bin $IMAGES_BUILD_DIR/opb/MissionSelect_U/0-4.bin -p opb/MissionSelect_U/0-5.bin -pn 12 -nscr images/opb/MissionSelect_U/456/nscr $IMAGES_BUILD_DIR/opb/MissionSelect_U/0-6.bin -nscr images/opb/MissionSelect_U/457/nscr $IMAGES_BUILD_DIR/opb/MissionSelect_U/0-7.bin -nscr images/opb/MissionSelect_U/458/nscr $IMAGES_BUILD_DIR/opb/MissionSelect_U/0-8.bin
+
+  nscr_gen opb/MissionSelect_U/0-4.bin $IMAGES_BUILD_DIR/opb/MissionSelect_U/0-4.bin -nscr images/opb/MissionSelect_U/456/nscr $IMAGES_BUILD_DIR/opb/MissionSelect_U/0-6.bin -nscr images/opb/MissionSelect_U/457/nscr $IMAGES_BUILD_DIR/opb/MissionSelect_U/0-7.bin -nscr images/opb/MissionSelect_U/458/nscr $IMAGES_BUILD_DIR/opb/MissionSelect_U/0-8.bin
   
   opbfileinsr $GAMEFILES_BUILD_DIR/data/kScene/MissionSelect_U.opb $IMAGES_BUILD_DIR/opb/MissionSelect_U/
   
@@ -260,11 +319,11 @@ then
   cp -r opb/NameInput $IMAGES_BUILD_DIR/opb/NameInput
   
   for i in {$(seq 1 18),$(seq 32 39)}; do
-    ./ncerconv.sh images/opb/NameInput/012/$i $IMAGES_BUILD_DIR/opb/NameInput/0-0.bin
+    ncerConv images/opb/NameInput/012/$i $IMAGES_BUILD_DIR/opb/NameInput/0-0.bin
   done
   
   for i in {$(seq 0 1),$(seq 34 36)}; do
-    ./ncerconv.sh images/opb/NameInput/456/$i $IMAGES_BUILD_DIR/opb/NameInput/0-4.bin
+    ncerConv images/opb/NameInput/456/$i $IMAGES_BUILD_DIR/opb/NameInput/0-4.bin
   done
   
   opbfileinsr $GAMEFILES_BUILD_DIR/data/kScene/NameInput.opb $IMAGES_BUILD_DIR/opb/NameInput/
@@ -277,11 +336,11 @@ then
   cp -r opb/NetworkCenter $IMAGES_BUILD_DIR/opb/NetworkCenter
   
   for i in {0,$(seq 10 15)}; do
-    ./ncerconv.sh images/opb/NetworkCenter/012/$i $IMAGES_BUILD_DIR/opb/NetworkCenter/0-0.bin
+    ncerConv images/opb/NetworkCenter/012/$i $IMAGES_BUILD_DIR/opb/NetworkCenter/0-0.bin
   done
   
   for i in {$(seq 1 6),$(seq 24 25)}; do
-    ./ncerconv.sh images/opb/NetworkCenter/456/$i $IMAGES_BUILD_DIR/opb/NetworkCenter/0-4.bin
+    ncerConv images/opb/NetworkCenter/456/$i $IMAGES_BUILD_DIR/opb/NetworkCenter/0-4.bin
   done
   
   opbfileinsr $GAMEFILES_BUILD_DIR/data/kScene/NetworkCenter.opb $IMAGES_BUILD_DIR/opb/NetworkCenter/
@@ -294,7 +353,7 @@ then
   cp -r opb/NetworkStart $IMAGES_BUILD_DIR/opb/NetworkStart
   
   for i in {$(seq 3 5),$(seq 15 17)}; do
-    ./ncerconv.sh images/opb/NetworkStart/012/$i $IMAGES_BUILD_DIR/opb/NetworkStart/0-0.bin
+    ncerConv images/opb/NetworkStart/012/$i $IMAGES_BUILD_DIR/opb/NetworkStart/0-0.bin
   done
   
   opbfileinsr $GAMEFILES_BUILD_DIR/data/kScene/NetworkStart.opb $IMAGES_BUILD_DIR/opb/NetworkStart/
@@ -307,7 +366,7 @@ then
   cp -r opb/PartsStart $IMAGES_BUILD_DIR/opb/PartsStart
   
   for i in {$(seq 3 5),$(seq 15 17)}; do
-    ./ncerconv.sh images/opb/PartsStart/012/$i $IMAGES_BUILD_DIR/opb/PartsStart/0-0.bin
+    ncerConv images/opb/PartsStart/012/$i $IMAGES_BUILD_DIR/opb/PartsStart/0-0.bin
   done
   
   opbfileinsr $GAMEFILES_BUILD_DIR/data/kScene/PartsStart.opb $IMAGES_BUILD_DIR/opb/PartsStart/
@@ -320,10 +379,10 @@ then
   cp -r opb/SelectMario $IMAGES_BUILD_DIR/opb/SelectMario
   
   for i in {$(seq 1 10),$(seq 13 15),$(seq 30 32),34}; do
-    ./ncerconv.sh images/opb/SelectMario/012/$i $IMAGES_BUILD_DIR/opb/SelectMario/0-0.bin
+    ncerConv images/opb/SelectMario/012/$i $IMAGES_BUILD_DIR/opb/SelectMario/0-0.bin
   done
   
-  ./nscrconv.sh images/opb/SelectMario/456/nscr $IMAGES_BUILD_DIR/opb/SelectMario/0-4.bin
+  nscrConv images/opb/SelectMario/456/nscr $IMAGES_BUILD_DIR/opb/SelectMario/0-4.bin
   
   opbfileinsr $GAMEFILES_BUILD_DIR/data/kScene/SelectMario.opb $IMAGES_BUILD_DIR/opb/SelectMario/
   
@@ -335,7 +394,7 @@ then
   cp -r opb/SelectParts $IMAGES_BUILD_DIR/opb/SelectParts
   
   for i in {$(seq 1 15),$(seq 30 32)}; do
-    ./ncerconv.sh images/opb/SelectParts/012/$i $IMAGES_BUILD_DIR/opb/SelectParts/0-0.bin
+    ncerConv images/opb/SelectParts/012/$i $IMAGES_BUILD_DIR/opb/SelectParts/0-0.bin
   done
   
   opbfileinsr $GAMEFILES_BUILD_DIR/data/kScene/SelectParts.opb $IMAGES_BUILD_DIR/opb/SelectParts/
@@ -348,7 +407,7 @@ then
   cp -r opb/Settei $IMAGES_BUILD_DIR/opb/Settei
   
   for i in {0,$(seq 8 20),$(seq 27 28)}; do
-    ./ncerconv.sh images/opb/Settei/012/$i $IMAGES_BUILD_DIR/opb/Settei/0-0.bin
+    ncerConv images/opb/Settei/012/$i $IMAGES_BUILD_DIR/opb/Settei/0-0.bin
   done
   
   opbfileinsr $GAMEFILES_BUILD_DIR/data/kScene/Settei.opb $IMAGES_BUILD_DIR/opb/Settei/
@@ -361,20 +420,20 @@ then
   cp -r opb/Title $IMAGES_BUILD_DIR/opb/Title
   
 #  for i in $(seq 2 4); do
-#    ./ncerconv.sh images/opb/Title/012/$i $IMAGES_BUILD_DIR/opb/Title/0-0.bin
+#    ncerConv images/opb/Title/012/$i $IMAGES_BUILD_DIR/opb/Title/0-0.bin
 #  done
 
   # the gradient on these looks like crap without dithering
-#  convert images/opb/Title/012/multi/3-a-img.png -dither FloydSteinberg -remap images/opb/Title/012/multi/3-a-pal.png PNG32:images/opb/Title/012/multi/3-a-img.png
-#  convert images/opb/Title/012/multi/3-b-img.png -dither FloydSteinberg -remap images/opb/Title/012/multi/3-b-pal.png PNG32:images/opb/Title/012/multi/3-b-img.png
-  convert images/opb/Title/012/multi/3-a-img.png -dither Riemersma -remap images/opb/Title/012/multi/3-a-pal.png PNG32:images/opb/Title/012/multi/3-a-img.png
-  convert images/opb/Title/012/multi/3-b-img.png -dither Riemersma -remap images/opb/Title/012/multi/3-b-pal.png PNG32:images/opb/Title/012/multi/3-b-img.png
+#  convert images/opb/Title/012/multi/3-a-img.png -dither Riemersma -remap images/opb/Title/012/multi/3-a-pal.png PNG32:images/opb/Title/012/multi/3-a-img.png
+#  convert images/opb/Title/012/multi/3-b-img.png -dither Riemersma -remap images/opb/Title/012/multi/3-b-pal.png PNG32:images/opb/Title/012/multi/3-b-img.png
+  convert images/opb/Title/012/multi/3-a-img.png -dither None -remap images/opb/Title/012/multi/3-a-pal.png PNG32:images/opb/Title/012/multi/3-a-img.png
+  convert images/opb/Title/012/multi/3-b-img.png -dither None -remap images/opb/Title/012/multi/3-b-pal.png PNG32:images/opb/Title/012/multi/3-b-img.png
   
   # The title screen uses layered OAMs combined with 16-color mode, so they're
   # split into two parts corresponding to the two layers.
   for i in $(seq 2 3); do
-    ./ncerconv.sh images/opb/Title/012/multi/$i-a $IMAGES_BUILD_DIR/opb/Title/0-0.bin
-    ./ncerconv.sh images/opb/Title/012/multi/$i-b $IMAGES_BUILD_DIR/opb/Title/0-0.bin
+    ncerConv images/opb/Title/012/multi/$i-a $IMAGES_BUILD_DIR/opb/Title/0-0.bin
+    ncerConv images/opb/Title/012/multi/$i-b $IMAGES_BUILD_DIR/opb/Title/0-0.bin
   done
   
   opbfileinsr $GAMEFILES_BUILD_DIR/data/kScene/Title.opb $IMAGES_BUILD_DIR/opb/Title/
@@ -387,17 +446,17 @@ then
   cp -r opb/Tuduki $IMAGES_BUILD_DIR/opb/Tuduki
   
   for i in {$(seq 0 1),$(seq 5 21)}; do
-    ./ncerconv.sh images/opb/Tuduki/012/$i $IMAGES_BUILD_DIR/opb/Tuduki/0-0.bin
+    ncerConv images/opb/Tuduki/012/$i $IMAGES_BUILD_DIR/opb/Tuduki/0-0.bin
   done
   
   for i in {0,$(seq 13 15)}; do
-    ./ncerconv.sh images/opb/Tuduki/456/$i $IMAGES_BUILD_DIR/opb/Tuduki/0-4.bin
+    ncerConv images/opb/Tuduki/456/$i $IMAGES_BUILD_DIR/opb/Tuduki/0-4.bin
   done
   
   # Deal with layered OAMs
   for i in {$(seq 1 12),$(seq 16 23)}; do
-    ./ncerconv.sh images/opb/Tuduki/456/multi/$i-a $IMAGES_BUILD_DIR/opb/Tuduki/0-4.bin
-    ./ncerconv.sh images/opb/Tuduki/456/multi/$i-b $IMAGES_BUILD_DIR/opb/Tuduki/0-4.bin
+    ncerConv images/opb/Tuduki/456/multi/$i-a $IMAGES_BUILD_DIR/opb/Tuduki/0-4.bin
+    ncerConv images/opb/Tuduki/456/multi/$i-b $IMAGES_BUILD_DIR/opb/Tuduki/0-4.bin
   done
   
   opbfileinsr $GAMEFILES_BUILD_DIR/data/kScene/Tuduki.opb $IMAGES_BUILD_DIR/opb/Tuduki/
@@ -408,11 +467,11 @@ then
   ####################
   
   for i in $(seq 0 1); do
-    ./ncerconv.sh images/mission1205/Character2Cell2/full/$i $GAMEFILES_BUILD_DIR/data/decor/mission1205/Character2.NCGR
+    ncerConv images/mission1205/Character2Cell2/full/$i $GAMEFILES_BUILD_DIR/data/decor/mission1205/Character2.NCGR
   done
   
   for i in $(seq 0 9); do
-    ./ncerconv.sh images/mission1205/txt00Cell4/full/$i $GAMEFILES_BUILD_DIR/data/decor/mission1205/txt00.NCGR
+    ncerConv images/mission1205/txt00Cell4/full/$i $GAMEFILES_BUILD_DIR/data/decor/mission1205/txt00.NCGR
   done
   
 fi
@@ -431,8 +490,8 @@ then
   
   # Deal with layered OAMs
   for i in $(seq 44 51); do
-    ./ncerconv.sh images/cabinarchive/163/multi/$i-a $IMAGES_BUILD_DIR/cabinarchive/163/main.NCGR
-    ./ncerconv.sh images/cabinarchive/163/multi/$i-b $IMAGES_BUILD_DIR/cabinarchive/163/main.NCGR
+    ncerConv images/cabinarchive/163/multi/$i-a $IMAGES_BUILD_DIR/cabinarchive/163/main.NCGR
+    ncerConv images/cabinarchive/163/multi/$i-b $IMAGES_BUILD_DIR/cabinarchive/163/main.NCGR
   done
   
   cabinarc_insr $GAMEFILES_BUILD_DIR/data/ba/ca.binarchive $IMAGES_BUILD_DIR/cabinarchive/
@@ -577,11 +636,19 @@ fi
 
 if [ ! $DO_BUILDKARS == 0 ]
 then
+
+  #############################################################################
+  # convert KARs to binary
+  #############################################################################
   
   echo "Converting KAR images to binary format"
 
   if [ ! $DO_BUILDBIGKARS == 0 ]
   then
+
+    ##########################
+    # do roboimages
+    ##########################
     mkdir -p $BUILDFILES_DIR/images/kar/roboimage
     cp images/kar/raw/roboimage/index.bin $BUILDFILES_DIR/images/kar/roboimage
     for file in images/kar/img/roboimage/*.bin-dat.bin; do
@@ -595,10 +662,15 @@ then
       csmmgrle8_encode $DSTFILENAME $DSTFILENAME
 
     done
-
+    
+    ##########################
+    # generate and do staff roll
+    ##########################
+    BUILDFILES_DIR=$BUILDFILES_DIR ./generate_credits.sh
     mkdir -p $BUILDFILES_DIR/images/kar/StaffText
     cp images/kar/raw/StaffText/index.bin $BUILDFILES_DIR/images/kar/StaffText
-    for file in images/kar/img/StaffText/*.bin-dat.bin; do
+#    for file in images/kar/img/StaffText/*.bin-dat.bin; do
+    for file in $BUILDFILES_DIR/credits_outlined/*.bin-dat.bin; do
       IMGBASENAME=$(basename $file .bin)
       IMGFULLBASENAME=$(basename $file .bin-dat.bin)
       IMGPREFIX=$(dirname $file)/$IMGFULLBASENAME.bin
@@ -690,29 +762,41 @@ then
     bvmtxt_insr $INRAWFILENAME $OUTFILENAME $INTEXTFILENAME fonts/12x12-ascii/
   done
 
-###############################################################################
-# Compress the built BVMs.
-# Note that the BVMs in the "main" subfolder are not compressed.
-###############################################################################
+  ###############################################################################
+  # Compress the built BVMs.
+  # Note that the BVMs in the "main" subfolder are not compressed.
+  ###############################################################################
 
   for file in $BUILDFILES_DIR/bvm/map/*; do
     echo "Compressing: ${file}"
-    wine dscmprcue/lzss.exe -ewo $file
+#    wine dscmprcue/lzss.exe -ewo $file
+    dscmprcue/lzss -ewo $file
   done
 
   for file in $BUILDFILES_DIR/bvm/m/*/*; do
     echo "Compressing: ${file}"
-    wine dscmprcue/lzss.exe -ewo $file
+#    wine dscmprcue/lzss.exe -ewo $file
+    dscmprcue/lzss -ewo $file
   done
 
-###############################################################################
-# Copy the built and compressed BVMs into the buildfiles directory
-###############################################################################
+  ###############################################################################
+  # Copy the built and compressed BVMs into the buildfiles directory
+  ###############################################################################
 
   for file in $BUILDFILES_DIR/bvm/*; do
     echo "Syncing built BVM directory: ${file}"
     rsync -a $file $GAMEFILES_BUILD_DIR/data
   done
+fi
+
+###############################################################################
+# Update ASM
+###############################################################################
+
+if [ ! $DO_UPDATEASM == 0 ]; then
+  echo "Building ASM..."
+  mkdir -p out/asm
+  $ARMIPS asm/csmmg.asm -temp out/asm/temp.txt -sym out/asm/symbols.sym -sym2 out/asm/symbols.sym2
 fi
 
 ###############################################################################

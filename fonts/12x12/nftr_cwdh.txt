@@ -14,14 +14,14 @@ bearingX=0
 charWidth=4
 
 [00003]
-advanceWidth=6
-bearingX=1
+advanceWidth=4
+bearingX=0
 charWidth=2
 
 [00004]
-advanceWidth=6
-bearingX=1
-charWidth=2
+advanceWidth=4
+bearingX=0
+charWidth=6
 
 [00005]
 advanceWidth=5
@@ -39,12 +39,12 @@ bearingX=1
 charWidth=2
 
 [00008]
-advanceWidth=9
+advanceWidth=7
 bearingX=1
 charWidth=6
 
 [00009]
-advanceWidth=6
+advanceWidth=3
 bearingX=1
 charWidth=1
 
@@ -35079,9 +35079,9 @@ bearingX=0
 charWidth=4
 
 [07016]
-advanceWidth=12
+advanceWidth=4
 bearingX=0
-charWidth=10
+charWidth=4
 
 [07017]
 advanceWidth=5
@@ -35137,3 +35137,8 @@ charWidth=7
 advanceWidth=8
 bearingX=0
 charWidth=7
+
+[07028]
+advanceWidth=1
+bearingX=0
+charWidth=1

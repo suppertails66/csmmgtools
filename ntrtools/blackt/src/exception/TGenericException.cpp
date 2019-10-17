@@ -13,7 +13,7 @@ TGenericException::TGenericException(const char* nameOfSourceFile__,
     problem_(problem__) { };
 
 const char* TGenericException::what() const throw() {
-  return problem_.c_str();
+  return (source_ + ": " + problem_).c_str();
 }
 
 std::string TGenericException::problem() const {

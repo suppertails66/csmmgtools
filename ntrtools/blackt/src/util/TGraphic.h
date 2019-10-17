@@ -63,6 +63,20 @@ public:
   TGraphic& operator=(const TGraphic& graphic);
   
   /**
+  * Equality operator.
+  * Returns true if other TGraphic is identical to this one.
+  * @param graphic TGraphic to compare against.
+  */
+  bool operator==(const TGraphic& graphic);
+  
+  /**
+  * Inequality operator.
+  * Returns true if other TGraphic is not identical to this one.
+  * @param graphic TGraphic to compare against.
+  */
+  bool operator!=(const TGraphic& graphic);
+  
+  /**
   * Tile-and-palette constructor.
   * Given a GGTile containing color data and a GGPalette to color it with,
   * this produces a graphic corresponding to the GGTile.

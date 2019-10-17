@@ -22,7 +22,7 @@ bool TPngConversion::canConvertPng() {
 }
 
 bool TPngConversion::graphicToRGBAPng(const std::string& filename,
-                      TGraphic& src) {
+                      const TGraphic& src) {
 #ifdef BLACKT_ENABLE_LIBPNG
   if ((src.w() == 0) || (src.h() == 0)) {
     return false;
