@@ -9,6 +9,8 @@
 #
 ###############################################################################
 
+set -o errexit
+
 OUTROM_NAME="csmmg_en.nds"
 BUILDFILES_DIR="buildfiles"
 GAMEFILES_DIR="gamefiles"
