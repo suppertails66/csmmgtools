@@ -17,6 +17,7 @@ GAMEFILES_BUILD_DIR=$BUILDFILES_DIR/gamefiles
 IMAGES_BUILD_DIR=$BUILDFILES_DIR/$IMAGES_DIR
 BASE_PWD=$PWD
 
+NDSTOOL="./ndstool/ndstool"
 ARMIPS="./armips/build/armips"
 
 # Add ntrtools to PATH
@@ -72,8 +73,9 @@ function nscrConv() {
 }
 
 ###############################################################################
-# Build ndstools
+# Build needed tools
 ###############################################################################
+
 cd ntrtools/ntrtools
   make
 cd $BASE_PWD
@@ -97,6 +99,34 @@ if [ ! -e $ARMIPS ]; then
     cmake -DCMAKE_BUILD_TYPE=Release ..
     make
   cd $BASE_PWD
+  
+fi
+
+if [ ! -e $NDSTOOL ]; then
+  
+  echo "********************************************************************************"
+  echo "Building ndstool..."
+  echo "********************************************************************************"
+  
+  cd ndstool
+    ./autogen.sh
+    ./configure
+    make
+  cd $BASE_PWD
+  
+fi
+
+###############################################################################
+# Extract original game files
+###############################################################################
+
+if [ ! -e $GAMEFILES_DIR ]; then
+
+  echo "*******************************************************************************"
+  echo "Extracting ROM data..."
+  echo "*******************************************************************************"
+  
+  ./extract_rom.sh "csmmg.nds" "$GAMEFILES_DIR"
   
 fi
 
