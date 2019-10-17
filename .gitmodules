@@ -1,3 +1,6 @@
 [submodule "armips"]
 	path = armips
 	url = https://github.com/Kingcom/armips.git
+[submodule "ndstool"]
+	path = ndstool
+	url = https://github.com/devkitPro/ndstool.git
