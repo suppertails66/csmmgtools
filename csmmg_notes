@@ -1,0 +1,990 @@
+back to this project after two years!
+
+everything's now converted to armips so no more dumb gcc stuff to deal with! ignore all the notes below about "change X at Y to Z"
+
+gdb stub is broken in desmume gtk! use cli
+
+desmume-cli --arm9stub 1234 --disable-sound csmmg_en.nds
+arm-none-eabi-gdb -> target remote :1234
+(must change 1234 to other values between runs, otherwise desmume will segfault at boot!)
+
+be sure to use 'display/i $pc'!
+
+
+DESMUME BUGS (don't occur on real hardware):
+  - "pop-in" on names when navigating robo menu
+  - "doubling" effect on certain pixel columns on certain screens
+    (e.g. character album)
+
+today's mystery: how is the game magically using the full font for multiple-choice
+prompts, when it shouldn't even be loaded???
+do we even need to know? better hope not!!
+
+MAGICAL PROCEDURE FOR OUTLINING THINGS TO MATCH EXISTING MATERIAL (more or less)
+  1. generate text
+  2. rclick text layer->text to path
+  3. select->from path
+  4. set fg color to #282828 (except when it's #000000)
+  5. set paintbrush to:
+     opacity = 100
+     brush = hardness 07
+     size = 3.00
+     other settings default
+  6. edit->stroke selection (use paintbrush)
+for graphical menus (e.g. galouye workshop), stroke with solid line #000000, 2px width, no antialiasing, and make manual corrections on result to ensure a solid outline
+
+RECOMMENDED MISSION ORDER (by internal mission folder numbers)
+001
+120-122
+002-009
+013
+010
+011
+012
+014
+MGA
+015-036 = act 2
+114 = circle workshop
+037-038
+039-041 = totem missions
+042-052
+116 = arrival at lugol
+053-067
+115 = arrival at rattrapante
+068-095
+096 = wheel
+097 = bow
+098 = heavy
+099 = tree
+102 = circle
+101 = bomb
+103 = special
+100 = bullet
+104 = shinobi
+105 = bomb (atros)
+119 = beast king's slumber
+106-111
+112-113 = beast king
+117-118 = another puppet city
+119 = beast king's long slumber
+
+2253d50 = "enter a name" composition buffer
+  - 2253d50-225474F = buffer -- 0xa00 bytes
+    but for some reason 2254750+ gets corrupted
+
+totem 1 sh:
+  1.  straight
+  2.  straight
+  3.  hard left
+  4.  go through alley, sharp right to hit next totem
+  5.  left around corner, straight
+  6.  slight left through center of courtyard
+  7.  slight right
+  8.  straight across canal
+  9.  straight
+  10. left around corner of map, straight
+  11. stop car, turn 135 degrees left, straight
+  12. angle right to realign with road, straight
+  13. cross canal
+  14. turn 180 degrees, cross canal, hit totem in front of tower 
+  15. angle left
+  16. straight
+  17. left, left at first intersection (ignore totem ahead), straight
+  18. straight
+  19. slight left
+  ...
+
+totem 2 sh (depends on ellie's ai)
+  0.  straight (ellie will almost always get this one)
+  1.  straight
+  2.  left 90 degrees
+  3.  left 90 degrees
+  4.  straight
+  5.  straight
+  6.  slight left
+  7.  slight right
+  8.  right at intersection
+  9.  right at intersection, cut right across grass
+  10. straight ahead, continuing at angle
+  11. hard left
+  12. straight
+  fuck it, this is too random
+
+
+
+- make sure those slightly-too-long centered lines in 008, 009, 010 don't cause problems
+- 033 before2 has technically non-centered "!" exclamations, can't find proper centering ops?
+  - 016
+  - 035 after
+  - 055
+  - 063
+  - 065
+  - 067
+  - 069
+  - 080
+  - 083
+  - 103
+  - 105
+  - 108
+  - 111
+
+todo:
+  * blueprint description puppet names
+  * hatman vs. hat man
+  * woah -> whoa
+  * check:
+    "experts call them puppets"
+  * does opb/SelectParts require workshop logo updates, or are they unused?
+  * autonomous autonomous autonomous
+  * "morph limit"
+  * mechs -> mecha?
+
+ELIMINATE JAMES FROM SCRIPT. fucking james.
+
+puppet names to check:
+  demonspear/godspear -> demonlance/godlance
+  twinclub -> twinmace
+  hi-elemag -> super e.m.
+  whirl musketeer
+  thunder puppet
+  flame missile puppet
+  rapid bowman
+  sword-gunner
+  bombgun->bazooka
+
+108 has a message's width set to 197 because that's what we need
+also:
+  010
+  020
+  023
+  044
+
+centering:
+  - check offset 0x30 for offset to start of script block
+  - add that offset to reference offsets to get absolute BVM offsets.
+    check for references that don't have a matching centering offset.
+  - normal centering commands use 55 XX A9 sequence.
+    some seem to use 55 XX X9 instead, which is why they weren't detected.
+const static BlackT::TByte shortStringRefOpcode = 0x5A;
+const static BlackT::TByte longStringRefOpcode = 0x9A;
+const static BlackT::TByte centeringStartOpcode = 0x55;
+const static BlackT::TByte centeringThirdByte = 0xA9;
+
+
+0x8a18 = malloc?
+
+0x209a558 = set up print struct? BREAK AT 0x209a5f0 FOR LINEHEIGHTS
+  - sp+16 = desired lineheight
+
+delay on album change:
+  20f1900 -- pic??
+  20f1940
+  20f2ae0 -- text??
+  20f2b20
+
+selected option on map menu:
+  2229a4c?
+  2229a50?
+21f220c = number of options available
+
+OWNED PUPPETS
+  20f56d0 = part of owned puppets struct? for jibel
+    12b structs?
+      1b ownedstate?
+         00 = not owned, not for sale
+         01 = owned?
+         02 = for sale
+         03 = owned? (and not for sale)
+        maybe bit 0 = owned flag, but then bit 1 = ???
+      11b ??? probably some of these are equipped parts...
+          also maintenance status?
+    these structs seem to begin at 0x20f5130
+    and continue through 0x20f57cc?
+    for a total of 141 entries?
+    which matches up with the 140 entries in the museum
+    ANYWAY, set 20f5130-20f57cc to the repeating pattern
+      03 FF FF FF FF 00 00 00 00 00 00 00
+    to unlock everything.
+    probably will have side effects but maybe they won't matter.
+  20f56d0 = jibel
+  20f56dc = jeion
+  20f56e8 = jibelon
+  20f56f4 = jinga
+
+OWNED ITEMS TABLE
+  20f42b0 = 1b count of brass armors owned
+  20f42b1 = 1b count of bronze armors owned
+  ...
+  20f4374 = 1b count of rare chest 3s
+  (197 items total)
+  
+181-188 = part boxes
+  20f4365
+  20f4366
+  20f4367
+  20f4368
+  20f4369
+  20f436A
+  20f436B
+
+320F4365 00000009
+320F4366 00000009
+320F4367 00000009
+320F4368 00000009
+320F4369 00000009
+320F436A 00000009
+320F436B 00000009
+
+"not viewable" text in the museum can be orange??
+
+sound.sdat:
+  0x207 sounds total
+  table beginning at 0x17230(?) is 0xc bytes per sound
+    - 4b index number?
+    - 8b ???
+         blank these out to mute sound
+  copy over any entry to replace the sound
+  order probably corresponds to the string table at 0x10334
+  indices DEC 316-360 = 0x13c-0x168 = bgm
+    - 45 files -- in table, 0x18100-0x1831c
+    - (note: indices listed in table do not correspond to the indices above. who knows why)
+in short: overwrite 0x18100-0x1831c noninclusive with the pattern
+  18 01 00 00 00 00 00 00 00 00 00 00
+to mute background music.
+optionally, do the same for 0x17254-0x1726c to turn off mission complete/failed jingles
+  ...with the interesting side effect of making it impossible to complete a mission,
+  since the game apparently waits for the jingle to finish before proceeding.
+  failing works though!
+
+trailer:
+  - "yo, /p! the day's finally here"
+  - stunlocking enemy to death with veegle
+  - archery
+  - gauss doing shit
+  - failing to beat bomb mission and getting blown to fuck
+  - godfried vs. ruins giant
+  - throwing buildings around and knocking enemy down
+  - cryive unloading a fuckton of missiles into something
+  - montage of failing to beat black star with different cars, followed by blowing
+    everyone up with atros and winning
+    - make sure to establish race concept by showing lights at start of first failure
+  - some footage from car crash of hitting a car and blowing it up
+  - gauss transformation cutscene
+  - "don't tell me you're REALLY this stuck-up!?"
+  - true power of a dancourt puppet's swordsmanship
+  - spectra doing its thing
+  - zester intro cutscene
+  - ending shot: music fades out, faust's "..." after first puppet king mission
+
+***VWF***
+see test.asm
+additionally:
+  - change call at ARM9:8cc28 to target jumpAdvanceWidthUpdateUncached
+  - change call at ARM9:8cd04 to target jumpAdvanceWidthUpdateCached
+  - change call at ARM9:8b254 to target advanceWidthStoreCachedHack
+  - 8b324 targets cacheCheckWideSjisCheck
+  - 8cb94 targets glyphCheckWideSjisCheck
+remove 10-character robo name limitations:
+  see robocenter_thumb.asm
+  see preprobo_short.asm
+  increase buffer space by removing unnecessary escape sequences
+    change
+      9dfde:	1d49      	adds	r1, r1, #5
+    to
+      9dfde:	1c89      	adds	r1, r1, #2
+    (the game temporarily copies robot names to a statically-sized buffer,
+    but by pure chance, it inserts a 3-byte escape sequence ("/s1") after
+    every character -- by preventing this, we gain a massive amount of
+    space)
+  *** deprecated: prevent troublesome auto-centering of robot names (always
+  return character count of 10)
+    change
+      9dfe8:	9800      	ldr	r0, [sp, #0]
+    to
+      9dfe8:	200A      	mov	r0, #10
+  disable special handling of names that are exactly 10 characters long
+    change
+      9dfac:	d106      	bne.n	0x9dfbc
+    to
+      9dfac:	e006      	b	    0x9dfbc
+remove 14-byte item name limitation (***may have side effects***):
+  parts screen:
+    NOP (46 C0) overlay_0009.bin 2c12-2c17
+    NOP (46 C0) overlay_0009.bin db6-db7
+  robo screen:
+    NOP (46 C0) overlay_0009.bin 6a78-6a79
+  galoy workshop:
+    NOP (46 C0) overlay_0005.bin 4688-4689
+
+NOTE: For whatever goddamn reason, modified font files (e.g. fontjp12x12.NFTR)
+      must match (or exceed?) their original size, or the game will crash
+      under odd but consistent circumstances (example: load game, start mission
+      5, quit, go to the workshop and build Hatman, then open the robot menu)
+      edit: this seems to have been due to a bug in offset calculations in my
+      font builder
+
+name to 2276c58
+formatted to 2276c69
+raw to 27e32e0
+terminator to 0x27e32ee
+
+.kar: "karc" archives
+  generic data archive format
+  seems to be used to pack images that are loaded one or two at a time,
+  e.g. the preview images on the mission select screen
+  - 0x00: "karc" + 00 01 20 00
+  - 0x08: 8b archive name
+  - 0x10: 4b filesize
+  - 0x14: 4b index entry count?
+  - 0x18: 4b ?
+  - 0x1C: 4b ?
+  - 0x20: 4b data start offset??
+          or first entry of offset list
+  - 0x24: offset list (index entry count = number of entries)
+          last entry points to EOF?
+  - VARIABLE-LENGTH FILLER ("V") -- pad to next 16-byte boundary?
+  - entry metadata?
+    - 0x20 bytes each:
+      - name (padded to 0x1b bytes?)
+      - 5b ???
+        - second byte seems to increment every time?? almost??
+  data
+    - padded to 16-byte boundaries?
+    - 4b size
+    - 4b ?
+    - 4b size again??
+    - 4b ?
+    - data
+    
+  image data format (may be RLE8 compressed)
+    - 4b width
+    - 4b height
+    - 4b ?
+    - 4b ?
+    - palette -- always 0x200 bytes?
+    - image data -- always 8bpp?
+
+.opb archives
+  4b numentries
+  4b subchunk index chunk offset
+  4b data offset? (may point past end of file!)
+  4b ?? usually same as data offset, sometimes points to EOF
+    - if this points to valid data, it seems to be a chunk with
+      a string in it, and is padded to the next 256-byte boundary??
+  primary index
+    (numentries) structs:
+      - 4b id?
+      - 4b offset of this struct's entry in subchunk index
+  subchunk index
+    (numentries) structs:
+    - 4b number of offsets in this entry
+    - 4b*numoffsets: datachunk offsets
+      - offsets may be 0xFFFFFFFF!
+
+contents of each kar:
+  bg              RLE8-compressed image data
+    - tiled, unknown order
+  face            RLE8-compressed image data
+    - tiled, unknown order
+  ms_ss           uncompressed image data (tiled)
+    - tiled, standard order
+  personimage     RLE8-compressed image data
+    - bitmapped
+  roboimage       RLE8-compressed image data
+    - bitmapped
+  ShopStartTop    uncompressed image data (bitmapped)
+    - bitmapped
+  StaffScene      RLE8-compressed image data
+    - tiled, standard order
+  StaffText       RLE8-compressed image data
+    - bitmapped
+    
+  roboimage, ShopStartTop, and StaffText require translation
+      
+the MissionSelect_*_RL.bin files appear to be compressed versions of the
+MissionSelect_*.opb files (which aren't used??)
+  first 12 bytes aren't included
+  compression is RLE8?
+  bit 7 set = repeat next byte (count + 3)
+  bit 7 unset = absolute for next n bytes (count + 1)
+      
+"BM" files -- bitmapped graphics
+  0x00 "BM"
+  0x02 size
+  0x06 ??
+  0x0A ??
+  ...
+  0x12: width or height
+  0x16: width or height
+  0x1A: ??
+  ...
+  0x36: palette? 4b per color?
+  ...
+  0x436: image data: 8bpp, line-by-line, bottom-to-top
+  
+ca.binarchive:
+  4b ?
+  4b subfile pointer table pointer
+  4b data offset
+  4b filename chunk pointer
+  4b ? 0x0
+  4b ? 0x0
+  4b numentries * 2?
+  subfile pointer table
+    (numentries) structs:
+    4b id?
+    4b offset in data chunk
+  filename chunk:
+    string table, one per subfile
+    padded to 0x100 bytes, then additionally padded to next 0x100-byte boundary
+
+.bvm
+  - bvmc is same with standard lzss compression
+  - 4c = pointer to (font pointer - 0x28)?
+  - everything is aligned to 0x10-byte boundary? filler = 0xBA
+  0x00 = "BVM "
+  0x04 = header size, inclusive?? (0x50)
+  0x08 = null?
+  0x0C = null?
+  0x10 = ?? "30 01 0F 01"
+  0x14 = null?
+  0x18 = # of object name table entries?
+  0x1C = object name table pointer?
+  0x20 = # of ???
+  0x24 = pointer to content of previous
+  0x28 = ?? 0x200
+  0x2C = ?? 0x200
+  0x30 = first chunk pointer?? 0xA8
+  0x34 = ??? could be previous plus one??
+  0x38 = pointer to main string table?
+  0x3C = pointer to name of file??? "before", "after", "mission", etc.
+  0x40 = null??
+  0x44 = may be same as 0x4C??
+    - may point into filler????
+  0x48 = possibly number of 4C-table entries? 00 00 00 04
+  0x4C = pointer to ?? table
+    series of structs:
+      0x00: id number?
+      0x04: pointer to content (may be 0xFFFFFFFF if none)
+      0x08: size of content (may be 0x00000000 if none)
+      pointed-to data must be aligned to a 0x10-byte boundary; pad with 0xBA
+    structs point to, in order:
+      0. ?? 0x490, 0xEF
+        - includes a list of object names??
+      1. ?? 0xFFFF
+      2. ?? 0x580, 0xCE
+        - includes a list of ?? "camera 1" "camera 2"
+      3. nftr font
+    - 0x30-byte "header"?
+    0x00: ?? 00 00 00 00
+    0x04: pointer to ??
+    0x08: size of previous?
+    0x0C: ?? 00 00 00 01
+    0x10: pointer to ??
+    0x14: size of previous?
+    0x18: ?? 00 00 00 02
+    0x1C: pointer to ??
+    0x20: size of previous
+    0x24: ?? 00 00 00 03
+    0x28: font pointer
+    0x2C: size of font
+  0x50: object name table index
+    - number of entries given by 0x18
+    - each entry points to a string
+    object name index:
+      422: "self"
+      427: "friend1"
+    1aa: 10 00 00 6C
+    42f: "OnGameOver"
+    457: 01 01
+    0
+    1ae: ?
+    43a: "TxWid"
+    457 (repeat!): 01 01
+    101
+    1b2: stuff?
+    440: "TxHi"
+    458: 01
+    101
+    1b6
+    445: "main"
+    459: "after"
+    100
+    1ba
+    44a: "Func00175724"
+    459: "after"
+    100
+    
+  
+.binarchive
+  - no set format? ca = sequential .opb chunks, ma = other stuff
+  
+invalid at eaa0
+  - get r4+16 -- r4 = 220308c
+  - 221efc0
+    - written at 23a7820... in our code
+  - 20d000d
+
+naming screen character set = 02225ce0, 02225ce4?
+  - in overlay 8
+    - loaded to 21d9360
+
+2229488 = 2fc
+start = 22291bc
+  - 0x38 = 22291c4
+  
+2278723
+
+choice "hai" at 227e0e6 (and 2278723) read at 41c4 -- strlen?
+  - from 02095364
+  - next at 418c -- copy to 22202e0
+  - calls 8c040 -> 8ccc0
+  - 958b4 = hardcoded byte and x advance
+use globalSubFontPointer for width lookup
+
+dialogue choice width calculation strategy:
+  - replace the calls to strlen for each choice string with calls to a new
+    function that returns the string length after looking up the global subfont
+    pointer
+    95360:	ebfdbb96 	bl	0x41c0
+      - eb 0c 49 29
+    9537c:	ebfdbb8f 	bl	0x41c0
+      - eb 0c 49 22
+    95398:	ebfdbb88 	bl	0x41c0
+      - eb 0c 49 1b
+    target = 023A780C
+  - at 9549c, replace the table lookup with a formula that calculates a valid
+    width value for the dialogue box
+    this should range from 9 to F?
+    original table of charcount -> pixwidth -> width is as follows (e4a30)
+    00 -> 00  -> 00
+    01 -> 14  -> 00
+    02 -> 28  -> 00
+    03 -> 42  -> 09
+    04 -> 56  -> 0B
+    05 -> 70  -> 0B
+    06 -> 84  -> 0B
+    07 -> 98  -> 0D
+    08 -> 112 -> 0D
+    09 -> 126 -> 0D
+    0A -> 140 -> 0F
+    0B -> 154 -> 0F
+    0C -> 168 -> 0F
+    0D -> 182 -> 0F
+    actually, it's probably easiest to just divide the pixel width by 14 and do
+    the regular table lookup (probably setting the zero table values to 9)
+    9549c:	e1a080c8 	asr	r8, r8, #1
+      - eb 0c 48 db
+    target = 023A7810
+  - in the x-offset calculations, replace the multiplication instructions with
+    divisions by 2
+     9556c:	e0030092 	mul	r3, r2, r0
+      -> lsr r3, r2, #1 = e1 a0 30 a2
+     9559c:	e0000092 	mul	r0, r2, r0
+      -> lsr r0, r2, #1 = e1 a0 00 a2
+     e1 a0 00 02
+     
+     95608:	e0030092 	mul	r3, r2, r0
+     95638:	e0000092 	mul	r0, r2, r0
+     
+     956c8:	e0030092 	mul	r3, r2, r0
+     956f8:	e0000092 	mul	r0, r2, r0
+  
+0. 0
+1. 8
+2. f
+3. 18
+4. 2b 
+5. 30
+6. 49
+7. 74
+8. 85
+9. 8e a5 f0 109 11a 12d
+
+5a xx = 1b (pushByte?)
+9a xx xx = 2b le (pushWord?)
+6c 96 = trigger dialogue?
+  - arg1 = string
+  - arg2 = character name?
+
+83 89 83 93 83 6F 81 5B 83 67 82 F0
+
+"Defeat Lambert!" -- 0x02208998, 0x023ddaa2
+cwdh at 0x021f7b40 (from byte 8)
+  - pointer at 21f7ae4
+    - minus 0x284 is 0x021f7860
+      - pointer at 0x21d5a2c
+  
+9e978
+8b738
+8b7c4
+
+227661c -- at 21dd68c, [sp+0C] and [sp+0x38] = this - B0?
+22954b0
+22954d1
+22ad85f
+
+22c03ec
+  - from 27e35f4
+  - 27e353e = terminator
+
+222aac8
+
+files containing non-dialogue text:
+  kcom/Phrase.opb
+  scene/MissionInfo.opb
+  scene/MissionSelect.opb
+  scene/PartsDesc.opb
+    - string
+    - string
+    - string
+    - junk
+  scene/PersonDesc.opb
+    - string
+    - string
+  scene/RoboDesc.opb
+    - string
+    - string
+    - junk
+    - junk
+    - string
+    - varies:
+      - string if entry4 != entry5
+      - junk otherwise
+    - junk
+    - junk
+    - junk
+    - junk
+
+
+  scene/BottegaDesc.opb?
+    - has symbols for workshops, but might not be used in gameplay
+
+22a45ab: "Divine Iron Gear V1"
+  - 22a45bf: "Slashing, striking" ...
+
+on parts screen:
+  0x222b844
+  0x229a2f3
+    - read at 02004080
+      - copied to 2277e8f
+      - called from 021dbf66
+
+on robo screen:
+  0x22e7554
+    - from 0x27e36a0
+      - terminator at 27e3546
+  0x22e7568
+
+arm9 overlay 9 loaded at 21d9360
+
+code at 2c12
+
+21df324 -- call prepRoboName
+
+A:8c0e0
+  A:8ccc0
+    A:8cbf8 -- some glyph lookup subroutine
+    A:8cc28 -- call 8cb88 to get glyph index for character
+  
+8cd20:
+    
+where does code at 021df318 come from???
+  01 22 37 f6 c8 ee 01 1c
+  movs r2, #1
+  blx 20170ac
+  adds r1,r0,#0
+  - overlay_0009.bin, 0x5fb8
+    - loaded to 021d9360
+
+21df33a
+227d93c = strptr - 8
+22765f8
+
++0x24
+227656c = baseptr
+  +48 = ?
+  +4C = number of labels
+227661c = +B0
+2276960
+2276ca4 - 0x344
+    
+basic strategy:
+  - after call to getGlyphIndex (8cb88) at 8cc28, insert jump/call to our
+    own code
+    - our code looks like it could safely go after the arm7 code,
+      by appending it at the space starting at 0x277e0.
+      arm7 is loaded to 02380000, so this will end up at
+      023a77e0.
+      arm9 is loaded to 02000000, for reference when converting addresses
+    - at this point, r10 is the pointer to the print struct
+      - and r7 is the pointer to the "font struct"?
+        +0x280 = pointer to CGLP??
+        +0x284 = pointer to CWDH
+        +0x288 = pointer to first CMAP
+        XXXXX+0x458 is start of FINF????
+    - (possibly) look up CWDH address of current font, if this is available (e.g.
+      from print struct?)
+    - look up advance width of glyph from CWDH
+    - write advance width to [r10+0x44]
+    - resume usual code
+* okay, this works for much of the text
+  what doesn't work: (some of these may be graphics, not text)
+    - everything on save screen
+    - everything on load screen
+    - dialogue choices
+    - dialogue itself refuses to go below flush spacing
+      - is it possible there's another font / a copy of the 12x12 font
+        lying around somewhere?
+        - looks like all the mission intro/ending bvmc files contain their
+          own embedded NFTR font
+    - also breaks the naming screen
+fixed:
+  - "NO. XXX" labels on world map
+    - this seems to be caused by some sort of character caching scheme?
+      - disable by 8ccf0: 0a000006 -> ea000006
+      - no, this doesn't work: printing your name during dialogue depends
+        on this
+        in fact, the issue seems to be that the characters in your name are
+        cached, and the game will use the cached versions instead of reloading
+        if possible (maybe!!)
+        the issue with "NO" only occurs if your name contains "O" and "N" (e.g.
+        "JON")
+      - the issue seems to be as follows:
+        - during the "adv" sequences, the game unloads the standard font and
+          loads a mission-specific subset containing only the characters it
+          needs to display for the scene, i guess to save memory while the 3d
+          engine is running
+        - however, it still needs to be able to print the player's name, so it
+          specifically caches the characters used in the name so they'll be
+          available at all times
+        - now, whenever the game prints _any_ character, it first checks the
+          cache to see if the character is present, and uses the cached version
+          if it exists
+        - we can get around this outside of missions by just looking up the
+          glyph info when the cache is used, but...
+        - since the mission fonts contain only the needed characters, when we
+          try to look up the glyph information for a character in our name
+          that isn't in the font, we get a garbage value and obviously can't
+          get the width information (since it doesn't even exist)
+      - sample cache: 222a4f0, 222a52c? (size = 0x3c)
+      - okay, so the proper solution is:
+        - whenever the game caches the characters for our name, also look up
+          the advance widths and save them somewhere
+    - these don't work on a fresh load of the world map, but
+      do work after scrolling to a new location
+      special initialization?
+      - 8cb88 is never called for "NO", but is called for ".X" (updating
+        advance width)
+        * "NO" always buffered at 222a1f4?
+          - read at 8b8c0
+    - actually, maybe the very first string that gets drawn after moving to
+      a new screen doesn't get the altered spacing?
+      ...why?
+      - possibly inherits the most recent spacing?
+        with default of 14 or whatever it gets initialized to
+  - player name on save screen (same fix as above)
+   
+8a18 = heap allocation?
+
+21d5a28 = global 12x12 font struct pointer??
+
+222a504
+
+MMU9 write32 to undefined register 0402001Ch = 02296E78h (PC:0202F60C)
+  - other PC: 0202F5E4
+  - this seems likely to be related to the RLE8 compression
+  - you weren't writing the last absolute run, idiot
+
+-132 -15 -28
+
+アイテム交換を選択すると、自動的にセーブを行います。また、交換が成立した後も、自動的にセーブを行います。
+
+additionally, it would be good to update the character read routine to
+properly handle ASCII -- currently, every input sequence is expected to be
+2 bytes of SJIS, except for certain escape characters
+  - need to update 8cb88 (read glyph), ~8b314 (cache check?), and 8bacc
+    (advance stream position)
+
+A:8cb88: reads a 2-byte character and looks up corresponding glyph in CMAPs
+A:8cab4: fetches glyph index from a CMAP
+  - looks like these are used for most text in the game
+
+A:8ccc0 = one of the glyph lookup + stuff things
+  A:8ce00 = end
+  - source function called at A:8c0e0
+A:8bae0: (almost) all printing reaches this (x-advance)
+  A:8c040: 
+  
+"print struct"
+  +0x04 -- pointer to font struct:
+    format:
+    +0x24 -- pointer to "print handler"? usually 8ccc0
+  +0x08 -- ??? pointer to destination buffer????????????????
+  +0x2c -- size of composition buffer?
+  +0x38 -- composition buffer pointer?
+  +0x3e -- byte position in printstring
+  +0x44 -- amount by which to advance x each character
+  +0x46 -- line spacing in pixels
+  +0x48 -- base x-position (to reset to after a newline)
+  +0x4c -- maximum x-position??
+  +0x50 -- x-position
+  +0x52 -- y-position
+  +0x54 -- buffered printstring (sjis, 0x200 bytes?)
+
+8cce8: call e.g. 8b2e0
+  8b2e0: call 8b1e8
+    8b1e8: call something based on r0
+      8e5d4: call e.g. 8b1a0
+        possibly more CMAP seraching??
+        8b1a0: return 0 if 5 bytes at r0 and r1 do not match;
+               otherwise, return nonzero
+          e.g. r0 = 21feb00, r1 = 27e2a54
+            r0: 0b 00 00 00 81 79
+              -- sjis "["
+            r1: 0b 00 00 00 82 6d
+              -- sjis "N"
+
+46 00
+
+021d5a34 = pointer to pointer to struct
+  - format:
+    +0x1c = pointer to function
+  - see 8ccc0
+
+FINF:
+  0x21f7afc
+  0x22048bc
+  0x25f7afc
+
+02279fb4
+
+020f0f50
+02282da2
+
+02282db4 -- when loading "new game" save after reset, this is 2b printing x-position
+  - 0x60 bytes
+  - shortly after, this is followed by a copy of the string to be printed
+  - set at 0202c0a0
+  - A.8bb38 = update after each character printed
+    - struct? at 2282d64
+      +0x44 -- amount by which to advance x each character
+      +0x50 -- x-position
+      +0x54 -- buffered printstring
+  - buffered printstring read at 0x0208b8c0
+
+02280b58: pointer to print struct?? (02282d54)
+  - struct containing this pointer starts at 02280b4c?
+    - pointers at 0222a0fc, 02282d5c (self-pointer??)
+      - 0222a0fc: "subwnd"
+      - this is part of struct at 0222a0f0?
+        - pointers at 0227ab48, 02280b54 (right before print struct? pointer)
+          - 0227ab48: part of 0227ab3c?
+            - pointers at 0222a0f8, 02274a28
+              - any chance we're looking at a linked list?
+              - 02274a28: part of 02274a1c
+                - pointers at 02226a20, 0227ab44
+  - "subtxt"
+    - pointer to print struct is 20 bytes before this
+  
+- "subtxt" string at e46cc in arm9 code
+  - pointer at 908b0
+    - referenced at T:908a0
+      - this is part of routine T:90898
+
+12x12 font CWDH loaded to 21f7b5a
+
+A:8a48 = ??? jump table?
+
+oam: 0x20ed870, 0x21d6288 = 0x07000620
+  0x20ed870: write at 02030bb0
+  0x21d6288: write at 0202bf74, 020314fc, 020317e0, 
+
+0xd8 absolute
+0x140 abs = start
+insert at 0x290 abs = 0x150 local
+
+マリオネーションギア協会は、人形に関する情報が集まる場所です。次に行く場所がわからない時は、協会に来てみるとよいでしょう。
+
+ゲームデータの読み込みに失敗しました。電源を切って、カードを差し込み??再??してください。
+
+free ascii slots:
+  1-1f = 31 slots
+  give priority to letters in "Puppet" and lower case letters
+  1 = ellipsis
+  2 = e
+  3 = t
+  4 = a
+  5 = o
+  6 = i
+  7 = p
+  8 = u
+  9 = n
+  a = s
+  b = r
+  c = h
+  d = P
+  e = d
+  f = l
+  10 = c
+  11 = m
+  12 = f
+  13 = y
+  14 = w
+  15 = g
+  16 = b
+  17 = v
+  18 = k
+  19 = x
+  1a = q
+  1b = j
+  1c = z
+  1d = -
+insert 2-byte sequences starting at sjis codepoint 8540
+  
+048 before 34d = !!
+  5a = 1b string pointer
+  9a = 2b string pointer
+  55 = used to set text centering
+    - x: 1b number of characters -- text is centered based on 14px monospacing
+    - y: 1b number of lines
+    - this may be some generic pushInt -- it's used for both x and y
+      positioning
+    - it looks like the centering-related uses of this will always do the
+      following:
+      - byte 0 is opcode (0x55)
+      - byte 1 is amount (only 0x0-0xE are valid?)
+      - byte 2 is 0xA9
+    - is y-adjustment always present if x is?
+      it doesn't really make sense any other way due to the 3-line text box
+    
+  d5 = trigger pending actions?
+  
+152 / 0x98
+
+missions with dialogue branches:
+  0
+  4
+  33
+  
+missions with some translated text:
+  
+  
+  
+2, five 3s
+
+workshops:
+  wheel
+  heavy machinery
+  tree
+  circle
+  bomb
+  shinobi
+  bullet
+  bow
+  special
+  tusk
+  
+fonts:
+  Orbitron -- Matt McInerney
+  Teko -- Indian Type Foundry
