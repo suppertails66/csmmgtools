@@ -1,0 +1,527 @@
+File,Offset,Pointers,Japanese,English,width,height,lineheight
+MissionInfo.opb,0xb54,0x1 0x344,"格納庫から出ろ！
+/c5※十字ボタンで歩く/c3","Leave the hangar!
+/c5* Walk with the D-Pad./c3",206,42,14
+MissionInfo.opb,0xb7f,0x1 0x34c,"鉄クズを黄色い枠内に運べ！
+/c5※腕がふれると鉄クズを持つ/c3",Carry the scraps of iron into the yellow zone! /c5* Touch the arms to the scrap iron to carry it./c3,206,42,14
+MissionInfo.opb,0xbbc,0x1 0x354,"手負いのオートマンを倒せ！
+/c5※コクピットの左側の部分を叩き
+　秘密のボタンを出現させろ/c3",Defeat the damaged Automan! /c5* Hit the left side of the control panel to make secret buttons appear./c3,206,42,14
+MissionInfo.opb,0xc19,0x1 0x35c,"すべての岩を黄色い枠内に運べ！
+/c5※腕がふれると岩を持つ
+　板から指を離すと岩を置く/c3",Carry all the rocks into the yellow zone! /c5* Touch rocks to grab them. Release the board to drop them./c3,206,42,14
+MissionInfo.opb,0xc72,0x1 0x364,"手負いのオートマンを倒せ！
+/c5※左上の歯車を回すと剣を振る
+　限界以上回すと歯車は壊れる/c3",Defeat the damaged Automan! /c5* Turn the top-left gear to swing the sword. Excessive turning will break it./c3,206,42,14
+MissionInfo.opb,0xccf,0x1 0x36c,"制限時間内に、すべての鉄クズを
+黄色い枠内に運べ！",Carry all the scrap iron into the yellow zone within the time limit!,206,42,14
+MissionInfo.opb,0xd02,0x1 0x374,"制限時間内に線路上の岩を
+すべて撤去、または破壊せよ！
+/c5※駅を破壊すると作戦失敗/c3","Remove or destroy all the rocks on the track! /c5* If the station gets destroyed, you fail the mission./c3",206,42,14
+MissionInfo.opb,0xd59,0x1 0x37c,"制限時間内に黄色い枠内のビルを
+すべて撤去、または破壊せよ！",Remove or destroy all buildings in the yellow zone within the time limit!,206,42,14
+MissionInfo.opb,0xd96,0x1 0x384,ランバートを倒せ！,Defeat Lambert!,206,42,14
+MissionInfo.opb,0xda9,0x1 0x38c,"２体のオートマンを倒せ！
+/c5※輸送車が破壊されると作戦失敗/c3","Defeat the two Automen!
+/c5* If the transport truck gets destroyed, you fail the mission./c3",206,42,14
+MissionInfo.opb,0xde8,0x1 0x394,"相手より多くポールを破壊せよ！
+/c5※破壊数は右上に白い数字で表示
+　相手の破壊数は黄色で表示/c3",Destroy more poles than your opponent! /c5* You and your opponent's scores are shown on the upper right./c3,206,42,14
+MissionInfo.opb,0xe49,0x1 0x39c,"レースでアンマリーに勝利せよ！
+/c5※サッカー場を右回りに１周して
+　埠頭まで先に戻れば勝ち/c3","Win the race against Anne-Marie!
+/c5* Win by making a clockwise lap around the field, back to the wharf./c3",206,42,14
+MissionInfo.opb,0xea8,0x1 0x3a4,"回転砲を搭載した
+新型オートマンを倒せ！","Defeat the new Automan model, which is equipped with rotary cannons!",206,42,14
+MissionInfo.opb,0xed1,0x1 0x3ac,エリーを倒せ！,Defeat Ellie!,206,42,14
+MissionInfo.opb,0xee0,0x1 0x3b4,アンマリーを倒せ！,Defeat Anne-Marie!,206,42,14
+MissionInfo.opb,0xef3,0x1 0x3bc,アンマリーを倒せ！,Defeat Anne-Marie!,206,42,14
+MissionInfo.opb,0xf06,0x1 0x3c4,"すべての敵とコントロール装置を
+破壊せよ！　/c5※コントロール装置
+がある限り、次々と敵が出現する/c3","Destroy all enemies and control devices! /c5* While control devices remain, enemies will keep appearing./c3",206,42,14
+MissionInfo.opb,0xf6b,0x1 0x3cc,"すべての敵とコントロール装置を
+破壊せよ！　/c5※コントロール装置
+がある限り、次々と敵が出現する/c3","Destroy all enemies and control devices! /c5* While control devices remain, enemies will keep appearing./c3",206,42,14
+MissionInfo.opb,0xfd0,0x1 0x3d4,すべての敵を倒せ！,Defeat all enemies!,206,42,14
+MissionInfo.opb,0xfe3,0x1 0x3dc,すべての敵を倒せ！,Defeat all enemies!,206,42,14
+MissionInfo.opb,0xff6,0x1 0x3e4,すべての敵を倒せ！,Defeat all enemies!,206,42,14
+MissionInfo.opb,0x1009,0x1 0x3ec,"制限時間内に、爆弾をランバート
+の店（黄色い枠内）まで運べ！
+/c5※爆弾は強い衝撃を与えると爆発/c3",Carry the bomb to Lambert's shop (yellow zone)! /c5* A strong impact will set the bomb off./c3,206,42,14
+MissionInfo.opb,0x106c,0x1 0x3f4,すべての敵を倒せ！,Defeat all enemies!,206,42,14
+MissionInfo.opb,0x107f,0x1 0x3fc,"アンマリーと力を合わせて
+すべての敵を倒せ！","Together with Anne-Marie, defeat all enemies!",206,42,14
+MissionInfo.opb,0x10ac,0x1 0x404,"アンマリーと力を合わせて
+敵を倒せ！","Together with Anne-Marie, defeat the enemy!",206,42,14
+MissionInfo.opb,0x10d1,0x1 0x40c,"エリーと力を合わせて
+すべての敵を倒せ！","Together with Ellie, defeat all enemies!",206,42,14
+MissionInfo.opb,0x10fa,0x1 0x414,"アンマリーと力を合わせて
+人形王を倒せ！","Together with Anne-Marie, defeat the Mech King!",206,42,14
+MissionInfo.opb,0x1123,0x1 0x41c,すべての敵を倒せ！,Defeat all enemies!,206,42,14
+MissionInfo.opb,0x1136,0x1 0x424,"制限時間内に、すべての
+トーテムを破壊せよ！
+/c5※車での体当たりが有効/c3",Destroy all the totems within the time limit! /c5* Hitting them with your car will do the job./c3,206,42,14
+MissionInfo.opb,0x1181,0x1 0x42c,"制限時間内にすべてのトーテムを
+破壊せよ！　/c5※相手より多くのト
+ーテムを破壊しなければならない/c3",Destroy all the totems within the time limit! /c5* You must destroy more totems than your opponent./c3,206,42,14
+MissionInfo.opb,0x11e6,0x1 0x434,"制限時間内にすべてのトーテムを
+破壊せよ！　/c5※相手より多くのト
+ーテムを破壊しなければならない/c3",Destroy all the totems within the time limit! /c5* You must destroy more totems than your opponent./c3,206,42,14
+MissionInfo.opb,0x124b,0x1 0x43c,対戦相手を倒せ！,Defeat your opponent!,206,42,14
+MissionInfo.opb,0x125c,0x1 0x444,対戦相手を倒せ！,Defeat your opponent!,206,42,14
+MissionInfo.opb,0x126d,0x1 0x44c,対戦相手を倒せ！,Defeat your opponent!,206,42,14
+MissionInfo.opb,0x127e,0x1 0x454,遺跡の巨人を倒せ！,Defeat the Ruins Giant!,206,42,14
+MissionInfo.opb,0x1291,0x1 0x45c,敵を倒せ！,Defeat the enemy!,206,42,14
+MissionInfo.opb,0x129c,0x1 0x464,"敵をガケの下に落とせ！
+/c5※自分がガケ下に落ちると
+　作戦失敗/c3","Knock the enemy off the cliff!
+/c5* If you fall off the battlefield, you fail the mission./c3",206,42,14
+MissionInfo.opb,0x12df,0x1 0x46c,敵を倒せ！,Defeat the enemy!,206,42,14
+MissionInfo.opb,0x12ea,0x1 0x474,"仲間と力を合わせ、
+すべての敵を倒せ！","Together with your partner, defeat all enemies!",206,42,14
+MissionInfo.opb,0x1311,0x1 0x47c,"敵を倒せ！
+/c5※オメガカーゴが破壊
+　されると作戦失敗/c3","Defeat the enemy!
+/c5* If the Omega Cargo gets destroyed, you fail the mission./c3",206,42,14
+MissionInfo.opb,0x134c,0x1 0x484,"仲間と力を合わせ、
+すべての敵を倒せ！","Together with your partner, defeat all enemies!",206,42,14
+MissionInfo.opb,0x1373,0x1 0x48c,"すべての敵を倒せ！
+/c5※アンマリーが倒さ
+　れると作戦失敗/c3","Defeat all enemies!
+/c5* If Anne-Marie is felled, you fail the mission./c3",206,42,14
+MissionInfo.opb,0x13b2,0x1 0x494,すべての敵を倒せ！,Defeat all enemies!,206,42,14
+MissionInfo.opb,0x13c5,0x1 0x49c,"喫茶店を駅の近くまで運べ！
+/c5※開始直後、左側にある
+　青い屋根の家が喫茶店/c3","Carry the cafe to the station! /c5* From the start, the blue-roofed house on the left is the cafe./c3",206,42,14
+MissionInfo.opb,0x1416,0x1 0x4a4,"レースでエリーに勝利せよ！
+/c5※矢印の通りにコースを進み
+　先に二周すれば勝ち/c3","Win the race against Ellie! /c5* Follow the course shown by the arrows. If you lead after two laps, you win./c3",206,42,14
+MissionInfo.opb,0x1469,0x1 0x4ac,"レースでリューに勝利せよ！
+/c5※矢印の通りにコースを進み
+　先に二周すれば勝ち/c3","Win the race against Ryuu! /c5* Follow the course shown by the arrows. If you lead after two laps, you win./c3",206,42,14
+MissionInfo.opb,0x14bc,0x1 0x4b4,"レースで勝利せよ！
+/c5※矢印の通りにコースを進み
+　先にゴールすれば勝ち！/c3","Win the race! /c5* Follow the course shown by the arrows. If you reach the goal first, you win!/c3",206,42,14
+MissionInfo.opb,0x150b,0x1 0x4bc,"制限時間内にすべてのトーテムを
+破壊せよ！　/c5※相手より多くのト
+ーテムを破壊しなければならない/c3",Destroy all the totems within the time limit! /c5* You must destroy more totems than your opponent./c3,206,42,14
+MissionInfo.opb,0x1570,0x1 0x4c4,"レースで勝利せよ！
+/c5※矢印の通りにコースを進み
+　先に三周すれば勝ち/c3","Win the race! /c5* Follow the course shown by the arrows. If you lead after three laps, you win./c3",206,42,14
+MissionInfo.opb,0x15bb,0x1 0x4cc,"レースで勝利せよ！
+/c5※矢印の通りにコースを進み
+　先に二周すれば勝ち/c3","Win the race! /c5* Follow the course shown by the arrows. If you lead after two laps, you win./c3",206,42,14
+MissionInfo.opb,0x1606,0x1 0x4d4,"輸送車を黄色い枠内に誘導せよ！
+/c5※近づくと、輸送車はこちらに
+　よって来る/c3",Lead the transport truck into the yellow zone! /c5* The truck will follow you when you get close to it./c3,206,42,14
+MissionInfo.opb,0x1657,0x1 0x4dc,"制限時間以内に、指定された数
+の石像を黄色い枠内に運べ！
+/c5※石像の数は右上に表示/c3",Carry the statues into the yellow zone within the time limit! /c5* The statue count is on the upper right./c3,206,42,14
+MissionInfo.opb,0x16ae,0x1 0x4e4,"制限時間内に、すべての金塊を
+駅（黄色い枠内）まで運べ！",Carry all the stacks of gold to the station (yellow zone) within the time limit!,206,42,14
+MissionInfo.opb,0x16e7,0x1 0x4ec,"すべてのコマンドティーガーを
+倒せ！",Defeat all the Commando Tigers!,206,42,14
+MissionInfo.opb,0x170c,0x1 0x4f4,"すべてのコマンドティーガーを
+倒せ！",Defeat all the Commando Tigers!,206,42,14
+MissionInfo.opb,0x1731,0x1 0x4fc,すべてのオートマンを倒せ！,Defeat all the Automen!,206,42,14
+MissionInfo.opb,0x174c,0x1 0x504,ゴリラを倒せ！,Defeat the gorilla!,206,42,14
+MissionInfo.opb,0x175b,0x1 0x50c,"ゴリラと力を合わせ
+すべての敵を倒せ！","Together with the gorilla, defeat all enemies!",206,42,14
+MissionInfo.opb,0x1782,0x1 0x514,"制限時間内に、輸送車を黄色い枠
+内に運べ！
+/c5※輸送車が破壊されると作戦失敗/c3","Carry the transport truck into the yellow zone! /c5* If the truck gets destroyed, you fail the mission./c3",206,42,14
+MissionInfo.opb,0x17d3,0x1 0x51c,"敵の車をすべて破壊せよ！
+/c5※車での体当たりが有効/c3",Destroy all the enemy cars! /c5* Hitting them with your car will do the job./c3,206,42,14
+MissionInfo.opb,0x180a,0x1 0x524,複合銃士を倒せ！,Defeat the Complex Musketeer!,206,42,14
+MissionInfo.opb,0x181b,0x1 0x52c,"リューと力を合わせ
+すべての敵を倒せ！","Together with Ryuu, defeat all enemies!",206,42,14
+MissionInfo.opb,0x1842,0x1 0x534,"すべてのコマンドティーガーを
+倒せ！
+/c5※忍工房が破壊されると作戦失敗/c3","Defeat all the Commando Tigers! /c5* If the Shinobi Workshop gets destroyed, you fail the mission./c3",206,42,14
+MissionInfo.opb,0x188d,0x1 0x53c,"すべてのコマンドティーガーを
+倒せ！
+/c5※神社が破壊されると作戦失敗/c3","Defeat all the Commando Tigers! /c5* If
+the shrine gets destroyed, you fail the mission./c3",206,42,14
+MissionInfo.opb,0x18d6,0x1 0x544,"アンマリーと協力し
+すべての敵を倒せ！",Cooperate with Anne-Marie to defeat all enemies!,206,42,14
+MissionInfo.opb,0x18fd,0x1 0x54c,"エリーと協力し、
+すべての敵を倒せ！",Cooperate with Ellie to defeat all enemies!,206,42,14
+MissionInfo.opb,0x1922,0x1 0x554,"リューと協力し、
+すべての敵を倒せ！",Cooperate with Ryuu to defeat all enemies!,206,42,14
+MissionInfo.opb,0x1947,0x1 0x55c,"アインと協力し、
+すべての敵を倒せ！",Cooperate with Ein to defeat all enemies!,206,42,14
+MissionInfo.opb,0x196c,0x1 0x564,すべての敵を倒せ！,Defeat all enemies!,206,42,14
+MissionInfo.opb,0x197f,0x1 0x56c,"新型オートマンをすべて倒せ！
+/c5※しばらく持ちこたえれば
+/c5　アンマリーが応援にくる/c3","Defeat all the new-model Automen!
+/c5* If you can hang on for a bit, Anne-Marie will come to your aid./c3",206,42,14
+MissionInfo.opb,0x19d9,0x1 0x574,"ザ・バーガーの店舗（赤い屋根の
+店）二つを破壊または線路の向こ
+う側へ撤去し、敵を全滅せよ！","Destroy or relocate the two {The Burger} shops (the red-roofed stores), on the other side of the railway, and defeat the enemy!",206,42,14
+MissionInfo.opb,0x1a36,0x1 0x57c,"仲間と力を合わせ、
+すべての敵を倒せ！","Together with your partner, defeat all enemies!",206,42,14
+MissionInfo.opb,0x1a5d,0x1 0x584,"黄色い枠内のすべての建物と歩道
+橋（喫茶店を除く）を撤去せよ！
+/c5※喫茶店を破壊すると作戦失敗/c3","Remove everything (except the cafe) from the yellow zone! /c5* Destroy the store, and you fail the mission./c3",206,42,14
+MissionInfo.opb,0x1ac0,0x1 0x58c,ジャックを倒せ！,Defeat Jacques!,206,42,14
+MissionInfo.opb,0x1ad1,0x1 0x594,"レースで勝利せよ！
+/c5※誰よりも速くサーキットを
+　三周すれば勝ち/c3","Win the race!
+/c5* Complete three laps before anyone else to win./c3",206,42,14
+MissionInfo.opb,0x1b18,0x1 0x59c,"レースで勝利せよ！
+/c5※矢印の通りにコースを進み、
+　先に二周すれば勝ち/c3","Win the race! /c5* Follow the course shown by the arrows, and win by leading after two laps./c3",206,42,14
+MissionInfo.opb,0x1b65,0x1 0x5a4,"レースで勝利せよ！
+/c5※誰よりも速くサーキットを
+　五周すれば勝ち/c3",Win the race! /c5* Complete five laps before anyone else to win./c3,206,42,14
+MissionInfo.opb,0x1bac,0x1 0x5ac,"マリオネットビーと力を合わせ
+すべての敵を倒せ！","Together with the Marionette Bees, defeat all enemies!",206,42,14
+MissionInfo.opb,0x1bdd,0x1 0x5b4,マリオネーションキラーを倒せ！,Defeat the Marionation Killer!,206,42,14
+MissionInfo.opb,0x1bfc,0x1 0x5bc,"アンマリーと協力し、すべての
+マリオネーションキラーを倒せ！",Cooperate with Anne-Marie to defeat all the Marionation Killers!,206,42,14
+MissionInfo.opb,0x1c39,0x1 0x5c4,敵を倒せ！,Defeat the enemy!,206,42,14
+MissionInfo.opb,0x1c44,0x1 0x5cc,敵を倒せ！,Defeat the enemy!,206,42,14
+MissionInfo.opb,0x1c4f,0x1 0x5d4,敵を倒せ！,Defeat the enemy!,206,42,14
+MissionInfo.opb,0x1c5a,0x1 0x5dc,敵を倒せ！,Defeat the enemy!,206,42,14
+MissionInfo.opb,0x1c65,0x1 0x5e4,敵を倒せ！,Defeat the enemy!,206,42,14
+MissionInfo.opb,0x1c70,0x1 0x5ec,敵を倒せ！,Defeat the enemy!,206,42,14
+MissionInfo.opb,0x1c7b,0x1 0x5f4,敵を倒せ！,Defeat the enemy!,206,42,14
+MissionInfo.opb,0x1c86,0x1 0x5fc,敵を倒せ！,Defeat the enemy!,206,42,14
+MissionInfo.opb,0x1c91,0x1 0x604,敵を倒せ！,Defeat the enemy!,206,42,14
+MissionInfo.opb,0x1c9c,0x1 0x60c,"次々あらわれるマリオネーション
+キラーをすべて倒せ！　/c5※強力な
+人形がなければ、勝利は難しい/c3","Defeat the onslaught of Marionation Killers! /c5* Without a powerful mech, victory will be difficult./c3",206,42,14
+MissionInfo.opb,0x1cff,0x1 0x614,"敵をすべて倒し、エリーを救え！
+/c5※エリーがやられると作戦失敗/c3","Defeat all enemies and save Ellie!
+/c5* If Ellie goes down, you fail the mission./c3",206,42,14
+MissionInfo.opb,0x1d42,0x1 0x61c,"すべての敵を倒して八工房会議を
+守れ！　/c5※コマンドティーガーが
+破壊されると作戦失敗/c3","Defeat all enemies and defend the Conference! /c5* If the Commando Tiger gets destroyed, you fail the mission./c3",206,42,14
+MissionInfo.opb,0x1d9d,0x1 0x624,"輸送車を救出し、黄色い枠内まで
+運べ！
+/c5※輸送車が破壊されると作戦失敗/c3","Rescue the transport truck and carry it to the yellow zone! /c5* If the truck gets destroyed, you fail the mission./c3",206,42,14
+MissionInfo.opb,0x1dea,0x1 0x62c,すべての敵を倒せ！,Defeat all enemies!,206,42,14
+MissionInfo.opb,0x1dfd,0x1 0x634,"アンマリーと力を合わせ
+すべての敵を倒せ！","Together with Anne-Marie, defeat all enemies!",206,42,14
+MissionInfo.opb,0x1e28,0x1 0x63c,"アンマリーと力を合わせ
+二体の人形王を倒せ！","Together with Anne-Marie, defeat the two Mech Kings!",206,42,14
+MissionInfo.opb,0x1e55,0x1 0x644,/c7人形神/c3を倒せ！,Defeat the /c7Mech God/c3!,206,42,14
+MissionInfo.opb,0x1e6a,0x1 0x64c,アインを倒せ！,Defeat Ein!,206,42,14
+MissionInfo.opb,0x1e79,0x1 0x654,人形獣王を倒せ！,Defeat the Mech Beast King!,206,42,14
+MissionInfo.opb,0x1e8a,0x1 0x65c,すべての敵を倒せ！,Defeat all enemies!,206,42,14
+MissionInfo.opb,0x1e9d,0x1 0x664,"ファウストと力を合わせ
+すべての敵を倒せ！","Together with Faust, defeat all enemies!",206,42,14
+MissionInfo.opb,0x1ec8,0x1 0x66c,001/after.bvmc,001/after.bvmc,,,
+MissionInfo.opb,0x1ed7,0x1 0x670,001/before.bvmc,001/before.bvmc,,,
+MissionInfo.opb,0x1ee7,0x1 0x674,001/before2.bvmc,001/before2.bvmc,,,
+MissionInfo.opb,0x1ef8,0x1 0x678,001/before3.bvmc,001/before3.bvmc,,,
+MissionInfo.opb,0x1f09,0x1 0x67c,001/mission.bvmc,001/mission.bvmc,,,
+MissionInfo.opb,0x1f1a,0x1 0x680,001/mission2.bvmc,001/mission2.bvmc,,,
+MissionInfo.opb,0x1f2c,0x1 0x684,001/mission3.bvmc,001/mission3.bvmc,,,
+MissionInfo.opb,0x1f3e,0x1 0x688,002/after.bvmc,002/after.bvmc,,,
+MissionInfo.opb,0x1f4d,0x1 0x68c,002/before.bvmc,002/before.bvmc,,,
+MissionInfo.opb,0x1f5d,0x1 0x690,002/mission.bvmc,002/mission.bvmc,,,
+MissionInfo.opb,0x1f6e,0x1 0x694,003/after.bvmc,003/after.bvmc,,,
+MissionInfo.opb,0x1f7d,0x1 0x698,003/before.bvmc,003/before.bvmc,,,
+MissionInfo.opb,0x1f8d,0x1 0x69c,003/mission.bvmc,003/mission.bvmc,,,
+MissionInfo.opb,0x1f9e,0x1 0x6a0,004/before.bvmc,004/before.bvmc,,,
+MissionInfo.opb,0x1fae,0x1 0x6a4,005/before.bvmc,005/before.bvmc,,,
+MissionInfo.opb,0x1fbe,0x1 0x6a8,006/before.bvmc,006/before.bvmc,,,
+MissionInfo.opb,0x1fce,0x1 0x6ac,007/before.bvmc,007/before.bvmc,,,
+MissionInfo.opb,0x1fde,0x1 0x6b0,008/before.bvmc,008/before.bvmc,,,
+MissionInfo.opb,0x1fee,0x1 0x6b4,009/before.bvmc,009/before.bvmc,,,
+MissionInfo.opb,0x1ffe,0x1 0x6b8,010/after.bvmc,010/after.bvmc,,,
+MissionInfo.opb,0x200d,0x1 0x6bc,010/before.bvmc,010/before.bvmc,,,
+MissionInfo.opb,0x201d,0x1 0x6c0,010/mission.bvmc,010/mission.bvmc,,,
+MissionInfo.opb,0x202e,0x1 0x6c4,011/after.bvmc,011/after.bvmc,,,
+MissionInfo.opb,0x203d,0x1 0x6c8,011/before.bvmc,011/before.bvmc,,,
+MissionInfo.opb,0x204d,0x1 0x6cc,011/mission.bvmc,011/mission.bvmc,,,
+MissionInfo.opb,0x205e,0x1 0x6d0,012/after.bvmc,012/after.bvmc,,,
+MissionInfo.opb,0x206d,0x1 0x6d4,012/before.bvmc,012/before.bvmc,,,
+MissionInfo.opb,0x207d,0x1 0x6d8,012/mission.bvmc,012/mission.bvmc,,,
+MissionInfo.opb,0x208e,0x1 0x6dc,013/after.bvmc,013/after.bvmc,,,
+MissionInfo.opb,0x209d,0x1 0x6e0,013/before.bvmc,013/before.bvmc,,,
+MissionInfo.opb,0x20ad,0x1 0x6e4,013/mission.bvmc,013/mission.bvmc,,,
+MissionInfo.opb,0x20be,0x1 0x6e8,014/after.bvmc,014/after.bvmc,,,
+MissionInfo.opb,0x20cd,0x1 0x6ec,014/before.bvmc,014/before.bvmc,,,
+MissionInfo.opb,0x20dd,0x1 0x6f0,014/mission.bvmc,014/mission.bvmc,,,
+MissionInfo.opb,0x20ee,0x1 0x6f4,015/before.bvmc,015/before.bvmc,,,
+MissionInfo.opb,0x20fe,0x1 0x6f8,016/before.bvmc,016/before.bvmc,,,
+MissionInfo.opb,0x210e,0x1 0x6fc,017/before.bvmc,017/before.bvmc,,,
+MissionInfo.opb,0x211e,0x1 0x700,018/before.bvmc,018/before.bvmc,,,
+MissionInfo.opb,0x212e,0x1 0x704,019/after.bvmc,019/after.bvmc,,,
+MissionInfo.opb,0x213d,0x1 0x708,019/before.bvmc,019/before.bvmc,,,
+MissionInfo.opb,0x214d,0x1 0x70c,019/mission.bvmc,019/mission.bvmc,,,
+MissionInfo.opb,0x215e,0x1 0x710,020/after.bvmc,020/after.bvmc,,,
+MissionInfo.opb,0x216d,0x1 0x714,020/before.bvmc,020/before.bvmc,,,
+MissionInfo.opb,0x217d,0x1 0x718,020/mission.bvmc,020/mission.bvmc,,,
+MissionInfo.opb,0x218e,0x1 0x71c,021/before.bvmc,021/before.bvmc,,,
+MissionInfo.opb,0x219e,0x1 0x720,021/mission.bvmc,021/mission.bvmc,,,
+MissionInfo.opb,0x21af,0x1 0x724,022/after.bvmc,022/after.bvmc,,,
+MissionInfo.opb,0x21be,0x1 0x728,022/before.bvmc,022/before.bvmc,,,
+MissionInfo.opb,0x21ce,0x1 0x72c,022/mission.bvmc,022/mission.bvmc,,,
+MissionInfo.opb,0x21df,0x1 0x730,023/after.bvmc,023/after.bvmc,,,
+MissionInfo.opb,0x21ee,0x1 0x734,023/before.bvmc,023/before.bvmc,,,
+MissionInfo.opb,0x21fe,0x1 0x738,023/mission.bvmc,023/mission.bvmc,,,
+MissionInfo.opb,0x220f,0x1 0x73c,024/before.bvmc,024/before.bvmc,,,
+MissionInfo.opb,0x221f,0x1 0x740,025/after.bvmc,025/after.bvmc,,,
+MissionInfo.opb,0x222e,0x1 0x744,025/before.bvmc,025/before.bvmc,,,
+MissionInfo.opb,0x223e,0x1 0x748,025/mission.bvmc,025/mission.bvmc,,,
+MissionInfo.opb,0x224f,0x1 0x74c,026/before.bvmc,026/before.bvmc,,,
+MissionInfo.opb,0x225f,0x1 0x750,027/before.bvmc,027/before.bvmc,,,
+MissionInfo.opb,0x226f,0x1 0x754,027/mission.bvmc,027/mission.bvmc,,,
+MissionInfo.opb,0x2280,0x1 0x758,028/after.bvmc,028/after.bvmc,,,
+MissionInfo.opb,0x228f,0x1 0x75c,028/before.bvmc,028/before.bvmc,,,
+MissionInfo.opb,0x229f,0x1 0x760,028/mission.bvmc,028/mission.bvmc,,,
+MissionInfo.opb,0x22b0,0x1 0x764,029/after.bvmc,029/after.bvmc,,,
+MissionInfo.opb,0x22bf,0x1 0x768,029/before.bvmc,029/before.bvmc,,,
+MissionInfo.opb,0x22cf,0x1 0x76c,029/mission.bvmc,029/mission.bvmc,,,
+MissionInfo.opb,0x22e0,0x1 0x770,030/after.bvmc,030/after.bvmc,,,
+MissionInfo.opb,0x22ef,0x1 0x774,030/before.bvmc,030/before.bvmc,,,
+MissionInfo.opb,0x22ff,0x1 0x778,030/mission.bvmc,030/mission.bvmc,,,
+MissionInfo.opb,0x2310,0x1 0x77c,031/before.bvmc,031/before.bvmc,,,
+MissionInfo.opb,0x2320,0x1 0x780,031/mission.bvmc,031/mission.bvmc,,,
+MissionInfo.opb,0x2331,0x1 0x784,032/after.bvmc,032/after.bvmc,,,
+MissionInfo.opb,0x2340,0x1 0x788,032/before.bvmc,032/before.bvmc,,,
+MissionInfo.opb,0x2350,0x1 0x78c,032/mission.bvmc,032/mission.bvmc,,,
+MissionInfo.opb,0x2361,0x1 0x790,033/after.bvmc,033/after.bvmc,,,
+MissionInfo.opb,0x2370,0x1 0x794,033/before.bvmc,033/before.bvmc,,,
+MissionInfo.opb,0x2380,0x1 0x798,033/before2.bvmc,033/before2.bvmc,,,
+MissionInfo.opb,0x2391,0x1 0x79c,033/mission.bvmc,033/mission.bvmc,,,
+MissionInfo.opb,0x23a2,0x1 0x7a0,033/mission2.bvmc,033/mission2.bvmc,,,
+MissionInfo.opb,0x23b4,0x1 0x7a4,034/after.bvmc,034/after.bvmc,,,
+MissionInfo.opb,0x23c3,0x1 0x7a8,034/before.bvmc,034/before.bvmc,,,
+MissionInfo.opb,0x23d3,0x1 0x7ac,034/before2.bvmc,034/before2.bvmc,,,
+MissionInfo.opb,0x23e4,0x1 0x7b0,034/mission.bvmc,034/mission.bvmc,,,
+MissionInfo.opb,0x23f5,0x1 0x7b4,034/mission2.bvmc,034/mission2.bvmc,,,
+MissionInfo.opb,0x2407,0x1 0x7b8,035/after.bvmc,035/after.bvmc,,,
+MissionInfo.opb,0x2416,0x1 0x7bc,035/before.bvmc,035/before.bvmc,,,
+MissionInfo.opb,0x2426,0x1 0x7c0,035/mission.bvmc,035/mission.bvmc,,,
+MissionInfo.opb,0x2437,0x1 0x7c4,036/before.bvmc,036/before.bvmc,,,
+MissionInfo.opb,0x2447,0x1 0x7c8,037/before.bvmc,037/before.bvmc,,,
+MissionInfo.opb,0x2457,0x1 0x7cc,038/after.bvmc,038/after.bvmc,,,
+MissionInfo.opb,0x2466,0x1 0x7d0,038/before.bvmc,038/before.bvmc,,,
+MissionInfo.opb,0x2476,0x1 0x7d4,038/mission.bvmc,038/mission.bvmc,,,
+MissionInfo.opb,0x2487,0x1 0x7d8,039/before.bvmc,039/before.bvmc,,,
+MissionInfo.opb,0x2497,0x1 0x7dc,039/mission.bvmc,039/mission.bvmc,,,
+MissionInfo.opb,0x24a8,0x1 0x7e0,040/after.bvmc,040/after.bvmc,,,
+MissionInfo.opb,0x24b7,0x1 0x7e4,040/before.bvmc,040/before.bvmc,,,
+MissionInfo.opb,0x24c7,0x1 0x7e8,040/mission.bvmc,040/mission.bvmc,,,
+MissionInfo.opb,0x24d8,0x1 0x7ec,041/before.bvmc,041/before.bvmc,,,
+MissionInfo.opb,0x24e8,0x1 0x7f0,041/mission.bvmc,041/mission.bvmc,,,
+MissionInfo.opb,0x24f9,0x1 0x7f4,042/before.bvmc,042/before.bvmc,,,
+MissionInfo.opb,0x2509,0x1 0x7f8,043/after.bvmc,043/after.bvmc,,,
+MissionInfo.opb,0x2518,0x1 0x7fc,043/before.bvmc,043/before.bvmc,,,
+MissionInfo.opb,0x2528,0x1 0x800,043/mission.bvmc,043/mission.bvmc,,,
+MissionInfo.opb,0x2539,0x1 0x804,044/after.bvmc,044/after.bvmc,,,
+MissionInfo.opb,0x2548,0x1 0x808,044/before.bvmc,044/before.bvmc,,,
+MissionInfo.opb,0x2558,0x1 0x80c,044/mission.bvmc,044/mission.bvmc,,,
+MissionInfo.opb,0x2569,0x1 0x810,045/after.bvmc,045/after.bvmc,,,
+MissionInfo.opb,0x2578,0x1 0x814,045/before.bvmc,045/before.bvmc,,,
+MissionInfo.opb,0x2588,0x1 0x818,045/mission.bvmc,045/mission.bvmc,,,
+MissionInfo.opb,0x2599,0x1 0x81c,046/before.bvmc,046/before.bvmc,,,
+MissionInfo.opb,0x25a9,0x1 0x820,047/after.bvmc,047/after.bvmc,,,
+MissionInfo.opb,0x25b8,0x1 0x824,047/before.bvmc,047/before.bvmc,,,
+MissionInfo.opb,0x25c8,0x1 0x828,047/mission.bvmc,047/mission.bvmc,,,
+MissionInfo.opb,0x25d9,0x1 0x82c,048/after.bvmc,048/after.bvmc,,,
+MissionInfo.opb,0x25e8,0x1 0x830,048/before.bvmc,048/before.bvmc,,,
+MissionInfo.opb,0x25f8,0x1 0x834,048/mission.bvmc,048/mission.bvmc,,,
+MissionInfo.opb,0x2609,0x1 0x838,049/after.bvmc,049/after.bvmc,,,
+MissionInfo.opb,0x2618,0x1 0x83c,049/before.bvmc,049/before.bvmc,,,
+MissionInfo.opb,0x2628,0x1 0x840,049/mission.bvmc,049/mission.bvmc,,,
+MissionInfo.opb,0x2639,0x1 0x844,050/after.bvmc,050/after.bvmc,,,
+MissionInfo.opb,0x2648,0x1 0x848,050/before.bvmc,050/before.bvmc,,,
+MissionInfo.opb,0x2658,0x1 0x84c,050/mission.bvmc,050/mission.bvmc,,,
+MissionInfo.opb,0x2669,0x1 0x850,051/after.bvmc,051/after.bvmc,,,
+MissionInfo.opb,0x2678,0x1 0x854,051/before.bvmc,051/before.bvmc,,,
+MissionInfo.opb,0x2688,0x1 0x858,051/mission.bvmc,051/mission.bvmc,,,
+MissionInfo.opb,0x2699,0x1 0x85c,052/after.bvmc,052/after.bvmc,,,
+MissionInfo.opb,0x26a8,0x1 0x860,052/before.bvmc,052/before.bvmc,,,
+MissionInfo.opb,0x26b8,0x1 0x864,052/mission.bvmc,052/mission.bvmc,,,
+MissionInfo.opb,0x26c9,0x1 0x868,053/after.bvmc,053/after.bvmc,,,
+MissionInfo.opb,0x26d8,0x1 0x86c,053/before.bvmc,053/before.bvmc,,,
+MissionInfo.opb,0x26e8,0x1 0x870,053/mission.bvmc,053/mission.bvmc,,,
+MissionInfo.opb,0x26f9,0x1 0x874,054/after.bvmc,054/after.bvmc,,,
+MissionInfo.opb,0x2708,0x1 0x878,054/before.bvmc,054/before.bvmc,,,
+MissionInfo.opb,0x2718,0x1 0x87c,054/mission.bvmc,054/mission.bvmc,,,
+MissionInfo.opb,0x2729,0x1 0x880,055/after.bvmc,055/after.bvmc,,,
+MissionInfo.opb,0x2738,0x1 0x884,055/before.bvmc,055/before.bvmc,,,
+MissionInfo.opb,0x2748,0x1 0x888,055/mission.bvmc,055/mission.bvmc,,,
+MissionInfo.opb,0x2759,0x1 0x88c,056/after.bvmc,056/after.bvmc,,,
+MissionInfo.opb,0x2768,0x1 0x890,056/before.bvmc,056/before.bvmc,,,
+MissionInfo.opb,0x2778,0x1 0x894,056/mission.bvmc,056/mission.bvmc,,,
+MissionInfo.opb,0x2789,0x1 0x898,057/after.bvmc,057/after.bvmc,,,
+MissionInfo.opb,0x2798,0x1 0x89c,057/before.bvmc,057/before.bvmc,,,
+MissionInfo.opb,0x27a8,0x1 0x8a0,057/mission.bvmc,057/mission.bvmc,,,
+MissionInfo.opb,0x27b9,0x1 0x8a4,058/after.bvmc,058/after.bvmc,,,
+MissionInfo.opb,0x27c8,0x1 0x8a8,058/before.bvmc,058/before.bvmc,,,
+MissionInfo.opb,0x27d8,0x1 0x8ac,058/mission.bvmc,058/mission.bvmc,,,
+MissionInfo.opb,0x27e9,0x1 0x8b0,059/after.bvmc,059/after.bvmc,,,
+MissionInfo.opb,0x27f8,0x1 0x8b4,059/before.bvmc,059/before.bvmc,,,
+MissionInfo.opb,0x2808,0x1 0x8b8,059/mission.bvmc,059/mission.bvmc,,,
+MissionInfo.opb,0x2819,0x1 0x8bc,060/after.bvmc,060/after.bvmc,,,
+MissionInfo.opb,0x2828,0x1 0x8c0,060/before.bvmc,060/before.bvmc,,,
+MissionInfo.opb,0x2838,0x1 0x8c4,060/mission.bvmc,060/mission.bvmc,,,
+MissionInfo.opb,0x2849,0x1 0x8c8,061/after.bvmc,061/after.bvmc,,,
+MissionInfo.opb,0x2858,0x1 0x8cc,061/before.bvmc,061/before.bvmc,,,
+MissionInfo.opb,0x2868,0x1 0x8d0,061/mission.bvmc,061/mission.bvmc,,,
+MissionInfo.opb,0x2879,0x1 0x8d4,062/after.bvmc,062/after.bvmc,,,
+MissionInfo.opb,0x2888,0x1 0x8d8,062/before.bvmc,062/before.bvmc,,,
+MissionInfo.opb,0x2898,0x1 0x8dc,062/mission.bvmc,062/mission.bvmc,,,
+MissionInfo.opb,0x28a9,0x1 0x8e0,063/before.bvmc,063/before.bvmc,,,
+MissionInfo.opb,0x28b9,0x1 0x8e4,064/after.bvmc,064/after.bvmc,,,
+MissionInfo.opb,0x28c8,0x1 0x8e8,064/before.bvmc,064/before.bvmc,,,
+MissionInfo.opb,0x28d8,0x1 0x8ec,064/mission.bvmc,064/mission.bvmc,,,
+MissionInfo.opb,0x28e9,0x1 0x8f0,065/after.bvmc,065/after.bvmc,,,
+MissionInfo.opb,0x28f8,0x1 0x8f4,065/before.bvmc,065/before.bvmc,,,
+MissionInfo.opb,0x2908,0x1 0x8f8,065/mission.bvmc,065/mission.bvmc,,,
+MissionInfo.opb,0x2919,0x1 0x8fc,066/after.bvmc,066/after.bvmc,,,
+MissionInfo.opb,0x2928,0x1 0x900,066/before.bvmc,066/before.bvmc,,,
+MissionInfo.opb,0x2938,0x1 0x904,066/mission.bvmc,066/mission.bvmc,,,
+MissionInfo.opb,0x2949,0x1 0x908,067/after.bvmc,067/after.bvmc,,,
+MissionInfo.opb,0x2958,0x1 0x90c,067/before.bvmc,067/before.bvmc,,,
+MissionInfo.opb,0x2968,0x1 0x910,067/mission.bvmc,067/mission.bvmc,,,
+MissionInfo.opb,0x2979,0x1 0x914,068/after.bvmc,068/after.bvmc,,,
+MissionInfo.opb,0x2988,0x1 0x918,068/before.bvmc,068/before.bvmc,,,
+MissionInfo.opb,0x2998,0x1 0x91c,068/mission.bvmc,068/mission.bvmc,,,
+MissionInfo.opb,0x29a9,0x1 0x920,069/before.bvmc,069/before.bvmc,,,
+MissionInfo.opb,0x29b9,0x1 0x924,069/mission.bvmc,069/mission.bvmc,,,
+MissionInfo.opb,0x29ca,0x1 0x928,070/before.bvmc,070/before.bvmc,,,
+MissionInfo.opb,0x29da,0x1 0x92c,070/mission.bvmc,070/mission.bvmc,,,
+MissionInfo.opb,0x29eb,0x1 0x930,072/after.bvmc,072/after.bvmc,,,
+MissionInfo.opb,0x29fa,0x1 0x934,072/before.bvmc,072/before.bvmc,,,
+MissionInfo.opb,0x2a0a,0x1 0x938,072/mission.bvmc,072/mission.bvmc,,,
+MissionInfo.opb,0x2a1b,0x1 0x93c,073/after.bvmc,073/after.bvmc,,,
+MissionInfo.opb,0x2a2a,0x1 0x940,073/before.bvmc,073/before.bvmc,,,
+MissionInfo.opb,0x2a3a,0x1 0x944,073/mission.bvmc,073/mission.bvmc,,,
+MissionInfo.opb,0x2a4b,0x1 0x948,074/after.bvmc,074/after.bvmc,,,
+MissionInfo.opb,0x2a5a,0x1 0x94c,074/before.bvmc,074/before.bvmc,,,
+MissionInfo.opb,0x2a6a,0x1 0x950,074/mission.bvmc,074/mission.bvmc,,,
+MissionInfo.opb,0x2a7b,0x1 0x954,075/after.bvmc,075/after.bvmc,,,
+MissionInfo.opb,0x2a8a,0x1 0x958,075/before.bvmc,075/before.bvmc,,,
+MissionInfo.opb,0x2a9a,0x1 0x95c,075/mission.bvmc,075/mission.bvmc,,,
+MissionInfo.opb,0x2aab,0x1 0x960,076/after.bvmc,076/after.bvmc,,,
+MissionInfo.opb,0x2aba,0x1 0x964,076/before.bvmc,076/before.bvmc,,,
+MissionInfo.opb,0x2aca,0x1 0x968,076/mission.bvmc,076/mission.bvmc,,,
+MissionInfo.opb,0x2adb,0x1 0x96c,077/after.bvmc,077/after.bvmc,,,
+MissionInfo.opb,0x2aea,0x1 0x970,077/before.bvmc,077/before.bvmc,,,
+MissionInfo.opb,0x2afa,0x1 0x974,077/mission.bvmc,077/mission.bvmc,,,
+MissionInfo.opb,0x2b0b,0x1 0x978,078/after.bvmc,078/after.bvmc,,,
+MissionInfo.opb,0x2b1a,0x1 0x97c,078/before.bvmc,078/before.bvmc,,,
+MissionInfo.opb,0x2b2a,0x1 0x980,078/mission.bvmc,078/mission.bvmc,,,
+MissionInfo.opb,0x2b3b,0x1 0x984,079/before.bvmc,079/before.bvmc,,,
+MissionInfo.opb,0x2b4b,0x1 0x988,080/after.bvmc,080/after.bvmc,,,
+MissionInfo.opb,0x2b5a,0x1 0x98c,080/before.bvmc,080/before.bvmc,,,
+MissionInfo.opb,0x2b6a,0x1 0x990,080/before2.bvmc,080/before2.bvmc,,,
+MissionInfo.opb,0x2b7b,0x1 0x994,080/before3.bvmc,080/before3.bvmc,,,
+MissionInfo.opb,0x2b8c,0x1 0x998,080/before4.bvmc,080/before4.bvmc,,,
+MissionInfo.opb,0x2b9d,0x1 0x99c,080/before5.bvmc,080/before5.bvmc,,,
+MissionInfo.opb,0x2bae,0x1 0x9a0,080/mission.bvmc,080/mission.bvmc,,,
+MissionInfo.opb,0x2bbf,0x1 0x9a4,080/mission2.bvmc,080/mission2.bvmc,,,
+MissionInfo.opb,0x2bd1,0x1 0x9a8,080/mission3.bvmc,080/mission3.bvmc,,,
+MissionInfo.opb,0x2be3,0x1 0x9ac,080/mission4.bvmc,080/mission4.bvmc,,,
+MissionInfo.opb,0x2bf5,0x1 0x9b0,080/mission5.bvmc,080/mission5.bvmc,,,
+MissionInfo.opb,0x2c07,0x1 0x9b4,081/before.bvmc,081/before.bvmc,,,
+MissionInfo.opb,0x2c17,0x1 0x9b8,081/mission.bvmc,081/mission.bvmc,,,
+MissionInfo.opb,0x2c28,0x1 0x9bc,082/before.bvmc,082/before.bvmc,,,
+MissionInfo.opb,0x2c38,0x1 0x9c0,083/after.bvmc,083/after.bvmc,,,
+MissionInfo.opb,0x2c47,0x1 0x9c4,083/before.bvmc,083/before.bvmc,,,
+MissionInfo.opb,0x2c57,0x1 0x9c8,083/mission.bvmc,083/mission.bvmc,,,
+MissionInfo.opb,0x2c68,0x1 0x9cc,084/after.bvmc,084/after.bvmc,,,
+MissionInfo.opb,0x2c77,0x1 0x9d0,084/before.bvmc,084/before.bvmc,,,
+MissionInfo.opb,0x2c87,0x1 0x9d4,084/mission.bvmc,084/mission.bvmc,,,
+MissionInfo.opb,0x2c98,0x1 0x9d8,085/after.bvmc,085/after.bvmc,,,
+MissionInfo.opb,0x2ca7,0x1 0x9dc,085/before.bvmc,085/before.bvmc,,,
+MissionInfo.opb,0x2cb7,0x1 0x9e0,085/mission.bvmc,085/mission.bvmc,,,
+MissionInfo.opb,0x2cc8,0x1 0x9e4,086/after.bvmc,086/after.bvmc,,,
+MissionInfo.opb,0x2cd7,0x1 0x9e8,086/before.bvmc,086/before.bvmc,,,
+MissionInfo.opb,0x2ce7,0x1 0x9ec,086/mission.bvmc,086/mission.bvmc,,,
+MissionInfo.opb,0x2cf8,0x1 0x9f0,087/after.bvmc,087/after.bvmc,,,
+MissionInfo.opb,0x2d07,0x1 0x9f4,087/before.bvmc,087/before.bvmc,,,
+MissionInfo.opb,0x2d17,0x1 0x9f8,087/mission.bvmc,087/mission.bvmc,,,
+MissionInfo.opb,0x2d28,0x1 0x9fc,088/after.bvmc,088/after.bvmc,,,
+MissionInfo.opb,0x2d37,0x1 0xa00,088/before.bvmc,088/before.bvmc,,,
+MissionInfo.opb,0x2d47,0x1 0xa04,088/mission.bvmc,088/mission.bvmc,,,
+MissionInfo.opb,0x2d58,0x1 0xa08,089/after.bvmc,089/after.bvmc,,,
+MissionInfo.opb,0x2d67,0x1 0xa0c,089/before.bvmc,089/before.bvmc,,,
+MissionInfo.opb,0x2d77,0x1 0xa10,089/mission.bvmc,089/mission.bvmc,,,
+MissionInfo.opb,0x2d88,0x1 0xa14,090/after.bvmc,090/after.bvmc,,,
+MissionInfo.opb,0x2d97,0x1 0xa18,090/before.bvmc,090/before.bvmc,,,
+MissionInfo.opb,0x2da7,0x1 0xa1c,090/mission.bvmc,090/mission.bvmc,,,
+MissionInfo.opb,0x2db8,0x1 0xa20,091/before.bvmc,091/before.bvmc,,,
+MissionInfo.opb,0x2dc8,0x1 0xa24,092/before.bvmc,092/before.bvmc,,,
+MissionInfo.opb,0x2dd8,0x1 0xa28,092/mission.bvmc,092/mission.bvmc,,,
+MissionInfo.opb,0x2de9,0x1 0xa2c,093/after.bvmc,093/after.bvmc,,,
+MissionInfo.opb,0x2df8,0x1 0xa30,093/before.bvmc,093/before.bvmc,,,
+MissionInfo.opb,0x2e08,0x1 0xa34,093/mission.bvmc,093/mission.bvmc,,,
+MissionInfo.opb,0x2e19,0x1 0xa38,094/before.bvmc,094/before.bvmc,,,
+MissionInfo.opb,0x2e29,0x1 0xa3c,095/before.bvmc,095/before.bvmc,,,
+MissionInfo.opb,0x2e39,0x1 0xa40,096/after.bvmc,096/after.bvmc,,,
+MissionInfo.opb,0x2e48,0x1 0xa44,096/before.bvmc,096/before.bvmc,,,
+MissionInfo.opb,0x2e58,0x1 0xa48,096/mission.bvmc,096/mission.bvmc,,,
+MissionInfo.opb,0x2e69,0x1 0xa4c,097/after.bvmc,097/after.bvmc,,,
+MissionInfo.opb,0x2e78,0x1 0xa50,097/before.bvmc,097/before.bvmc,,,
+MissionInfo.opb,0x2e88,0x1 0xa54,097/mission.bvmc,097/mission.bvmc,,,
+MissionInfo.opb,0x2e99,0x1 0xa58,098/after.bvmc,098/after.bvmc,,,
+MissionInfo.opb,0x2ea8,0x1 0xa5c,098/before.bvmc,098/before.bvmc,,,
+MissionInfo.opb,0x2eb8,0x1 0xa60,098/mission.bvmc,098/mission.bvmc,,,
+MissionInfo.opb,0x2ec9,0x1 0xa64,099/after.bvmc,099/after.bvmc,,,
+MissionInfo.opb,0x2ed8,0x1 0xa68,099/before.bvmc,099/before.bvmc,,,
+MissionInfo.opb,0x2ee8,0x1 0xa6c,099/mission.bvmc,099/mission.bvmc,,,
+MissionInfo.opb,0x2ef9,0x1 0xa70,100/after.bvmc,100/after.bvmc,,,
+MissionInfo.opb,0x2f08,0x1 0xa74,100/before.bvmc,100/before.bvmc,,,
+MissionInfo.opb,0x2f18,0x1 0xa78,100/mission.bvmc,100/mission.bvmc,,,
+MissionInfo.opb,0x2f29,0x1 0xa7c,101/after.bvmc,101/after.bvmc,,,
+MissionInfo.opb,0x2f38,0x1 0xa80,101/before.bvmc,101/before.bvmc,,,
+MissionInfo.opb,0x2f48,0x1 0xa84,101/mission.bvmc,101/mission.bvmc,,,
+MissionInfo.opb,0x2f59,0x1 0xa88,102/after.bvmc,102/after.bvmc,,,
+MissionInfo.opb,0x2f68,0x1 0xa8c,102/before.bvmc,102/before.bvmc,,,
+MissionInfo.opb,0x2f78,0x1 0xa90,102/mission.bvmc,102/mission.bvmc,,,
+MissionInfo.opb,0x2f89,0x1 0xa94,103/after.bvmc,103/after.bvmc,,,
+MissionInfo.opb,0x2f98,0x1 0xa98,103/before.bvmc,103/before.bvmc,,,
+MissionInfo.opb,0x2fa8,0x1 0xa9c,103/mission.bvmc,103/mission.bvmc,,,
+MissionInfo.opb,0x2fb9,0x1 0xaa0,104/after.bvmc,104/after.bvmc,,,
+MissionInfo.opb,0x2fc8,0x1 0xaa4,104/before.bvmc,104/before.bvmc,,,
+MissionInfo.opb,0x2fd8,0x1 0xaa8,104/mission.bvmc,104/mission.bvmc,,,
+MissionInfo.opb,0x2fe9,0x1 0xaac,105/before.bvmc,105/before.bvmc,,,
+MissionInfo.opb,0x2ff9,0x1 0xab0,106/after.bvmc,106/after.bvmc,,,
+MissionInfo.opb,0x3008,0x1 0xab4,106/before.bvmc,106/before.bvmc,,,
+MissionInfo.opb,0x3018,0x1 0xab8,106/mission.bvmc,106/mission.bvmc,,,
+MissionInfo.opb,0x3029,0x1 0xabc,107/after.bvmc,107/after.bvmc,,,
+MissionInfo.opb,0x3038,0x1 0xac0,107/before.bvmc,107/before.bvmc,,,
+MissionInfo.opb,0x3048,0x1 0xac4,107/mission.bvmc,107/mission.bvmc,,,
+MissionInfo.opb,0x3059,0x1 0xac8,108/after.bvmc,108/after.bvmc,,,
+MissionInfo.opb,0x3068,0x1 0xacc,108/before.bvmc,108/before.bvmc,,,
+MissionInfo.opb,0x3078,0x1 0xad0,108/mission.bvmc,108/mission.bvmc,,,
+MissionInfo.opb,0x3089,0x1 0xad4,109/after.bvmc,109/after.bvmc,,,
+MissionInfo.opb,0x3098,0x1 0xad8,109/before.bvmc,109/before.bvmc,,,
+MissionInfo.opb,0x30a8,0x1 0xadc,109/mission.bvmc,109/mission.bvmc,,,
+MissionInfo.opb,0x30b9,0x1 0xae0,110/before.bvmc,110/before.bvmc,,,
+MissionInfo.opb,0x30c9,0x1 0xae4,111/after.bvmc,111/after.bvmc,,,
+MissionInfo.opb,0x30d8,0x1 0xae8,111/before.bvmc,111/before.bvmc,,,
+MissionInfo.opb,0x30e8,0x1 0xaec,111/before2.bvmc,111/before2.bvmc,,,
+MissionInfo.opb,0x30f9,0x1 0xaf0,111/before3.bvmc,111/before3.bvmc,,,
+MissionInfo.opb,0x310a,0x1 0xaf4,111/before4.bvmc,111/before4.bvmc,,,
+MissionInfo.opb,0x311b,0x1 0xaf8,111/mission.bvmc,111/mission.bvmc,,,
+MissionInfo.opb,0x312c,0x1 0xafc,111/mission2.bvmc,111/mission2.bvmc,,,
+MissionInfo.opb,0x313e,0x1 0xb00,111/mission3.bvmc,111/mission3.bvmc,,,
+MissionInfo.opb,0x3150,0x1 0xb04,111/mission4.bvmc,111/mission4.bvmc,,,
+MissionInfo.opb,0x3162,0x1 0xb08,112/after.bvmc,112/after.bvmc,,,
+MissionInfo.opb,0x3171,0x1 0xb0c,112/before.bvmc,112/before.bvmc,,,
+MissionInfo.opb,0x3181,0x1 0xb10,112/mission.bvmc,112/mission.bvmc,,,
+MissionInfo.opb,0x3192,0x1 0xb14,113/after.bvmc,113/after.bvmc,,,
+MissionInfo.opb,0x31a1,0x1 0xb18,113/before.bvmc,113/before.bvmc,,,
+MissionInfo.opb,0x31b1,0x1 0xb1c,113/mission.bvmc,113/mission.bvmc,,,
+MissionInfo.opb,0x31c2,0x1 0xb20,114/before.bvmc,114/before.bvmc,,,
+MissionInfo.opb,0x31d2,0x1 0xb24,115/before.bvmc,115/before.bvmc,,,
+MissionInfo.opb,0x31e2,0x1 0xb28,116/before.bvmc,116/before.bvmc,,,
+MissionInfo.opb,0x31f2,0x1 0xb2c,117/after.bvmc,117/after.bvmc,,,
+MissionInfo.opb,0x3201,0x1 0xb30,117/before.bvmc,117/before.bvmc,,,
+MissionInfo.opb,0x3211,0x1 0xb34,117/mission.bvmc,117/mission.bvmc,,,
+MissionInfo.opb,0x3222,0x1 0xb38,118/after.bvmc,118/after.bvmc,,,
+MissionInfo.opb,0x3231,0x1 0xb3c,118/before.bvmc,118/before.bvmc,,,
+MissionInfo.opb,0x3241,0x1 0xb40,118/mission.bvmc,118/mission.bvmc,,,
+MissionInfo.opb,0x3252,0x1 0xb44,119/before.bvmc,119/before.bvmc,,,
+MissionInfo.opb,0x3262,0x1 0xb48,120/before.bvmc,120/before.bvmc,,,
+MissionInfo.opb,0x3272,0x1 0xb4c,121/before.bvmc,121/before.bvmc,,,
+MissionInfo.opb,0x3282,0x1 0xb50,122/before.bvmc,122/before.bvmc,,,
