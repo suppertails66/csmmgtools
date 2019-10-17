@@ -1,44 +1,56 @@
 ********************************************************************************
-*                    Chou Soujuu Mecha MG Translation Pack                     *
+*                             Chou Soujuu Mecha MG                             *
+*                     English Translation Patch Materials                      *
 ********************************************************************************
 
-This repository contains all the resources for my partial translation patch of
-the DS game Chou Soujuu Mecha MG. It includes a complete build system that
-replaces all game text and images containing text; the only reason it's not a
-full translation is that I have no one to translate the script.
+This package contains the source materials (code/art/script) for the English 
+translation project for the Nintendo DS game Chou Soujuu Mecha MG (Super Control
+Mecha MG).
 
-********************************************************************************
-*                              Building the Game                               *
-********************************************************************************
+                    ****************************************
+                    *          Build Instructions          *
+                    ****************************************
+                    
+The build system is only set up for Unix-like systems, though none of the code 
+is fundamentally dependent on this and could be ported with a bit of effort. 
+You'll need the following tools:
+  * GCC
+  * libpng
+  * ImageMagick (convert/mogrify tools)
+  * Any dependencies of armips and ndstool
+  * Due to unfortunate circumstances, wine. ndstool, which is used to repack the 
+ROM, seems to have a bug on Unix systems which causes it to produce filesystems 
+that work on some emulators but will not boot on real hardware. This does not 
+occur when (an old version of) ndstool is run through wine.
 
-To use this, you'll need a Unix-like system with the following utilities
-installed:
-* GCC + make
-* Wine -- used to run the included ndstool binary that builds the output
-  ROM. I tried using the Unix port of ndstool, but the filesystems it generates
-  don't run on real hardware (my speculation is that it alphabetizes the file
-  name table using Unix conventions, but the DS firmware expects Windows
-  semantics).
-  This is also used for CUE's DS compression tools, purely due to laziness.
-* ImageMagick (i.e. the "convert" and "composite" tools).
-  
-First, you'll need a Chou Soujuu Mecha MG ROM (MD5 sum
-ccd7052931e3ae09cb4505d19d16c738). Extract the filesystem with ndstool or some
-other utility, and put the contents (i.e. the subfolders "ba", "decor", "etc",
-and so on) in a folder named "data". Place "data" in the "gamefiles" folder.
+You must provide a ROM image of Chou Soujuu Mecha MG. Your ROM should be
+decrypted (if you don't know what that means, it probably is). It should match
+the following specifications:
 
-Now run build.sh. This should output the English ROM as csmmg_en.nds.
-The build process will probably take a while due to some heavy-duty image
+  No-Intro filename: 0547 - Chou Soujuu Mecha MG (Japan).nds
+  CRC32:             288F5E78
+  MD5:               CCD7052931E3AE09CB4505D19D16C738
+  SHA-1:             7150167E394074F43F71325204E6346B6F50A274
+
+Rename it "csmmg.nds" and place it in the root directory of the repository, then 
+run build.sh. build.sh should then build all the necessary tools and output the 
+translated ROM as csmmg_en.nds. The build process will probably take a while due 
+to some heavy-duty image
 image editing operations plus the time needed to compress hundreds of files.
 
-********************************************************************************
-*                                Resource List                                 *
-********************************************************************************
+If you want to modify the project, check build.sh to see where the resources
+that get inserted into the game are coming from.
 
-asm
+                    ****************************************
+                    *           Resource Overview          *
+                    ****************************************
+
+This was the second translation project I ever worked on, so unfortunately I 
+didn't do a great job of organizing it. Here's a brief guide to what's what:
+
+asm/csmmg.asm
   
-  Source code for ASM modifications. Not used in build process (hacks are pre-
-  applied). If you need to build these, you'll need GCC built with ARM support.
+  Source code for ASM modifications, formatted for use with armips.
 
 bvm/extracted
 
@@ -50,16 +62,17 @@ bvm/extracted
   Changing anything else will cause problems.
 
   Text boxes must be one-to-one with the original script, i.e. you get one
-  English box per Japanese box and no more. Due to the VWF hack, space shouldn't
-  be a big issue, though.
+  English box per Japanese box and no more. While I wish this restriction didn't
+  exist, it's usually not a big issue.
   
   Also note that the original scripts were optimized to recycle strings within
   the same script wherever possible, so e.g. a single message of "はい。" may be
   used multiple times in different contexts; I programmed the script extractor
   to print every instance to keep the script readable (if you want to read it
-  without the repetition, see extracted_condensed). IIRC it's possible to
-  add additional strings to circumvent this if necessary, but you'll need to
-  adjust the "References" column to reflect the changes.
+  without the repetition, see extracted_condensed). It's possible to add
+  additional strings to circumvent this if necessary, but you'll need to adjust
+  the "References" column to reflect the changes, and this can potentially cause
+  problems due to the way the game's VM for scripting works.
   
 fonts
   
@@ -85,6 +98,8 @@ images
       roboimage: Mecha preview images shown in shops and menus.
       ShopStartTop: Shop intro screens.
       StaffText: Credits.
+                 The translation generates these automatically using a script;
+                 see generate_credits.sh.
     mission1205: 
       Character2Cell2: Mission complete/failed messages.
       txt00Cell4: Pause menu.
@@ -94,4 +109,19 @@ images
 text
   
   Menu text. CSV files in same format as bvm/extracted.
+
+                    ****************************************
+                    *              Licensing               *
+                    ****************************************
+
+See COPYING. Basically, everything by me (Supper) is GPLv3, and everything else
+is under the terms of whoever wrote it.
+
+                    ****************************************
+                    *               Credits                *
+                    ****************************************
+
+                               Supper -- Hacking
+                              Phantom -- Translation & Art
+                               cccmar -- Testing & Editing
 
